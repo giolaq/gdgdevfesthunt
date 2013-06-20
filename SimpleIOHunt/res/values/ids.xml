@@ -1,0 +1,27 @@
+<!--
+  Copyright 2013 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+    <string name="app_id">247718647091</string>
+
+    <string name="achievement_first_clue">CgkIs6q66ZoHEAIQAQ</string>
+    <string name="achievement_halfway_there">CgkIs6q66ZoHEAIQAg</string>
+    <string name="achievement_speedrun">CgkIs6q66ZoHEAIQAw</string>
+    <string name="achievement_teachers_pet">CgkIs6q66ZoHEAIQBA</string>
+    <string name="achievement_pursuing_trivia">CgkIs6q66ZoHEAIQBw</string>
+    <string name="achievement_double_scan">CgkIs6q66ZoHEAIQBQ</string>
+    <string name="achievement_alexander_the_great">CgkIs6q66ZoHEAIQBg</string>
+</resources>

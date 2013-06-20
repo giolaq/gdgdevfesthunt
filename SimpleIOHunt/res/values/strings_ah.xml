@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="app_name">I/O Hunt</string>
+    <string name="edit_message">type something here</string>
+    <string name="button_send">Send</string>
+    <string name="default_background">""</string>
+    <string name="default_button_color">"#80c465"</string>
+    <string name="default_text_color">"#00181c"</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_clue_message">Google I/O Hunt</string>
+    <string
+        name="preference_file_key">com.google.wolff.PREFERENCE_FILE_KEY</string>
+    <string name="continue1">Continue</string>
+    <string name="debug">Debug</string>
+    <string name="Story">Story</string>
+    <string name="lets_go">Let\'s go!</string>
+    <string name="reset_this">Reset this</string>
+    <string name="back">BACK</string>
+    <string name="youwin">You win!</string>
+    <string name="next">NEXT</string>
+    <string name="menu_settings"></string>
+    <string name="menu_achievements">Achievements</string>
+    <string name="story_0">Welcome to\nGoogle I/O Hunt, the NFC game at\nI/O 2013!</string>
+    <string name="story_1"><b>Alex</b>, the Android Dog, has gone missing!</string>
+    <string name="story_2"><i><b>Bugdroid is very sad,</b></i> and needs your help to find his dog!</string>
+    <string name="story_4">Follow Alex\'s trail by scanning special NFC tags, like this one!  You will find them all around the building.</string>
+    <string name="story_5">There will be multiple tags at each location, so keep your eyes open!</string>
+    <string name="story_6">Are you ready?  Your journey awaits...</string>
+    <string name="story_7">Oh, one last thing...</string>
+    <string name="story_8">Press the button below to accept your quest.</string>
+    <string name="story_8_reauth">Please Sign In with Google+ to continue.</string>
+    <string name="nothing"></string>
+
+    <string name="story_9">We use Google+ login to record your progress. By signing in, you will be able to get achievements and redeem prizes.\n\nYou may also find your progress displayed on the leaderboard in the Google Play Games section at\nGoogle I/O 2013.</string>
+    <string name="clue_subheading">Clue %1$s of %2$s</string>
+    <string name="welcome">I/O Hunt is a game exclusively for Google I/O 2013 attendees, where you race to explore the Moscone conference grounds.\n\nAlong the way, you\'ll have the opportunity to meet interesting people and learn more about our showcase exhibits.\n\nOh, and there\'s a prize at the end.\n\nReady to play?</string>
+    <string name="instructions">Instructions</string>
+    <string name="subheading">Subheading</string>
+    <string name="heading">Heading</string>
+    <string name="intruction_text_here">Intruction text here.</string>
+    <string name="between_clues_first_time">Between clues, we may ask you a bonus question for EXTRA ACHIEVEMENTS!\n\nThe questions are timed, so answer as fast as you can!\nOf course, it\'s OK to use Google Search to help you!</string>
+    <string name="between_clues_next_time">It\'s time for another trivia question!\n\nGood luck!</string>
+    <string name="start_">Start!</string>
+    <string name="time_left">Time left</string>
+    <string name="return_to_sandbox">Return to the G+ Sandbox desk where you started to claim your prize!</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="ok">OK</string>
+    <string name="tracking_id">UA-40791424-2</string>
+    <string name="notices">Notices</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="about">About</string>
+    <string name="share_on_google"><u>Share on Google+</u></string>
+    <string name="google_i_o_hunt_nby_the_android_and_social_google_developer_relations_teams">Google I/O Hunt\nby the Android and Social\nGoogle Developer Relations teams</string>
+    <string name="warned_you">There must be something about this tag that could have warned you...</string>
+    <string name="oh_no_it_s_a_decoy">OH NO! IT\'S A DECOY!</string>
+</resources>
