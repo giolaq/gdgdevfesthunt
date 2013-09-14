@@ -16,7 +16,6 @@
 
 package com.google.wolff.androidhunt;
 
-import com.google.android.gms.plus.GooglePlusUtil;
 import com.google.android.gms.plus.PlusShare;
 
 import android.annotation.SuppressLint;
@@ -91,38 +90,32 @@ public class VictoryActivity extends BaseActivity implements OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
         case R.id.share_button:
-            final int errorCode = GooglePlusUtil.checkGooglePlusApp(this);
-            if (errorCode == GooglePlusUtil.SUCCESS) {
-                PlusShare.Builder builder = new PlusShare.Builder(this,
-                        getPlusClient());
+            PlusShare.Builder builder = new PlusShare.Builder(this,
+                    getPlusClient());
 
-                // Set call-to-action metadata.
-                builder.addCallToAction("FIND", /** call-to-action button label */
-                Uri.parse("http://nfchunt.appspot.com"), /**
-                 * call-to-action url
-                 * (for desktop use)
-                 */
-                "/pages/create"/**
-                 * call to action deep-link ID (for mobile use),
-                 * 512 characters or fewer
-                 */
-                );
+            // Set call-to-action metadata.
+            builder.addCallToAction("FIND", /** call-to-action button label */
+            Uri.parse("http://nfchunt.appspot.com"), /**
+             * call-to-action url
+             * (for desktop use)
+             */
+            "/pages/create"/**
+             * call to action deep-link ID (for mobile use),
+             * 512 characters or fewer
+             */
+            );
 
-                // Set the content url (for desktop use).
-                builder.setContentUrl(Uri.parse("http://nfchunt.appspot.com"));
+            // Set the content url (for desktop use).
+            builder.setContentUrl(Uri.parse("http://nfchunt.appspot.com"));
 
-                // Set the target deep-link ID (for mobile use).
-                builder.setContentDeepLinkId("/pages/", null, null, null);
+            // Set the target deep-link ID (for mobile use).
+            builder.setContentDeepLinkId("/pages/", null, null, null);
 
-                // Set the share text.
-                builder.setText("I helped Bugdroid find his lost dog at Google I/O! Do you want to join the search?");
+            // Set the share text.
+            builder.setText("I helped Bugdroid find his lost dog at Google I/O! Do you want to join the search?");
 //                builder.setContentUrl(uri)
 
-                startActivityForResult(builder.getIntent(), 0);
-            } else {
-                // Prompt the user to install the Google+ app.
-                GooglePlusUtil.getErrorDialog(errorCode, this, 0).show();
-            }
+            startActivityForResult(builder.getIntent(), 0);
             break;
         }
     }
