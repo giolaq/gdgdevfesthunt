@@ -16,11 +16,11 @@
   -->
 
 <resources>
-
+    
     <string name="one">1</string>
     <string name="two">2</string>
     <string name="three">3</string>
-    <string name="app_name">I/O Hunt</string>
+    <string name="app_name">GDG Dev fest Hunt</string>
     <string name="edit_message">type something here</string>
     <string name="button_send">Send</string>
     <string name="default_background">""</string>

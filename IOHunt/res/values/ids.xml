@@ -15,13 +15,13 @@
   -->
 
 <resources>
-    <string name="app_id">get_these_from_developer_console</string>
-
-    <string name="achievement_first_clue">fakeid-0</string>
-    <string name="achievement_halfway_there">fakeid-1</string>
-    <string name="achievement_speedrun">fakeid-2</string>
-    <string name="achievement_teachers_pet">fakeid-3</string>
-    <string name="achievement_pursuing_trivia">fakeid-4</string>
-    <string name="achievement_double_scan">fakeid-5</string>
-    <string name="achievement_alexander_the_great">fakeid-6</string>
+        <string name="app_id">888972483298</string>
+    
+    <string name="achievement_first_clue">CgkI4rWO1-8ZEAIQAg</string>
+    <string name="achievement_halfway_there">CgkI4rWO1-8ZEAIQAw</string>
+    <string name="achievement_speedrun">CgkI4rWO1-8ZEAIQBA</string>
+    <string name="achievement_teachers_pet">CgkI4rWO1-8ZEAIQBQ</string>
+    <string name="achievement_pursuing_trivia">CgkI4rWO1-8ZEAIQBg</string>
+    <string name="achievement_double_scan">CgkI4rWO1-8ZEAIQBw</string>
+    <string name="achievement_alexander_the_great">CgkI4rWO1-8ZEAIQCA</string>
 </resources>
