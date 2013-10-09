@@ -113,7 +113,7 @@ public class VictoryActivity extends BaseActivity implements OnClickListener {
             builder.setContentDeepLinkId("/pages/", null, null, null);
 
             // Set the share text.
-            builder.setText("I helped Bugdroid find his lost dog at Google I/O! Do you want to join the search?");
+            builder.setText("I helped Bugdroid find his lost dog at GDG L-AB DevFest! Do you want to join the search?");
 //                builder.setContentUrl(uri)
 
             startActivityForResult(builder.getIntent(), 0);
