@@ -20,6 +20,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 
+import com.google.analytics.tracking.android.EasyTracker;
 import com.google.android.gms.appstate.AppStateClient;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.games.GamesClient;
@@ -97,12 +98,15 @@ public abstract class BaseGameActivity extends FragmentActivity implements
     protected void onStart() {
         super.onStart();
         mHelper.onStart(this);
+        EasyTracker.getInstance(this).activityStart(this);  
+
     }
 
     @Override
     protected void onStop() {
         super.onStop();
         mHelper.onStop();
+        EasyTracker.getInstance(this).activityStop(this);
     }
 
     @Override
