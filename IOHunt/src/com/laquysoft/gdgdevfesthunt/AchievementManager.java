@@ -19,6 +19,7 @@ public class AchievementManager {
     public static String ID_5_TRIVIA_CORRECTLY;
     public static String ID_DOUBLE_SCAN;
     public static String ID_FOUND_ALEX;
+	public static String ID_LEADERBOARD;
 
     static final String FOUND_ACHIEVEMENTS_KEY = "FOUND_ACHIEVEMENTS_KEY";
 
@@ -35,6 +36,7 @@ public class AchievementManager {
         ID_5_TRIVIA_CORRECTLY = res.getString(R.string.achievement_pursuing_trivia);
         ID_DOUBLE_SCAN = res.getString(R.string.achievement_double_scan);
         ID_FOUND_ALEX = res.getString(R.string.achievement_alexander_the_great);
+        ID_LEADERBOARD = res.getString(R.string.leaderboard_id);
     }
 
     /** Each function returns whether or not we have have already
@@ -82,6 +84,7 @@ public class AchievementManager {
 
     public void onVictory(GamesClient ga, Context ctx) {
         winAchievement(ctx, ID_FOUND_ALEX, ga);
+        ga.submitScore(ID_LEADERBOARD, 6666);
     }
 
     ArrayList<String> storedAchievements = new ArrayList<String>();

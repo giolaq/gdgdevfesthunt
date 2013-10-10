@@ -36,6 +36,7 @@ import com.laquysoft.gdgdevfesthunt.R;
 public class BaseActivity extends BaseGameActivity {
 
     public static final int REQUEST_ACHIEVEMENTS = 1001;
+	public static final int REQUEST_LEADERBOARD = 1002;
 
     public BaseActivity() {
         super(0);
@@ -71,6 +72,9 @@ public class BaseActivity extends BaseGameActivity {
             intent = new Intent(this, AboutActivity.class);
             startActivity(intent);
             return true;
+        case R.id.menu_leaderboard:
+        	startActivityForResult(getGamesClient().getLeaderboardIntent(AchievementManager.ID_LEADERBOARD), REQUEST_LEADERBOARD );
+
         }
         return super.onOptionsItemSelected(item);
     }

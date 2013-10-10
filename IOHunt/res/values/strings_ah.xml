@@ -13,10 +13,10 @@
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.
-  -->
+-->
 
 <resources>
-    
+
     <string name="one">1</string>
     <string name="two">2</string>
     <string name="three">3</string>
@@ -28,8 +28,7 @@
     <string name="default_text_color">"#00181c"</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_clue_message">GDG L-AB DevFest Hunt</string>
-    <string
-        name="preference_file_key">com.google.wolff.PREFERENCE_FILE_KEY</string>
+    <string name="preference_file_key">com.google.wolff.PREFERENCE_FILE_KEY</string>
     <string name="continue1">Continue</string>
     <string name="debug">Debug</string>
     <string name="Story">Story</string>
@@ -50,7 +49,6 @@
     <string name="story_8">Press the button below to accept your quest.</string>
     <string name="story_8_reauth">Please Sign In with Google+ to continue.</string>
     <string name="nothing"></string>
-
     <string name="story_9">We use Google+ login to record your progress. By signing in, you will be able to get achievements and redeem prizes.\n\nYou may also find your progress displayed on the leaderboard in the...</string>
     <string name="clue_subheading">Clue %1$s of %2$s</string>
     <string name="welcome">GDG L-AB DevFest Hunt is a game exclusively for Rome DevFest 2013 attendees, where you race to explore the ...\n\nOh, and there\'s a prize at the end.\n\nReady to play?</string>
@@ -69,9 +67,11 @@
     <string name="notices">Notices</string>
     <string name="terms_of_service">Terms of Service</string>
     <string name="privacy_policy">Privacy Policy</string>
+    <string name="leaderboard">LeaderBoard</string>
     <string name="about">About</string>
     <string name="share_on_google"><u>Share on Google+</u></string>
     <string name="google_i_o_hunt_nby_the_android_and_social_google_developer_relations_teams">GDG L-AB DevFest Hunt\nby the\nGoogle Developer Group Roma Lazio Abruzzo team</string>
     <string name="warned_you">There must be something about this tag that could have warned you...</string>
     <string name="oh_no_it_s_a_decoy">OH NO! IT\'S A DECOY!</string>
+
 </resources>

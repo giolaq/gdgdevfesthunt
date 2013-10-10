@@ -16,7 +16,9 @@
 
 <resources>
         <string name="app_id">888972483298</string>
-    
+   
+    <string name="leaderboard_id">CgkI4rWO1-8ZEAIQCg</string>
+        
     <string name="achievement_first_clue">CgkI4rWO1-8ZEAIQAg</string>
     <string name="achievement_halfway_there">CgkI4rWO1-8ZEAIQAw</string>
     <string name="achievement_speedrun">CgkI4rWO1-8ZEAIQBA</string>
