@@ -85,7 +85,7 @@ public class WriteActivity extends Activity implements OnItemClickListener {
         try {
             ndef.connect();
             ndef.writeNdefMessage(createTagPayload(aht));
-            ndef.makeReadOnly();
+           // ndef.makeReadOnly();
             ndef.close();
             Toast.makeText(this, "Tag created", Toast.LENGTH_SHORT).show();
         } catch (IOException e) {
