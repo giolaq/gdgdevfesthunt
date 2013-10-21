@@ -32,7 +32,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/margin_large"
             android:gravity="center"
-            android:text="@string/story_0" />
+            android:text="@string/story_0"
+            android:textSize="@dimen/font_size_medium" />
 
         <ImageView
             android:id="@+id/imageView"

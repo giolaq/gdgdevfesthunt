@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/clueStatus"
         android:layout_alignLeft="@+id/clueStatus"
-        android:fontFamily="sans-serif-thin"
+        android:typeface="sans"
         android:gravity="center_horizontal"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
