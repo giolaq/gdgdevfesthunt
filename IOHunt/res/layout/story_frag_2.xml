@@ -37,11 +37,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/margin_medium"
                 android:layout_weight="1"
-                android:text="@string/story_4" />
+                android:text="@string/story_4"
+                android:textSize="@dimen/font_size_small" />
 
             <ImageView
                 android:layout_width="80dp"
-                android:layout_height="150dp"
+                android:layout_height="130dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
@@ -54,7 +55,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/margin_medium"
-            android:text="@string/story_5" />
+            android:text="@string/story_5"
+            android:textSize="@dimen/font_size_small" />
 
         <TextView
             android:id="@+id/textView"
