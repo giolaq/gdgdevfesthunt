@@ -27,6 +27,9 @@ public class AchievementManager {
     public static final int TOTAL_QUESTIONS = 5;
 
     public ArrayList<Long> tagScannedTimes = new ArrayList<Long>();
+    
+    
+    private int points = 0;
 
     public AchievementManager(Resources res) {
         ID_FIRST_CLUE = res.getString(R.string.achievement_first_clue);
@@ -80,11 +83,15 @@ public class AchievementManager {
                 / ca.getHunt().getTotalClues() >= 0.5) {
             winAchievement(ca, ID_HALFWAY, ga);
         }
+        
+        points += 20;
+        ga.submitScore(ID_LEADERBOARD, points);
+
     }
 
     public void onVictory(GamesClient ga, Context ctx) {
         winAchievement(ctx, ID_FOUND_ALEX, ga);
-        ga.submitScore(ID_LEADERBOARD, 6666);
+        ga.submitScore(ID_LEADERBOARD, points);
     }
 
     ArrayList<String> storedAchievements = new ArrayList<String>();

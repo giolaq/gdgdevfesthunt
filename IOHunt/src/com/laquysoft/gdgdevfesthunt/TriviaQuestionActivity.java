@@ -33,6 +33,8 @@ import android.widget.TextView;
 public class TriviaQuestionActivity extends BaseActivity implements
         OnTouchListener {
 
+    private String ID_LEADERBOARD = "CgkI4rWO1-8ZEAIQCg";// getResources().getString(R.string.leaderboard_id);
+
     public TriviaQuestionActivity() {
         super(CLIENT_PLUS | CLIENT_GAMES);
     }
@@ -150,6 +152,8 @@ public class TriviaQuestionActivity extends BaseActivity implements
                 hunt.achievementManager.storeIncrement(AchievementManager.ID_TEACHERS_PET);
             }
             hunt.save(getResources(), getApplicationContext());
+
+
         } else {
             builder.setMessage(clue.question.wrongMessage)
                     .setPositiveButton("OK", dialogClickListener).setCancelable(false).show();
