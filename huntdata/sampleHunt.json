@@ -5,15 +5,13 @@
   clues: [ 
     {
       type: "clue",
-      id: "starterMat",
+      id: "gdgdevfest1",
       shufflegroup: 0,
       displayName: "Let's go!",
       displayText: "Find this octopus, and then scan the three tags you find next to him.",
       displayImage: "octopus.jpg",
       tags: [        
-        {id: "gdg-0"},
-        {id: "gdg-1"},
-        {id: "gdg-2"}
+        {id: "gdg-0"}      
       ],
       question: 
       {  "question": "What is the name of the T-Rex on Google's Main campus?",
@@ -25,14 +23,33 @@
     },
     {
       type: "clue",
-      id: "goog",
+      id: "gdgdevfest2",
       shufflegroup: 1,
-      displayName: "Green is Good",
+      displayName: "gdgdevfest2",
       displayText: "Find this sign, then look for one more tag.",
       displayImage: "greengoogle.jpg",
       tags: [        
-        {id: "poster-1"}
+        {id: "gdg-2"}
       ]
-    }
+  }
+    ,
+    {
+      type: "clue",
+      id: "gdgdevfest3",
+      shufflegroup: 0,
+      displayName: "gdgdevfest3",
+      displayText: "Find this sign, then look for one more tag.",
+      displayImage: "octopus.jpg",
+      tags: [        
+        {id: "gdg-1"}      
+      ],
+      question: 
+      {  "question": "What is the name of the T-Rex on Google's Main campus?",
+         "answers": ["Larry", "Joe", "Stan"],
+         "correctAnswer": 2,
+         "wrongMessage": "No, it's Stan, just outside B44.\n",         
+         "rightMessage": "That's right!  It's Stan, who is sometimes covered in flamingos."
+      }
+    },
 ]
 }
