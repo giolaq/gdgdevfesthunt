@@ -87,8 +87,6 @@ public class AchievementManager {
             winAchievement(ca, ID_HALFWAY, ga);
         }
         
-        points += 10;
-        ga.submitScore(ID_LEADERBOARD, points);
 
     }
 
