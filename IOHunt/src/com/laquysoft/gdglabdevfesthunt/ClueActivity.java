@@ -39,13 +39,13 @@ public class ClueActivity extends BaseActivity {
 	private TextView mHeading;
 	private LinearLayout mTagConainer1;
 	private LinearLayout mTagConainer2;
-	private LinearLayout mTagConainer3;
+	//private LinearLayout mTagConainer3;
 	private TextView mTag1NotFound;
 	private ImageView mTag1Found;
 	private TextView mTag2NotFound;
 	private ImageView mTag2Found;
-	private TextView mTag3NotFound;
-	private ImageView mTag3Found;
+	//private TextView mTag3NotFound;
+	//private ImageView mTag3Found;
 
 	private Handler mHandler = new Handler();
 
@@ -63,21 +63,21 @@ public class ClueActivity extends BaseActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		setContentView(R.layout.activity_clue);
+		setContentView(R.layout.activity_clue_two_tag);
 
 		mImgView = (ImageView) findViewById(R.id.imageView1);
 		mHeading = (TextView) findViewById(R.id.heading);
 
 		mTagConainer1 = (LinearLayout) findViewById(R.id.tag_container_1);
 		mTagConainer2 = (LinearLayout) findViewById(R.id.tag_container_2);
-		mTagConainer3 = (LinearLayout) findViewById(R.id.tag_container_3);
+		//mTagConainer3 = (LinearLayout) findViewById(R.id.tag_container_3);
 
 		mTag1NotFound = (TextView) findViewById(R.id.tag_1_notfound_marker);
 		mTag1Found = (ImageView) findViewById(R.id.tag_1_found_marker);
 		mTag2NotFound = (TextView) findViewById(R.id.tag_2_notfound_marker);
 		mTag2Found = (ImageView) findViewById(R.id.tag_2_found_marker);
-		mTag3NotFound = (TextView) findViewById(R.id.tag_3_notfound_marker);
-		mTag3Found = (ImageView) findViewById(R.id.tag_3_found_marker);
+		//mTag3NotFound = (TextView) findViewById(R.id.tag_3_notfound_marker);
+		//mTag3Found = (ImageView) findViewById(R.id.tag_3_found_marker);
 
 		mImgView.setVisibility(View.INVISIBLE);
 
@@ -157,25 +157,25 @@ public class ClueActivity extends BaseActivity {
 		case 0:
 			mTagConainer1.setVisibility(View.GONE);
 			mTagConainer2.setVisibility(View.GONE);
-			mTagConainer3.setVisibility(View.GONE);
+		//	mTagConainer3.setVisibility(View.GONE);
 			break;
 		case 1:
 			mTagConainer1.setVisibility(View.VISIBLE);
 			mTagConainer2.setVisibility(View.GONE);
-			mTagConainer3.setVisibility(View.GONE);
+		//	mTagConainer3.setVisibility(View.GONE);
 			break;
 		case 2:
 			mTagConainer1.setVisibility(View.VISIBLE);
 			mTagConainer2.setVisibility(View.VISIBLE);
-			mTagConainer3.setVisibility(View.GONE);
+		//	mTagConainer3.setVisibility(View.GONE);
 			break;
-		case 3:
+		/*case 3:
 			mTagConainer1.setVisibility(View.VISIBLE);
 			mTagConainer2.setVisibility(View.VISIBLE);
 			mTagConainer3.setVisibility(View.VISIBLE);
-			break;
+			break;*/
 		default:
-			throw new IllegalStateException("Clue tag max of 3 exceeded");
+			throw new IllegalStateException("Clue tag max of 2 exceeded");
 		}
 
 		updateTagDisplay(hunt, clue);
@@ -207,6 +207,7 @@ public class ClueActivity extends BaseActivity {
 		if (clue == null) {
 			// You're probably finished with the hunt, so show the
 			// / victory screen
+			hunt.achievementManager.onVictory(getGamesClient(), this);
 			onToVictory();
 			finish();
 
@@ -344,37 +345,37 @@ public class ClueActivity extends BaseActivity {
 		case 0:
 			mTag1NotFound.setVisibility(View.VISIBLE);
 			mTag2NotFound.setVisibility(View.VISIBLE);
-			mTag3NotFound.setVisibility(View.VISIBLE);
+		//	mTag3NotFound.setVisibility(View.VISIBLE);
 			mTag1Found.setVisibility(View.GONE);
 			mTag2Found.setVisibility(View.GONE);
-			mTag3Found.setVisibility(View.GONE);
+		//	mTag3Found.setVisibility(View.GONE);
 			break;
 		case 1:
 			mTag1NotFound.setVisibility(View.GONE);
 			mTag2NotFound.setVisibility(View.VISIBLE);
-			mTag3NotFound.setVisibility(View.VISIBLE);
+		//	mTag3NotFound.setVisibility(View.VISIBLE);
 			mTag1Found.setVisibility(View.VISIBLE);
 			mTag2Found.setVisibility(View.GONE);
-			mTag3Found.setVisibility(View.GONE);
+		//	mTag3Found.setVisibility(View.GONE);
 			break;
 		case 2:
 			mTag1NotFound.setVisibility(View.GONE);
 			mTag2NotFound.setVisibility(View.GONE);
-			mTag3NotFound.setVisibility(View.VISIBLE);
+		//	mTag3NotFound.setVisibility(View.VISIBLE);
 			mTag1Found.setVisibility(View.VISIBLE);
 			mTag2Found.setVisibility(View.VISIBLE);
-			mTag3Found.setVisibility(View.GONE);
+		//	mTag3Found.setVisibility(View.GONE);
 			break;
-		case 3:
+		/*case 3:
 			mTag1NotFound.setVisibility(View.GONE);
 			mTag2NotFound.setVisibility(View.GONE);
 			mTag3NotFound.setVisibility(View.GONE);
 			mTag1Found.setVisibility(View.VISIBLE);
 			mTag2Found.setVisibility(View.VISIBLE);
 			mTag3Found.setVisibility(View.VISIBLE);
-			break;
+			break;*/
 		default:
-			throw new IllegalStateException("Clue tag max of 3 exceeded");
+			throw new IllegalStateException("Clue tag max of 2 exceeded");
 
 		}
 	}
