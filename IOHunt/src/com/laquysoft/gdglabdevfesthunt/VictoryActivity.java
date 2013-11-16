@@ -96,7 +96,7 @@ public class VictoryActivity extends BaseActivity implements OnClickListener {
 
             // Set call-to-action metadata.
             builder.addCallToAction("FIND", /** call-to-action button label */
-            Uri.parse("http://nfchunt.appspot.com"), /**
+            Uri.parse("http://devfest.gdg.io"), /**
              * call-to-action url
              * (for desktop use)
              */
@@ -107,13 +107,13 @@ public class VictoryActivity extends BaseActivity implements OnClickListener {
             );
 
             // Set the content url (for desktop use).
-            builder.setContentUrl(Uri.parse("http://nfchunt.appspot.com"));
+            builder.setContentUrl(Uri.parse("http://devfest.gdg.io"));
 
             // Set the target deep-link ID (for mobile use).
             builder.setContentDeepLinkId("/pages/", null, null, null);
 
             // Set the share text.
-            builder.setText("I helped Bugdroid find his lost dog at GDG L-AB DevFest! Do you want to join the search?");
+            builder.setText("I helped Bugdroid find his lost phone at GDG L-AB DevFest!");
 //                builder.setContentUrl(uri)
 
             startActivityForResult(builder.getIntent(), 0);
