@@ -5,34 +5,124 @@
   clues: [ 
     {
       type: "clue",
-      id: "starterMat",
+      id: "gdgdevfest1",
       shufflegroup: 0,
-      displayName: "Let's go!",
-      displayText: "Find this octopus, and then scan the three tags you find next to him.",
-      displayImage: "octopus.jpg",
+      displayName: "Let's start!",
+      displayText: "Find this clue, and then scan the two tags you find next to it.",
+      displayImage: "clue-1.jpg",
       tags: [        
         {id: "gdg-0"},
-        {id: "gdg-1"},
-        {id: "gdg-2"}
+        {id: "gdg-1"}      
+		   
       ],
       question: 
-      {  "question": "What is the name of the T-Rex on Google's Main campus?",
-         "answers": ["Larry", "Joe", "Stan"],
+      {  "question": "What is the name of the latest Android release?",
+         "answers": ["Amber", "JellyBean", "Kit Kat"],
          "correctAnswer": 2,
-         "wrongMessage": "No, it's Stan, just outside B44.\n",         
-         "rightMessage": "That's right!  It's Stan, who is sometimes covered in flamingos."
+         "wrongMessage": "No, it's Kit Kat!\n",         
+         "rightMessage": "That's right!"
       }
     },
+   
     {
       type: "clue",
-      id: "goog",
+      id: "gdgdevfest2",
       shufflegroup: 1,
-      displayName: "Green is Good",
-      displayText: "Find this sign, then look for one more tag.",
-      displayImage: "greengoogle.jpg",
+      displayName: "Not in your browser",
+      displayText: "Find this sign, and then scan the two tags you find next to it.",
+      displayImage: "clue-2.jpg",
       tags: [        
-        {id: "poster-1"}
+        {id: "gdg-2"},
+        {id: "gdg-3"}      
+		   
+      ],
+      question: 
+      {  "question": "What is the name of the latest Nexus device?",
+         "answers": ["Nexus 5", "Nexus 10", "Nexy"],
+         "correctAnswer": 0,
+         "wrongMessage": "No, it's Nexus 5!\n",         
+         "rightMessage": "That's right!"
+      }
+    },
+	
+    {
+      type: "clue",
+      id: "gdgdevfest3",
+      shufflegroup: 1,
+      displayName: "Hard work",
+      displayText: "Reach this object, and then scan the two tags you find next to it.",
+      displayImage: "clue-3.jpg",
+      tags: [        
+        {id: "gdg-4"},
+        {id: "gdg-5"}      
+		   
+      ],
+      question: 
+      {  "question": "Does Google App Engine support PHP",
+         "answers": ["Yes", "No", "Only after midnight"],
+         "correctAnswer": 0,
+         "wrongMessage": "Yeeeeeees!\n",         
+         "rightMessage": "That's right!"
+      }
+    },
+	
+    {
+      type: "clue",
+      id: "gdgdevfest4",
+      shufflegroup: 1,
+      displayName: "Investors!",
+      displayText: "Look for this sign, and then scan the two tags you find next to it.",
+      displayImage: "clue-4.jpg",
+      tags: [        
+        {id: "gdg-6"},
+        {id: "gdg-7"}      
+		   
+      ],
+      question: 
+      {  "question": "What Can the Prediction API Do",
+         "answers": ["Make me win the Lottery", "Categorize emails as spam or non-spam", "Deploy Android apps "],
+         "correctAnswer": 1,
+         "wrongMessage": "Guess your spam emails!\n",         
+         "rightMessage": "That's right!"
+      }
+    },
+	
+	
+    {
+      type: "clue",
+      id: "gdgdevfest5",
+      shufflegroup: 1,
+      displayName: "The end?",
+      displayText: "Look for this sign, and then scan the two tags you find next to it.",
+      displayImage: "clue-5.jpg",
+      tags: [        
+        {id: "gdg-8"},
+        {id: "gdg-9"}      
+		   
+      ],
+      question: 
+      {  "question": "What is WebRTC",
+         "answers": ["A Google Hangout Client", "Web Real-Time Communication API", "Web Real-Time Clock API"],
+         "correctAnswer": 2,
+         "wrongMessage": "Web Real-Time Communication API!\n",         
+         "rightMessage": "That's right!"
+      }
+    },
+	
+	
+    {
+      type: "clue",
+      id: "gdgdevfest6",
+      shufflegroup: 2,
+      displayName: "",
+      displayText: "Look for this man, and then scan the tags he's wearing",
+      displayImage: "finalclue.jpg",
+      tags: [        
+        {id: "gdg-10"}		   
       ]
+   
     }
+	
+  
 ]
 }

@@ -15,15 +15,15 @@
   -->
 
 <resources>
-        <string name="app_id">888972483298</string>
+        <string name="app_id">1059042248822</string>
    
-    <string name="leaderboard_id">CgkI4rWO1-8ZEAIQCg</string>
+    <string name="leaderboard_id">CgkI9pDZnukeEAIQCg</string>
         
-    <string name="achievement_first_clue">CgkI4rWO1-8ZEAIQAg</string>
-    <string name="achievement_halfway_there">CgkI4rWO1-8ZEAIQAw</string>
-    <string name="achievement_speedrun">CgkI4rWO1-8ZEAIQBA</string>
-    <string name="achievement_teachers_pet">CgkI4rWO1-8ZEAIQBQ</string>
-    <string name="achievement_pursuing_trivia">CgkI4rWO1-8ZEAIQBg</string>
-    <string name="achievement_double_scan">CgkI4rWO1-8ZEAIQBw</string>
-    <string name="achievement_alexander_the_great">CgkI4rWO1-8ZEAIQCA</string>
+    <string name="achievement_first_clue">CgkI9pDZnukeEAIQAw</string>
+    <string name="achievement_halfway_there">CgkI9pDZnukeEAIQBA</string>
+    <string name="achievement_speedrun">CgkI9pDZnukeEAIQBQ</string>
+    <string name="achievement_teachers_pet">CgkI9pDZnukeEAIQBg</string>
+    <string name="achievement_pursuing_trivia">CgkI9pDZnukeEAIQBw</string>
+    <string name="achievement_double_scan">CgkI9pDZnukeEAIQCA</string>
+    <string name="achievement_alexander_the_great">CgkI9pDZnukeEAIQCQ</string>
 </resources>

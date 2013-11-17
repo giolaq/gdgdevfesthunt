@@ -16,8 +16,8 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.laquysoft.gdgdevfesthunt" android:versionCode="2"
-    android:versionName="2.0">
+    package="com.laquysoft.gdglabdevfesthunt" android:versionCode="3"
+    android:versionName="3.0">
 
     <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="17" />
 
@@ -36,13 +36,13 @@
             android:value="@string/app_id" />
 
         <activity android:screenOrientation="portrait"
-            android:name="com.laquysoft.gdgdevfesthunt.ClueActivity"
+            android:name="com.laquysoft.gdglabdevfesthunt.ClueActivity"
             android:keepScreenOn="true"
             android:label="@string/title_activity_clue_message"
             android:launchMode="singleTask">
         </activity>
 
-        <activity android:name="com.laquysoft.gdgdevfesthunt.NavActivity"
+        <activity android:name="com.laquysoft.gdglabdevfesthunt.NavActivity"
             android:screenOrientation="portrait">
              <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -50,38 +50,38 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.laquysoft.gdgdevfesthunt.TagsActivity"
+        <activity android:name="com.laquysoft.gdglabdevfesthunt.TagsActivity"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name="com.laquysoft.gdgdevfesthunt.DecoyActivity"
+        <activity android:name="com.laquysoft.gdglabdevfesthunt.DecoyActivity"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name="com.laquysoft.gdgdevfesthunt.ScreenSlidePagerActivity"
+        <activity android:name="com.laquysoft.gdglabdevfesthunt.ScreenSlidePagerActivity"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name="com.laquysoft.gdgdevfesthunt.ReauthActivity"
+        <activity android:name="com.laquysoft.gdglabdevfesthunt.ReauthActivity"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name="com.laquysoft.gdgdevfesthunt.ZoomActivity"
+        <activity android:name="com.laquysoft.gdglabdevfesthunt.ZoomActivity"
             android:screenOrientation="portrait" />
 
-        <activity android:name="com.laquysoft.gdgdevfesthunt.AboutActivity"
+        <activity android:name="com.laquysoft.gdglabdevfesthunt.AboutActivity"
             android:screenOrientation="portrait" />
 
-        <activity android:name="com.laquysoft.gdgdevfesthunt.VictoryActivity"
+        <activity android:name="com.laquysoft.gdglabdevfesthunt.VictoryActivity"
             android:screenOrientation="portrait" />
 
-        <activity android:name="com.laquysoft.gdgdevfesthunt.TriviaExplainerActivity"
+        <activity android:name="com.laquysoft.gdglabdevfesthunt.TriviaExplainerActivity"
             android:screenOrientation="portrait" />
 
-        <activity android:name="com.laquysoft.gdgdevfesthunt.TriviaQuestionActivity"
+        <activity android:name="com.laquysoft.gdglabdevfesthunt.TriviaQuestionActivity"
             android:screenOrientation="portrait" />
 
-        <activity android:name="com.laquysoft.gdgdevfesthunt.NFCShimActivity"
+        <activity android:name="com.laquysoft.gdglabdevfesthunt.NFCShimActivity"
             android:theme="@android:style/Theme.NoDisplay">
             <intent-filter>
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
@@ -98,8 +98,8 @@
             </intent-filter>
         </activity>
 
-        <service android:enabled="true" android:name="com.laquysoft.gdgdevfesthunt.ScoreService" />
-        <service android:enabled="true" android:name="com.laquysoft.gdgdevfesthunt.AchievementService" />
+        <service android:enabled="true" android:name="com.laquysoft.gdglabdevfesthunt.ScoreService" />
+        <service android:enabled="true" android:name="com.laquysoft.gdglabdevfesthunt.AchievementService" />
     </application>
 
 
