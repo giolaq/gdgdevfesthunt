@@ -25,6 +25,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -83,6 +85,33 @@ public class ClueActivity extends BaseActivity {
 
 		mImgView.setAdjustViewBounds(true);
 		mImgView.setMaxHeight(250);
+
+		Button scanBtn = (Button) findViewById(R.id.btnScan);
+
+		//in some trigger function e.g. button press within your code you should add:
+		scanBtn.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+
+				try {
+
+					Intent intent = new Intent(
+							"com.google.zxing.client.android.SCAN");
+					intent.putExtra("SCAN_MODE", "QR_CODE_MODE,PRODUCT_MODE");
+					startActivityForResult(intent, 0);
+
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+					Toast.makeText(getApplicationContext(), "ERROR:" + e, 1).show();
+
+				}
+
+			}
+		});
+
+
 	}
 
 	public void onToVictory() {
@@ -157,19 +186,19 @@ public class ClueActivity extends BaseActivity {
 		case 0:
 			mTagConainer1.setVisibility(View.GONE);
 			mTagConainer2.setVisibility(View.GONE);
-		//	mTagConainer3.setVisibility(View.GONE);
+			//	mTagConainer3.setVisibility(View.GONE);
 			break;
 		case 1:
 			mTagConainer1.setVisibility(View.VISIBLE);
 			mTagConainer2.setVisibility(View.GONE);
-		//	mTagConainer3.setVisibility(View.GONE);
+			//	mTagConainer3.setVisibility(View.GONE);
 			break;
 		case 2:
 			mTagConainer1.setVisibility(View.VISIBLE);
 			mTagConainer2.setVisibility(View.VISIBLE);
-		//	mTagConainer3.setVisibility(View.GONE);
+			//	mTagConainer3.setVisibility(View.GONE);
 			break;
-		/*case 3:
+			/*case 3:
 			mTagConainer1.setVisibility(View.VISIBLE);
 			mTagConainer2.setVisibility(View.VISIBLE);
 			mTagConainer3.setVisibility(View.VISIBLE);
@@ -345,28 +374,28 @@ public class ClueActivity extends BaseActivity {
 		case 0:
 			mTag1NotFound.setVisibility(View.VISIBLE);
 			mTag2NotFound.setVisibility(View.VISIBLE);
-		//	mTag3NotFound.setVisibility(View.VISIBLE);
+			//	mTag3NotFound.setVisibility(View.VISIBLE);
 			mTag1Found.setVisibility(View.GONE);
 			mTag2Found.setVisibility(View.GONE);
-		//	mTag3Found.setVisibility(View.GONE);
+			//	mTag3Found.setVisibility(View.GONE);
 			break;
 		case 1:
 			mTag1NotFound.setVisibility(View.GONE);
 			mTag2NotFound.setVisibility(View.VISIBLE);
-		//	mTag3NotFound.setVisibility(View.VISIBLE);
+			//	mTag3NotFound.setVisibility(View.VISIBLE);
 			mTag1Found.setVisibility(View.VISIBLE);
 			mTag2Found.setVisibility(View.GONE);
-		//	mTag3Found.setVisibility(View.GONE);
+			//	mTag3Found.setVisibility(View.GONE);
 			break;
 		case 2:
 			mTag1NotFound.setVisibility(View.GONE);
 			mTag2NotFound.setVisibility(View.GONE);
-		//	mTag3NotFound.setVisibility(View.VISIBLE);
+			//	mTag3NotFound.setVisibility(View.VISIBLE);
 			mTag1Found.setVisibility(View.VISIBLE);
 			mTag2Found.setVisibility(View.VISIBLE);
-		//	mTag3Found.setVisibility(View.GONE);
+			//	mTag3Found.setVisibility(View.GONE);
 			break;
-		/*case 3:
+			/*case 3:
 			mTag1NotFound.setVisibility(View.GONE);
 			mTag2NotFound.setVisibility(View.GONE);
 			mTag3NotFound.setVisibility(View.GONE);
@@ -379,4 +408,138 @@ public class ClueActivity extends BaseActivity {
 
 		}
 	}
+
+	//In the same activity you’ll need the following to retrieve the results:
+	public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+		if (requestCode == 0) {
+
+			if (resultCode == RESULT_OK) {
+				Log.i(ClueActivity.class.getName(), "SCAN_RESULT_FORMAT "+ intent.getStringExtra("SCAN_RESULT_FORMAT"));
+				Log.i(ClueActivity.class.getName(), "SCAN_RESULT "+ intent.getStringExtra("SCAN_RESULT"));
+				lastClueFound = intent.getStringExtra("SCAN_RESULT");
+			} else if (resultCode == RESULT_CANCELED) {
+				Log.i(ClueActivity.class.getName(),"Press a button to start a scan.");
+				Log.i(ClueActivity.class.getName(),"Scan cancelled.");
+			}
+		}
+
+
+		setIntent(null);
+
+		Hunt hunt = Hunt.getHunt(getResources(), this.getApplicationContext());
+
+		final Clue clue = hunt.getCurrentClue();
+
+		if (clue == null) {
+			// You're probably finished with the hunt, so show the
+			// / victory screen
+			hunt.achievementManager.onVictory(getGamesClient(), this);
+			onToVictory();
+			finish();
+
+			return;
+		}
+
+		// Got here without seeing intro---bail!
+		if (!hunt.hasSeenIntro()) {
+			Intent newIntent = new Intent(this, ScreenSlidePagerActivity.class);
+			startActivity(newIntent);
+			finish();
+			return;
+		}
+
+		// Skips to question; helpful when debugging
+		if (DEBUG_QUESTIONS) {
+			if (hunt.getLastCompletedClue() != null) {
+				Intent newIntent = new Intent(this,
+						TriviaExplainerActivity.class);
+				startActivity(newIntent);
+				hunt.setQuestionState(Hunt.QUESTION_STATE_INTRO);
+				hunt.save(getResources(), getApplicationContext());
+				finish();
+			}
+		}
+
+		if (lastClueFound != null) {
+			refresh();
+
+			result = hunt.findTag(lastClueFound);
+			hunt.save(getResources(), getApplicationContext());
+
+			if (result.equals(Hunt.DECOY)) {
+				hunt.achievementManager.onDecoy(clue, this,
+						getGamesClient());
+
+				intent = new Intent(this, DecoyActivity.class);
+				startActivity(intent);
+				hunt.soundManager.play(hunt.soundManager.rejected, this);
+				return;
+			}
+
+			if (result.equals(Hunt.ACK)) {
+				updateTagDisplay(hunt, clue);
+				hunt.soundManager.play(hunt.soundManager.foundIt, this);
+				hunt.achievementManager.onNewTagScanned(
+						hunt.getClueIndex(clue), getGamesClient(), this);
+				return;
+			}
+			if (result.equals(Hunt.ALREADY_FOUND)) {
+				Toast.makeText(
+						this,
+						"You already found " + lastClueFound + ".  "
+								+ clue.getStatus(hunt), Toast.LENGTH_SHORT)
+								.show();
+				hunt.soundManager.play(hunt.soundManager.repeat, this);
+				hunt.achievementManager.onOldTagScanned(getGamesClient(), this);
+				return;
+			}
+			if (result.equals(Hunt.WRONG_CLUE)) {
+				Toast.makeText(
+						this,
+						"Tag " + lastClueFound + " is not part of this clue.  "
+								+ clue.getStatus(hunt), Toast.LENGTH_SHORT)
+								.show();
+				hunt.soundManager.play(hunt.soundManager.rejected, this);
+				return;
+			}
+			if (result.equals(Hunt.CLUE_COMPLETE)) {
+				updateTagDisplay(hunt, clue);
+				hunt.achievementManager.onNewTagScanned(
+						hunt.getClueIndex(clue), getGamesClient(), this);
+				hunt.achievementManager.onCompletedClue(clue, this,
+						getGamesClient());
+
+				hunt.soundManager.play(hunt.soundManager.foundItAll, this);
+				Toast.makeText(this, "Got 'em all!  Hang on for next clue...",
+						Toast.LENGTH_SHORT).show();
+
+				findViewById(R.id.imageView1).setVisibility(View.INVISIBLE);
+				findViewById(R.id.clue_progress).setVisibility(View.VISIBLE);
+
+				final Activity bind = this;
+				final Hunt bindhunt = hunt;
+
+				mHandler.postDelayed(new Runnable() {
+					@Override
+					public void run() {
+
+						if (clue.question != null) {
+							Intent newIntent = new Intent(bind,
+									TriviaExplainerActivity.class);
+							bindhunt.setQuestionState(Hunt.QUESTION_STATE_INTRO);
+							bindhunt.save(getResources(), getApplicationContext());
+							startActivity(newIntent);
+						} else {
+							refresh();
+						}
+					}
+				}, 3000);
+
+				return;
+			}
+		} else {
+			refresh();
+		}
+	}
+
 }

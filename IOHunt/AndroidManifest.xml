@@ -13,94 +13,127 @@
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.
-  -->
+-->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.laquysoft.gdglabdevfesthunt" android:versionCode="3"
-    android:versionName="3.0">
+    package="com.laquysoft.gdglabdevfesthunt"
+    android:versionCode="3"
+    android:versionName="3.0" >
 
-    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="17" />
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
 
     <uses-permission android:name="android.permission.NFC" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-    <uses-feature android:name="android.hardware.nfc"
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
         android:required="true" />
 
-
-    <application android:allowBackup="true" android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name" android:theme="@style/Theme.App">
-
-        <meta-data android:name="com.google.android.gms.games.APP_ID"
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.App" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.gms.games.APP_ID"
             android:value="@string/app_id" />
 
-        <activity android:screenOrientation="portrait"
+        <activity
             android:name="com.laquysoft.gdglabdevfesthunt.ClueActivity"
             android:keepScreenOn="true"
             android:label="@string/title_activity_clue_message"
-            android:launchMode="singleTask">
-        </activity>
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <category android:name="android.intent.category.DEFAULT" />
 
-        <activity android:name="com.laquysoft.gdglabdevfesthunt.NavActivity"
-            android:screenOrientation="portrait">
-             <intent-filter>
+            <intent-filter>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.laquysoft.gdglabdevfesthunt.NavActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name="com.laquysoft.gdglabdevfesthunt.TagsActivity"
-            android:screenOrientation="portrait">
+        <activity
+            android:name="com.laquysoft.gdglabdevfesthunt.TagsActivity"
+            android:screenOrientation="portrait" >
         </activity>
-
-        <activity android:name="com.laquysoft.gdglabdevfesthunt.DecoyActivity"
-            android:screenOrientation="portrait">
+        <activity
+            android:name="com.laquysoft.gdglabdevfesthunt.DecoyActivity"
+            android:screenOrientation="portrait" >
         </activity>
-
-        <activity android:name="com.laquysoft.gdglabdevfesthunt.ScreenSlidePagerActivity"
-            android:screenOrientation="portrait">
+        <activity
+            android:name="com.laquysoft.gdglabdevfesthunt.ScreenSlidePagerActivity"
+            android:screenOrientation="portrait" >
         </activity>
-
-        <activity android:name="com.laquysoft.gdglabdevfesthunt.ReauthActivity"
-            android:screenOrientation="portrait">
+        <activity
+            android:name="com.laquysoft.gdglabdevfesthunt.ReauthActivity"
+            android:screenOrientation="portrait" >
         </activity>
-
-        <activity android:name="com.laquysoft.gdglabdevfesthunt.ZoomActivity"
+        <activity
+            android:name="com.laquysoft.gdglabdevfesthunt.ZoomActivity"
             android:screenOrientation="portrait" />
-
-        <activity android:name="com.laquysoft.gdglabdevfesthunt.AboutActivity"
+        <activity
+            android:name="com.laquysoft.gdglabdevfesthunt.AboutActivity"
             android:screenOrientation="portrait" />
-
-        <activity android:name="com.laquysoft.gdglabdevfesthunt.VictoryActivity"
+        <activity
+            android:name="com.laquysoft.gdglabdevfesthunt.VictoryActivity"
             android:screenOrientation="portrait" />
-
-        <activity android:name="com.laquysoft.gdglabdevfesthunt.TriviaExplainerActivity"
+        <activity
+            android:name="com.laquysoft.gdglabdevfesthunt.TriviaExplainerActivity"
             android:screenOrientation="portrait" />
-
-        <activity android:name="com.laquysoft.gdglabdevfesthunt.TriviaQuestionActivity"
+        <activity
+            android:name="com.laquysoft.gdglabdevfesthunt.TriviaQuestionActivity"
             android:screenOrientation="portrait" />
-
-        <activity android:name="com.laquysoft.gdglabdevfesthunt.NFCShimActivity"
-            android:theme="@android:style/Theme.NoDisplay">
+        <activity
+            android:name="com.laquysoft.gdglabdevfesthunt.NFCShimActivity"
+            android:theme="@android:style/Theme.NoDisplay" >
             <intent-filter>
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <data android:scheme="https" android:host="nfchunt.appspot.com"
-                    android:pathPrefix="/f" />
-            </intent-filter>
 
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="nfchunt.appspot.com"
+                    android:pathPrefix="/f"
+                    android:scheme="https" />
+            </intent-filter>
             <intent-filter>
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
                 <category android:name="android.intent.category.DEFAULT" />
-                <data android:scheme="http" android:host="nfchunt.appspot.com"
-                    android:pathPrefix="/f" />
+
+                <data
+                    android:host="nfchunt.appspot.com"
+                    android:pathPrefix="/f"
+                    android:scheme="http" />
             </intent-filter>
         </activity>
 
-        <service android:enabled="true" android:name="com.laquysoft.gdglabdevfesthunt.ScoreService" />
-        <service android:enabled="true" android:name="com.laquysoft.gdglabdevfesthunt.AchievementService" />
+        <service
+            android:name="com.laquysoft.gdglabdevfesthunt.ScoreService"
+            android:enabled="true" />
+        <service
+            android:name="com.laquysoft.gdglabdevfesthunt.AchievementService"
+            android:enabled="true" />
     </application>
-
 
 </manifest>

@@ -22,175 +22,200 @@ import com.laquysoft.gdglabdevfesthunt.R;
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class TriviaQuestionActivity extends BaseActivity implements
-        OnTouchListener {
+OnTouchListener {
 
-    private String ID_LEADERBOARD;
-    
-    public TriviaQuestionActivity() {
-        super(CLIENT_PLUS | CLIENT_GAMES);
-    }
+	private String ID_LEADERBOARD;
 
-    LinearLayout linearLayout;
-    LinearLayout textViewLayout;
+	public TriviaQuestionActivity() {
+		super(CLIENT_PLUS | CLIENT_GAMES);
+	}
 
-    Handler h = new Handler();
-    private boolean keepAnimating = false;
-    private boolean hasAnswered = false;
+	LinearLayout linearLayout;
+	LinearLayout textViewLayout;
 
-    @SuppressLint("NewApi")
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+	Handler h = new Handler();
+	private boolean keepAnimating = false;
+	private boolean hasAnswered = false;
 
-        setContentView(R.layout.activity_trivia_question);
-        Hunt hunt = Hunt.getHunt(getResources(), getApplicationContext());
+	AnimationDrawable nononoAnimation;
 
-        ID_LEADERBOARD = getResources().getString(R.string.leaderboard_id);
-        linearLayout = (LinearLayout) findViewById(R.id.linearLayoutTQ);
+	@SuppressLint("NewApi")
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
 
-        Clue clue = hunt.getLastCompletedClue();
+		setContentView(R.layout.activity_trivia_question);
+		Hunt hunt = Hunt.getHunt(getResources(), getApplicationContext());
 
-        hunt.setQuestionState(Hunt.QUESTION_STATE_QUESTIONING);
-        hunt.save(getResources(), getApplicationContext());
+		ID_LEADERBOARD = getResources().getString(R.string.leaderboard_id);
+		linearLayout = (LinearLayout) findViewById(R.id.linearLayoutTQ);
 
-        if (clue.question != null) {
-            setQuestion(clue.question);
-        } else {
-            // Something is pretty wrong, so let's get out of here.
-            finish();
-        }
-    }
+		Clue clue = hunt.getLastCompletedClue();
 
-    public void setQuestion(TriviaQuestion tq) {
-        LinearLayout ll = (LinearLayout) getLayoutInflater().inflate(
-                R.layout.question_frag, null);
+		hunt.setQuestionState(Hunt.QUESTION_STATE_QUESTIONING);
+		hunt.save(getResources(), getApplicationContext());
 
-        TextView textView = (TextView) ll.findViewById(R.id.question_text_frag);
-
-        textView.setText(tq.question);
-        textView.setId(-1);
-        linearLayout.addView(ll);
-        textView.setVisibility(View.VISIBLE);
-
-        for (int i = 0; i < tq.answers.size(); i++) {
-            LinearLayout ll2 = (LinearLayout) getLayoutInflater().inflate(
-                    R.layout.answer_frag, linearLayout);
-            AnswerTextView atv = (AnswerTextView) ll2
-                    .findViewById(R.id.answer_text_frag);
-            atv.setText(tq.answers.get(i));
-            atv.answerNum = i;
-            atv.setId(-1);
-            atv.setOnTouchListener(this);
-        }
-
-        linearLayout.forceLayout();
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        setAnimating(true);
-    }
-
-    @Override
-    public void onStop() {
-        super.onStop();
-        setAnimating(false);
-    }
-
-    @Override
-    public boolean onTouch(View v, MotionEvent event) {
-        final Clue clue = Hunt.getHunt(getResources(), getApplicationContext())
-                .getLastCompletedClue();
-
-        // Wait if we're waiting for toast pop.
-        if (hasAnswered) {
-            return true;
-        }
-
-        AnswerTextView tv = (AnswerTextView) v;
-        // Deal with flipping colors on and off
-        tv.onTouch(tv, event);
-
-        // Don't do anything on down besides flip color.
-        if (event.getAction() != MotionEvent.ACTION_UP) {
-            return true;
-        }
-
-        final Hunt hunt = Hunt.getHunt(getResources(), getApplicationContext());
-
-        hunt.setQuestionState(Hunt.QUESTION_STATE_NONE);
-        hunt.save(getResources(), getApplicationContext());
-
-        DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                finish();
-            }
-        };
-
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-
-        boolean isUnderPar = hunt.getSecondsLeft() > 0;
-
-        hasAnswered = true;
-        keepAnimating = false;
-
-        if (tv.answerNum == clue.question.correctAnswer) {
-            builder.setMessage(clue.question.rightMessage)
-                    .setPositiveButton("OK", dialogClickListener).setCancelable(false).show();
-            hunt.achievementManager.storeIncrement(AchievementManager.ID_5_TRIVIA_CORRECTLY);
-            if (isUnderPar) {
-                hunt.achievementManager.storeIncrement(AchievementManager.ID_TEACHERS_PET);
-            }
-            hunt.save(getResources(), getApplicationContext());
+		if (clue.question != null) {
+			setQuestion(clue.question);
+		} else {
+			// Something is pretty wrong, so let's get out of here.
+			finish();
+		}
 
 
-        } else {
-            builder.setMessage(clue.question.wrongMessage)
-                    .setPositiveButton("OK", dialogClickListener).setCancelable(false).show();
-        }
+	}
 
-        return true;
-    }
+	public void setQuestion(TriviaQuestion tq) {
+		LinearLayout ll = (LinearLayout) getLayoutInflater().inflate(
+				R.layout.question_frag, null);
 
-    public void setAnimating(Boolean val) {
-        keepAnimating = val;
-        if (val) {
-            tick();
-        }
-    }
+		TextView textView = (TextView) ll.findViewById(R.id.question_text_frag);
 
-    private Runnable ticker = new Runnable() {
-        @Override
-        public void run() {
-            tick();
-        }
-    };
+		textView.setText(tq.question);
+		textView.setId(-1);
+		linearLayout.addView(ll);
+		textView.setVisibility(View.VISIBLE);
 
-    public void tick() {
-        int timeLeft = Hunt.getHunt(getResources(), getApplicationContext())
-                .getSecondsLeft();
-        TextView tv = (TextView) findViewById(R.id.timeLeft);
+		for (int i = 0; i < tq.answers.size(); i++) {
+			LinearLayout ll2 = (LinearLayout) getLayoutInflater().inflate(
+					R.layout.answer_frag, linearLayout);
+			AnswerTextView atv = (AnswerTextView) ll2
+					.findViewById(R.id.answer_text_frag);
+			atv.setText(tq.answers.get(i));
+			atv.answerNum = i;
+			atv.setId(-1);
+			atv.setOnTouchListener(this);
+		}
 
-        if (timeLeft <= 0) {
-            tv.setText("Missed par");
-        } else {
-            tv.setText("Par time left:" + timeLeft);
-        }
+		linearLayout.forceLayout();
+	}
 
-        if (keepAnimating) {
-            h.postDelayed(ticker, 200);
-        }
-    }
+	@Override
+	public void onResume() {
+		super.onResume();
+		setAnimating(true);
+	}
+
+	@Override
+	public void onStop() {
+		super.onStop();
+		setAnimating(false);
+	}
+
+	@Override
+	public boolean onTouch(View v, MotionEvent event) {
+		final Clue clue = Hunt.getHunt(getResources(), getApplicationContext())
+				.getLastCompletedClue();
+
+		// Wait if we're waiting for toast pop.
+		if (hasAnswered) {
+			return true;
+		}
+
+		AnswerTextView tv = (AnswerTextView) v;
+		// Deal with flipping colors on and off
+		tv.onTouch(tv, event);
+
+		// Don't do anything on down besides flip color.
+		if (event.getAction() != MotionEvent.ACTION_UP) {
+			return true;
+		}
+
+		final Hunt hunt = Hunt.getHunt(getResources(), getApplicationContext());
+
+		hunt.setQuestionState(Hunt.QUESTION_STATE_NONE);
+		hunt.save(getResources(), getApplicationContext());
+
+		DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+				finish();
+			}
+		};
+
+		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+		boolean isUnderPar = hunt.getSecondsLeft() > 0;
+
+		hasAnswered = true;
+		keepAnimating = false;
+
+		if (tv.answerNum == clue.question.correctAnswer) {
+
+			builder.setMessage(clue.question.rightMessage)
+			.setPositiveButton("OK", dialogClickListener).setCancelable(false).show();
+			hunt.achievementManager.storeIncrement(AchievementManager.ID_5_TRIVIA_CORRECTLY);
+			if (isUnderPar) {
+				hunt.achievementManager.storeIncrement(AchievementManager.ID_TEACHERS_PET);
+			}
+			hunt.save(getResources(), getApplicationContext());
+
+
+		} else {
+
+
+			/*AlertDialog.Builder alertadd = new AlertDialog.Builder(
+					this);
+			LayoutInflater factory = LayoutInflater.from(this);
+			final View view = factory.inflate(R.layout.wronganswer, null);
+			ImageView nononoImage = (ImageView) view.findViewById(R.id.nonono);
+			nononoImage.setVisibility(View.VISIBLE);
+			nononoAnimation.start();
+
+			alertadd.setView(view);
+			alertadd.setMessage(clue.question.wrongMessage);
+			alertadd.setPositiveButton("OK", dialogClickListener).setCancelable(false).show();
+			 */
+
+
+
+			builder.setMessage(clue.question.wrongMessage)
+			.setPositiveButton("OK", dialogClickListener).setCancelable(false).show();
+		}
+
+		return true;
+	}
+
+	public void setAnimating(Boolean val) {
+		keepAnimating = val;
+		if (val) {
+			tick();
+		}
+	}
+
+	private Runnable ticker = new Runnable() {
+		@Override
+		public void run() {
+			tick();
+		}
+	};
+
+	public void tick() {
+		int timeLeft = Hunt.getHunt(getResources(), getApplicationContext())
+				.getSecondsLeft();
+		TextView tv = (TextView) findViewById(R.id.timeLeft);
+
+		if (timeLeft <= 0) {
+			tv.setText("Missed par");
+		} else {
+			tv.setText("Par time left:" + timeLeft);
+		}
+
+		if (keepAnimating) {
+			h.postDelayed(ticker, 200);
+		}
+	}
 
 }
