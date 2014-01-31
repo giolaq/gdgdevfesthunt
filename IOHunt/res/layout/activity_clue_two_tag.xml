@@ -29,7 +29,7 @@
         android:id="@+id/imageCard"
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
-        android:layout_above="@+id/instructionsHeading"
+        android:layout_above="@+id/btnScan"
         android:layout_alignLeft="@+id/heading"
         android:layout_below="@+id/heading"
         android:background="@drawable/grey_frame_on_white" >
@@ -56,12 +56,12 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/clueStatus"
         android:layout_alignLeft="@+id/clueStatus"
-        android:typeface="sans"
         android:gravity="center_horizontal"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
         android:text="@string/intruction_text_here"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:typeface="sans" />
 
     <LinearLayout
         android:id="@+id/clueStatus"
@@ -114,9 +114,18 @@
                 android:src="@drawable/green_circle"
                 android:visibility="gone" />
         </LinearLayout>
-
-   
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/instructionsHeading"
+        android:layout_alignLeft="@+id/instructionsHeading"
+        android:text="Push to Scan QR"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/instructionsHeading"
@@ -127,7 +136,6 @@
         android:layout_alignLeft="@+id/displayText"
         android:layout_marginBottom="8dp"
         android:text="@string/instructions" />
-
 
     <TextView
         android:id="@+id/heading"
