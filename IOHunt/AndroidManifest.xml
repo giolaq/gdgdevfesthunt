@@ -16,7 +16,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.laquysoft.gdglabdevfesthunt"
+    package="com.laquysoft.droidcontorinohunt"
     android:versionCode="3"
     android:versionName="3.0" >
 
@@ -37,7 +37,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/logodroidcon"
         android:label="@string/app_name"
         android:theme="@style/Theme.App" >
         <meta-data
@@ -48,7 +48,7 @@
             android:value="@string/app_id" />
 
         <activity
-            android:name="com.laquysoft.gdglabdevfesthunt.ClueActivity"
+            android:name="com.laquysoft.droidcontorinohunt.ClueActivity"
             android:keepScreenOn="true"
             android:label="@string/title_activity_clue_message"
             android:launchMode="singleTask"
@@ -64,7 +64,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.laquysoft.gdglabdevfesthunt.NavActivity"
+            android:name="com.laquysoft.droidcontorinohunt.NavActivity"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -73,38 +73,38 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.laquysoft.gdglabdevfesthunt.TagsActivity"
+            android:name="com.laquysoft.droidcontorinohunt.TagsActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.gdglabdevfesthunt.DecoyActivity"
+            android:name="com.laquysoft.droidcontorinohunt.DecoyActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.gdglabdevfesthunt.ScreenSlidePagerActivity"
+            android:name="com.laquysoft.droidcontorinohunt.ScreenSlidePagerActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.gdglabdevfesthunt.ReauthActivity"
+            android:name="com.laquysoft.droidcontorinohunt.ReauthActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.gdglabdevfesthunt.ZoomActivity"
+            android:name="com.laquysoft.droidcontorinohunt.ZoomActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.gdglabdevfesthunt.AboutActivity"
+            android:name="com.laquysoft.droidcontorinohunt.AboutActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.gdglabdevfesthunt.VictoryActivity"
+            android:name="com.laquysoft.droidcontorinohunt.VictoryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.gdglabdevfesthunt.TriviaExplainerActivity"
+            android:name="com.laquysoft.droidcontorinohunt.TriviaExplainerActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.gdglabdevfesthunt.TriviaQuestionActivity"
+            android:name="com.laquysoft.droidcontorinohunt.TriviaQuestionActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.gdglabdevfesthunt.NFCShimActivity"
+            android:name="com.laquysoft.droidcontorinohunt.NFCShimActivity"
             android:theme="@android:style/Theme.NoDisplay" >
             <intent-filter>
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
@@ -129,10 +129,10 @@
         </activity>
 
         <service
-            android:name="com.laquysoft.gdglabdevfesthunt.ScoreService"
+            android:name="com.laquysoft.droidcontorinohunt.ScoreService"
             android:enabled="true" />
         <service
-            android:name="com.laquysoft.gdglabdevfesthunt.AchievementService"
+            android:name="com.laquysoft.droidcontorinohunt.AchievementService"
             android:enabled="true" />
     </application>
 
