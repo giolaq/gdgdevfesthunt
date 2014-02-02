@@ -47,7 +47,7 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
                 android:contentDescription="@null"
-                android:src="@drawable/tag_sample" />
+                android:src="@drawable/logodroidcon" />
         </LinearLayout>
 
         <TextView

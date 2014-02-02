@@ -67,9 +67,15 @@ OnTouchListener {
 		hunt.setQuestionState(Hunt.QUESTION_STATE_QUESTIONING);
 		hunt.save(getResources(), getApplicationContext());
 
-		if (clue.question != null) {
-			setQuestion(clue.question);
-		} else {
+		if ( clue != null)
+		{
+			if (clue.question != null) {
+				setQuestion(clue.question);
+			} else {
+				// Something is pretty wrong, so let's get out of here.
+				finish();
+			}
+		}else {
 			// Something is pretty wrong, so let's get out of here.
 			finish();
 		}
