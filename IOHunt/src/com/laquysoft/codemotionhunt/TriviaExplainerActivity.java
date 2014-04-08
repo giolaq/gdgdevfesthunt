@@ -16,7 +16,7 @@
 
 package com.laquysoft.codemotionhunt;
 
-import com.laquysoft.droidcontorinohunt.R;
+import com.laquysoft.codemotionhunt.R;
 
 import android.app.Activity;
 import android.content.Intent;

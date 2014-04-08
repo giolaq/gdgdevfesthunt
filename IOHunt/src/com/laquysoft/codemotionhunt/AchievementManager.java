@@ -1,7 +1,7 @@
 package com.laquysoft.codemotionhunt;
 
 import com.google.android.gms.games.GamesClient;
-import com.laquysoft.droidcontorinohunt.R;
+import com.laquysoft.codemotionhunt.R;
 
 import java.util.ArrayList;
 

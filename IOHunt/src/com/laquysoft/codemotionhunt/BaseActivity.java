@@ -22,7 +22,7 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.google.example.games.basegameutils.BaseGameActivity;
-import com.laquysoft.droidcontorinohunt.R;
+import com.laquysoft.codemotionhunt.R;
 
 /**
  * The base inheritor for all activities where you can

@@ -30,7 +30,7 @@ import android.widget.ImageView;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import com.laquysoft.droidcontorinohunt.R;
+import com.laquysoft.codemotionhunt.R;
 
 import java.math.BigInteger;
 import java.util.ArrayList;

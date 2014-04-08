@@ -17,7 +17,7 @@
 package com.laquysoft.codemotionhunt;
 
 import com.google.android.gms.common.SignInButton;
-import com.laquysoft.droidcontorinohunt.R;
+import com.laquysoft.codemotionhunt.R;
 
 import android.app.Activity;
 import android.app.ProgressDialog;

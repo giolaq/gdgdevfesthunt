@@ -24,7 +24,7 @@ import java.util.HashMap;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
-import com.laquysoft.droidcontorinohunt.R;
+import com.laquysoft.codemotionhunt.R;
 
 /**
  * This class unzips the hunt data and stores a list of drawables based on

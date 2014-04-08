@@ -18,7 +18,7 @@ package com.laquysoft.codemotionhunt;
 
 import android.app.Activity;
 import com.google.example.games.basegameutils.GameHelper;
-import com.laquysoft.droidcontorinohunt.R;
+import com.laquysoft.codemotionhunt.R;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;

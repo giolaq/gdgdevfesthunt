@@ -17,7 +17,7 @@
 package com.laquysoft.codemotionhunt;
 
 import com.google.android.gms.plus.PlusShare;
-import com.laquysoft.droidcontorinohunt.R;
+import com.laquysoft.codemotionhunt.R;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -96,7 +96,7 @@ public class VictoryActivity extends BaseActivity implements OnClickListener {
 
             // Set call-to-action metadata.
             builder.addCallToAction("FIND", /** call-to-action button label */
-            Uri.parse("http://it.droidcon.com/2014/"), /**
+            Uri.parse("http://rome.codemotionworld.com/2014/"), /**
              * call-to-action url
              * (for desktop use)
              */
@@ -107,13 +107,13 @@ public class VictoryActivity extends BaseActivity implements OnClickListener {
             );
 
             // Set the content url (for desktop use).
-            builder.setContentUrl(Uri.parse("http://it.droidcon.com/2014/"));
+            builder.setContentUrl(Uri.parse("http://rome.codemotionworld.com/2014/"));
 
             // Set the target deep-link ID (for mobile use).
             builder.setContentDeepLinkId("/pages/", null, null, null);
 
             // Set the share text.
-            builder.setText("I helped Bugdroid find his lost phone at Droidcon IT 2014!");
+            builder.setText("I helped Bugdroid find his lost phone at Rome Codemotion 2014!");
 //                builder.setContentUrl(uri)
 
             startActivityForResult(builder.getIntent(), 0);

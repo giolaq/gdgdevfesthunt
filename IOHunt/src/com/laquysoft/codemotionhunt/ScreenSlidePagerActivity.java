@@ -32,7 +32,7 @@ import android.widget.Button;
 
 import com.google.android.gms.common.SignInButton;
 import com.google.example.games.basegameutils.BaseGameActivity;
-import com.laquysoft.droidcontorinohunt.R;
+import com.laquysoft.codemotionhunt.R;
 
 public class ScreenSlidePagerActivity extends BaseGameActivity {
 
