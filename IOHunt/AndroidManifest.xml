@@ -16,7 +16,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.laquysoft.droidcontorinohunt"
+    package="com.laquysoft.codemotionhunt"
     android:versionCode="6"
     android:versionName="3.3" >
 
@@ -47,7 +47,7 @@
             android:value="@string/app_id" />
 
         <activity
-            android:name="com.laquysoft.droidcontorinohunt.ClueActivity"
+            android:name="com.laquysoft.codemotionhunt.ClueActivity"
             android:keepScreenOn="true"
             android:label="@string/title_activity_clue_message"
             android:launchMode="singleTask"
@@ -56,7 +56,7 @@
 
         </activity>
         <activity
-            android:name="com.laquysoft.droidcontorinohunt.NavActivity"
+            android:name="com.laquysoft.codemotionhunt.NavActivity"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -65,38 +65,38 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.laquysoft.droidcontorinohunt.TagsActivity"
+            android:name="com.laquysoft.codemotionhunt.TagsActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.droidcontorinohunt.DecoyActivity"
+            android:name="com.laquysoft.codemotionhunt.DecoyActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.droidcontorinohunt.ScreenSlidePagerActivity"
+            android:name="com.laquysoft.codemotionhunt.ScreenSlidePagerActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.droidcontorinohunt.ReauthActivity"
+            android:name="com.laquysoft.codemotionhunt.ReauthActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.droidcontorinohunt.ZoomActivity"
+            android:name="com.laquysoft.codemotionhunt.ZoomActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.droidcontorinohunt.AboutActivity"
+            android:name="com.laquysoft.codemotionhunt.AboutActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.droidcontorinohunt.VictoryActivity"
+            android:name="com.laquysoft.codemotionhunt.VictoryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.droidcontorinohunt.TriviaExplainerActivity"
+            android:name="com.laquysoft.codemotionhunt.TriviaExplainerActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.droidcontorinohunt.TriviaQuestionActivity"
+            android:name="com.laquysoft.codemotionhunt.TriviaQuestionActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.droidcontorinohunt.NFCShimActivity"
+            android:name="com.laquysoft.codemotionhunt.NFCShimActivity"
             android:theme="@android:style/Theme.NoDisplay" >
             <intent-filter>
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
@@ -138,10 +138,10 @@
         </activity>
 
         <service
-            android:name="com.laquysoft.droidcontorinohunt.ScoreService"
+            android:name="com.laquysoft.codemotionhunt.ScoreService"
             android:enabled="true" />
         <service
-            android:name="com.laquysoft.droidcontorinohunt.AchievementService"
+            android:name="com.laquysoft.codemotionhunt.AchievementService"
             android:enabled="true" />
     </application>
 
