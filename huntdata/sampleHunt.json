@@ -5,84 +5,84 @@
   clues: [ 
     {
       type: "clue",
-      id: "gdgdevfest1",
+      id: "droidcon1",
       shufflegroup: 0,
       displayName: "Let's start!",
       displayText: "Find this clue, and then scan the two tags you find next to it.",
       displayImage: "clue-1.jpg",
       tags: [        
-        {id: "gdg-0"},
-        {id: "gdg-1"}      
+        {id: "drd-0"},
+        {id: "drd-1"}      
 		   
       ],
       question: 
-      {  "question": "What is the name of the latest Android release?",
-         "answers": ["Amber", "JellyBean", "Kit Kat"],
-         "correctAnswer": 2,
-         "wrongMessage": "No, it's Kit Kat!\n",         
+      {  "question": "What's the Class in Android SDK managing Audio/Video files and their encoding?",
+         "answers": ["MediaRecorder", "MediaFile", "EncodeMedia"],
+         "correctAnswer": 0,
+         "wrongMessage": "No, it's MediaRecorder!\n",         
          "rightMessage": "That's right!"
       }
     },
    
     {
       type: "clue",
-      id: "gdgdevfest2",
+      id: "droidcon2",
       shufflegroup: 1,
-      displayName: "Not in your browser",
+      displayName: "What?",
       displayText: "Find this sign, and then scan the two tags you find next to it.",
       displayImage: "clue-2.jpg",
       tags: [        
-        {id: "gdg-2"},
-        {id: "gdg-3"}      
+        {id: "drd-2"},
+        {id: "drd-3"}      
 		   
       ],
       question: 
-      {  "question": "What is the name of the latest Nexus device?",
-         "answers": ["Nexus 5", "Nexus 10", "Nexy"],
-         "correctAnswer": 0,
-         "wrongMessage": "No, it's Nexus 5!\n",         
+      {  "question": "Can the XML layout file be associated to more activites?",
+         "answers": ["No", "Yes", "Maybe"],
+         "correctAnswer": 1,
+         "wrongMessage": "No! It's YESSSSS!\n",         
          "rightMessage": "That's right!"
       }
     },
 	
     {
       type: "clue",
-      id: "gdgdevfest3",
+      id: "droidcon3",
       shufflegroup: 1,
       displayName: "Hard work",
       displayText: "Reach this object, and then scan the two tags you find next to it.",
       displayImage: "clue-3.jpg",
       tags: [        
-        {id: "gdg-4"},
-        {id: "gdg-5"}      
+        {id: "drd-4"},
+        {id: "drd-5"}      
 		   
       ],
       question: 
-      {  "question": "Does Google App Engine support PHP",
+      {  "question": "Does the R class include the asset resources",
          "answers": ["Yes", "No", "Only after midnight"],
-         "correctAnswer": 0,
-         "wrongMessage": "Yeeeeeees!\n",         
+         "correctAnswer": 1,
+         "wrongMessage": "No! It's NOOOO!\n",         
          "rightMessage": "That's right!"
       }
     },
 	
     {
       type: "clue",
-      id: "gdgdevfest4",
+      id: "droidcon4",
       shufflegroup: 1,
-      displayName: "Investors!",
-      displayText: "Look for this sign, and then scan the two tags you find next to it.",
+      displayName: "The cube",
+      displayText: "Look for this cube, and then scan the two tags you find next to it.",
       displayImage: "clue-4.jpg",
       tags: [        
-        {id: "gdg-6"},
-        {id: "gdg-7"}      
+        {id: "drd-6"},
+        {id: "drd-7"}      
 		   
       ],
       question: 
-      {  "question": "What Can the Prediction API Do",
-         "answers": ["Make me win the Lottery", "Categorize emails as spam or non-spam", "Deploy Android apps "],
-         "correctAnswer": 1,
-         "wrongMessage": "Guess your spam emails!\n",         
+      {  "question": "Does SensorManager class handle GPS Coordinates?",
+         "answers": ["Booooh!", "Yes", "No"],
+         "correctAnswer": 2,
+         "wrongMessage": "No no no\n",         
          "rightMessage": "That's right!"
       }
     },
@@ -90,21 +90,21 @@
 	
     {
       type: "clue",
-      id: "gdgdevfest5",
+      id: "droidcon5",
       shufflegroup: 1,
       displayName: "The end?",
       displayText: "Look for this sign, and then scan the two tags you find next to it.",
       displayImage: "clue-5.jpg",
       tags: [        
-        {id: "gdg-8"},
-        {id: "gdg-9"}      
+        {id: "drd-8"},
+        {id: "drd-9"}      
 		   
       ],
       question: 
-      {  "question": "What is WebRTC",
-         "answers": ["A Google Hangout Client", "Web Real-Time Communication API", "Web Real-Time Clock API"],
-         "correctAnswer": 2,
-         "wrongMessage": "Web Real-Time Communication API!\n",         
+      {  "question": "What's ART, a substitute or an helper of DALVIK?",
+         "answers": ["Substitute", "Helper", "I have IOS"],
+         "correctAnswer": 0,
+         "wrongMessage": "Buy a Lumia!\n",         
          "rightMessage": "That's right!"
       }
     },
@@ -112,13 +112,13 @@
 	
     {
       type: "clue",
-      id: "gdgdevfest6",
+      id: "droidcon6",
       shufflegroup: 2,
-      displayName: "",
-      displayText: "Look for this man, and then scan the tags he's wearing",
+      displayName: "Final clue",
+      displayText: "Look for this and then scan the tags near it",
       displayImage: "finalclue.jpg",
       tags: [        
-        {id: "gdg-10"}		   
+        {id: "drd-10"}		   
       ]
    
     }
