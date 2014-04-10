@@ -17,8 +17,8 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.laquysoft.codemotionhunt"
-    android:versionCode="6"
-    android:versionName="3.3" >
+    android:versionCode="7"
+    android:versionName="3.4" >
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -32,7 +32,7 @@
 
     <uses-feature
         android:name="android.hardware.nfc"
-        android:required="true" />
+        android:required="false" />
 
     <application
         android:allowBackup="true"
