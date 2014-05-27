@@ -2,127 +2,154 @@
   type: "hunt",
   displayName: "Test Hunt",
   id: "1",
-  clues: [ 
+  clues: [
     {
       type: "clue",
-      id: "droidcon1",
+      id: "codemotion1",
       shufflegroup: 0,
-      displayName: "Let's start!",
-      displayText: "Find this clue, and then scan the two tags you find next to it.",
+      displayName: "Starting point!",
+      displayText: "Scan the two tags you find next to it.",
       displayImage: "clue-1.jpg",
-      tags: [        
-        {id: "drd-0"},
-        {id: "drd-1"}      
-		   
+      tags: [
+        {id: "cde-0"},
+        {id: "cde-1"}
+
       ],
-      question: 
-      {  "question": "What's the Class in Android SDK managing Audio/Video files and their encoding?",
-         "answers": ["MediaRecorder", "MediaFile", "EncodeMedia"],
+      question:
+      {  "question": "Which programming language executes the following line of code? print('Hello world');",
+         "answers": ["Dart", "CoffeeScript", "Ceylon"],
          "correctAnswer": 0,
-         "wrongMessage": "No, it's MediaRecorder!\n",         
+         "wrongMessage": "No, it's Dart!\n",
          "rightMessage": "That's right!"
       }
     },
-   
+
     {
       type: "clue",
-      id: "droidcon2",
+      id: "codemotion2",
       shufflegroup: 1,
-      displayName: "What?",
-      displayText: "Find this sign, and then scan the two tags you find next to it.",
+      displayName: "It's really nice to stay beneath the tree!",
+      displayText: "Find this tree, and then scan the two tags you find next to it.",
       displayImage: "clue-2.jpg",
-      tags: [        
-        {id: "drd-2"},
-        {id: "drd-3"}      
-		   
+      tags: [
+        {id: "cde-2"},
+        {id: "cde-3"}
+
       ],
-      question: 
-      {  "question": "Can the XML layout file be associated to more activites?",
-         "answers": ["No", "Yes", "Maybe"],
-         "correctAnswer": 1,
-         "wrongMessage": "No! It's YESSSSS!\n",         
+      question:
+      {  "question": "In which year the first Codemotion event took place?",
+         "answers": ["2009", "2010", "2011"],
+         "correctAnswer": 2,
+         "wrongMessage": "No! It's 2011!\n",
          "rightMessage": "That's right!"
       }
     },
-	
+
     {
       type: "clue",
-      id: "droidcon3",
+      id: "codemotion3",
       shufflegroup: 1,
-      displayName: "Hard work",
+      displayName: "Codemotion is you, developers!",
       displayText: "Reach this object, and then scan the two tags you find next to it.",
       displayImage: "clue-3.jpg",
-      tags: [        
-        {id: "drd-4"},
-        {id: "drd-5"}      
-		   
-      ],
-      question: 
-      {  "question": "Does the R class include the asset resources",
-         "answers": ["Yes", "No", "Only after midnight"],
-         "correctAnswer": 1,
-         "wrongMessage": "No! It's NOOOO!\n",         
-         "rightMessage": "That's right!"
-      }
-    },
-	
-    {
-      type: "clue",
-      id: "droidcon4",
-      shufflegroup: 1,
-      displayName: "The cube",
-      displayText: "Look for this cube, and then scan the two tags you find next to it.",
-      displayImage: "clue-4.jpg",
-      tags: [        
-        {id: "drd-6"},
-        {id: "drd-7"}      
-		   
-      ],
-      question: 
-      {  "question": "Does SensorManager class handle GPS Coordinates?",
-         "answers": ["Booooh!", "Yes", "No"],
-         "correctAnswer": 2,
-         "wrongMessage": "No no no\n",         
-         "rightMessage": "That's right!"
-      }
-    },
-	
-	
-    {
-      type: "clue",
-      id: "droidcon5",
-      shufflegroup: 1,
-      displayName: "The end?",
-      displayText: "Look for this sign, and then scan the two tags you find next to it.",
-      displayImage: "clue-5.jpg",
-      tags: [        
-        {id: "drd-8"},
-        {id: "drd-9"}      
-		   
-      ],
-      question: 
-      {  "question": "What's ART, a substitute or an helper of DALVIK?",
-         "answers": ["Substitute", "Helper", "I have IOS"],
-         "correctAnswer": 0,
-         "wrongMessage": "Buy a Lumia!\n",         
-         "rightMessage": "That's right!"
-      }
-    },
-	
-	
-    {
-      type: "clue",
-      id: "droidcon6",
-      shufflegroup: 2,
-      displayName: "Final clue",
-      displayText: "Look for this and then scan the tags near it",
-      displayImage: "finalclue.jpg",
-      tags: [        
-        {id: "drd-10"}		   
+      tags: [
+        {id: "cde-4"},
+        {id: "cde-5"}
+
       ]
-   
+    },
+
+    {
+      type: "clue",
+      id: "codemotion4",
+      shufflegroup: 1,
+      displayName: "Have you ever read the instructions of these bikes?",
+      displayText: "Look for this bikes, and then scan the two tags you find next to it.",
+      displayImage: "clue-4.jpg",
+      tags: [
+        {id: "cde-6"},
+        {id: "cde-7"}
+
+      ]
+
+    },
+
+
+    {
+      type: "clue",
+      id: "codemotion5",
+      shufflegroup: 1,
+      displayName: "This is what remains of the towing tank",
+      displayText: "Look for this, and then scan the two tags you find next to it.",
+      displayImage: "clue-5.jpg",
+      tags: [
+        {id: "cde-8"},
+        {id: "cde-9"}
+
+      ],
+      question:
+      {  "question": "Which object is not present in the Maker Area?",
+         "answers": ["Vertical Plotter", "3D printers", "Mindwave driven car"],
+         "correctAnswer": 2,
+         "wrongMessage": "noooo!\n",
+         "rightMessage": "That's right!"
+      }
+    },
+
+
+    {
+      type: "clue",
+      id: "codemotion6",
+      shufflegroup: 2,
+      displayName: "Mozilla",
+      displayText: "Mozilla is one of the pillars of the web. Why don't you give a look behind?",
+      displayImage: "clue-6.jpg",
+      tags: [
+        {id: "cde-10"},
+        {id: "cde-11"}
+      ]
+
+    },
+
+    {
+      type: "clue",
+      id: "codemotion7",
+      shufflegroup: 2,
+      displayName: "Codemotion",
+      displayText: "Codemotion is accessible to everyone!",
+      displayImage: "clue-7.jpg",
+      tags: [
+        {id: "cde-12"},
+        {id: "cde-13"}
+      ]
+
+    },
+
+    {
+      type: "clue",
+      id: "codemotion8",
+      shufflegroup: 2,
+      displayName: "Codemotion kids",
+      displayText: "Codemotion is also for kids! Follow the arrow with your eyes!",
+      displayImage: "clue-8.jpg",
+      tags: [
+        {id: "cde-14"},
+        {id: "cde-15"}
+      ]
+
+    },
+
+    {
+      type: "clue",
+      id: "codemotion9",
+      shufflegroup: 3,
+      displayName: "Maker Faire",
+      displayText: "Don't miss Maker Faire!",
+      displayImage: "clue-9.jpg",
+      tags: [
+        {id: "cde-16"}
+      ]
+
     }
-	
-  
 ]
 }
