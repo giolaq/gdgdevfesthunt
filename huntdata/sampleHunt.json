@@ -88,9 +88,9 @@
 
       ],
       question:
-      {  "question": "Which object is not present in the Maker Area?",
-         "answers": ["Vertical Plotter", "3D printers", "Mindwave driven car"],
-         "correctAnswer": 2,
+      {  "question": "Which object is not present in the GDG Meets U Area?",
+         "answers": ["Google Car", "Nexus 5", "Gdg T-Shirt"],
+         "correctAnswer": 0,
          "wrongMessage": "noooo!\n",
          "rightMessage": "That's right!"
       }
