@@ -21,6 +21,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.games.Games;
 import com.google.example.games.basegameutils.BaseGameActivity;
 import com.laquysoft.codemotionhunt.R;
 
@@ -61,7 +63,7 @@ public class BaseActivity extends BaseGameActivity {
             return true;
         case R.id.menu_achievements:
             if (isSignedIn()) {
-                startActivityForResult(getGamesClient().getAchievementsIntent(),
+                startActivityForResult(Games.Achievements.getAchievementsIntent(getApiClient()),
                         REQUEST_ACHIEVEMENTS);
             } else {
                 Toast.makeText(this, "Achievements are unavailable at this time.",
@@ -73,7 +75,7 @@ public class BaseActivity extends BaseGameActivity {
             startActivity(intent);
             return true;
         case R.id.menu_leaderboard:
-        	startActivityForResult(getGamesClient().getLeaderboardIntent(AchievementManager.ID_LEADERBOARD), REQUEST_LEADERBOARD );
+        	startActivityForResult(Games.Leaderboards.getLeaderboardIntent(getApiClient(),AchievementManager.ID_LEADERBOARD), REQUEST_LEADERBOARD );
 
         }
         return super.onOptionsItemSelected(item);
@@ -86,5 +88,10 @@ public class BaseActivity extends BaseGameActivity {
     @Override
     public void onSignInSucceeded() {
 
+    }
+    
+    public GoogleApiClient getApiClient()
+    {
+    	return mHelper.getApiClient();
     }
  }

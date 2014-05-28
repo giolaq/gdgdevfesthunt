@@ -73,5 +73,9 @@
     <string name="google_i_o_hunt_nby_the_android_and_social_google_developer_relations_teams">Rome Codemotion 2014 Hunt\nby Giovanni Laquidara and \nthe Google Developer Group Roma Lazio Abruzzo team</string>
     <string name="warned_you">There must be something about this tag that could have warned you...</string>
     <string name="oh_no_it_s_a_decoy">OH NO! IT\'S A DECOY!</string>
+    <string name="gamehelper_unknown_error">Game Helper Unknown error</string>
+    <string name="gamehelper_sign_in_failed">Game Helper Sign In Failed</string>
+    <string name="gamehelper_app_misconfigured">Game Helper App Misconfigured</string>
+    <string name="gamehelper_license_failed">Game Helper license failed</string>
 
 </resources>
