@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.laquysoft.codemotionhunt;
+package com.laquysoft.gdgmeetsuhunt;
 
 import android.util.Log;
 import org.json.JSONArray;

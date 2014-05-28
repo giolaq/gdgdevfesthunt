@@ -1,10 +1,10 @@
-package com.laquysoft.codemotionhunt;
+package com.laquysoft.gdgmeetsuhunt;
 
 import com.google.android.gms.ads.a;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.games.Games;
 import com.google.example.games.basegameutils.BaseGameActivity;
-import com.laquysoft.codemotionhunt.R;
+import com.laquysoft.gdgmeetsuhunt.R;
 
 import java.util.ArrayList;
 

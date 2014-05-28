@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.laquysoft.codemotionhunt;
+package com.laquysoft.gdgmeetsuhunt;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -30,7 +30,7 @@ import android.widget.ImageView;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import com.laquysoft.codemotionhunt.R;
+import com.laquysoft.gdgmeetsuhunt.R;
 
 import java.math.BigInteger;
 import java.util.ArrayList;

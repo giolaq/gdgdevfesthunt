@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.laquysoft.codemotionhunt;
+package com.laquysoft.gdgmeetsuhunt;
 
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
@@ -24,7 +24,7 @@ import java.util.HashMap;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
-import com.laquysoft.codemotionhunt.R;
+import com.laquysoft.gdgmeetsuhunt.R;
 
 /**
  * This class unzips the hunt data and stores a list of drawables based on

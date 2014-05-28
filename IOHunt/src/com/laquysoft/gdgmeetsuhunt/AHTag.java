@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.laquysoft.codemotionhunt;
+package com.laquysoft.gdgmeetsuhunt;
 
 /**
  * This is the abstract representation of a single tag.

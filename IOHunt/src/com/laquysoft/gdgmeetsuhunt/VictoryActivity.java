@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.laquysoft.codemotionhunt;
+package com.laquysoft.gdgmeetsuhunt;
 
 import com.google.android.gms.games.Games;
 import com.google.android.gms.plus.PlusShare;
-import com.laquysoft.codemotionhunt.R;
+import com.laquysoft.gdgmeetsuhunt.R;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -97,7 +97,7 @@ public class VictoryActivity extends BaseActivity implements OnClickListener {
 
             // Set call-to-action metadata.
             builder.addCallToAction("FIND", *//** call-to-action button label *//*
-            Uri.parse("http://rome.codemotionworld.com/2014/"), *//**
+            Uri.parse("http://gdgmeetsu.gdg.io/"), *//**
              * call-to-action url
              * (for desktop use)
              *//*
@@ -108,13 +108,13 @@ public class VictoryActivity extends BaseActivity implements OnClickListener {
             );
 
             // Set the content url (for desktop use).
-            builder.setContentUrl(Uri.parse("http://rome.codemotionworld.com/2014/"));
+            builder.setContentUrl(Uri.parse("http://gdgmeetsu.gdg.io/"));
 
             // Set the target deep-link ID (for mobile use).
             builder.setContentDeepLinkId("/pages/", null, null, null);
 
             // Set the share text.
-            builder.setText("I helped Bugdroid find his lost phone at Rome Codemotion 2014!");
+            builder.setText("I helped Bugdroid find his lost phone at first GDG Meets U 2014!");
 //                builder.setContentUrl(uri)
 
             startActivityForResult(builder.getIntent(), 0);

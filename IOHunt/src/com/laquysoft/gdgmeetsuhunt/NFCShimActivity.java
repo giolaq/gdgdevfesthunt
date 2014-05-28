@@ -1,4 +1,4 @@
-package com.laquysoft.codemotionhunt;
+package com.laquysoft.gdgmeetsuhunt;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;

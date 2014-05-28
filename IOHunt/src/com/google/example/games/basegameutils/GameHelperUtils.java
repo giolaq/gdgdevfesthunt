@@ -9,7 +9,7 @@ import android.util.Log;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.games.GamesActivityResultCodes;
-import com.laquysoft.codemotionhunt.R;
+import com.laquysoft.gdgmeetsuhunt.R;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

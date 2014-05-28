@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.laquysoft.codemotionhunt;
+package com.laquysoft.gdgmeetsuhunt;
 
 import com.google.android.gms.common.SignInButton;
-import com.laquysoft.codemotionhunt.R;
+import com.laquysoft.gdgmeetsuhunt.R;
 
 import android.app.Activity;
 import android.app.ProgressDialog;

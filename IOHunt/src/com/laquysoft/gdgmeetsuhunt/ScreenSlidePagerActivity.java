@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.laquysoft.codemotionhunt;
+package com.laquysoft.gdgmeetsuhunt;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -32,7 +32,7 @@ import android.widget.Button;
 
 import com.google.android.gms.common.SignInButton;
 import com.google.example.games.basegameutils.BaseGameActivity;
-import com.laquysoft.codemotionhunt.R;
+import com.laquysoft.gdgmeetsuhunt.R;
 
 public class ScreenSlidePagerActivity extends BaseGameActivity {
 

@@ -16,7 +16,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.laquysoft.codemotionhunt"
+    package="com.laquysoft.gdgmeetsuhunt"
     android:versionCode="8"
     android:versionName="3.5" >
 
@@ -47,7 +47,7 @@
             android:value="@string/app_id" />
 
         <activity
-            android:name="com.laquysoft.codemotionhunt.ClueActivity"
+            android:name="com.laquysoft.gdgmeetsuhunt.ClueActivity"
             android:keepScreenOn="true"
             android:label="@string/title_activity_clue_message"
             android:launchMode="singleTask"
@@ -56,7 +56,7 @@
 
         </activity>
         <activity
-            android:name="com.laquysoft.codemotionhunt.NavActivity"
+            android:name="com.laquysoft.gdgmeetsuhunt.NavActivity"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -65,38 +65,38 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.laquysoft.codemotionhunt.TagsActivity"
+            android:name="com.laquysoft.gdgmeetsuhunt.TagsActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.codemotionhunt.DecoyActivity"
+            android:name="com.laquysoft.gdgmeetsuhunt.DecoyActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.codemotionhunt.ScreenSlidePagerActivity"
+            android:name="com.laquysoft.gdgmeetsuhunt.ScreenSlidePagerActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.codemotionhunt.ReauthActivity"
+            android:name="com.laquysoft.gdgmeetsuhunt.ReauthActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.codemotionhunt.ZoomActivity"
+            android:name="com.laquysoft.gdgmeetsuhunt.ZoomActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.codemotionhunt.AboutActivity"
+            android:name="com.laquysoft.gdgmeetsuhunt.AboutActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.codemotionhunt.VictoryActivity"
+            android:name="com.laquysoft.gdgmeetsuhunt.VictoryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.codemotionhunt.TriviaExplainerActivity"
+            android:name="com.laquysoft.gdgmeetsuhunt.TriviaExplainerActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.codemotionhunt.TriviaQuestionActivity"
+            android:name="com.laquysoft.gdgmeetsuhunt.TriviaQuestionActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.codemotionhunt.NFCShimActivity"
+            android:name="com.laquysoft.gdgmeetsuhunt.NFCShimActivity"
             android:theme="@android:style/Theme.NoDisplay" >
             <intent-filter>
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
@@ -138,10 +138,10 @@
         </activity>
 
         <service
-            android:name="com.laquysoft.codemotionhunt.ScoreService"
+            android:name="com.laquysoft.gdgmeetsuhunt.ScoreService"
             android:enabled="true" />
         <service
-            android:name="com.laquysoft.codemotionhunt.AchievementService"
+            android:name="com.laquysoft.gdgmeetsuhunt.AchievementService"
             android:enabled="true" />
     </application>
 

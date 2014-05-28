@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.laquysoft.codemotionhunt;
+package com.laquysoft.gdgmeetsuhunt;
 
 import android.app.Activity;
 import com.google.example.games.basegameutils.GameHelper;
-import com.laquysoft.codemotionhunt.R;
+import com.laquysoft.gdgmeetsuhunt.R;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
