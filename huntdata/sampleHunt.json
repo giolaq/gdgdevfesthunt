@@ -5,14 +5,14 @@
   clues: [
     {
       type: "clue",
-      id: "codemotion1",
+      id: "gdgmeetsu1",
       shufflegroup: 0,
       displayName: "Starting point!",
       displayText: "Scan the two tags you find next to it.",
       displayImage: "clue-1.jpg",
       tags: [
-        {id: "cde-0"},
-        {id: "cde-1"}
+        {id: "gdg-0"},
+        {id: "gdg-1"}
 
       ],
       question:
@@ -26,49 +26,49 @@
 
     {
       type: "clue",
-      id: "codemotion2",
+      id: "gdgmeetsu2",
       shufflegroup: 1,
-      displayName: "It's really nice to stay beneath the tree!",
-      displayText: "Find this tree, and then scan the two tags you find next to it.",
+      displayName: "Second Clue",
+      displayText: "Find this clue, and then scan the two tags you find next to it.",
       displayImage: "clue-2.jpg",
       tags: [
-        {id: "cde-2"},
-        {id: "cde-3"}
+        {id: "gdg-2"},
+        {id: "gdg-3"}
 
       ],
       question:
-      {  "question": "In which year the first Codemotion event took place?",
-         "answers": ["2009", "2010", "2011"],
+      {  "question": "In which year the first gdgmeetsu event took place?",
+         "answers": ["2009", "2010", "2014"],
          "correctAnswer": 2,
-         "wrongMessage": "No! It's 2011!\n",
+         "wrongMessage": "No! It's 2014!\n",
          "rightMessage": "That's right!"
       }
     },
 
     {
       type: "clue",
-      id: "codemotion3",
+      id: "gdgmeetsu3",
       shufflegroup: 1,
-      displayName: "Codemotion is you, developers!",
-      displayText: "Reach this object, and then scan the two tags you find next to it.",
+      displayName: "Clue 3!",
+      displayText: "Reach this clue, and then scan the two tags you find next to it.",
       displayImage: "clue-3.jpg",
       tags: [
-        {id: "cde-4"},
-        {id: "cde-5"}
+        {id: "gdg-4"},
+        {id: "gdg-5"}
 
       ]
     },
 
     {
       type: "clue",
-      id: "codemotion4",
+      id: "gdgmeetsu4",
       shufflegroup: 1,
-      displayName: "Have you ever read the instructions of these bikes?",
-      displayText: "Look for this bikes, and then scan the two tags you find next to it.",
+      displayName: "Clue 4",
+      displayText: "Look for this clue, and then scan the two tags you find next to it.",
       displayImage: "clue-4.jpg",
       tags: [
-        {id: "cde-6"},
-        {id: "cde-7"}
+        {id: "gdg-6"},
+        {id: "gdg-7"}
 
       ]
 
@@ -77,14 +77,14 @@
 
     {
       type: "clue",
-      id: "codemotion5",
+      id: "gdgmeetsu5",
       shufflegroup: 1,
-      displayName: "This is what remains of the towing tank",
+      displayName: "Clue 5",
       displayText: "Look for this, and then scan the two tags you find next to it.",
       displayImage: "clue-5.jpg",
       tags: [
-        {id: "cde-8"},
-        {id: "cde-9"}
+        {id: "gdg-8"},
+        {id: "gdg-9"}
 
       ],
       question:
@@ -99,55 +99,14 @@
 
     {
       type: "clue",
-      id: "codemotion6",
+      id: "gdgmeetsu6",
       shufflegroup: 2,
-      displayName: "Mozilla",
-      displayText: "Mozilla is one of the pillars of the web. Why don't you give a look behind?",
+      displayName: "Final Clue",
+      displayText: "Why don't you give a look around?",
       displayImage: "clue-6.jpg",
       tags: [
-        {id: "cde-10"},
-        {id: "cde-11"}
-      ]
-
-    },
-
-    {
-      type: "clue",
-      id: "codemotion7",
-      shufflegroup: 2,
-      displayName: "Codemotion",
-      displayText: "Codemotion is accessible to everyone!",
-      displayImage: "clue-7.jpg",
-      tags: [
-        {id: "cde-12"},
-        {id: "cde-13"}
-      ]
-
-    },
-
-    {
-      type: "clue",
-      id: "codemotion8",
-      shufflegroup: 2,
-      displayName: "Codemotion kids",
-      displayText: "Codemotion is also for kids! Follow the arrow with your eyes!",
-      displayImage: "clue-8.jpg",
-      tags: [
-        {id: "cde-14"},
-        {id: "cde-15"}
-      ]
-
-    },
-
-    {
-      type: "clue",
-      id: "codemotion9",
-      shufflegroup: 3,
-      displayName: "Maker Faire",
-      displayText: "Don't miss Maker Faire!",
-      displayImage: "clue-9.jpg",
-      tags: [
-        {id: "cde-16"}
+        {id: "gdg-10"},
+        {id: "gdg-11"}
       ]
 
     }
