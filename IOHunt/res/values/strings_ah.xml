@@ -40,7 +40,7 @@
     <string name="menu_settings"></string>
     <string name="menu_achievements">Achievements</string>
     <string name="story_0">Welcome to\nGDG Meets U Hunt, the NFC/QR game at\n GDG Meets U 2014!</string>
-    <string name="story_1"><b>Bugdroid</b> goes to L'Aquila, using his G-Map Nav!</string>
+    <string name="story_1"><b>Bugdroid</b> goes to L\'Aquila, using his G-Map Nav!</string>
     <string name="story_2"><i><b>But he lost is phone and can\'t find it anymore</b></i> he needs your help to find it!</string>
     <string name="story_4">Follow the clues by scanning special NFC/QR tags, like this one!  You will find them all around the building.</string>
     <string name="story_5">There will be multiple tags at each location, so keep your eyes open!</string>
