@@ -33,6 +33,10 @@
         android:name="android.hardware.nfc"
         android:required="false" />
 
+    <meta-data
+        android:name="unityplayer.ForwardNativeEventsToDalvik"
+        android:value="true" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"

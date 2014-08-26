@@ -1,1 +1,1 @@
-include ':iOHunt'
+include  ':libraries:BaseGameUtils', ':iOHunt'
