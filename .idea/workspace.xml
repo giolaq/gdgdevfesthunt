@@ -6,1237 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9d90fbe-f525-47b4-ae3a-49bab1dc77dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/ab_bottom_solid_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/ab_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/ab_solid_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/ab_stacked_solid_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/ab_transparent_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-mdpi/ahbutton.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-mdpi/ahbuttonpressed.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/alex_flat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-ldpi/alex_flat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/raw/beep.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/raw/beep.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/images/big-1d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/images/big-1d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/images/big-datamatrix.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/images/big-datamatrix.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/images/big-qr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/images/big-qr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-mdpi/bottomshadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/btn_cab_done_default_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/btn_cab_done_focused_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/btn_cab_done_pressed_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/btn_hunt_disabled_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/btn_hunt_disabled_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/btn_hunt_focused_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/btn_hunt_normal_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/btn_hunt_pressed_holo_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/button_default.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/button_focused.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/button_pressed.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/cab_background_bottom_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/cab_background_top_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0-rc1/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/raw/coin.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_icon_disabled_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_icon_disabled_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_icon_disabled_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_icon_disabled_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_icon_disabled_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_icon_disabled_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_icon_disabled_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_icon_disabled_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_icon_disabled_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_icon_disabled_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_icon_disabled_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_icon_disabled_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_icon_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_icon_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_icon_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_icon_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_icon_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_icon_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_icon_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_icon_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_icon_normal_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_icon_normal_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_icon_normal_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_icon_normal_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_icon_normal_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_icon_normal_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_icon_normal_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_icon_normal_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_icon_pressed_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_icon_pressed_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_icon_pressed_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_icon_pressed_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_icon_pressed_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_icon_pressed_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_icon_pressed_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_icon_pressed_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_text_disabled_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_text_disabled_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_text_disabled_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_text_disabled_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_text_disabled_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_text_disabled_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_text_disabled_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_text_disabled_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_text_disabled_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_text_disabled_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_text_disabled_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_text_disabled_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_text_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_text_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_text_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_text_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_text_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_text_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_text_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_text_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_text_normal_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_text_normal_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_text_normal_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_text_normal_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_text_normal_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_text_normal_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_text_normal_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_text_normal_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_text_pressed_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_text_pressed_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_text_pressed_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_text_pressed_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_text_pressed_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_text_pressed_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_text_pressed_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_text_pressed_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/images/contact-results-screen.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/images/contact-results-screen.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-ldpi/decoybot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/images/demo-no.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/images/demo-no.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/images/demo-yes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/images/demo-yes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/dog.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/raw/fanfare.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/raw/founditall.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-mdpi/grey_background_pattern_tile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/grey_background_pattern_tile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/grey_frame_on_white.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/raw/hunt.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-ldpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xxxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/ic_plusone_medium_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/ic_plusone_medium_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/ic_plusone_medium_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/ic_plusone_medium_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/ic_plusone_small_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/ic_plusone_small_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/ic_plusone_small_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/ic_plusone_small_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/ic_plusone_standard_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/ic_plusone_standard_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/ic_plusone_standard_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/ic_plusone_standard_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/ic_plusone_tall_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/ic_plusone_tall_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/ic_plusone_tall_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/ic_plusone_tall_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-mdpi/iconanew.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0-rc1/libs/internal_impl-21.0.0-rc1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/drawable/launcher_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/drawable-hdpi-v4/launcher_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/drawable-xhdpi-v4/launcher_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/drawable-xxhdpi-v4/launcher_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/drawable/launcher_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/drawable-hdpi/launcher_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/drawable-xhdpi/launcher_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/drawable-xxhdpi/launcher_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/list_focused_ab.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/list_focused_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-nodpi/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/logocodemotion.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/menu_dropdown_panel_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-ldpi/missing_dog.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/nonono0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/nonono1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/nonono2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/nonono3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/nonono4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-hdpi/pawprint.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-mdpi/pawprint.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/pawprint.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/powered_by_google_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/powered_by_google_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/powered_by_google_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/powered_by_google_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/powered_by_google_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/powered_by_google_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/powered_by_google_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/powered_by_google_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/primologo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/progress_bg_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/progress_primary_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/progress_secondary_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/raw/rejected.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/raw/repeat.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-ldpi/sad_bugdroid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/images/scan-example.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/images/scan-example.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/images/scan-from-phone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/images/scan-from-phone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/images/search-book-contents.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/images/search-book-contents.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/drawable/share_via_barcode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/drawable/share_via_barcode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/spinner_ab_default_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/spinner_ab_disabled_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/spinner_ab_focused_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/spinner_ab_pressed_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/tab_selected_focused_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/tab_selected_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/tab_selected_pressed_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/tab_unselected_focused_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/tab_unselected_pressed_hunt.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-xhdpi/tag_sample.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/templates.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/AHTag.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/AboutActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/AchievementManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/result/AddressBookResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/result/supplement/AmazonInfoRetriever.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/AmbientLightManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0-rc1/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/AnswerTextView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/share/AppInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/share/AppPickerActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/camera/AutoFocusManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/BaseActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/google/example/games/basegameutils/BaseGameActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/BeepManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/result/supplement/BookResultInfoRetriever.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/share/BookmarkAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/share/BookmarkPickerActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/book/BrowseBookListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/generated/source/buildConfig/release/com/google/zxing/client/android/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/generated/source/buildConfig/debug/com/laquysoft/codemotionhunt/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/result/CalendarResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/camera/CameraConfigurationManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/camera/CameraManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/CaptureActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/CaptureActivityHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/clipboard/ClipboardInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/Clue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/ClueActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/encode/ContactEncoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/Contents.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/history/DBHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/DecodeFormatManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/DecodeHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/DecodeHintManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/DecodeThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/DecoyActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/result/EmailAddressResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/encode/EncodeActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/FinishListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/encode/Formatter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/camera/FrontLightMode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/google/example/games/basegameutils/GameHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/result/GeoResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/HelpActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/history/HistoryActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/history/HistoryItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/history/HistoryItemAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/history/HistoryManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/HttpHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/Hunt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/HuntResourceManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/aidl/android/support/v4/app/INotificationSideChannel.aidl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IOHunt.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/result/ISBNResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/InactivityTimer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/IntentSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/Intents.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/share/LoadPackagesAsyncTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/LocaleManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/encode/MECARDContactEncoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/NFCShimActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/NavActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/wifi/NetworkType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/camera/open/OpenCameraInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/PreferencesActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/PreferencesFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/camera/PreviewCallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/result/ProductResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/result/supplement/ProductResultInfoRetriever.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/encode/QRCodeEncoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/generated/source/r/release/com/google/zxing/client/android/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/generated/source/r/debug/com/google/android/gms/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/generated/source/r/debug/com/laquysoft/codemotionhunt/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/R.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/R.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/ReauthActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/result/ResultButtonListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/result/ResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/result/ResultHandlerFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/result/SMSResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/ScanFromWebPageManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/ScreenSlidePageFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/ScreenSlidePagerActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/book/SearchBookContentsActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/book/SearchBookContentsAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/book/SearchBookContentsListItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/book/SearchBookContentsResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/share/ShareActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/SoundManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/result/supplement/SupplementalInfoRetriever.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/TagListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/TagsActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/result/TelResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/result/TextResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/result/supplement/TitleRetriever.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/TriviaExplainerActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/TriviaQuestion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/TriviaQuestionActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/result/URIResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/result/supplement/URIResultInfoRetriever.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/encode/VCardContactEncoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/VictoryActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/ViewfinderResultPointCallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/ViewfinderView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/wifi/WifiConfigManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/java/com/google/zxing/client/android/result/WifiResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/proguard/release/aapt_rules.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-de/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-en/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-es/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-fr/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-it/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-ja/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-ko/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-nl/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-pt/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-ru/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-zh-rCN/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-zh-rTW/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-de/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-en/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-es/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-fr/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-it/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-ja/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-ko/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-nl/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-pt/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-ru/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-zh-rCN/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-zh-rTW/about1d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-de/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-en/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-es/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-fr/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-it/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-ja/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-ko/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-nl/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-pt/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-ru/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-zh-rCN/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-zh-rTW/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-de/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-en/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-es/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-fr/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-it/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-ja/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-ko/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-nl/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-pt/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-ru/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-zh-rCN/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-zh-rTW/about2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout/activity_about.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout/activity_clue.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout/activity_clue_two_tag.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout/activity_decoy.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout/activity_reauth.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout/activity_screen_slide_pager.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout/activity_tags.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout/activity_trivia_explainer.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout/activity_trivia_question.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout/activity_victory.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout-sw600dp/activity_victory.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/admob_ads_attrs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/admob_iap_style.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/values/analytics.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout/answer_frag.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html/apache-license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html/apache-license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/layout/app_picker_list_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/layout/app_picker_list_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values/arrays.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-af/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-am/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ar/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-be/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-bg/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ca/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-cs/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-da/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-de/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-el/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-en-rGB/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-en-rIN/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-es/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-es-rUS/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-et-rEE/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-fa/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-fi/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-fr/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-fr-rCA/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-hi/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-hr/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-hu/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-hy-rAM/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-in/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-it/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-iw/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ja/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ka-rGE/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-km-rKH/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ko/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-lo-rLA/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-lt/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-lv/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-mn-rMN/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ms-rMY/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-nb/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-nl/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-pl/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-pt/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-pt-rBR/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-pt-rPT/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ro/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ru/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-sk/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-sl/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-sr/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-sv/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-sw/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-th/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-tl/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-tr/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-uk/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-vi/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-zh-rCN/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-zh-rHK/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-zh-rTW/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-zu/auth_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/blue_circle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/layout/bookmark_picker_list_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/layout/bookmark_picker_list_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/btn_cab_done_hunt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/btn_hunt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/button.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable-mdpi/button_green.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/layout/capture.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/layout-ldpi-v4/capture.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/menu/capture.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/layout/capture.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/layout-ldpi/capture.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/menu/capture.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/captureActivity.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/values/color.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values/colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/common_colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable/common_signin_btn_icon_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable/common_signin_btn_icon_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/color/common_signin_btn_text_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable/common_signin_btn_text_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/color/common_signin_btn_text_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable/common_signin_btn_text_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-af/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-am/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ar/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-be/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-bg/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ca/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-cs/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-da/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-de/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-el/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-en-rGB/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-en-rIN/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-es/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-es-rUS/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-et-rEE/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-fa/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-fi/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-fr/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-fr-rCA/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-hi/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-hr/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-hu/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-hy-rAM/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-in/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-it/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-iw/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ja/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ka-rGE/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-km-rKH/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ko/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-lo-rLA/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-lt/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-lv/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-mn-rMN/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ms-rMY/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-nb/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-nl/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-pl/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-pt/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-pt-rBR/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-pt-rPT/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ro/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ru/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-sk/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-sl/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-sr/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-sv/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-sw/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-th/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-tl/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-tr/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-uk/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-vi/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-zh-rCN/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-zh-rHK/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-zh-rTW/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-zu/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/dashed_circle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/incremental/aidl/release/dependency.store" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout/dialog_license.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/values/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/layout/encode.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/layout-land/encode.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/menu/encode.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/layout/encode.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/layout-land/encode.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/menu/encode.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/green_circle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/grey_background_pattern.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/layout/help.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/layout/help.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/menu/history.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/menu/history.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/layout/history_list_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/layout/history_list_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/iOHunt.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values/ids.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/values/ids.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/import-summary.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-de/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-en/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-es/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-fr/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-it/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-ja/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-ko/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-nl/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-pt/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-ru/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-zh-rCN/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-zh-rTW/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-de/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-en/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-es/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-fr/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-it/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-ja/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-ko/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-nl/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-pt/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-ru/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-zh-rCN/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-zh-rTW/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/libGoogleAnalyticsServices.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-de/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-en/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-es/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-fr/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-it/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-ja/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-ko/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-nl/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-pt/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-ru/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-zh-rCN/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-zh-rTW/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-de/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-en/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-es/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-fr/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-it/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-ja/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-ko/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-nl/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-pt/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-ru/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-zh-rCN/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-zh-rTW/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/values/licenses.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/menu/limited.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout/line_frag.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/menu/main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/maps_attrs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/incremental/mergeAssets/release/merger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/incremental/packageResources/release/merger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/anim/nonono.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_5_2_08.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/xml/preferences.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/xml/preferences.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/pressed_background_hunt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/progress_horizontal_hunt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/proguard-android-optimize.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/proguard.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout/question_frag.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/red_circle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout/row_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-de/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-en/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-es/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-fr/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-it/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-ja/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-ko/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-nl/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-pt/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-ru/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-zh-rCN/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-zh-rTW/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-de/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-en/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-es/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-fr/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-it/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-ja/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-ko/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-nl/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-pt/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-ru/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-zh-rCN/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-zh-rTW/scanning.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/layout/search_book_contents.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/layout/search_book_contents.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/layout/search_book_contents_header.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/layout/search_book_contents_header.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/layout/search_book_contents_list_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/layout/search_book_contents_list_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/selectable_background_hunt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/layout/share.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/layout-land/share.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/layout/share.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/layout-land/share.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-de/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-en/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-es/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-fr/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-it/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-ja/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-ko/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-nl/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-pt/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-ru/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-zh-rCN/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-zh-rTW/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-de/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-en/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-es/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-fr/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-it/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-ja/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-ko/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-nl/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-pt/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-ru/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-zh-rCN/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-zh-rTW/sharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/anim/slide_left_disappear.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/anim/slide_left_enter.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/anim/slide_right_disappear.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/anim/slide_right_enter.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/solid_circle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/spinner_background_ab_hunt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout/story_frag.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout/story_frag_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout/story_frag_1a.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout/story_frag_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout/story_frag_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-ar/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-bg/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-ca/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-cs/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-da/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-de/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-el/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-es/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-eu/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-fi/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-fr/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-he/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-hi/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-hu/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-id/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-it/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-iw/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-ja/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-ko/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-nl/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-pl/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-pt/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-ro/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-ru/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-sk/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-sl/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-sv/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-tr/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-uk/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-zh-rCN/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values-zh-rTW/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/values/strings_ah.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/values-v11/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/values-v14/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_20_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_20_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/drawable/tab_indicator_ab_hunt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/res/values/themes.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-ar/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-bg/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-ca/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-cs/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-da/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-de/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-el/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-es/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-eu/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-fi/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-fr/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-he/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-hi/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-hu/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-id/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-it/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-iw/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-ja/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-ko/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-nl/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-pl/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-pt/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-ro/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-ru/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-sk/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-sl/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-sv/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-tr/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-uk/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-zh-rCN/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/res/values-zh-rTW/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/version.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/wallet_attrs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/wallet_colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/color/wallet_primary_text_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/color/wallet_secondary_text_holo_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/wallet_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-es/wallet_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/wallet_styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-de/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-en/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-es/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-fr/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-it/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-ja/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-ko/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-nl/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-pt/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-ru/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-zh-rCN/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/build/intermediates/bundles/release/assets/html-zh-rTW/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-de/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-en/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-es/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-fr/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-it/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-ja/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-ko/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-nl/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-pt/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-ru/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-zh-rCN/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captureActivity/src/main/assets/html-zh-rTW/whatsnew.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOHunt/src/main/res/layout/wronganswer.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuntWriter/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuntWriter/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuntWriter/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuntWriter/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuntWriter/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuntWriter/res/drawable-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuntWriter/res/drawable-ldpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuntWriter/res/drawable-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuntWriter/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuntWriter/res/drawable/section_header.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuntWriter/res/layout/row_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuntWriter/res/layout/write_tag.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuntWriter/res/raw/hunt.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuntWriter/res/values/colors.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuntWriter/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuntWriter/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuntWriter/src/com/google/example/huntwriter/WriteActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuntWriter/src/com/google/wolff/androidhunt/AHTag.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuntWriter/src/com/google/wolff/androidhunt/HuntLite.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuntWriter/src/com/google/wolff/androidhunt/HuntResourceManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HuntWriter/src/com/google/wolff/androidhunt/TagListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/.settings/org.eclipse.core.resources.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/gen/com/google/android/gms/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/anim/nonono.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/anim/slide_left_disappear.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/anim/slide_left_enter.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/anim/slide_right_disappear.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/anim/slide_right_enter.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-hdpi/pawprint.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-ldpi/alex_flat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-ldpi/decoybot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-ldpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-ldpi/missing_dog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-ldpi/sad_bugdroid.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-mdpi/ahbutton.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-mdpi/ahbuttonpressed.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-mdpi/bottomshadow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-mdpi/button_green.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-mdpi/grey_background_pattern_tile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-mdpi/iconanew.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-mdpi/pawprint.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-nodpi/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/ab_bottom_solid_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/ab_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/ab_solid_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/ab_stacked_solid_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/ab_transparent_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/btn_cab_done_default_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/btn_cab_done_focused_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/btn_cab_done_pressed_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/btn_hunt_disabled_focused_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/btn_hunt_disabled_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/btn_hunt_focused_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/btn_hunt_normal_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/btn_hunt_pressed_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/button_default.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/button_focused.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/button_pressed.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/cab_background_bottom_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/cab_background_top_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/dog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/grey_background_pattern_tile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/grey_frame_on_white.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/list_focused_ab.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/list_focused_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/menu_dropdown_panel_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/pawprint.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/progress_bg_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/progress_primary_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/progress_secondary_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/spinner_ab_default_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/spinner_ab_disabled_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/spinner_ab_focused_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/spinner_ab_pressed_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/tab_selected_focused_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/tab_selected_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/tab_selected_pressed_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/tab_unselected_focused_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/tab_unselected_pressed_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xhdpi/tag_sample.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable-xxxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/alex_flat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/blue_circle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/btn_cab_done_hunt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/btn_hunt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/button.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/dashed_circle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/green_circle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/grey_background_pattern.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/logocodemotion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/nonono0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/nonono1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/nonono2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/nonono3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/nonono4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/pressed_background_hunt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/primologo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/progress_horizontal_hunt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/red_circle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/selectable_background_hunt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/solid_circle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/spinner_background_ab_hunt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/drawable/tab_indicator_ab_hunt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout-sw600dp/activity_victory.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout/activity_about.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout/activity_clue.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout/activity_clue_two_tag.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout/activity_decoy.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout/activity_reauth.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout/activity_screen_slide_pager.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout/activity_tags.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout/activity_trivia_explainer.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout/activity_trivia_question.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout/activity_victory.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout/answer_frag.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout/dialog_license.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout/line_frag.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout/question_frag.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout/row_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout/story_frag.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout/story_frag_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout/story_frag_1a.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout/story_frag_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout/story_frag_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/layout/wronganswer.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/menu/limited.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/menu/main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/raw/coin.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/raw/fanfare.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/raw/founditall.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/raw/hunt.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/raw/rejected.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/raw/repeat.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/values-v11/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/values-v14/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/values/analytics.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/values/color.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/values/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/values/ids.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/values/licenses.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/values/strings_ah.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/google/example/games/basegameutils/BaseGameActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/google/example/games/basegameutils/GameHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/AHTag.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/AboutActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/AchievementManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/AnswerTextView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/BaseActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/Clue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/ClueActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/DecoyActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/Hunt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/HuntResourceManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/NFCShimActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/NavActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/ReauthActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/ScreenSlidePageFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/ScreenSlidePagerActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/SoundManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/TagListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/TagsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/TriviaExplainerActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/TriviaQuestion.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/TriviaQuestionActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/com/laquysoft/codemotionhunt/VictoryActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/libs/android-support-v4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/anim/slide_left_disappear.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/anim/slide_left_enter.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/anim/slide_right_disappear.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/anim/slide_right_enter.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-hdpi/pawprint.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-ldpi/alex_flat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-ldpi/decoybot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-ldpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-ldpi/missing_dog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-ldpi/sad_bugdroid.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-mdpi/ahbutton.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-mdpi/ahbuttonpressed.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-mdpi/bottomshadow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-mdpi/button_green.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-mdpi/grey_background_pattern_tile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-mdpi/pawprint.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-nodpi/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/ab_bottom_solid_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/ab_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/ab_solid_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/ab_stacked_solid_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/ab_transparent_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/btn_cab_done_default_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/btn_cab_done_focused_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/btn_cab_done_pressed_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/btn_hunt_disabled_focused_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/btn_hunt_disabled_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/btn_hunt_focused_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/btn_hunt_normal_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/btn_hunt_pressed_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/button_default.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/button_focused.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/button_pressed.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/cab_background_bottom_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/cab_background_top_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/dog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/grey_background_pattern_tile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/grey_frame_on_white.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/list_focused_ab.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/list_focused_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/menu_dropdown_panel_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/pawprint.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/progress_bg_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/progress_primary_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/progress_secondary_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/spinner_ab_default_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/spinner_ab_disabled_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/spinner_ab_focused_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/spinner_ab_pressed_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/tab_selected_focused_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/tab_selected_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/tab_selected_pressed_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/tab_unselected_focused_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/tab_unselected_pressed_hunt.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xhdpi/tag_sample.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable/blue_circle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable/btn_cab_done_hunt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable/btn_hunt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable/button.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable/dashed_circle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable/green_circle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable/grey_background_pattern.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable/pressed_background_hunt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable/progress_horizontal_hunt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable/red_circle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable/selectable_background_hunt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable/solid_circle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable/spinner_background_ab_hunt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/drawable/tab_indicator_ab_hunt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/layout-sw600dp/activity_victory.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/layout/activity_about.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/layout/activity_clue.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/layout/activity_decoy.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/layout/activity_screen_slide_pager.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/layout/activity_tags.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/layout/activity_trivia_explainer.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/layout/activity_trivia_question.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/layout/activity_victory.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/layout/answer_frag.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/layout/dialog_license.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/layout/line_frag.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/layout/question_frag.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/layout/row_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/layout/story_frag.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/layout/story_frag_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/layout/story_frag_1a.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/layout/story_frag_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/menu/main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/raw/coin.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/raw/fanfare.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/raw/founditall.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/raw/hunt.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/raw/rejected.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/raw/repeat.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/values-v11/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/values-v14/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/values/color.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/values/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/values/licenses.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/values/strings_ah.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/src/com/google/wolff/androidhunt/AHTag.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/src/com/google/wolff/androidhunt/AboutActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/src/com/google/wolff/androidhunt/AnswerTextView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/src/com/google/wolff/androidhunt/BaseActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/src/com/google/wolff/androidhunt/Clue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/src/com/google/wolff/androidhunt/ClueActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/src/com/google/wolff/androidhunt/DecoyActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/src/com/google/wolff/androidhunt/Hunt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/src/com/google/wolff/androidhunt/HuntResourceManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/src/com/google/wolff/androidhunt/NFCShimActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/src/com/google/wolff/androidhunt/NavActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/src/com/google/wolff/androidhunt/ScreenSlidePageFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/src/com/google/wolff/androidhunt/ScreenSlidePagerActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/src/com/google/wolff/androidhunt/SoundManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/src/com/google/wolff/androidhunt/TagListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/src/com/google/wolff/androidhunt/TagsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SimpleIOHunt/src/com/google/wolff/androidhunt/VictoryActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/README-complicated.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hunt.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huntdata/clue-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huntdata/clue-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huntdata/clue-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huntdata/clue-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huntdata/clue-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huntdata/clue-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huntdata/clue-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huntdata/clue-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huntdata/clue-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huntdata/sampleHunt.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iOHunt/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iOHunt/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iOHunt/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iOHunt/libs/android-support-v4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/iOHunt/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/makeBundle.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js-0.5.3-0-gedff5a0.tar.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/css/impress-demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/devfest.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/devfesthunt.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/GDG Logo Base.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/GDG-program-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/Google-Analytics-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/LGG_20130327_29262_arton10004.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/Leaderboard_Android.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/Schermata 2013-10-18 alle 12.57.36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/Schermata 2013-10-18 alle 12.58.44.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/Schermata 2013-10-18 alle 12.59.34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/achievementSampleForm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/androidNfc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/androidhuntstarter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/biglogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/consoleGameServices.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/customtag-pic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/endpoints.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/firstclue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/galaxy-nexus-nfc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/games_controller_green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/google-app-engine-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/homenfchuntrome.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/ic_action_overflow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/icon_afoot.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/icon_met.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/icon_speedrun.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/italianculture10-hp.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/landing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/leaderboardAddNew.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/nfclogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/plusop.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/qrcode.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/question-mark1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/trivia.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/trivia_rome.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/url.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/images/youtube.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/js/impress.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/presentation/bartaz-impress.js/present.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/NFC-logo-259x300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/alex_flat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/androidhuntstarter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/banner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/biglogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/customtag-pic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/daAttaccare.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/dastampare.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/doublescan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/firstclue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/games_achievements.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/games_achievements_green.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/games_achievements_white.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/games_controller_dark_grey.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/games_controller_green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/games_controller_green.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/games_controller_white.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/games_leaderboards.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/games_leaderboards_green.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/games_leaderboards_white.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/games_matches.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/games_matches_green.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/games_matches_white.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/gopher.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/gps-play_games_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/half.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/iconanew.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/iconanew144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/iconanew72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/iconanew96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/landing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/leaderboardAddNew.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/logo512x512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/logo512x512codemotion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/logo512x512codemotion.xcf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/logocodemotion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/logohunt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/logohunt.xcf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/logonuovo.xcf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/maxresdefault.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/primologo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/qrcode.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/sad_bugdroid.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/speedrun.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/teacherspet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/victory.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/wow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/youtube.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/libs/libGoogleAnalyticsServices.jar" afterPath="$PROJECT_DIR$/iOHunt/libs/libGoogleAnalyticsServices.jar" />
-    </list>
+    <list default="true" id="f9d90fbe-f525-47b4-ae3a-49bab1dc77dc" name="Default" comment="" />
     <ignored path="IOHunt.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1257,28 +27,7 @@
     <favorites_list name="IOHunt" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iOHunt/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseGameActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/iOHunt/src/main/java/com/google/example/games/basegameutils/BaseGameActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24907748" vertical-offset="0" max-vertical-offset="2130">
-              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -2446,6 +1195,8 @@
       <list>
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/iOHunt/build.gradle" />
+        <option value="$PROJECT_DIR$/iOHunt/src/main/java/com/google/example/games/basegameutils/BaseGameActivity.java" />
+        <option value="$PROJECT_DIR$/iOHunt/src/main/java/com/google/example/games/basegameutils/GameHelper.java" />
       </list>
     </option>
   </component>
@@ -2494,6 +1245,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="IOHunt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IOHunt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IOHunt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iOHunt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IOHunt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IOHunt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iOHunt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IOHunt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IOHunt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iOHunt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2692,33 +1509,33 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31076178" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31076178" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2775,10 +1592,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOHunt/src/main/java/com/google/example/games/basegameutils/BaseGameActivity.java">
+    <entry file="file://$PROJECT_DIR$/iOHunt/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24907748" vertical-offset="0" max-vertical-offset="2130">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOHunt/src/main/res/values/strings_ah.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3251418" vertical-offset="701" max-vertical-offset="1230">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
