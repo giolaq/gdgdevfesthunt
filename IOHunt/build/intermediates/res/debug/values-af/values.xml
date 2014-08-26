@@ -17,16 +17,7 @@
     <string name="abc_searchview_description_voice" msgid="893419373245838918">"Stemsoektog"</string>
     <string name="abc_shareactionprovider_share_with" msgid="3421042268587513524">"Deel met"</string>
     <string name="abc_shareactionprovider_share_with_application" msgid="7165123711973476752">"Deel met %s"</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-af/auth_strings.xml -->
-    <eat-comment />
-
-    <string name="auth_client_needs_enabling_title" msgid="3983201110833868073">"\'n Program vereis dat Google Play-dienste geaktiveer word."</string>
-    <string name="auth_client_needs_installation_title" msgid="7999585836145154206">"\'n Program vereis dat Google Play-dienste geïnstalleer word."</string>
-    <string name="auth_client_needs_update_title" msgid="6488605506794595966">"\'n Program vereis \'n opdatering vir Google Play-dienste."</string>
-    <string name="auth_client_play_services_err_notification_msg" msgid="3635065018897986478">"Google Play-dienstefout"</string>
-    <string name="auth_client_requested_by_msg" msgid="6304135633531965756">"Versoek deur <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
-    <string name="auth_client_using_bad_version_title" msgid="2534454398764507874">"\'n Program het probeer om \'n slegte weergawe van Google Play-dienste te gebruik."</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-af/common_strings.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml -->
     <eat-comment />
 
     <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"Aktiveer Google Play-dienste"</string>

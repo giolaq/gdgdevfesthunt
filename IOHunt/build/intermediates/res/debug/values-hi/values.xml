@@ -17,16 +17,7 @@
     <string name="abc_searchview_description_voice" msgid="893419373245838918">"ध्वनि खोज"</string>
     <string name="abc_shareactionprovider_share_with" msgid="3421042268587513524">"इसके द्वारा साझा करें"</string>
     <string name="abc_shareactionprovider_share_with_application" msgid="7165123711973476752">"%s के साथ साझा करें"</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-hi/auth_strings.xml -->
-    <eat-comment />
-
-    <string name="auth_client_needs_enabling_title" msgid="3983201110833868073">"ऐप्स  के लिए Google Play सेवाओं को सक्षम किए जाने की आवश्यकता है."</string>
-    <string name="auth_client_needs_installation_title" msgid="7999585836145154206">"ऐप्स  के लिए Google Play सेवाओं के इंस्टॉलेशन की आवश्यकता है."</string>
-    <string name="auth_client_needs_update_title" msgid="6488605506794595966">"ऐप्स  के लिए Google Play सेवाओं में Google Play से नई जानकारी की आवश्यकता है."</string>
-    <string name="auth_client_play_services_err_notification_msg" msgid="3635065018897986478">"Google Play सेवाएं त्रुटि"</string>
-    <string name="auth_client_requested_by_msg" msgid="6304135633531965756">"<ns1:g id="APP_NAME">%1$s</ns1:g> द्वारा अनुरोधित"</string>
-    <string name="auth_client_using_bad_version_title" msgid="2534454398764507874">"ऐप्स ने Google Play सेवाओं के खराब संस्करण के उपयोग का प्रयास किया."</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-hi/common_strings.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-hi/common_strings.xml -->
     <eat-comment />
 
     <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"Google Play सेवाएं सक्षम करें"</string>
@@ -39,11 +30,11 @@
     <string name="common_google_play_services_install_title" msgid="26645092511305524">"Google Play सेवाएं पाएं"</string>
     <string name="common_google_play_services_invalid_account_text" msgid="4983316348021735578">"निर्दिष्ट खाता इस उपकरण पर मौजूद नहीं है. कृपया कोई भिन्न खाता चुनें."</string>
     <string name="common_google_play_services_invalid_account_title" msgid="1066672360770936753">"अमान्य खाता"</string>
-    <string name="common_google_play_services_needs_enabling_title" msgid="2583358409598976717">"ऐप्लिकेशन के लिए Google Play सेवाएं सक्षम किए जाने की आवश्यकता है."</string>
+    <string name="common_google_play_services_needs_enabling_title" msgid="2583358409598976717">"एप्लिकेशन के लिए Google Play सेवाएं सक्षम किए जाने की आवश्यकता है."</string>
     <string name="common_google_play_services_network_error_text" msgid="9038847255613537209">"Google Play सेवाओं से कनेक्ट करने के लिए डेटा कनेक्शन की आवश्यकता है."</string>
     <string name="common_google_play_services_network_error_title" msgid="3827284619958211114">"नेटवर्क त्रुटि"</string>
-    <string name="common_google_play_services_notification_needs_installation_title" msgid="8120534356798772974">"ऐप्लिकेशन के लिए Google Play सेवाएं इंस्टॉल किए जाने की आवश्यकता है."</string>
-    <string name="common_google_play_services_notification_needs_update_title" msgid="1388129345631079938">"ऐप्लिकेशन के लिए Google Play सेवाओं में नई जानकारी की आवश्यकता है."</string>
+    <string name="common_google_play_services_notification_needs_installation_title" msgid="8120534356798772974">"एप्लिकेशन के लिए Google Play सेवाएं इंस्टॉल किए जाने की आवश्यकता है."</string>
+    <string name="common_google_play_services_notification_needs_update_title" msgid="1388129345631079938">"एप्लिकेशन के लिए Google Play सेवाओं में नई जानकारी की आवश्यकता है."</string>
     <string name="common_google_play_services_notification_ticker" msgid="1852570676146674985">"Google Play सेवाएं त्रुटि"</string>
     <string name="common_google_play_services_unknown_issue" msgid="4762332809710093730">"Google Play सेवाओं के साथ अज्ञात समस्या."</string>
     <string name="common_google_play_services_unsupported_date_text" msgid="4725396522367789365">"उपकरण का दिनांक गलत प्रतीत हो रहा है. कृपया उपकरण का दिनांक जांचें."</string>

@@ -1,6 +1,7 @@
 package com.laquysoft.codemotionhunt;
 
-import com.google.android.gms.games.GamesClient;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.games.Games;
 import com.laquysoft.codemotionhunt.R;
 
 import java.util.ArrayList;
@@ -47,7 +48,7 @@ public class AchievementManager {
      * If the player were playing on a separate device or the achievement
      * were already won, it may not pop. */
 
-    public void onNewTagScanned(int clueNum, GamesClient ga, Context ctx) {
+    public void onNewTagScanned(int clueNum, GoogleApiClient ga, Context ctx) {
         Time t = new Time();
         t.setToNow();
         tagScannedTimes.add(t.toMillis(false));
@@ -60,22 +61,22 @@ public class AchievementManager {
         }
     }
 
-    public void onOldTagScanned(GamesClient ga, Context ctx) {
+    public void onOldTagScanned(GoogleApiClient ga, Context ctx) {
         winAchievement(ctx, ID_DOUBLE_SCAN, ga);
     }
 
-    public void onQuestionAnswered(GamesClient ga, Boolean underPar, Context ctx) {
+    public void onQuestionAnswered(GoogleApiClient ga, Boolean underPar, Context ctx) {
         if (underPar) {
             incrementAchievement(ID_TEACHERS_PET, ga);
             points += 20;
-            ga.submitScore(ID_LEADERBOARD, points);
+            Games.Leaderboards.submitScore(ga, ID_LEADERBOARD, points);
 
         }
 
         incrementAchievement(ID_5_TRIVIA_CORRECTLY, ga);
     }
 
-    public void onCompletedClue(Clue clue, ClueActivity ca, GamesClient ga) {
+    public void onCompletedClue(Clue clue, ClueActivity ca, GoogleApiClient ga) {
 
         if (clue.id.equals("starterMat")
                 || ca.getHunt().getClueIndex(clue) == 0) {
@@ -90,7 +91,7 @@ public class AchievementManager {
 
     }
 
-    public void onVictory(GamesClient ga, Context ctx) {
+    public void onVictory(GoogleApiClient ga, Context ctx) {
         winAchievement(ctx, ID_FOUND_ALEX, ga);
     }
 
@@ -105,45 +106,44 @@ public class AchievementManager {
         storedIncrements.add(id);
     }
 
-    public void processBacklog(GamesClient ga) {
+    public void processBacklog(GoogleApiClient ga) {
         // Still not time yet?
         if (!ga.isConnected()) {
             return;
         }
         for (String id : storedAchievements) {
-            ga.unlockAchievement(id);
+            Games.Achievements.unlock(ga, id);
         }
         storedAchievements.clear();
         for (String id : storedIncrements) {
-            ga.incrementAchievement(id, 1);
+            Games.Achievements.increment(ga, id, 1);
         }
         storedIncrements.clear();
     }
 
-    public void winAchievement(Context ctx, String id, GamesClient ga) {
+    public void winAchievement(Context ctx, String id, GoogleApiClient ga) {
         if (!ga.isConnected()) {
             // Hmm, can't get here, so we'll wait.
             storeAchievement(id);
             return;
         }
-
-        ga.unlockAchievement(id);
+        Games.Achievements.unlock(ga, id);
     }
 
-    public void incrementAchievement(String id, GamesClient ga) {
+    public void incrementAchievement(String id, GoogleApiClient ga) {
         if (!ga.isConnected()) {
             // Hmm, can't get here, so we'll wait.
             storeIncrement(id);
             return;
         }
 
-        ga.incrementAchievement(id, 1);
+        Games.Achievements.increment(ga, id, 1);
     }
 
 	public void onDecoy(Clue clue, ClueActivity clueActivity,
-			GamesClient gamesClient) {
+                        GoogleApiClient gamesClient) {
 		  
         points -= 10;
-        gamesClient.submitScore(ID_LEADERBOARD, points);		
+        Games.Leaderboards.submitScore(gamesClient, ID_LEADERBOARD, points);
 	}
 }

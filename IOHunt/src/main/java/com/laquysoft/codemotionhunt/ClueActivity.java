@@ -104,7 +104,7 @@ public class ClueActivity extends BaseActivity {
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
-					Toast.makeText(getApplicationContext(), "ERROR:" + e, 1).show();
+					Toast.makeText(getApplicationContext(), "ERROR:" + e, Toast.LENGTH_SHORT).show();
 
 				}
 
@@ -236,7 +236,7 @@ public class ClueActivity extends BaseActivity {
 		if (clue == null) {
 			// You're probably finished with the hunt, so show the
 			// / victory screen
-			hunt.achievementManager.onVictory(getGamesClient(), this);
+			hunt.achievementManager.onVictory(getApiClient(), this);
 			onToVictory();
 			finish();
 
@@ -271,7 +271,7 @@ public class ClueActivity extends BaseActivity {
 
 			if (result.equals(Hunt.DECOY)) {
 				hunt.achievementManager.onDecoy(clue, this,
-						getGamesClient());
+						getApiClient());
 
 				intent = new Intent(this, DecoyActivity.class);
 				startActivity(intent);
@@ -283,7 +283,7 @@ public class ClueActivity extends BaseActivity {
 				updateTagDisplay(hunt, clue);
 				hunt.soundManager.play(hunt.soundManager.foundIt, this);
 				hunt.achievementManager.onNewTagScanned(
-						hunt.getClueIndex(clue), getGamesClient(), this);
+						hunt.getClueIndex(clue), getApiClient(), this);
 				return;
 			}
 			if (result.equals(Hunt.ALREADY_FOUND)) {
@@ -293,7 +293,7 @@ public class ClueActivity extends BaseActivity {
 								+ clue.getStatus(hunt), Toast.LENGTH_SHORT)
 								.show();
 				hunt.soundManager.play(hunt.soundManager.repeat, this);
-				hunt.achievementManager.onOldTagScanned(getGamesClient(), this);
+				hunt.achievementManager.onOldTagScanned(getApiClient(), this);
 				return;
 			}
 			if (result.equals(Hunt.WRONG_CLUE)) {
@@ -308,9 +308,9 @@ public class ClueActivity extends BaseActivity {
 			if (result.equals(Hunt.CLUE_COMPLETE)) {
 				updateTagDisplay(hunt, clue);
 				hunt.achievementManager.onNewTagScanned(
-						hunt.getClueIndex(clue), getGamesClient(), this);
+						hunt.getClueIndex(clue), getApiClient(), this);
 				hunt.achievementManager.onCompletedClue(clue, this,
-						getGamesClient());
+						getApiClient());
 
 				hunt.soundManager.play(hunt.soundManager.foundItAll, this);
 				Toast.makeText(this, "Got 'em all!  Hang on for next clue...",
@@ -365,7 +365,7 @@ public class ClueActivity extends BaseActivity {
 	public void onSignInSucceeded() {
 		Hunt hunt = Hunt.getHunt(getResources(), this);
 
-		hunt.achievementManager.processBacklog(getGamesClient());
+		hunt.achievementManager.processBacklog(getApiClient());
 	}
 
 	private void updateTagDisplay(Hunt hunt, Clue clue) {
@@ -433,7 +433,7 @@ public class ClueActivity extends BaseActivity {
 		if (clue == null) {
 			// You're probably finished with the hunt, so show the
 			// / victory screen
-			hunt.achievementManager.onVictory(getGamesClient(), this);
+			hunt.achievementManager.onVictory(getApiClient(), this);
 			onToVictory();
 			finish();
 
@@ -468,7 +468,7 @@ public class ClueActivity extends BaseActivity {
 
 			if (result.equals(Hunt.DECOY)) {
 				hunt.achievementManager.onDecoy(clue, this,
-						getGamesClient());
+						getApiClient());
 
 				intent = new Intent(this, DecoyActivity.class);
 				startActivity(intent);
@@ -480,7 +480,7 @@ public class ClueActivity extends BaseActivity {
 				updateTagDisplay(hunt, clue);
 				hunt.soundManager.play(hunt.soundManager.foundIt, this);
 				hunt.achievementManager.onNewTagScanned(
-						hunt.getClueIndex(clue), getGamesClient(), this);
+						hunt.getClueIndex(clue), getApiClient(), this);
 				return;
 			}
 			if (result.equals(Hunt.ALREADY_FOUND)) {
@@ -490,7 +490,7 @@ public class ClueActivity extends BaseActivity {
 								+ clue.getStatus(hunt), Toast.LENGTH_SHORT)
 								.show();
 				hunt.soundManager.play(hunt.soundManager.repeat, this);
-				hunt.achievementManager.onOldTagScanned(getGamesClient(), this);
+				hunt.achievementManager.onOldTagScanned(getApiClient(), this);
 				return;
 			}
 			if (result.equals(Hunt.WRONG_CLUE)) {
@@ -505,9 +505,9 @@ public class ClueActivity extends BaseActivity {
 			if (result.equals(Hunt.CLUE_COMPLETE)) {
 				updateTagDisplay(hunt, clue);
 				hunt.achievementManager.onNewTagScanned(
-						hunt.getClueIndex(clue), getGamesClient(), this);
+						hunt.getClueIndex(clue), getApiClient(), this);
 				hunt.achievementManager.onCompletedClue(clue, this,
-						getGamesClient());
+						getApiClient());
 
 				hunt.soundManager.play(hunt.soundManager.foundItAll, this);
 				Toast.makeText(this, "Got 'em all!  Hang on for next clue...",

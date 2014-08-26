@@ -17,16 +17,7 @@
     <string name="abc_searchview_description_voice" msgid="893419373245838918">"Φωνητική αναζήτηση"</string>
     <string name="abc_shareactionprovider_share_with" msgid="3421042268587513524">"Κοινοποίηση με"</string>
     <string name="abc_shareactionprovider_share_with_application" msgid="7165123711973476752">"Κοινοποίηση με %s"</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-el/auth_strings.xml -->
-    <eat-comment />
-
-    <string name="auth_client_needs_enabling_title" msgid="3983201110833868073">"Μια εφαρμογή απαιτεί τις Υπηρεσίες Google Play για ενεργοποίηση."</string>
-    <string name="auth_client_needs_installation_title" msgid="7999585836145154206">"Μια εφαρμογή απαιτεί την εγκατάσταση των Υπηρεσιών Google Play."</string>
-    <string name="auth_client_needs_update_title" msgid="6488605506794595966">"Μια εφαρμογή απαιτεί μια ενημέρωση για τις Υπηρεσίες Google Play."</string>
-    <string name="auth_client_play_services_err_notification_msg" msgid="3635065018897986478">"Σφάλμα υπηρεσιών Google Play"</string>
-    <string name="auth_client_requested_by_msg" msgid="6304135633531965756">"Υποβλήθηκε αίτημα από την εφαρμογή <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
-    <string name="auth_client_using_bad_version_title" msgid="2534454398764507874">"Απόπειρα χρήσης ακατάλληλης έκδοσης Υπηρεσιών Google Play από εφαρμογή"</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-el/common_strings.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-el/common_strings.xml -->
     <eat-comment />
 
     <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"Ενεργοπ. υπηρεσιών Google Play"</string>

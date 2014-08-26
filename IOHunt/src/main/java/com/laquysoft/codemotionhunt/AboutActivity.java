@@ -32,10 +32,6 @@ public class AboutActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        GameHelper gh = new GameHelper(this);
-        gh.getClass();
-
         setContentView(R.layout.activity_about);
     }
 

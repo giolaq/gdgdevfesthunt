@@ -17,16 +17,7 @@
     <string name="abc_searchview_description_voice" msgid="893419373245838918">"Căutare vocală"</string>
     <string name="abc_shareactionprovider_share_with" msgid="3421042268587513524">"Trimiteți la"</string>
     <string name="abc_shareactionprovider_share_with_application" msgid="7165123711973476752">"Trimiteți la %s"</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ro/auth_strings.xml -->
-    <eat-comment />
-
-    <string name="auth_client_needs_enabling_title" msgid="3983201110833868073">"O aplicație necesită activarea Serviciilor Google Play."</string>
-    <string name="auth_client_needs_installation_title" msgid="7999585836145154206">"O aplicație necesită instalarea Serviciilor Google Play."</string>
-    <string name="auth_client_needs_update_title" msgid="6488605506794595966">"O aplicație necesită o actualizare pentru Servicii Google Play."</string>
-    <string name="auth_client_play_services_err_notification_msg" msgid="3635065018897986478">"Eroare Servicii Google Play"</string>
-    <string name="auth_client_requested_by_msg" msgid="6304135633531965756">"Solicitată de <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
-    <string name="auth_client_using_bad_version_title" msgid="2534454398764507874">"Aplicația a încercat să utilizeze o vers. Servicii Google Play greșită"</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ro/common_strings.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-ro/common_strings.xml -->
     <eat-comment />
 
     <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"Activaţi Servicii Google Play"</string>

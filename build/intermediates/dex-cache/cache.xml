@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/pre-dexed/debug/classes-a263113ff2df4fda94401160d9ea14457c76320c.jar"
+        jar="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef"/>
+    <item
+        dex="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/pre-dexed/debug/classes-3bf09c449d8768d9e287aa5d63cf1b73549e5394.jar"
+        jar="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+    <item
+        dex="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/pre-dexed/debug/classes-ace399e3f732d8cee6bbad787b67b73e038ae3f1.jar"
+        jar="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d71573c9c5ea98a8db47ad6ff993a63d492b3bfa"/>
+    <item
+        dex="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/pre-dexed/debug/classes-f16cc062b86f8c0ccf68a87c1d3af188f42f2b52.jar"
+        jar="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/IOHunt.libraries/BaseGameUtils/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="cbbf95b4327a6ea7a1bbb52f334ec0352384b0ac"/>
+    <item
+        dex="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-bca9cd8c8082330ef7549e0398af852faae531fd.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/pre-dexed/debug/libGoogleAnalyticsServices-57793069604001d6b1a7f45238f5745cdc739121.jar"
+        jar="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/libs/libGoogleAnalyticsServices.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9f1d8489b6d557be8d7fecf6ae070b5718366677"/>
+    <item
+        dex="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-fbc2c6dc806af1f260ce26597a3d7b330da8b76f.jar"
+        jar="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+
+</pre-dex-items>

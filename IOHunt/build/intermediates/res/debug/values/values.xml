@@ -90,7 +90,7 @@
 
     <color name="caption_text_color">#FF535353</color>
     <color name="card_background">#FFDCDCDC</color>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/common_colors.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/common_colors.xml -->
     <eat-comment />
 
     <color name="common_action_bar_splitter">#d2d2d2</color>
@@ -109,7 +109,7 @@
     <color name="default_background">#4000</color>
     <color name="highlight_text_color">#fff</color>
     <color name="pressed_color">#66666666</color>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/wallet_colors.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/wallet_colors.xml -->
     <eat-comment />
 
     <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
@@ -253,7 +253,7 @@
         -->
         <attr name="expandActivityOverflowButtonDrawable" format="reference" />
     </declare-styleable>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/admob_ads_attrs.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/admob_ads_attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="AdsAttrs">
@@ -297,7 +297,7 @@
         <!-- Size of padding on either end of a divider. -->
         <attr name="dividerPadding" format="dimension" />
     </declare-styleable>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/maps_attrs.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/maps_attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="MapAttrs">
@@ -592,7 +592,7 @@
         -->
         <attr name="android:focusable" />
     </declare-styleable>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/wallet_attrs.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/wallet_attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="WalletFragmentOptions">
@@ -712,10 +712,10 @@
     <item name="progress_horizontal" type="id"/>
 
     <integer name="abc_max_action_buttons">2</integer>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/version.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/version.xml -->
     <eat-comment />
 
-    <integer name="google_play_services_version">5208000</integer>
+    <integer name="google_play_services_version">5089000</integer>
     <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
     <eat-comment />
 
@@ -780,7 +780,7 @@
     <string name="between_clues_next_time">It\'s time for another trivia question!\n\nGood luck!</string>
     <string name="button_send">Send</string>
     <string name="clue_subheading">Clue %1$s of %2$s</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/common_strings.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/common_strings.xml -->
     <eat-comment />
 
     <string name="common_google_play_services_enable_button" msgid="2523291102206661146">Enable Google Play services</string>
@@ -864,13 +864,6 @@ Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
     <string name="oh_no_it_s_a_decoy">OH NO! IT\'S A DECOY!</string>
     <string name="ok">OK</string>
     <string name="one">1</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/common_strings.xml -->
-    <eat-comment />
-
-    <string name="pre_release_do_not_ship" translatable="false">true</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
-    <eat-comment />
-
     <string name="preference_file_key">com.google.wolff.PREFERENCE_FILE_KEY</string>
     <string name="privacy_policy">Privacy Policy</string>
     <string name="reset_this">Reset this</string>
@@ -909,7 +902,7 @@ Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
     <string name="title_activity_clue_message">Codemotion Hunt</string>
     <string name="tracking_id">UA-44734263-1</string>
     <string name="two">2</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/wallet_strings.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/wallet_strings.xml -->
     <eat-comment />
 
     <string name="wallet_buy_button_place_holder" translation_description="Text on a button that allows a user to make a payment with Google Wallet [CHAR LIMIT=30]">Buy with Google</string>
@@ -1405,7 +1398,7 @@ Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
     <style name="Theme.Base.AppCompat.Light.DialogWhenLarge" parent="Theme.Base.AppCompat.Light" />
 
     <style name="Theme.Base.Light" parent="android:Theme.Light" />
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/admob_iap_style.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/admob_iap_style.xml -->
     <eat-comment />
 
     <style name="Theme.IAPTheme" parent="android:Theme">
@@ -1416,7 +1409,7 @@ Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
         <item name="android:windowIsFloating">true</item>
         <item name="android:backgroundDimEnabled">false</item>
     </style>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/wallet_styles.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/wallet_styles.xml -->
     <eat-comment />
 
     <style name="WalletFragmentDefaultButtonTextAppearance">

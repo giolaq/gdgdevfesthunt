@@ -21,6 +21,6 @@ android {
 dependencies {
     compile project(':libraries:BaseGameUtils')
     compile 'com.android.support:support-v4:20.0.0'
-    compile 'com.google.android.gms:play-services:+'
+    compile 'com.google.android.gms:play-services:5.0.89'
     compile files('libs/libGoogleAnalyticsServices.jar')
 }

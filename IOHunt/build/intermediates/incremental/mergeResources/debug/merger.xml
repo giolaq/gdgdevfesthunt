@@ -6,570 +6,570 @@
     <dataSet config="20.0.0" >
         <source path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/res" />
     </dataSet>
-    <dataSet config="5.2.08" >
-        <source path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res" >
+    <dataSet config="5.0.89" >
+        <source path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res" >
             <file
                 name="common_signin_btn_text_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/color/common_signin_btn_text_dark.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/color/common_signin_btn_text_dark.xml"
                 qualifiers=""
                 type="color" />
             <file
                 name="common_signin_btn_text_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/color/common_signin_btn_text_light.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/color/common_signin_btn_text_light.xml"
                 qualifiers=""
                 type="color" />
             <file
                 name="wallet_primary_text_holo_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/color/wallet_primary_text_holo_light.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/color/wallet_primary_text_holo_light.xml"
                 qualifiers=""
                 type="color" />
             <file
                 name="wallet_secondary_text_holo_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/color/wallet_secondary_text_holo_dark.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/color/wallet_secondary_text_holo_dark.xml"
                 qualifiers=""
                 type="color" />
             <file
                 name="common_signin_btn_icon_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable/common_signin_btn_icon_dark.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable/common_signin_btn_icon_dark.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable/common_signin_btn_icon_light.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable/common_signin_btn_icon_light.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="common_signin_btn_text_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable/common_signin_btn_text_dark.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable/common_signin_btn_text_dark.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="common_signin_btn_text_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable/common_signin_btn_text_light.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable/common_signin_btn_text_light.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_icon_disabled_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/common_signin_btn_icon_disabled_dark.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_focus_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_focus_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_icon_disabled_focus_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/common_signin_btn_icon_disabled_focus_light.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_icon_disabled_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/common_signin_btn_icon_disabled_light.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_focus_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_icon_focus_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/common_signin_btn_icon_focus_dark.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_focus_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_icon_focus_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/common_signin_btn_icon_focus_light.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_normal_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_icon_normal_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/common_signin_btn_icon_normal_dark.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_normal_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_icon_normal_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/common_signin_btn_icon_normal_light.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_pressed_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_icon_pressed_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/common_signin_btn_icon_pressed_dark.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_pressed_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_icon_pressed_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/common_signin_btn_icon_pressed_light.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_text_disabled_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/common_signin_btn_text_disabled_dark.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_focus_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_text_disabled_focus_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/common_signin_btn_text_disabled_focus_dark.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_focus_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_text_disabled_focus_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/common_signin_btn_text_disabled_focus_light.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_text_disabled_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/common_signin_btn_text_disabled_light.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_focus_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_text_focus_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/common_signin_btn_text_focus_dark.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_focus_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_text_focus_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/common_signin_btn_text_focus_light.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_normal_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_text_normal_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/common_signin_btn_text_normal_dark.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_normal_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_text_normal_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/common_signin_btn_text_normal_light.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_pressed_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_text_pressed_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/common_signin_btn_text_pressed_dark.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_pressed_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/common_signin_btn_text_pressed_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/common_signin_btn_text_pressed_light.9.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_plusone_medium_off_client"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/ic_plusone_medium_off_client.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/ic_plusone_medium_off_client.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_plusone_small_off_client"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/ic_plusone_small_off_client.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/ic_plusone_small_off_client.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_plusone_standard_off_client"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/ic_plusone_standard_off_client.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/ic_plusone_standard_off_client.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_plusone_tall_off_client"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/ic_plusone_tall_off_client.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/ic_plusone_tall_off_client.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="powered_by_google_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/powered_by_google_dark.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/powered_by_google_dark.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="powered_by_google_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-hdpi/powered_by_google_light.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-hdpi/powered_by_google_light.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_icon_disabled_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/common_signin_btn_icon_disabled_dark.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_focus_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_focus_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_icon_disabled_focus_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/common_signin_btn_icon_disabled_focus_light.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_icon_disabled_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/common_signin_btn_icon_disabled_light.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_focus_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_icon_focus_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/common_signin_btn_icon_focus_dark.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_focus_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_icon_focus_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/common_signin_btn_icon_focus_light.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_normal_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_icon_normal_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/common_signin_btn_icon_normal_dark.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_normal_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_icon_normal_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/common_signin_btn_icon_normal_light.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_pressed_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_icon_pressed_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/common_signin_btn_icon_pressed_dark.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_pressed_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_icon_pressed_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/common_signin_btn_icon_pressed_light.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_text_disabled_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/common_signin_btn_text_disabled_dark.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_focus_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_text_disabled_focus_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/common_signin_btn_text_disabled_focus_dark.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_focus_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_text_disabled_focus_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/common_signin_btn_text_disabled_focus_light.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_text_disabled_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/common_signin_btn_text_disabled_light.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_focus_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_text_focus_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/common_signin_btn_text_focus_dark.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_focus_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_text_focus_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/common_signin_btn_text_focus_light.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_normal_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_text_normal_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/common_signin_btn_text_normal_dark.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_normal_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_text_normal_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/common_signin_btn_text_normal_light.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_pressed_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_text_pressed_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/common_signin_btn_text_pressed_dark.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_pressed_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/common_signin_btn_text_pressed_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/common_signin_btn_text_pressed_light.9.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_plusone_medium_off_client"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/ic_plusone_medium_off_client.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/ic_plusone_medium_off_client.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_plusone_small_off_client"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/ic_plusone_small_off_client.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/ic_plusone_small_off_client.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_plusone_standard_off_client"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/ic_plusone_standard_off_client.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/ic_plusone_standard_off_client.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_plusone_tall_off_client"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/ic_plusone_tall_off_client.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/ic_plusone_tall_off_client.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="powered_by_google_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/powered_by_google_dark.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/powered_by_google_dark.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="powered_by_google_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-mdpi/powered_by_google_light.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-mdpi/powered_by_google_light.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_icon_disabled_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_icon_disabled_dark.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_focus_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_focus_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_light.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_icon_disabled_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_icon_disabled_light.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_focus_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_icon_focus_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_icon_focus_dark.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_focus_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_icon_focus_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_icon_focus_light.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_normal_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_icon_normal_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_icon_normal_dark.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_normal_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_icon_normal_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_icon_normal_light.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_pressed_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_icon_pressed_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_icon_pressed_dark.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_pressed_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_icon_pressed_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_icon_pressed_light.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_text_disabled_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_text_disabled_dark.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_focus_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_dark.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_focus_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_light.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_text_disabled_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_text_disabled_light.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_focus_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_text_focus_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_text_focus_dark.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_focus_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_text_focus_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_text_focus_light.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_normal_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_text_normal_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_text_normal_dark.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_normal_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_text_normal_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_text_normal_light.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_pressed_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_text_pressed_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_text_pressed_dark.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_pressed_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/common_signin_btn_text_pressed_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_text_pressed_light.9.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_plusone_medium_off_client"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/ic_plusone_medium_off_client.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/ic_plusone_medium_off_client.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_plusone_small_off_client"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/ic_plusone_small_off_client.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/ic_plusone_small_off_client.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_plusone_standard_off_client"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/ic_plusone_standard_off_client.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/ic_plusone_standard_off_client.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_plusone_tall_off_client"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/ic_plusone_tall_off_client.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/ic_plusone_tall_off_client.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="powered_by_google_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/powered_by_google_dark.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/powered_by_google_dark.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="powered_by_google_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xhdpi/powered_by_google_light.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/powered_by_google_light.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_icon_disabled_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_icon_disabled_dark.9.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_focus_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_focus_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_light.9.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_disabled_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_icon_disabled_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_icon_disabled_light.9.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_focus_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_icon_focus_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_icon_focus_dark.9.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_focus_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_icon_focus_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_icon_focus_light.9.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_normal_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_icon_normal_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_icon_normal_dark.9.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_normal_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_icon_normal_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_icon_normal_light.9.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_pressed_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_icon_pressed_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_icon_pressed_dark.9.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_icon_pressed_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_icon_pressed_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_icon_pressed_light.9.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_text_disabled_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_text_disabled_dark.9.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_focus_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_dark.9.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_focus_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_light.9.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_disabled_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_text_disabled_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_text_disabled_light.9.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_focus_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_text_focus_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_text_focus_dark.9.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_focus_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_text_focus_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_text_focus_light.9.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_normal_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_text_normal_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_text_normal_dark.9.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_normal_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_text_normal_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_text_normal_light.9.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_pressed_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_text_pressed_dark.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_text_pressed_dark.9.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="common_signin_btn_text_pressed_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/common_signin_btn_text_pressed_light.9.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/common_signin_btn_text_pressed_light.9.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_plusone_medium_off_client"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/ic_plusone_medium_off_client.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/ic_plusone_medium_off_client.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_plusone_small_off_client"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/ic_plusone_small_off_client.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/ic_plusone_small_off_client.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_plusone_standard_off_client"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/ic_plusone_standard_off_client.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/ic_plusone_standard_off_client.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_plusone_tall_off_client"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/ic_plusone_tall_off_client.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/ic_plusone_tall_off_client.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="powered_by_google_dark"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/powered_by_google_dark.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/powered_by_google_dark.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="powered_by_google_light"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/drawable-xxhdpi/powered_by_google_light.png"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xxhdpi/powered_by_google_light.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/admob_ads_attrs.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/admob_ads_attrs.xml"
                 qualifiers="" >
                 <declare-styleable name="AdsAttrs" >
 
@@ -598,7 +598,7 @@
                 </declare-styleable>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/admob_iap_style.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/admob_iap_style.xml"
                 qualifiers="" >
 
                 <style
@@ -625,7 +625,7 @@ false
                 </style>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/common_colors.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/common_colors.xml"
                 qualifiers="" >
                 <color name="common_signin_btn_light_text_pressed" >@android:color/white
                 </color>
@@ -649,7 +649,7 @@ false
                 </color>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/common_strings.xml"
                 qualifiers="" >
                 <string name="common_google_play_services_notification_needs_installation_title" >An application requires installation of Google Play services.
                 </string>
@@ -689,10 +689,6 @@ false
                     name="common_google_play_services_install_text_tablet"
                     msgid="7351599665250191022" >This app won\'t run without Google Play services, which are missing from your tablet.
                 </string>
-                <string
-                    name="pre_release_do_not_ship"
-                    translatable="false" >true
-                </string>
                 <string name="common_google_play_services_invalid_account_title" >Invalid Account
                 </string>
                 <string name="common_google_play_services_notification_ticker" >Google Play services error
@@ -729,7 +725,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/maps_attrs.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/maps_attrs.xml"
                 qualifiers="" >
                 <declare-styleable name="MapAttrs" >
                     <attr
@@ -793,14 +789,14 @@ false
                 </declare-styleable>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/version.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/version.xml"
                 qualifiers="" >
                 <integer name="google_play_services_version" >
-5208000
+5089000
                 </integer>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/wallet_attrs.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/wallet_attrs.xml"
                 qualifiers="" >
                 <declare-styleable name="WalletFragmentStyle" >
 
@@ -943,7 +939,7 @@ false
                 </declare-styleable>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/wallet_colors.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/wallet_colors.xml"
                 qualifiers="" >
                 <color name="wallet_dim_foreground_inverse_disabled_holo_dark" >#80323232
                 </color>
@@ -973,7 +969,7 @@ false
                 </color>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/wallet_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/wallet_strings.xml"
                 qualifiers="" >
                 <string
                     name="wallet_buy_button_place_holder"
@@ -981,7 +977,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/wallet_styles.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/wallet_styles.xml"
                 qualifiers="" >
 
                 <style name="WalletFragmentDefaultDetailsTextAppearance" >
@@ -1071,38 +1067,7 @@ normal
                 </style>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-af/auth_strings.xml"
-                qualifiers="af" >
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"\'n Program vereis \'n opdatering vir Google Play-dienste."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"\'n Program het probeer om \'n slegte weergawe van Google Play-dienste te gebruik."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Google Play-dienstefout"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"\'n Program vereis dat Google Play-dienste geaktiveer word."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Versoek deur 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"\'n Program vereis dat Google Play-dienste geïnstalleer word."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-af/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml"
                 qualifiers="af" >
                 <string
                     name="common_google_play_services_network_error_title"
@@ -1209,38 +1174,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-am/auth_strings.xml"
-                qualifiers="am" >
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"መተግበሪያው Google Play አገልግሎቶች እንዲዘምን ይፈልጋል።"
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"የGoogle Play አገልግሎቶች ስህተት"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"መተግበሪያው Google Play አገልግሎቶች እንዲጫኑ ይፈልጋል።"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"መተግበሪያው የGoogle Play አገልግሎቶችን መጥፎ ስሪት ለመጠቀም ሞክሯል።"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"መተግበሪያው Google Play አገልግሎቶች እንዲነቁ ይፈልጋል።"
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"በ
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g> የተጠየቀ"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-am/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-am/common_strings.xml"
                 qualifiers="am" >
                 <string
                     name="common_google_play_services_update_title"
@@ -1347,38 +1281,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ar/auth_strings.xml"
-                qualifiers="ar" >
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"‏خطأ في خدمات Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"‏يتطلب أحد التطبيقات تثبيت خدمات Google Play."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"تم الطلب عن طريق 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"‏يحاول أحد التطبيقات استخدام إصدار غير صالح من خدمات Google Play."
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"‏يتطلب أحد التطبيقات تحديث خدمات Google Play."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"‏يتطلب أحد التطبيقات تمكين خدمات Google Play."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ar/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-ar/common_strings.xml"
                 qualifiers="ar" >
                 <string
                     name="common_signin_button_text"
@@ -1485,38 +1388,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-be/auth_strings.xml"
-                qualifiers="be" >
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Прыкладанне патрабуе абнаўлення службаў Google Play."
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Прыкладанне патрабуе ўсталявання службаў Google Play."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Прыкладанне паспрабавала скарыстацца сапсаванай версіяй службаў Google Play."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Памылка службаў Google Play"
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Запытана прыкладаннем 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Прыкладанне патрабуе ўключэння службаў Google Play."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-be/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-be/common_strings.xml"
                 qualifiers="be" >
                 <string
                     name="common_google_play_services_update_title"
@@ -1580,38 +1452,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-bg/auth_strings.xml"
-                qualifiers="bg" >
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Грешка в услугите за Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Приложение изисква инсталирането на услугите за Google Play."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Приложение изисква активирането на услугите за Google Play."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Заявено от 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Приложение опита да ползва неправилна версия на услуг. за Google Play."
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Приложение изисква актуализирането на услугите за Google Play."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-bg/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-bg/common_strings.xml"
                 qualifiers="bg" >
                 <string
                     name="common_google_play_services_notification_ticker"
@@ -1718,38 +1559,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ca/auth_strings.xml"
-                qualifiers="ca" >
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Sol·licitada per 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Una aplicació requereix que s\'instal·lin els serveis de Google Play."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Error dels serveis de Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Una aplicació requereix que s\'activin els serveis de Google Play."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Una aplic. ha intentat utilitzar una versió errònia de serveis de Play."
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Una aplicació requereix que s\'actualitzin els serveis de Google Play."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ca/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-ca/common_strings.xml"
                 qualifiers="ca" >
                 <string
                     name="common_google_play_services_update_title"
@@ -1856,38 +1666,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-cs/auth_strings.xml"
-                qualifiers="cs" >
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Požadováno aplikací 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Chyba služeb Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Aplikace vyžaduje aktualizaci Služeb Google Play."
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Aplikace vyžaduje instalaci Služeb Google Play."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Aplikace se pokusila použít nesprávnou verzi Služeb Google Play."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Aplikace vyžaduje aktivované Služby Google Play."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-cs/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-cs/common_strings.xml"
                 qualifiers="cs" >
                 <string
                     name="common_signin_button_text_long"
@@ -1994,38 +1773,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-da/auth_strings.xml"
-                qualifiers="da" >
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Fejl i Google Play-tjenester"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"En applikation kræver en opdatering af Google Play."
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"En applikation kræver, at Google Play er installeret."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"En applikation forsøgte at bruge en defekt version af Google Play."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Anmodning fra 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"En applikation kræver, at Google Play er aktiveret."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-da/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-da/common_strings.xml"
                 qualifiers="da" >
                 <string
                     name="common_google_play_services_update_text"
@@ -2132,38 +1880,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-de/auth_strings.xml"
-                qualifiers="de" >
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"App erfordert die Installation von Google Play-Diensten"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"App erfordert aktivierte Google Play-Dienste"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"App erfordert ein Update für Google Play-Dienste"
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Angefordert von 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Fehler bei Google Play-Diensten"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"App versuchte, defekte Google Play-Dienste-Version zu verwenden"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-de/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-de/common_strings.xml"
                 qualifiers="de" >
                 <string
                     name="common_google_play_services_unsupported_title"
@@ -2270,38 +1987,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-el/auth_strings.xml"
-                qualifiers="el" >
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Απόπειρα χρήσης ακατάλληλης έκδοσης Υπηρεσιών Google Play από εφαρμογή"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Μια εφαρμογή απαιτεί την εγκατάσταση των Υπηρεσιών Google Play."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Υποβλήθηκε αίτημα από την εφαρμογή 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Μια εφαρμογή απαιτεί μια ενημέρωση για τις Υπηρεσίες Google Play."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Σφάλμα υπηρεσιών Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Μια εφαρμογή απαιτεί τις Υπηρεσίες Google Play για ενεργοποίηση."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-el/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-el/common_strings.xml"
                 qualifiers="el" >
                 <string
                     name="common_google_play_services_enable_text"
@@ -2408,38 +2094,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-en-rGB/auth_strings.xml"
-                qualifiers="en-rGB" >
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Requested by 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"An application attempted to use a bad version of Google Play Services."
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"An application requires installation of Google Play Services."
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"An application requires an update for Google Play Services."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"An application requires Google Play Services to be enabled."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Google Play services error"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-en-rGB/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-en-rGB/common_strings.xml"
                 qualifiers="en-rGB" >
                 <string
                     name="common_google_play_services_unsupported_text"
@@ -2546,38 +2201,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-en-rIN/auth_strings.xml"
-                qualifiers="en-rIN" >
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"An application attempted to use a bad version of Google Play Services."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Requested by 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Google Play services error"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"An application requires an update for Google Play Services."
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"An application requires installation of Google Play Services."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"An application requires Google Play Services to be enabled."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-en-rIN/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-en-rIN/common_strings.xml"
                 qualifiers="en-rIN" >
                 <string
                     name="common_google_play_services_update_button"
@@ -2684,38 +2308,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-es/auth_strings.xml"
-                qualifiers="es" >
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Solicitada por 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Error de los servicios de Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Una aplicación requiere que se habiliten los servicios de Play."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Una aplicación intentó usar versión incorrecta de servicios de Google Play."
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Una aplicación requiere que se actualicen los servicios de Google Play."
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Una aplicación requiere que se instalen los servicios de Google Play."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-es/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-es/common_strings.xml"
                 qualifiers="es" >
                 <string
                     name="common_google_play_services_install_button"
@@ -2822,44 +2415,13 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-es/wallet_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-es/wallet_strings.xml"
                 qualifiers="es" >
                 <string name="wallet_buy_button_place_holder" >Comprar con Google
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-es-rUS/auth_strings.xml"
-                qualifiers="es-rUS" >
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Error de Google Play Services"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Una aplicación requiere que se actualice Google Play Services"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Una aplicación requiere que se instale Google Play Services"
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Solicitada por 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Una aplicación requiere que se active Google Play Services"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Una aplic. intentó usar una versión no válida de Google Play Services"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-es-rUS/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-es-rUS/common_strings.xml"
                 qualifiers="es-rUS" >
                 <string
                     name="common_google_play_services_install_text_tablet"
@@ -2966,38 +2528,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-et-rEE/auth_strings.xml"
-                qualifiers="et-rEE" >
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Rakenduse kasutamiseks peavad olema lubatud Google Play teenused."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Päringu esitas: 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Rakendus püüdis kasutada Google Play teenuste sobimatut versiooni."
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Rakenduse kasutamiseks peavad olema installitud Google Play teenused."
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Rakenduse kasutamiseks tuleb värskendada Google Play teenuseid."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Viga Google Play teenustes"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-et-rEE/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-et-rEE/common_strings.xml"
                 qualifiers="et-rEE" >
                 <string
                     name="common_google_play_services_unsupported_text"
@@ -3104,38 +2635,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-fa/auth_strings.xml"
-                qualifiers="fa" >
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"‏برنامه‌ای تلاش کرد از نسخه نادرستی از خدمات Google Play استفاده کند."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"درخواست توسط 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"‏برنامه‌ای به فعال کردن خدمات Google Play نیاز دارد."
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"‏برنامه‌ای به نصب خدمات Google Play نیاز دارد."
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"‏برنامه‌ای به به‌روزرسانی خدمات Google Play نیاز دارد."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"‏خطا در خدمات Google Play"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-fa/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml"
                 qualifiers="fa" >
                 <string
                     name="common_google_play_services_invalid_account_title"
@@ -3242,38 +2742,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-fi/auth_strings.xml"
-                qualifiers="fi" >
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Päivitä Google Play -palvelut, jotta sovellus toimii."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Ota käyttöön Google Play -palvelut, jotta sovellus toimii."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Virhe Google Play -palveluissa"
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Pyynnön teki 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Sovellus yritti käyttää virheellistä Google Play -palveluiden versiota"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Asenna Google Play -palvelut, jotta sovellus toimii."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-fi/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fi/common_strings.xml"
                 qualifiers="fi" >
                 <string
                     name="common_google_play_services_invalid_account_text"
@@ -3380,38 +2849,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-fr/auth_strings.xml"
-                qualifiers="fr" >
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Erreur liée aux services Google Play"
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Demandée par 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Une application requiert la mise à jour des services Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Une application requiert l\'installation des services Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Une application requiert l\'activation des services Google Play"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Une application requiert une version valide des services Google Play"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-fr/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fr/common_strings.xml"
                 qualifiers="fr" >
                 <string
                     name="common_google_play_services_network_error_text"
@@ -3518,38 +2956,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-fr-rCA/auth_strings.xml"
-                qualifiers="fr-rCA" >
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Erreur liée aux services Google Play"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Une application requiert une version valide des services Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Une application requiert l\'installation des services Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Une application requiert l\'activation des services Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Une application requiert la mise à jour des services Google Play"
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Demandée par 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-fr-rCA/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fr-rCA/common_strings.xml"
                 qualifiers="fr-rCA" >
                 <string
                     name="common_google_play_services_unsupported_text"
@@ -3656,38 +3063,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-hi/auth_strings.xml"
-                qualifiers="hi" >
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"ऐप्स ने Google Play सेवाओं के खराब संस्करण के उपयोग का प्रयास किया."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g> द्वारा अनुरोधित"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"ऐप्स  के लिए Google Play सेवाओं के इंस्टॉलेशन की आवश्यकता है."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"ऐप्स  के लिए Google Play सेवाओं को सक्षम किए जाने की आवश्यकता है."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Google Play सेवाएं त्रुटि"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"ऐप्स  के लिए Google Play सेवाओं में Google Play से नई जानकारी की आवश्यकता है."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-hi/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-hi/common_strings.xml"
                 qualifiers="hi" >
                 <string
                     name="common_google_play_services_install_button"
@@ -3703,7 +3079,7 @@ normal
                 </string>
                 <string
                     name="common_google_play_services_needs_enabling_title"
-                    msgid="2583358409598976717" >"ऐप्लिकेशन के लिए Google Play सेवाएं सक्षम किए जाने की आवश्यकता है."
+                    msgid="2583358409598976717" >"एप्लिकेशन के लिए Google Play सेवाएं सक्षम किए जाने की आवश्यकता है."
                 </string>
                 <string
                     name="common_signin_button_text_long"
@@ -3723,7 +3099,7 @@ normal
                 </string>
                 <string
                     name="common_google_play_services_notification_needs_installation_title"
-                    msgid="8120534356798772974" >"ऐप्लिकेशन के लिए Google Play सेवाएं इंस्टॉल किए जाने की आवश्यकता है."
+                    msgid="8120534356798772974" >"एप्लिकेशन के लिए Google Play सेवाएं इंस्टॉल किए जाने की आवश्यकता है."
                 </string>
                 <string
                     name="common_google_play_services_invalid_account_text"
@@ -3786,7 +3162,7 @@ normal
                 </string>
                 <string
                     name="common_google_play_services_notification_needs_update_title"
-                    msgid="1388129345631079938" >"ऐप्लिकेशन के लिए Google Play सेवाओं में नई जानकारी की आवश्यकता है."
+                    msgid="1388129345631079938" >"एप्लिकेशन के लिए Google Play सेवाओं में नई जानकारी की आवश्यकता है."
                 </string>
                 <string
                     name="common_google_play_services_install_title"
@@ -3794,38 +3170,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-hr/auth_strings.xml"
-                qualifiers="hr" >
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Zahtijeva aplikacija 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Aplikacija zahtijeva instaliranje Usluga za Google Play."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Aplikacija zahtijeva omogućavanje Usluga za Google Play."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Aplikacija je pokušala upotrijebiti lošu verziju Usluga za Google Play."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Pogreška usluga za Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Aplikacija zahtijeva ažuriranje Usluga za Google Play."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-hr/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-hr/common_strings.xml"
                 qualifiers="hr" >
                 <string
                     name="common_google_play_services_update_button"
@@ -3932,38 +3277,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-hu/auth_strings.xml"
-                qualifiers="hu" >
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Egy alkalmazás a Play Szolgáltatások rossz verzióját akarta használni."
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Egy alkalmazás kéri a Google Play Szolgáltatások telepítését."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Google Play szolgáltatási hiba"
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Igénylő: 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Egy alkalmazás kéri a Google Play Szolgáltatások frissítését."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Egy alkalmazás kéri a Google Play Szolgáltatások engedélyezését."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-hu/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-hu/common_strings.xml"
                 qualifiers="hu" >
                 <string
                     name="common_google_play_services_notification_needs_update_title"
@@ -4070,38 +3384,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-hy-rAM/auth_strings.xml"
-                qualifiers="hy-rAM" >
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Google Play ծառայությունների սխալ"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Հավելվածը պահանջում է թարմացնել Google Play ծառայությունները:"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Հավելվածը պահանջում է միացնել Google Play ծառայությունները:"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Հավելվածը փորձել է կիրառել Google Play ծառայությունների վատ տարբերակը:"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Հավելվածը պահանջում է տեղադրել Google Play ծառայությունները:"
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>-ի հարցմամբ"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-hy-rAM/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-hy-rAM/common_strings.xml"
                 qualifiers="hy-rAM" >
                 <string
                     name="common_google_play_services_notification_needs_installation_title"
@@ -4208,38 +3491,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-in/auth_strings.xml"
-                qualifiers="in" >
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Aplikasi membutuhkan pembaruan untuk Layanan Google Play."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Aplikasi mencoba menggunakan versi Layanan Google Play yang rusak."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Kesalahan layanan Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Aplikasi membutuhkan pemasangan Layanan Google Play."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Diminta oleh 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Aplikasi membutuhkan Layanan Google Play untuk dapat diaktifkan."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-in/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-in/common_strings.xml"
                 qualifiers="in" >
                 <string
                     name="common_google_play_services_unsupported_title"
@@ -4346,38 +3598,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-it/auth_strings.xml"
-                qualifiers="it" >
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Errore Google Play Services"
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Richiesta da 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Un\'app ha tentato di usare una versione non valida di Play Services."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Un\'applicazione richiede l\'attivazione di Google Play Services."
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Un\'applicazione richiede l\'installazione di Google Play Services."
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Un\'applicazione richiede un aggiornamento di Google Play Services."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-it/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-it/common_strings.xml"
                 qualifiers="it" >
                 <string
                     name="common_google_play_services_install_title"
@@ -4484,38 +3705,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-iw/auth_strings.xml"
-                qualifiers="iw" >
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"‏יש אפליקציה המחייבת עדכון של שירותי Google Play."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"‏יש אפליקציה המחייבת הפעלה של שירותי Google Play."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"‏יש אפליקציה שניסתה להשתמש בגרסה שגויה של שירותי Google Play."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"התבקשה על ידי 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"‏שגיאה בשירותי Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"‏יש אפליקציה המחייבת התקנה של שירותי Google Play."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-iw/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-iw/common_strings.xml"
                 qualifiers="iw" >
                 <string
                     name="common_google_play_services_install_text_tablet"
@@ -4622,38 +3812,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ja/auth_strings.xml"
-                qualifiers="ja" >
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"アプリではGoogle Play開発者サービスを有効にする必要があります。"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"アプリではGoogle Play開発者サービスをインストールする必要があります。"
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>によるリクエスト"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"アプリではGoogle Play開発者サービスをアップデートする必要があります。"
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Google Play開発者サービスのエラー"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"アプリはGoogle Play開発者サービスの不適切なバージョンを使用しようとしました。"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ja/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-ja/common_strings.xml"
                 qualifiers="ja" >
                 <string
                     name="common_google_play_services_notification_needs_installation_title"
@@ -4760,38 +3919,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ka-rGE/auth_strings.xml"
-                qualifiers="ka-rGE" >
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"მომთხოვნი: 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"აპლიკაცია საჭიროებს Google Play Services-ის ინსტალაციას."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Google Play სერვისების შეცდომა"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"აპლიკაცია საჭიროებს Google Play Services-ის განახლებას."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"აპლიკაცია საჭიროებს გააქტიურებულ Google Play Services."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"აპლიკაცია შეეცადა გამოეყენებინა Google Play სერვისების არასწორი ვერსია."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ka-rGE/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-ka-rGE/common_strings.xml"
                 qualifiers="ka-rGE" >
                 <string
                     name="common_google_play_services_enable_button"
@@ -4898,38 +4026,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-km-rKH/auth_strings.xml"
-                qualifiers="km-rKH" >
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"កម្មវិធី​ទាមទារ​ការ​ដំឡើង​សេវាកម្ម​ឃ្លាំង​កម្មវិធី។"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"កម្មវិធី​ទាមទារ​​ធ្វើ​បច្ចុប្បន្នភាព​សេវាកម្ម​ឃ្លាំង​កម្មវិធី។"
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"កំហុស​សេវា​កម្ម​កម្សាន្ត Google"
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"បាន​ស្នើ​ដោយ 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"កម្មវិធី​​​ព្យាយាម​ប្រើ​កំណែ​មិនល្អ​របស់​សេវា​កម្ម​ឃ្លាំ​កម្មវិធី។"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"កម្មវិធី​ទាមទារ​​បើក​សេវាកម្ម​ឃ្លាំង​កម្មវិធី។"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-km-rKH/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-km-rKH/common_strings.xml"
                 qualifiers="km-rKH" >
                 <string
                     name="common_google_play_services_unsupported_text"
@@ -5036,38 +4133,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ko/auth_strings.xml"
-                qualifiers="ko" >
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Google Play 서비스 오류"
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>에서 요청"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Google Play 서비스를 설치해야 하는 애플리케이션입니다."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Google Play 서비스를 사용하도록 설정해야 하는 애플리케이션입니다."
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Google Play 서비스를 업데이트해야 하는 애플리케이션입니다."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"애플리케이션에서 잘못된 버전의 Google Play 서비스를 사용하려고 했습니다."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ko/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-ko/common_strings.xml"
                 qualifiers="ko" >
                 <string
                     name="common_google_play_services_unsupported_date_text"
@@ -5174,38 +4240,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-lo-rLA/auth_strings.xml"
-                qualifiers="lo-rLA" >
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"ບໍລິການ Google Play ຜິດພາດ"
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"ຮ້ອງຂໍໂດຍ 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"ແອັບພລິເຄຊັນຕ້ອງການໃຫ້ຕິດຕັ້ງ Google Play Services."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"ແອັບພລິເຄຊັນຕ້ອງການເປີດນຳໃຊ້ Google Play Services."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"ແອັບພລິເຄຊັນໄດ້ພະຍາຍາມໃຊ້ Google Play Services ເວີຊັນທີ່ບໍ່ສາມາດໃຊ້ໄດ້."
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"ແອັບພລິເຄຊັນຕ້ອງການອັບເດດ Google Play Services."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-lo-rLA/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-lo-rLA/common_strings.xml"
                 qualifiers="lo-rLA" >
                 <string
                     name="common_google_play_services_unsupported_title"
@@ -5312,38 +4347,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-lt/auth_strings.xml"
-                qualifiers="lt" >
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Norint naudoti programą būtina įdiegti „Google Play“ paslaugas."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"„Google Play“ paslaugų klaida"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Norint naudoti programą būtina atnaujinti „Google Play“ paslaugas."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Programa bandė naudotis netinkama „Google Play“ paslaugų versija."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Užklausą pateikė „
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>“"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Norint naudoti programą būtina įgalinti „Google Play“ paslaugas."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-lt/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-lt/common_strings.xml"
                 qualifiers="lt" >
                 <string
                     name="common_google_play_services_needs_enabling_title"
@@ -5450,38 +4454,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-lv/auth_strings.xml"
-                qualifiers="lv" >
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Lietojumpr. mēģināja izmantot nederīgu Google Play pakalp. versiju."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Lai lietojumprogramma darbotos, ir jāiespējo Google Play pakalpojumi."
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Lai lietojumprogramma darbotos, ir jāinstalē Google Play pakalpojumi."
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Lai lietojumprogramma darbotos, jāatjaunina Google Play pakalpojumi."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Pieprasījums no lietotnes 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Google Play pakalpojumu kļūda"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-lv/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-lv/common_strings.xml"
                 qualifiers="lv" >
                 <string
                     name="common_google_play_services_enable_text"
@@ -5588,38 +4561,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-mn-rMN/auth_strings.xml"
-                qualifiers="mn-rMN" >
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Аппликешн Google Play Үйлчилгээний муу хувилбарыг ашиглахыг оролдлоо."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Аппликешн Google Play Үйлчилгээг идэвхжүүлсэн байхыг шаардана."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Google Play үйлчилгээний алдаа"
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Хүсэлт гаргасан 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Аппликешн Google Play Үйлчилгээг шинэчлэхийг шаардана."
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Аппликешн Google Play Үйлчилгээг суулгахыг шаардана."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-mn-rMN/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-mn-rMN/common_strings.xml"
                 qualifiers="mn-rMN" >
                 <string
                     name="common_signin_button_text"
@@ -5726,38 +4668,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ms-rMY/auth_strings.xml"
-                qualifiers="ms-rMY" >
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Perkhidmatan Google Play perlu dikemas kini untuk menggunakan aplikasi."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Perkhidmatan Google Play perlu didayakan untuk menggunakan aplikasi."
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Perkhidmatan Google Play perlu dipasang untuk mengguankan aplikasi."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Aplikasi cuba menggunakan versi Perkhidmatan Google Play yang rosak."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Ralat perkhidmatan Google Play"
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Diminta oleh 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ms-rMY/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-ms-rMY/common_strings.xml"
                 qualifiers="ms-rMY" >
                 <string
                     name="common_signin_button_text_long"
@@ -5864,38 +4775,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-nb/auth_strings.xml"
-                qualifiers="nb" >
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Google Play Tjenester-feil"
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Forespurt av 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"En app krever at Google Play Tjenester oppdateres."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"En app prøvde å bruke en skadet versjon av Google Play Tjenester."
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"En app krever at Google Play Tjenester installeres."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"En app krever Google Play Tjenester for å aktiveres."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-nb/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-nb/common_strings.xml"
                 qualifiers="nb" >
                 <string
                     name="common_google_play_services_install_text_phone"
@@ -6002,38 +4882,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-nl/auth_strings.xml"
-                qualifiers="nl" >
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Google Play-services moet zijn ingeschakeld voor een applicatie."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Onjuiste versie van Google Play-services wordt gebruikt."
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Google Play-services moet worden geüpdatet voor een applicatie."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Fout met Google Play-services"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Google Play-services moet zijn geïnstalleerd voor een applicatie."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Aangevraagd door 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-nl/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-nl/common_strings.xml"
                 qualifiers="nl" >
                 <string
                     name="common_google_play_services_invalid_account_text"
@@ -6140,38 +4989,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-pl/auth_strings.xml"
-                qualifiers="pl" >
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Aplikacja wymaga włączenia Usług Google Play."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Aplikacja próbowała skorzystać z nieprawidłowej wersji Usług Google Play."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Żądanie z aplikacji 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Aplikacja wymaga zainstalowania Usług Google Play."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Błąd usług Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Aplikacja wymaga aktualizacji Usług Google Play."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-pl/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-pl/common_strings.xml"
                 qualifiers="pl" >
                 <string
                     name="common_google_play_services_error_notification_requested_by_msg"
@@ -6278,38 +5096,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-pt/auth_strings.xml"
-                qualifiers="pt" >
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Um aplicativo requer a instalação do Google Play Services."
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Um aplicativo requer a atualização do Google Play Services."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Um aplicativo requer a ativação do Google Play Services."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Solicitado por 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Um aplicativo tentou usar uma versão errada do Google Play Services."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Ocorreu um erro no Google Play Services"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-pt/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-pt/common_strings.xml"
                 qualifiers="pt" >
                 <string
                     name="common_google_play_services_invalid_account_title"
@@ -6416,38 +5203,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-pt-rBR/auth_strings.xml"
-                qualifiers="pt-rBR" >
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Um aplicativo requer a ativação do Google Play Services."
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Um aplicativo requer a atualização do Google Play Services."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Ocorreu um erro no Google Play Services"
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Solicitado por 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Um aplicativo requer a instalação do Google Play Services."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Um aplicativo tentou usar uma versão errada do Google Play Services."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-pt-rBR/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-pt-rBR/common_strings.xml"
                 qualifiers="pt-rBR" >
                 <string
                     name="common_google_play_services_enable_button"
@@ -6554,38 +5310,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-pt-rPT/auth_strings.xml"
-                qualifiers="pt-rPT" >
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Uma aplicação necessita da instalação dos Serviços do Google Play."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Aplicação tentou utiliz. versão incorreta dos Serviços do Google Play."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Uma aplicação necessita da ativação dos Serviços do Google Play."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Solicitado por 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Erro dos serviços do Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Uma aplicação necessita da atualização dos Serviços do Google Play."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-pt-rPT/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-pt-rPT/common_strings.xml"
                 qualifiers="pt-rPT" >
                 <string
                     name="common_google_play_services_install_text_phone"
@@ -6692,38 +5417,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ro/auth_strings.xml"
-                qualifiers="ro" >
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"O aplicație necesită o actualizare pentru Servicii Google Play."
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"O aplicație necesită instalarea Serviciilor Google Play."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Solicitată de 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Eroare Servicii Google Play"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Aplicația a încercat să utilizeze o vers. Servicii Google Play greșită"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"O aplicație necesită activarea Serviciilor Google Play."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ro/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-ro/common_strings.xml"
                 qualifiers="ro" >
                 <string
                     name="common_google_play_services_install_text_phone"
@@ -6830,38 +5524,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ru/auth_strings.xml"
-                qualifiers="ru" >
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Для работы приложения требуется обновить сервисы Google Play"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Версия сервисов Google Play неисправна"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Для работы приложения требуется включить сервисы Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Для работы приложения требуется установить сервисы Google Play"
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Запрос от приложения \"
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>\""
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Ошибка сервисов Google Play"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ru/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-ru/common_strings.xml"
                 qualifiers="ru" >
                 <string
                     name="common_google_play_services_enable_text"
@@ -6968,38 +5631,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-sk/auth_strings.xml"
-                qualifiers="sk" >
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Chyba služieb Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Aplikácia vyžaduje aktualizáciu služieb Google Play."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Vyžiadané aplikáciou 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Aplikácia vyžaduje inštaláciu služieb Google Play."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Aplikácia sa pokúsila použiť nesprávnu verziu služieb Google Play."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Aplikácia vyžaduje povolenie služieb Google Play."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-sk/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-sk/common_strings.xml"
                 qualifiers="sk" >
                 <string
                     name="common_google_play_services_invalid_account_text"
@@ -7106,38 +5738,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-sl/auth_strings.xml"
-                qualifiers="sl" >
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Za delovanje aplikacije morate namestiti Storitve Google Play."
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Za delovanje aplikacije morate posodobiti Storitve Google Play."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Zahtevala aplikacija 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Aplikacija je poskusila uporabiti napačno različico Storitev Google Play."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Napaka storitev Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Za delovanje aplikacije morate omogočiti Storitve Google Play."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-sl/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-sl/common_strings.xml"
                 qualifiers="sl" >
                 <string
                     name="common_google_play_services_unknown_issue"
@@ -7244,38 +5845,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-sr/auth_strings.xml"
-                qualifiers="sr" >
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Апликација захтева инсталирање Google Play услуга."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Захтева 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Апликација захтева ажурирање Google Play услуга."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Апликација захтева да Google Play услуге буду омогућене."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Апликација је покушала да користи лошу верзију Google Play услуга."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Грешка Google Play услуга"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-sr/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-sr/common_strings.xml"
                 qualifiers="sr" >
                 <string
                     name="common_google_play_services_install_text_phone"
@@ -7382,38 +5952,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-sv/auth_strings.xml"
-                qualifiers="sv" >
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"En olämplig version av Google Play Tjänster anropades av en app."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Google Play Tjänster måste aktiveras för en att app ska fungera."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Fel på Google Play Tjänster"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Google Play Tjänster måste uppdateras för en app ska fungera."
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Google Play Tjänster måste installeras för att en app ska fungera."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Begärdes av 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-sv/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-sv/common_strings.xml"
                 qualifiers="sv" >
                 <string
                     name="common_google_play_services_install_text_tablet"
@@ -7520,38 +6059,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-sw/auth_strings.xml"
-                qualifiers="sw" >
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Imeombwa na 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Programu inahitaji Huduma za Google Play ili kuwashwa."
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Programu inahitaji sasisho la Huduma za Google Play."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Hitilafu kwenye Huduma za Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Programu inahitaji usakinishaji wa Huduma za Google Play."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Programu ilijaribu kutumia toleo baya la Huduma za Google Play."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-sw/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-sw/common_strings.xml"
                 qualifiers="sw" >
                 <string
                     name="common_google_play_services_error_notification_requested_by_msg"
@@ -7658,38 +6166,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-th/auth_strings.xml"
-                qualifiers="th" >
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"ขอโดย 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"ข้อผิดพลาดของบริการ Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"แอปพลิเคชันหนึ่งจำเป็นต้องมีการอัปเดตสำหรับบริการ Google Play"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"แอปพลิเคชันหนึ่งพยายามใช้เวอร์ชันที่ไม่เหมาะสมของบริการ Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"แอปพลิเคชันหนึ่งจำเป็นต้องมีการติดตั้งบริการ Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"แอปพลิเคชันหนึ่งจำเป็นต้องมีบริการ Google Play เพื่อเปิดใช้งาน"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-th/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-th/common_strings.xml"
                 qualifiers="th" >
                 <string
                     name="common_google_play_services_install_text_phone"
@@ -7796,38 +6273,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-tl/auth_strings.xml"
-                qualifiers="tl" >
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Error sa mga serbisyo ng Google Play"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"May app na sumubok ng maling bersyon ng Mga Serbisyo ng Google Play."
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Kailangan ng application na ma-install ang Serbisyo ng Google Play."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Kailangan ng application na na-enable ang Mga Serbisyo ng Google Play."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Hiniling ng 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Kailangan ng application na i-update ang Mga Serbisyo ng Google Play."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-tl/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-tl/common_strings.xml"
                 qualifiers="tl" >
                 <string
                     name="common_google_play_services_unknown_issue"
@@ -7934,38 +6380,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-tr/auth_strings.xml"
-                qualifiers="tr" >
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Bir uygulama, Google Play Hizmetleri için bir güncelleme gerektiriyor."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Google Play hizmetleri hatası"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Bir uygulama, Google Play Hizmetleri\'nin etkin olmasını gerektiriyor."
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Bir uygulama, Google Play Hizmetleri\'nin yüklenmesini gerektiriyor."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"İstekte bulunan: 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Bir uygulama, Google Play Hizmetleri\'nin bozuk bir sürümünü kullanmayı denedi."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-tr/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-tr/common_strings.xml"
                 qualifiers="tr" >
                 <string
                     name="common_signin_button_text"
@@ -8072,38 +6487,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-uk/auth_strings.xml"
-                qualifiers="uk" >
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Щоб програма працювала, потрібно ввімкнути Сервіси Google Play."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Програма спробувала застосувати хибну версію Сервісів Google Play."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Запит від програми 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Щоб програма працювала, потрібно оновити Сервіси Google Play."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Помилка Сервісів Google Play"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Щоб програма працювала, потрібно встановити Сервіси Google Play."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-uk/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-uk/common_strings.xml"
                 qualifiers="uk" >
                 <string
                     name="common_google_play_services_notification_needs_update_title"
@@ -8210,38 +6594,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-vi/auth_strings.xml"
-                qualifiers="vi" >
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Ứng dụng yêu cầu cập nhật dành cho Dịch vụ Google Play."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Ứng dụng yêu cầu Dịch vụ của Google Play phải được bật."
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Ứng dụng đã cố sử dụng phiên bản không đúng của Dịch vụ của Google Play."
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Ứng dụng yêu cầu cài đặt Dịch vụ của Google Play."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Được yêu cầu bởi 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Lỗi dịch vụ của Google Play"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-vi/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-vi/common_strings.xml"
                 qualifiers="vi" >
                 <string
                     name="common_google_play_services_unsupported_date_text"
@@ -8348,38 +6701,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-zh-rCN/auth_strings.xml"
-                qualifiers="zh-rCN" >
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"由“
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>”发出"
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Google Play 服务出错"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"某个应用要求更新 Google Play 服务。"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"某个应用要求安装 Google Play 服务。"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"某个应用要求启用 Google Play 服务。"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"某个应用尝试使用的 Google Play 服务版本有误。"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-zh-rCN/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-zh-rCN/common_strings.xml"
                 qualifiers="zh-rCN" >
                 <string
                     name="common_google_play_services_enable_title"
@@ -8486,38 +6808,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-zh-rHK/auth_strings.xml"
-                qualifiers="zh-rHK" >
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"必須更新「Google Play 服務」，才能使用應用程式。"
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"「
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>」提出要求"
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Google Play 服務錯誤"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"應用程式嘗試使用錯誤版本的「Google Play 服務」。"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"必須安裝「Google Play 服務」，才能使用應用程式。"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"必須啟用「Google Play 服務」，才能使用應用程式。"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-zh-rHK/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-zh-rHK/common_strings.xml"
                 qualifiers="zh-rHK" >
                 <string
                     name="common_google_play_services_install_title"
@@ -8624,38 +6915,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-zh-rTW/auth_strings.xml"
-                qualifiers="zh-rTW" >
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"應用程式嘗試使用的 Google Play 服務版本有誤。"
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"應用程式需要啟用 Google Play 服務。"
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Google Play 服務錯誤"
-                </string>
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"應用程式需要更新 Google Play 服務。"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"應用程式需要安裝 Google Play 服務。"
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"提出要求的應用程式：
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-zh-rTW/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-zh-rTW/common_strings.xml"
                 qualifiers="zh-rTW" >
                 <string
                     name="common_google_play_services_install_button"
@@ -8762,38 +7022,7 @@ normal
                 </string>
             </file>
             <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-zu/auth_strings.xml"
-                qualifiers="zu" >
-                <string
-                    name="auth_client_needs_update_title"
-                    msgid="6488605506794595966" >"Uhlelo lokusebenza ludinga isibuyekezo samasevisi we-Google Play."
-                </string>
-                <string
-                    name="auth_client_requested_by_msg"
-                    msgid="6304135633531965756" >"Kucelwe yi-
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="auth_client_needs_installation_title"
-                    msgid="7999585836145154206" >"Uhlelo lokusebenza ludinga ukufakwa kwamasevisi we-Google Play."
-                </string>
-                <string
-                    name="auth_client_play_services_err_notification_msg"
-                    msgid="3635065018897986478" >"Iphutha lamasevisi we-Google Play"
-                </string>
-                <string
-                    name="auth_client_using_bad_version_title"
-                    msgid="2534454398764507874" >"Uhlelo lokusebenza luzame ukusebenzisa inguqulo embi yamasevisi we-Google Play."
-                </string>
-                <string
-                    name="auth_client_needs_enabling_title"
-                    msgid="3983201110833868073" >"Uhlelo lokusebenza ludinga amasevisi we-Google Play ukuze anikwe amandla."
-                </string>
-            </file>
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-zu/common_strings.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-zu/common_strings.xml"
                 qualifiers="zu" >
                 <string
                     name="common_google_play_services_notification_ticker"

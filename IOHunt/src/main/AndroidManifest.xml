@@ -21,7 +21,7 @@
     android:versionName="3.5" >
 
     <uses-sdk
-        android:minSdkVersion="14"
+        android:minSdkVersion="9"
         android:targetSdkVersion="17" />
 
     <uses-permission android:name="android.permission.NFC" />
@@ -45,6 +45,8 @@
         <meta-data
             android:name="com.google.android.gms.games.APP_ID"
             android:value="@string/app_id" />
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
 
         <activity
             android:name="com.laquysoft.codemotionhunt.ClueActivity"

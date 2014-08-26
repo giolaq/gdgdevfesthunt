@@ -16,6 +16,7 @@
 
 package com.laquysoft.codemotionhunt;
 
+import com.google.android.gms.games.Games;
 import com.google.android.gms.plus.PlusShare;
 import com.laquysoft.codemotionhunt.R;
 
@@ -82,7 +83,7 @@ public class VictoryActivity extends BaseActivity implements OnClickListener {
         hunt.save(getResources(), this);
 
         TextView tv = (TextView) findViewById(R.id.nameView);
-        tv.setText(getGamesClient().getCurrentPlayer().getDisplayName());
+        tv.setText(Games.Players.getCurrentPlayer(getApiClient()).getDisplayName());
 
         mShareButton.setEnabled(true);
     }
@@ -91,8 +92,7 @@ public class VictoryActivity extends BaseActivity implements OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
         case R.id.share_button:
-            PlusShare.Builder builder = new PlusShare.Builder(this,
-                    getPlusClient());
+            PlusShare.Builder builder = new PlusShare.Builder(this);
 
             // Set call-to-action metadata.
             builder.addCallToAction("FIND", /** call-to-action button label */
