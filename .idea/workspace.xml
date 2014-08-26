@@ -17,26 +17,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.laquysoft.codemotionhunt" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9d90fbe-f525-47b4-ae3a-49bab1dc77dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/core_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/zxing_android_integration_2_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/zxing_android_minimal_2_0_0.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_20_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/libGoogleAnalyticsServices.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_20_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_20_0_0.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_5_0_89.xml" afterPath="$PROJECT_DIR$/.idea/libraries/zxing_android_legacy_2_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/iOHunt/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/ClueActivity.java" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/ClueActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/iOHunt/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/build/generated/source/r/debug/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/iOHunt/build/generated/source/r/debug/com/google/android/gms/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/build/generated/source/r/debug/com/google/example/games/basegameutils/R.java" afterPath="$PROJECT_DIR$/iOHunt/build/generated/source/r/debug/com/google/example/games/basegameutils/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/build/generated/source/r/debug/com/laquysoft/codemotionhunt/R.java" afterPath="$PROJECT_DIR$/iOHunt/build/generated/source/r/debug/com/laquysoft/codemotionhunt/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/build.gradle" afterPath="$PROJECT_DIR$/iOHunt/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/iOHunt.iml" afterPath="$PROJECT_DIR$/iOHunt/iOHunt.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f9d90fbe-f525-47b4-ae3a-49bab1dc77dc" name="Default" comment="" />
     <ignored path="IOHunt.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
