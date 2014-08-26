@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/analytics.xml -->
+    <eat-comment />
+
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/color.xml -->
+    <eat-comment />
+
+    <color name="caption_text_color">#FF535353</color>
+    <color name="card_background">#FFDCDCDC</color>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/common_colors.xml -->
+    <eat-comment />
+
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#FFDD4B39</color>
+    <color name="common_signin_btn_light_text_default">#FF737373</color>
+    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_light_text_focused">#FF737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/color.xml -->
+    <eat-comment />
+
+    <color name="default_background">#4000</color>
+    <color name="highlight_text_color">#fff</color>
+    <color name="pressed_color">#66666666</color>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/wallet_colors.xml -->
+    <eat-comment />
+
+    <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
+    <color name="wallet_bright_foreground_holo_light">#ff000000</color>
+    <color name="wallet_dim_foreground_disabled_holo_dark">#80bebebe</color>
+    <color name="wallet_dim_foreground_holo_dark">#bebebe</color>
+    <color name="wallet_dim_foreground_inverse_disabled_holo_dark">#80323232</color>
+    <color name="wallet_dim_foreground_inverse_holo_dark">#323232</color>
+    <color name="wallet_highlighted_text_holo_dark">#6633b5e5</color>
+    <color name="wallet_highlighted_text_holo_light">#6633b5e5</color>
+    <color name="wallet_hint_foreground_holo_dark">#808080</color>
+    <color name="wallet_hint_foreground_holo_light">#808080</color>
+    <color name="wallet_holo_blue_light">#ff33b5e5</color>
+    <color name="wallet_link_text_light">#0000ee</color>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/admob_ads_attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="AdsAttrs">
+
+        <!--
+    The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
+    MEDIUM_RECTANGLE, SMART_BANNER, WIDE_SKYSCRAPER, or
+    &lt;width&gt;x&lt;height&gt;.
+        -->
+        <attr name="adSize" format="string" />
+
+        <!--
+    A comma-separated list of the supported ad sizes. The sizes must be one of
+    BANNER, FULL_BANNER, LEADERBOARD, MEDIUM_RECTANGLE, SMART_BANNER,
+    WIDE_SKYSCRAPER, or &lt;width&gt;x&lt;height&gt;.
+        -->
+        <attr name="adSizes" format="string" />
+
+        <!-- The ad unit ID. -->
+        <attr name="adUnitId" format="string" />
+    </declare-styleable>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/maps_attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="MapAttrs">
+        <attr name="mapType" format="enum">
+            <enum name="none" value="0" />
+            <enum name="normal" value="1" />
+            <enum name="satellite" value="2" />
+            <enum name="terrain" value="3" />
+            <enum name="hybrid" value="4" />
+        </attr>
+        <attr name="cameraBearing" format="float" />
+        <attr name="cameraTargetLat" format="float" />
+        <attr name="cameraTargetLng" format="float" />
+        <attr name="cameraTilt" format="float" />
+        <attr name="cameraZoom" format="float" />
+        <attr name="uiCompass" format="boolean" />
+        <attr name="uiRotateGestures" format="boolean" />
+        <attr name="uiScrollGestures" format="boolean" />
+        <attr name="uiTiltGestures" format="boolean" />
+        <attr name="uiZoomControls" format="boolean" />
+        <attr name="uiZoomGestures" format="boolean" />
+        <attr name="useViewLifecycle" format="boolean" />
+        <attr name="zOrderOnTop" format="boolean" />
+    </declare-styleable>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/wallet_attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="WalletFragmentOptions">
+
+        <!-- Theme to be used for the Wallet selector -->
+        <attr name="theme" format="enum">
+            <enum name="holo_dark" value="0" />
+            <enum name="holo_light" value="1" />
+        </attr>
+        <!-- Google Wallet environment to use -->
+        <attr name="environment" format="enum">
+            <enum name="production" value="1" />
+            <enum name="sandbox" value="0" />
+            <enum name="strict_sandbox" value="2" />
+        </attr>
+        <!-- A style resource specifing attributes to customize the look and feel of WalletFragment -->
+        <attr name="fragmentStyle" format="reference" />
+        <!-- Fragment mode -->
+        <attr name="fragmentMode" format="enum">
+            <enum name="buyButton" value="1" />
+            <enum name="selectionDetails" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="WalletFragmentStyle">
+
+        <!--
+             Height of the buy button. This includes an 8dp padding (4dp on each side) used for
+             pressed and focused states of the button. The value can be a specific height, e.g.
+             "48dp", or special values "match_parent" and "wrap_content".
+        -->
+        <attr name="buyButtonHeight" format="dimension">
+            <enum name="match_parent" value="-1" />
+            <enum name="wrap_content" value="-2" />
+        </attr>
+        <!--
+             Width of the buy button. This includes an 8dp padding (4dp on each side) used for
+             pressed and focused states of the button. The value can be a specific width, e.g.
+             "300dp", or special values "match_parent" and "wrap_content".
+        -->
+        <attr name="buyButtonWidth" format="dimension">
+            <enum name="match_parent" value="-1" />
+            <enum name="wrap_content" value="-2" />
+        </attr>
+        <!-- Text on the buy button. Must be one of "buy_with_google", "buy_now" and "book_now" -->
+        <attr name="buyButtonText" format="enum">
+            <enum name="buy_with_google" value="1" />
+            <enum name="buy_now" value="2" />
+            <enum name="book_now" value="3" />
+        </attr>
+        <!-- Appearance of the buy button. Must be one of "classic", "grayscale" and "monochrome" -->
+        <attr name="buyButtonAppearance" format="enum">
+            <enum name="classic" value="1" />
+            <enum name="grayscale" value="2" />
+            <enum name="monochrome" value="3" />
+        </attr>
+        <!-- TextAppearance for masked wallet details -->
+        <attr name="maskedWalletDetailsTextAppearance" format="reference" />
+        <!-- TextAppearance for headers describing masked wallet details -->
+        <attr name="maskedWalletDetailsHeaderTextAppearance" format="reference" />
+        <!-- Masked wallet details background -->
+        <attr name="maskedWalletDetailsBackground" format="reference|color" />
+        <!-- TextAppearance for the "Change" button in masked wallet details view -->
+        <attr name="maskedWalletDetailsButtonTextAppearance" format="reference" />
+        <!-- "Change" button background in masked wallet details view -->
+        <attr name="maskedWalletDetailsButtonBackground" format="reference|color" />
+        <!-- Color of the Google Wallet logo text in masked wallet details view -->
+        <attr name="maskedWalletDetailsLogoTextColor" format="color" />
+        <!-- Type of the wallet logo image in masked wallet details view -->
+        <attr name="maskedWalletDetailsLogoImageType" format="enum">
+            <enum name="classic" value="1" />
+            <enum name="monochrome" value="2" />
+        </attr>
+    </declare-styleable>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="font_size_large">32sp</dimen>
+    <dimen name="font_size_medium">20sp</dimen>
+    <dimen name="font_size_small">14sp</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/version.xml -->
+    <eat-comment />
+
+    <integer name="google_play_services_version">5208000</integer>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
+    <eat-comment />
+
+    <string name="Story">Story</string>
+    <string name="about">About</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/ids.xml -->
+    <eat-comment />
+
+    <string name="achievement_alexander_the_great">CgkIoe2qy_IfEAIQCg</string>
+    <string name="achievement_double_scan">CgkIoe2qy_IfEAIQCA</string>
+    <string name="achievement_first_clue">CgkIoe2qy_IfEAIQAg</string>
+    <string name="achievement_halfway_there">CgkIoe2qy_IfEAIQBA</string>
+    <string name="achievement_pursuing_trivia">CgkIoe2qy_IfEAIQBw</string>
+    <string name="achievement_speedrun">CgkIoe2qy_IfEAIQBQ</string>
+    <string name="achievement_teachers_pet">CgkIoe2qy_IfEAIQBg</string>
+    <string name="app_id">1095911519905</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
+    <eat-comment />
+
+    <string name="app_name">Codemotion Hunt</string>
+    <string name="back">BACK</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/licenses.xml -->
+    <eat-comment />
+
+    <string name="basegameutils">Notice for BaseGameActivity.java and GameHelper.java</string>
+    <string name="basegameutils_license">Copyright (C) 2012 The Android Open Source Project
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at\n\n
+
+      http://www.apache.org/licenses/LICENSE-2.0\n\n
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
+    <eat-comment />
+
+    <string name="between_clues_first_time">Between clues, we may ask you a bonus question for EXTRA ACHIEVEMENTS!\n\nThe questions are timed, so answer as fast as you can!\nOf course, it\'s OK to use Google Search to help you!</string>
+    <string name="between_clues_next_time">It\'s time for another trivia question!\n\nGood luck!</string>
+    <string name="button_send">Send</string>
+    <string name="clue_subheading">Clue %1$s of %2$s</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/common_strings.xml -->
+    <eat-comment />
+
+    <string name="common_google_play_services_enable_button" msgid="2523291102206661146">Enable Google Play services</string>
+    <string name="common_google_play_services_enable_text" msgid="227660514972886228">This app won\'t work unless you enable Google Play services.</string>
+    <string name="common_google_play_services_enable_title" msgid="5122002158466380389">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string name="common_google_play_services_install_button" msgid="7153882981874058840">Get Google Play services</string>
+    <string name="common_google_play_services_install_text_phone" msgid="2122112764540849864">This app won\'t run without Google Play services, which are missing from your phone.</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="7351599665250191022">This app won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string name="common_google_play_services_install_title" msgid="7215213145546190223">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_needs_installation_title">An application requires installation of Google Play services.</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_date_text">The date on the device appears to be incorrect. Please check the date on the device.</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string name="common_google_play_services_update_button" msgid="6556509956452265614">Update</string>
+    <string name="common_google_play_services_update_text" msgid="9053896323427875356">This app won\'t run unless you update Google Play services.</string>
+    <string name="common_google_play_services_update_title" msgid="1788179980625863495">Update Google Play services</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
+    <eat-comment />
+
+    <string name="congratulations">Congratulations!</string>
+    <string name="continue1">Continue</string>
+    <string name="debug">Debug</string>
+    <string name="default_background">""</string>
+    <string name="default_button_color">"#80c465"</string>
+    <string name="default_text_color">"#00181c"</string>
+    <string name="edit_message">type something here</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/analytics.xml -->
+    <eat-comment />
+
+    <string name="ga_trackingId">UA-44734263-1</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
+    <eat-comment />
+
+    <string name="google_i_o_hunt_nby_the_android_and_social_google_developer_relations_teams">Rome Codemotion 2014 Hunt\nby Giovanni Laquidara and \nthe Google Developer Group Roma Lazio Abruzzo team</string>
+    <string name="heading">Heading</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="instructions">Instructions</string>
+    <string name="intruction_text_here">Intruction text here.</string>
+    <string name="leaderboard">LeaderBoard</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/ids.xml -->
+    <eat-comment />
+
+    <string name="leaderboard_id">CgkIoe2qy_IfEAIQAg</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
+    <eat-comment />
+
+    <string name="lets_go">Let\'s go!</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/licenses.xml -->
+    <eat-comment />
+
+    <string name="libanalytics">Notice for libGoogleAnalyticsV2.jar</string>
+    <string name="libanalytics_license">Google Analytics Android SDK version 2.0 beta 4\n\n
+
+Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
+    <eat-comment />
+
+    <string name="menu_achievements">Achievements</string>
+    <string name="menu_settings"></string>
+    <string name="next">NEXT</string>
+    <string name="nothing"></string>
+    <string name="notices">Notices</string>
+    <string name="oh_no_it_s_a_decoy">OH NO! IT\'S A DECOY!</string>
+    <string name="ok">OK</string>
+    <string name="one">1</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/common_strings.xml -->
+    <eat-comment />
+
+    <string name="pre_release_do_not_ship" translatable="false">true</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
+    <eat-comment />
+
+    <string name="preference_file_key">com.google.wolff.PREFERENCE_FILE_KEY</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="reset_this">Reset this</string>
+    <string name="return_to_sandbox">Return to the GDG desk where you started to claim your prize!</string>
+    <string name="share_on_google"><u>Share on Google+</u></string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/licenses.xml -->
+    <eat-comment />
+
+    <string name="sound_attribution">This work uses sounds from Freesound.org:\n\n
+
+        Chinese Fanfare\n
+          by Nick-Nac\n
+          http://www.freesound.org/people/Nick-Nac/\n\n
+
+        button select.wav, level up.wav, shoot laser.wav\n
+          http://www.freesound.org/people/Cabeeno%20Rossley/\n
+          by Cabeeno Rossley\n</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
+    <eat-comment />
+
+    <string name="start_">Start!</string>
+    <string name="story_0">Welcome to\nCodemotion Hunt, the NFC/QR game at\nRome Codemotion 2014!</string>
+    <string name="story_1"><b>Bugdroid</b> goes to Codemotion, using his G-Map Nav!</string>
+    <string name="story_2"><i><b>But he lost is phone and can\'t find it anymore</b></i> he needs your help to find it!</string>
+    <string name="story_4">Follow the clues by scanning special NFC/QR tags, like this one!  You will find them all around the building.</string>
+    <string name="story_5">There will be multiple tags at each location, so keep your eyes open!</string>
+    <string name="story_6">Are you ready?  Your journey awaits...</string>
+    <string name="story_7">Oh, one last thing...</string>
+    <string name="story_8">Press the button below to accept your quest.</string>
+    <string name="story_8_reauth">Please Sign In with Google+ to continue.</string>
+    <string name="story_9">We use Google+ login to record your progress. By signing in, you will be able to get achievements and redeem prizes.\n\nYou may also find your progress displayed on the leaderboard in the...</string>
+    <string name="subheading">Subheading</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="three">3</string>
+    <string name="time_left">Time left</string>
+    <string name="title_activity_clue_message">Codemotion Hunt</string>
+    <string name="tracking_id">UA-44734263-1</string>
+    <string name="two">2</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/wallet_strings.xml -->
+    <eat-comment />
+
+    <string name="wallet_buy_button_place_holder" translation_description="Text on a button that allows a user to make a payment with Google Wallet [CHAR LIMIT=30]">Buy with Google</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
+    <eat-comment />
+
+    <string name="warned_you">There must be something about this tag that could have warned you...</string>
+    <string name="welcome">DroidCon Hunt is a game exclusively for Rome Codemotion 2014 attendees, where you race to explore the ...\n\nOh, and there\'s a prize at the end.\n\nReady to play?</string>
+    <string name="youwin">You win!</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="Button" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="DefaultText" parent="@android:style/TextAppearance">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Heading" parent="@android:style/TextAppearance.Large">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="HelpText">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="HelpText.Caption">
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+
+    <style name="HelpText.Heading">
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">@dimen/font_size_large</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+
+    <style name="SubHeading" parent="@android:style/TextAppearance.Medium">
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="TagMarker">
+        <item name="android:background">@drawable/dashed_circle</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">35dp</item>
+    </style>
+
+    <style name="Theme.App" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@drawable/grey_background_pattern</item>
+        <item name="android:buttonStyle">@style/Button</item>
+        <item name="android:textAppearance">@style/DefaultText</item>
+        <item name="android:textAppearanceLarge">@style/Heading</item>
+        <item name="android:textAppearanceMedium">@style/SubHeading</item>
+    </style>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/admob_iap_style.xml -->
+    <eat-comment />
+
+    <style name="Theme.IAPTheme" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values/wallet_styles.xml -->
+    <eat-comment />
+
+    <style name="WalletFragmentDefaultButtonTextAppearance">
+        <item name="android:textColor">@color/wallet_primary_text_holo_light</item>
+        <item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_light</item>
+        <item name="android:textColorHint">@color/wallet_hint_foreground_holo_light</item>
+        <item name="android:textColorLink">@color/wallet_link_text_light</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="WalletFragmentDefaultDetailsHeaderTextAppearance" parent="WalletFragmentDefaultDetailsTextAppearance">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="WalletFragmentDefaultDetailsTextAppearance">
+        <item name="android:textColor">@color/wallet_secondary_text_holo_dark</item>
+        <item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_dark</item>
+        <item name="android:textColorHint">@color/wallet_hint_foreground_holo_dark</item>
+        <item name="android:textColorLink">@color/wallet_holo_blue_light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="WalletFragmentDefaultStyle">
+        <item name="buyButtonHeight">48dp</item>
+        <item name="buyButtonWidth">match_parent</item>
+        <item name="buyButtonText">buy_with_google</item>
+        <item name="buyButtonAppearance">classic</item>
+        <item name="maskedWalletDetailsTextAppearance">@style/WalletFragmentDefaultDetailsTextAppearance</item>
+        <item name="maskedWalletDetailsHeaderTextAppearance">@style/WalletFragmentDefaultDetailsHeaderTextAppearance</item>
+        <item name="maskedWalletDetailsBackground">@color/wallet_bright_foreground_holo_light</item>
+        <item name="maskedWalletDetailsButtonBackground">@android:drawable/btn_default</item>
+        <item name="maskedWalletDetailsButtonTextAppearance">@style/WalletFragmentDefaultButtonTextAppearance</item>
+        <item name="maskedWalletDetailsLogoTextColor">@color/wallet_bright_foreground_holo_dark</item>
+        <item name="maskedWalletDetailsLogoImageType">classic</item>
+    </style>
+
+</resources>
