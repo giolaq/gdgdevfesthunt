@@ -45,5 +45,55 @@
     <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Opdater Google Play-tjenester"</string>
     <string name="common_signin_button_text" msgid="9071884888741449141">"Log ind"</string>
     <string name="common_signin_button_text_long" msgid="2429381841831957106">"Log ind med Google"</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-da/values.xml -->
+    <eat-comment />
+
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_cancel">Annullér</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_contents_contact">Kontaktinfo</string>
+    <string name="zxing_contents_email">E-mailadresse</string>
+    <string name="zxing_contents_location">Geografiske koordinater</string>
+    <string name="zxing_contents_phone">Telefonnummer</string>
+    <string name="zxing_contents_sms">SMS-adresse</string>
+    <string name="zxing_contents_text">Almindelig tekst</string>
+    <string name="zxing_menu_encode_mecard">Brug MECARD</string>
+    <string name="zxing_menu_encode_vcard">Brug vCard</string>
+    <string name="zxing_menu_help">Hjælp</string>
+    <string name="zxing_menu_share">Del</string>
+    <string name="zxing_msg_camera_framework_bug">Beklager, Android-kameraet er stødt på et problem. Du skal muligvis genstarte enheden.</string>
+    <string name="zxing_msg_default_format">Format</string>
+    <string name="zxing_msg_default_meta">Metadata</string>
+    <string name="zxing_msg_default_status">Placér en stregkode inden i firkanten for at aflæse den.</string>
+    <string name="zxing_msg_default_time">Tid</string>
+    <string name="zxing_msg_default_type">Type</string>
+    <string name="zxing_msg_encode_contents_failed">Kunne ikke indkode en stregkode fra oplysningerne givet.</string>
+    <string name="zxing_msg_unmount_usb">Beklager, SD-kortet er ikke tilgængelig.</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-da/values.xml -->
+    <eat-comment />
+
+    <string name="zxinglegacy_app_name">Barcode Scanner</string>
+    <string name="zxinglegacy_button_back">Tilbage</string>
+    <string name="zxinglegacy_button_cancel">Annullér</string>
+    <string name="zxinglegacy_button_done">Færdig</string>
+    <string name="zxinglegacy_button_ok">OK</string>
+    <string name="zxinglegacy_contents_contact">Kontaktinfo</string>
+    <string name="zxinglegacy_contents_email">E-mailadresse</string>
+    <string name="zxinglegacy_contents_location">Geografiske koordinater</string>
+    <string name="zxinglegacy_contents_phone">Telefonnummer</string>
+    <string name="zxinglegacy_contents_sms">SMS-adresse</string>
+    <string name="zxinglegacy_contents_text">Almindelig tekst</string>
+    <string name="zxinglegacy_menu_encode_mecard">Brug MECARD</string>
+    <string name="zxinglegacy_menu_encode_vcard">Brug vCard</string>
+    <string name="zxinglegacy_menu_help">Hjælp</string>
+    <string name="zxinglegacy_menu_share">Del</string>
+    <string name="zxinglegacy_msg_camera_framework_bug">Beklager, Android-kameraet er stødt på et problem. Du skal muligvis genstarte enheden.</string>
+    <string name="zxinglegacy_msg_default_format">Format</string>
+    <string name="zxinglegacy_msg_default_meta">Metadata</string>
+    <string name="zxinglegacy_msg_default_status">Placér en stregkode inden i firkanten for at aflæse den.</string>
+    <string name="zxinglegacy_msg_default_time">Tid</string>
+    <string name="zxinglegacy_msg_default_type">Type</string>
+    <string name="zxinglegacy_msg_encode_contents_failed">Kunne ikke indkode en stregkode fra oplysningerne givet.</string>
+    <string name="zxinglegacy_msg_unmount_usb">Beklager, SD-kortet er ikke tilgængelig.</string>
 
 </resources>

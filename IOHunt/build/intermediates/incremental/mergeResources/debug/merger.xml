@@ -3,6 +3,3544 @@
     version="2"
     xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" >
 
+    <dataSet config="2.0.0" >
+        <source path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-integration/2.0.0/res" />
+    </dataSet>
+    <dataSet config="2.0.0" >
+        <source path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res" >
+            <file
+                name="zxinglegacy_capture"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/layout/zxinglegacy_capture.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="zxinglegacy_encode"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/layout/zxinglegacy_encode.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="zxinglegacy_help"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/layout/zxinglegacy_help.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="zxinglegacy_encode"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/layout-land/zxinglegacy_encode.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="zxinglegacy_capture"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/layout-ldpi/zxinglegacy_capture.xml"
+                qualifiers="ldpi-v4"
+                type="layout" />
+            <file
+                name="zxinglegacy_capture"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/menu/zxinglegacy_capture.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="zxinglegacy_encode"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/menu/zxinglegacy_encode.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="zxinglegacy_beep"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/raw/zxinglegacy_beep.ogg"
+                qualifiers=""
+                type="raw" />
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values/values.xml"
+                qualifiers="" >
+                <color name="zxinglegacy_status_text" >#ffffffff
+                </color>
+
+                <string name="zxinglegacy_contents_location" >Geographic coordinates
+                </string>
+
+                <item
+                    name="zxinglegacy_back_button"
+                    type="id"/>
+
+                <color name="zxinglegacy_possible_result_points" >#c0ffbd21
+                </color>
+
+                <string-array
+                    name="zxinglegacy_country_codes"
+                    translatable="false" >
+                    <item>
+-
+                    </item>
+                    <item>
+AR
+                    </item>
+                    <item>
+AU
+                    </item>
+                    <item>
+BR
+                    </item>
+                    <item>
+BG
+                    </item>
+                    <item>
+CA
+                    </item>
+                    <item>
+CH
+                    </item>
+                    <item>
+CN
+                    </item>
+                    <item>
+CZ
+                    </item>
+                    <item>
+DE
+                    </item>
+                    <item>
+DK
+                    </item>
+                    <item>
+ES
+                    </item>
+                    <item>
+FI
+                    </item>
+                    <item>
+FR
+                    </item>
+                    <item>
+GB
+                    </item>
+                    <item>
+GR
+                    </item>
+                    <item>
+HU
+                    </item>
+                    <item>
+ID
+                    </item>
+                    <item>
+IT
+                    </item>
+                    <item>
+JP
+                    </item>
+                    <item>
+KR
+                    </item>
+                    <item>
+NL
+                    </item>
+                    <item>
+PL
+                    </item>
+                    <item>
+PT
+                    </item>
+                    <item>
+RU
+                    </item>
+                    <item>
+SE
+                    </item>
+                    <item>
+SK
+                    </item>
+                    <item>
+SI
+                    </item>
+                    <item>
+TR
+                    </item>
+                    <item>
+TW
+                    </item>
+                    <item>
+US
+                    </item>
+                </string-array>
+
+                <color name="zxinglegacy_result_points" >#c099cc00
+                </color>
+
+                <string name="zxinglegacy_msg_default_status" >Place a barcode inside the viewfinder rectangle to scan it.
+                </string>
+
+                <dimen name="zxinglegacy_standard_padding" >8dip
+                </dimen>
+
+                <color name="zxinglegacy_transparent" >#00000000
+                </color>
+
+                <string name="zxinglegacy_msg_default_type" >Type
+                </string>
+
+                <item
+                    name="zxinglegacy_quit"
+                    type="id"/>
+
+                <string name="zxinglegacy_menu_encode_mecard" >Use MECARD
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Time
+                </string>
+
+                <color name="zxinglegacy_result_view" >#b0000000
+                </color>
+
+                <string-array
+                    name="zxinglegacy_preferences_front_light_values"
+                    translatable="false" >
+                    <item>
+ON
+                    </item>
+                    <item>
+AUTO
+                    </item>
+                    <item>
+OFF
+                    </item>
+                </string-array>
+
+                <item
+                    name="zxinglegacy_return_scan_result"
+                    type="id"/>
+
+                <string name="zxinglegacy_msg_camera_framework_bug" >Sorry, the Android camera encountered a problem. You may need to restart the device.
+                </string>
+
+                <dimen name="zxinglegacy_half_padding" >4dip
+                </dimen>
+
+                <string name="zxinglegacy_contents_sms" >SMS address
+                </string>
+                <string name="zxinglegacy_button_done" >Done
+                </string>
+
+                <item
+                    name="zxinglegacy_launch_product_query"
+                    type="id"/>
+
+                <string name="zxinglegacy_contents_email" >Email address
+                </string>
+
+                <color name="zxinglegacy_result_text" >#ffffffff
+                </color>
+                <color name="zxinglegacy_encode_view" >#ffffffff
+                </color>
+
+                <item
+                    name="zxinglegacy_decode_succeeded"
+                    type="id"/>
+
+                <string name="zxinglegacy_msg_unmount_usb" >Sorry, the SD card is not accessible.
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >Metadata
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >Use vCard
+                </string>
+                <string name="zxinglegacy_app_name" >Barcode Scanner
+                </string>
+
+                <color name="zxinglegacy_viewfinder_mask" >#60000000
+                </color>
+
+                <string name="zxinglegacy_contents_text" >Plain text
+                </string>
+
+                <item
+                    name="zxinglegacy_decode"
+                    type="id"/>
+
+                <string name="zxinglegacy_menu_share" >Share
+                </string>
+
+                <color name="zxinglegacy_result_minor_text" >#ffc0c0c0
+                </color>
+
+                <string name="zxinglegacy_contents_contact" >Contact info
+                </string>
+                <string name="zxinglegacy_button_ok" >OK
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Format
+                </string>
+
+                <item
+                    name="zxinglegacy_restart_preview"
+                    type="id"/>
+
+                <string name="zxinglegacy_contents_phone" >Phone number
+                </string>
+
+                <color name="zxinglegacy_contents_text" >#ff000000
+                </color>
+
+                <string name="zxinglegacy_msg_encode_contents_failed" >Could not encode a barcode from the data provided.
+                </string>
+
+                <color name="zxinglegacy_viewfinder_laser" >#ffcc0000
+                </color>
+
+                <string name="zxinglegacy_button_cancel" >Cancel
+                </string>
+                <string name="zxinglegacy_menu_help" >Help
+                </string>
+                <string name="zxinglegacy_button_back" >Back
+                </string>
+
+                <item
+                    name="zxinglegacy_decode_failed"
+                    type="id"/>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-ar/values.xml"
+                qualifiers="ar" >
+                <string name="zxinglegacy_msg_default_format" >التنسيق
+                </string>
+                <string name="zxinglegacy_contents_text" >نص عادي
+                </string>
+                <string name="zxinglegacy_msg_default_status" >قم بوضع الرمز الشريطي داخل حدود صورة الكاميرا ليتم مسحه.
+                </string>
+                <string name="zxinglegacy_app_name" >ماسح الرمز الشريطي
+                </string>
+                <string name="zxinglegacy_contents_phone" >رقم الهاتف
+                </string>
+                <string name="zxinglegacy_button_cancel" >إلغاء
+                </string>
+                <string name="zxinglegacy_contents_sms" >عنوان SMS
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >رجاء إيقاف التخزين على USB للمتابعة.
+                </string>
+                <string name="zxinglegacy_menu_help" >تعليمات
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >استخدام vCard
+                </string>
+                <string name="zxinglegacy_msg_default_type" >النوع
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >عفوا، حدثت مشكلة في كاميرا جهاز Android. قد تحتاج إلى إعادة تشغيل الجهاز.
+                </string>
+                <string name="zxinglegacy_button_done" >تم
+                </string>
+                <string name="zxinglegacy_contents_email" >عنوان البريد
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >تعذر ترميز رمز شريطي من البيانات المتوفرة.
+                </string>
+                <string name="zxinglegacy_msg_default_time" >الوقت
+                </string>
+                <string name="zxinglegacy_menu_share" >مشاركة
+                </string>
+                <string name="zxinglegacy_contents_location" >إحداثيات جغرافية
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >البيانات الوصفية
+                </string>
+                <string name="zxinglegacy_button_ok" >موافق
+                </string>
+                <string name="zxinglegacy_contents_contact" >معلومات جهة اتصال
+                </string>
+                <string name="zxinglegacy_button_back" >السابق
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >استخدام MECARD
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-bg/values.xml"
+                qualifiers="bg" >
+                <string name="zxinglegacy_msg_encode_contents_failed" >Неуспешно кодиране на подадените данни.
+                </string>
+                <string name="zxinglegacy_contents_contact" >Информация за контакт
+                </string>
+                <string name="zxinglegacy_button_cancel" >Отказ
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Време
+                </string>
+                <string name="zxinglegacy_contents_sms" >SMS адрес
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Формат
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >Съжаляваме, но SD картата не е достъпна.
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >Използвай vCard формат
+                </string>
+                <string name="zxinglegacy_button_done" >Готово
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >Използвай MECARD формат
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >Допълнение
+                </string>
+                <string name="zxinglegacy_contents_location" >Географски координати
+                </string>
+                <string name="zxinglegacy_msg_default_type" >Тип
+                </string>
+                <string name="zxinglegacy_contents_text" >Чист текст
+                </string>
+                <string name="zxinglegacy_msg_default_status" >Сложете баркода вътре в правоъгълника за да го сканирате.
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >Съжаляваме, срещнахме проблем с камерата. Може да се наложи да рестартирате устройството си.
+                </string>
+                <string name="zxinglegacy_app_name" >Баркод Скенер
+                </string>
+                <string name="zxinglegacy_menu_share" >Сподели
+                </string>
+                <string name="zxinglegacy_button_ok" >ОК
+                </string>
+                <string name="zxinglegacy_menu_help" >Помощ
+                </string>
+                <string name="zxinglegacy_button_back" >Обратно
+                </string>
+                <string name="zxinglegacy_contents_email" >Електронна поща
+                </string>
+                <string name="zxinglegacy_contents_phone" >Телефон
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-ca/values.xml"
+                qualifiers="ca" >
+                <string name="zxinglegacy_menu_help" >Ajuda
+                </string>
+                <string name="zxinglegacy_button_back" >Enrere
+                </string>
+                <string name="zxinglegacy_app_name" >Barcode Scanner
+                </string>
+                <string name="zxinglegacy_button_done" >Fet
+                </string>
+                <string name="zxinglegacy_contents_email" >Adreça electrònica
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Hora
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >Metadadades
+                </string>
+                <string name="zxinglegacy_button_cancel" >Cancel·la
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >Utilitza vCard
+                </string>
+                <string name="zxinglegacy_button_ok" >D\'acord
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >Utilitza MECARD
+                </string>
+                <string name="zxinglegacy_contents_phone" >Número de telèfon
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >No es pot codificar un codi de barres amb les dades proporcionades.
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >La targeta SD no es troba disponible.
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >S\'ha produït un problema amb la càmera de l\'Android. Potser haureu de reiniciar el dispositiu.
+                </string>
+                <string name="zxinglegacy_contents_contact" >Informació de contacte
+                </string>
+                <string name="zxinglegacy_msg_default_status" >Poseu un codi de barres dins el rectable per escanejar-lo.
+                </string>
+                <string name="zxinglegacy_contents_location" >Coordenades geogràfiques
+                </string>
+                <string name="zxinglegacy_contents_text" >Text pla
+                </string>
+                <string name="zxinglegacy_menu_share" >Comparteix
+                </string>
+                <string name="zxinglegacy_msg_default_type" >Tipus
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Format
+                </string>
+                <string name="zxinglegacy_contents_sms" >Adreça SMS
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-cs/values.xml"
+                qualifiers="cs" >
+                <string name="zxinglegacy_button_ok" >OK
+                </string>
+                <string name="zxinglegacy_menu_help" >Pomoc!
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >Omlouváme se, fotoaparát má problém. Možná bude nutné restartovat zařízení
+                </string>
+                <string name="zxinglegacy_contents_contact" >Info kontaktu
+                </string>
+                <string name="zxinglegacy_msg_default_type" >Typ
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Čas
+                </string>
+                <string name="zxinglegacy_contents_email" >Emailová adresa
+                </string>
+                <string name="zxinglegacy_msg_default_status" >Strefte se čtverečkem na čárový kód
+                </string>
+                <string name="zxinglegacy_contents_phone" >Telefonní číslo
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >Metadata
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Formát
+                </string>
+                <string name="zxinglegacy_menu_share" >Sdílet
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >Nepodařilo se rozkódovat čárový kód z poskytnutých údajů.
+                </string>
+                <string name="zxinglegacy_button_done" >Hotovo
+                </string>
+                <string name="zxinglegacy_contents_location" >Zeměpisné údaje
+                </string>
+                <string name="zxinglegacy_contents_sms" >SMS číslo
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >Použití vCard
+                </string>
+                <string name="zxinglegacy_button_cancel" >Zrušit
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >Omlouváme se, karta SD není přístupná.
+                </string>
+                <string name="zxinglegacy_app_name" >Barcode Scanner
+                </string>
+                <string name="zxinglegacy_button_back" >Zpět
+                </string>
+                <string name="zxinglegacy_contents_text" >Ostatní
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >Použití MECARD
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-da/values.xml"
+                qualifiers="da" >
+                <string name="zxinglegacy_msg_encode_contents_failed" >Kunne ikke indkode en stregkode fra oplysningerne givet.
+                </string>
+                <string name="zxinglegacy_menu_share" >Del
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >Metadata
+                </string>
+                <string name="zxinglegacy_contents_contact" >Kontaktinfo
+                </string>
+                <string name="zxinglegacy_contents_phone" >Telefonnummer
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >Brug MECARD
+                </string>
+                <string name="zxinglegacy_menu_help" >Hjælp
+                </string>
+                <string name="zxinglegacy_msg_default_status" >Placér en stregkode inden i firkanten for at aflæse den.
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >Brug vCard
+                </string>
+                <string name="zxinglegacy_msg_default_type" >Type
+                </string>
+                <string name="zxinglegacy_app_name" >Barcode Scanner
+                </string>
+                <string name="zxinglegacy_button_done" >Færdig
+                </string>
+                <string name="zxinglegacy_button_ok" >OK
+                </string>
+                <string name="zxinglegacy_button_cancel" >Annullér
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Format
+                </string>
+                <string name="zxinglegacy_contents_email" >E-mailadresse
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >Beklager, SD-kortet er ikke tilgængelig.
+                </string>
+                <string name="zxinglegacy_contents_text" >Almindelig tekst
+                </string>
+                <string name="zxinglegacy_contents_location" >Geografiske koordinater
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >Beklager, Android-kameraet er stødt på et problem. Du skal muligvis genstarte enheden.
+                </string>
+                <string name="zxinglegacy_contents_sms" >SMS-adresse
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Tid
+                </string>
+                <string name="zxinglegacy_button_back" >Tilbage
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-de/values.xml"
+                qualifiers="de" >
+                <string name="zxinglegacy_contents_email" >E-Mail Adresse
+                </string>
+                <string name="zxinglegacy_contents_text" >Text
+                </string>
+                <string name="zxinglegacy_button_cancel" >Abbruch
+                </string>
+                <string name="zxinglegacy_button_back" >Zurück
+                </string>
+                <string name="zxinglegacy_contents_sms" >SMS Adresse
+                </string>
+                <string name="zxinglegacy_msg_default_type" >Typ
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >Mit der Android-Kamera ist leider ein Fehler aufgetreten. Es könnte sein, dass Sie das Gerät neu starten müssen.
+                </string>
+                <string name="zxinglegacy_app_name" >Barcode Scanner
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >MECARD verwenden
+                </string>
+                <string name="zxinglegacy_msg_default_status" >Positionieren Sie den Barcode innerhalb des Rechteckes.
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >Aus den Daten kann kein Barcode erzeugt werden.
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Format
+                </string>
+                <string name="zxinglegacy_menu_help" >Hilfe
+                </string>
+                <string name="zxinglegacy_button_ok" >OK
+                </string>
+                <string name="zxinglegacy_contents_phone" >Telefonnummer
+                </string>
+                <string name="zxinglegacy_contents_location" >Koordinaten
+                </string>
+                <string name="zxinglegacy_menu_share" >Senden
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >vCard verwenden
+                </string>
+                <string name="zxinglegacy_button_done" >Fertig
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >Leider kann nicht auf die SD-Karte zugegriffen werden.
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >Metadaten
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Zeit
+                </string>
+                <string name="zxinglegacy_contents_contact" >Kontaktinfo
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-el/values.xml"
+                qualifiers="el" >
+                <string name="zxinglegacy_msg_encode_contents_failed" >Δεν γίνεται να παραχθεί barcode από αυτά τα δεδομένα.
+                </string>
+                <string name="zxinglegacy_menu_help" >Βοήθεια
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >Συγνώμη, η κάρτα SD δεν είναι προσβάσιμη.
+                </string>
+                <string name="zxinglegacy_msg_default_type" >Τύπος
+                </string>
+                <string name="zxinglegacy_contents_sms" >Διεύθνση SMS
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >Συγνώμη, προέκυψε ένα πρόβλημα με την κάμερα. Ίσως χρειαστεί να επανεκιννήσετε τη συσκευή.
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Διαμόρφωση
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >Χρησιμοποιήστε vCard
+                </string>
+                <string name="zxinglegacy_button_done" >Έγινε
+                </string>
+                <string name="zxinglegacy_contents_text" >Απλό κείμενο
+                </string>
+                <string name="zxinglegacy_contents_phone" >Τηλέφωνο
+                </string>
+                <string name="zxinglegacy_contents_contact" >Πληροφορίες επαφής
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >Metadata
+                </string>
+                <string name="zxinglegacy_contents_location" >Γεωγραφικές συντεταγμένες
+                </string>
+                <string name="zxinglegacy_contents_email" >Διεύθυνση email
+                </string>
+                <string name="zxinglegacy_app_name" >Barcode Scanner
+                </string>
+                <string name="zxinglegacy_menu_share" >Κοινή χρήση
+                </string>
+                <string name="zxinglegacy_button_cancel" >Ακύρωση
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >Χρησιμοποιήστε MECARD
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Ωρα
+                </string>
+                <string name="zxinglegacy_msg_default_status" >Τοποθετήστε ένα barcode μέσα στο πλαίσιο για να το σκανάρετε.
+                </string>
+                <string name="zxinglegacy_button_back" >Πίσω
+                </string>
+                <string name="zxinglegacy_button_ok" >OK
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-es/values.xml"
+                qualifiers="es" >
+                <string name="zxinglegacy_contents_location" >Coordenadas geográficas
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Formato
+                </string>
+                <string name="zxinglegacy_menu_share" >Compartir
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >Usar vCard
+                </string>
+                <string name="zxinglegacy_button_cancel" >Cancelar
+                </string>
+                <string name="zxinglegacy_button_done" >Terminar
+                </string>
+                <string name="zxinglegacy_contents_sms" >Dirección SMS
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >Usar MECARD
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >Metadata
+                </string>
+                <string name="zxinglegacy_contents_contact" >Información de contacto
+                </string>
+                <string name="zxinglegacy_msg_default_status" >Coloque un código de barras en el interior del rectángulo del visor para escanear.
+                </string>
+                <string name="zxinglegacy_button_back" >Regresar
+                </string>
+                <string name="zxinglegacy_menu_help" >Ayuda
+                </string>
+                <string name="zxinglegacy_msg_default_type" >Tipo
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >Lo sentimos, la cámara de Android ha encontrado un problema. Es posible que necesite reiniciar el dispositivo.
+                </string>
+                <string name="zxinglegacy_button_ok" >OK
+                </string>
+                <string name="zxinglegacy_contents_email" >Dirección de correo electrónico
+                </string>
+                <string name="zxinglegacy_app_name" >Barcode Scanner
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >No se pudo codificar un código de barras a partir de los datos facilitados.
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Tiempo
+                </string>
+                <string name="zxinglegacy_contents_phone" >Número de teléfono
+                </string>
+                <string name="zxinglegacy_contents_text" >Texto
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >Lo sentimos, la tarjeta SD no está accesible.
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-eu/values.xml"
+                qualifiers="eu" >
+                <string name="zxinglegacy_msg_unmount_usb" >Barkatu, SD txartela ez dago eskuragarri.
+                </string>
+                <string name="zxinglegacy_msg_default_type" >Mota
+                </string>
+                <string name="zxinglegacy_contents_text" >Testu laua
+                </string>
+                <string name="zxinglegacy_contents_phone" >Telefono zenbakia
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Denbora
+                </string>
+                <string name="zxinglegacy_contents_email" >E-posta helbidea
+                </string>
+                <string name="zxinglegacy_menu_share" >Partekatu
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >Barkatu, Android kamerak arazo bat izan du. Behar bada gailua berrabiarazi beharko duzu.
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >Erabili MECARD
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >Erabili vCard
+                </string>
+                <string name="zxinglegacy_contents_contact" >Kontaktuaren informazioa
+                </string>
+                <string name="zxinglegacy_button_ok" >Ados
+                </string>
+                <string name="zxinglegacy_contents_sms" >SMS helbidea
+                </string>
+                <string name="zxinglegacy_contents_location" >Koordenatu geografikoak
+                </string>
+                <string name="zxinglegacy_menu_help" >Laguntza
+                </string>
+                <string name="zxinglegacy_app_name" >Barra-kode Eskanerra
+                </string>
+                <string name="zxinglegacy_button_back" >Atzera
+                </string>
+                <string name="zxinglegacy_button_done" >Eginda
+                </string>
+                <string name="zxinglegacy_msg_default_status" >Kokatu barra-kode bat laukizuzenaren barruan eskaneatzeko.
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Formatua
+                </string>
+                <string name="zxinglegacy_button_cancel" >Utzi
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >Metadatuak
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >Ezin izan da barra-kode bat kodetu emandako datuetatik.
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-fi/values.xml"
+                qualifiers="fi" >
+                <string name="zxinglegacy_button_back" >Takaisin
+                </string>
+                <string name="zxinglegacy_contents_contact" >Yhteystiedon tiedot
+                </string>
+                <string name="zxinglegacy_contents_phone" >Puhelinnumero
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >Viivakoodia ei voitu muodostaa annetusta datasta.
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Aika
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Muoto
+                </string>
+                <string name="zxinglegacy_menu_share" >Jaa
+                </string>
+                <string name="zxinglegacy_button_done" >Valmis
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >SD-kortti ei ole käytettävissä.
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >Käytä vCard:ia
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >Metatiedot
+                </string>
+                <string name="zxinglegacy_msg_default_type" >Tyyppi
+                </string>
+                <string name="zxinglegacy_app_name" >Barcode Scanner
+                </string>
+                <string name="zxinglegacy_contents_text" >Teksti
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >Käytä MECARD:ia
+                </string>
+                <string name="zxinglegacy_contents_email" >Sähköpostiosoite
+                </string>
+                <string name="zxinglegacy_msg_default_status" >Aseta viivakoodi neliön sisälle skannataksesi sen.
+                </string>
+                <string name="zxinglegacy_menu_help" >Ohje
+                </string>
+                <string name="zxinglegacy_button_cancel" >Peruuta
+                </string>
+                <string name="zxinglegacy_contents_location" >Maantieteelliset koordinaatit
+                </string>
+                <string name="zxinglegacy_contents_sms" >Tekstiviestin osoite
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >Formaatti
+                </string>
+                <string name="zxinglegacy_button_ok" >OK
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-fr/values.xml"
+                qualifiers="fr" >
+                <string name="zxinglegacy_contents_phone" >Numéro de téléphone
+                </string>
+                <string name="zxinglegacy_msg_default_type" >Type
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >Format vCard
+                </string>
+                <string name="zxinglegacy_app_name" >Barcode Scanner
+                </string>
+                <string name="zxinglegacy_contents_contact" >Informations de contact
+                </string>
+                <string name="zxinglegacy_button_done" >Terminé
+                </string>
+                <string name="zxinglegacy_contents_location" >Coordonnées géographiques
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >Impossible de créer le code-barres à partir des données fournies.
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Temps
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >Désolé, la caméra Android a rencontré un problème. Un redémarrage de l\'appareil est peut-être nécessaire.
+                </string>
+                <string name="zxinglegacy_contents_text" >Texte
+                </string>
+                <string name="zxinglegacy_contents_email" >Adresse email
+                </string>
+                <string name="zxinglegacy_msg_default_status" >Placer un code-barres à l\'intérieur du rectangle pour le scanner.
+                </string>
+                <string name="zxinglegacy_button_ok" >OK
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Format
+                </string>
+                <string name="zxinglegacy_menu_share" >Partager
+                </string>
+                <string name="zxinglegacy_menu_help" >Aide
+                </string>
+                <string name="zxinglegacy_button_back" >Retour
+                </string>
+                <string name="zxinglegacy_button_cancel" >Annuler
+                </string>
+                <string name="zxinglegacy_contents_sms" >Adresse SMS
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >Métadonnées
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >Désolé, la carte SD n\'est pas accessible.
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >Format MECARD
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-he/values.xml"
+                qualifiers="he" >
+                <string name="zxinglegacy_menu_encode_mecard" >השתמש MECARD
+                </string>
+                <string name="zxinglegacy_button_ok" >אישור
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >מטה-נתונים
+                </string>
+                <string name="zxinglegacy_contents_email" >כתובת דואר אלקטרוני
+                </string>
+                <string name="zxinglegacy_contents_phone" >מספר טלפון
+                </string>
+                <string name="zxinglegacy_contents_text" >טקסט רגיל
+                </string>
+                <string name="zxinglegacy_contents_location" >קואורדינטות גאוגרפיות
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >סליחה, מצלמת האנדרואיד נתקלה בבעיה. ייתכן שיהיה עליך להפעיל מחדש את המכשיר.
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >השתמש vCard
+                </string>
+                <string name="zxinglegacy_menu_share" >שתף
+                </string>
+                <string name="zxinglegacy_button_back" >חזרה
+                </string>
+                <string name="zxinglegacy_contents_contact" >פרטי איש קשר
+                </string>
+                <string name="zxinglegacy_contents_sms" >כתובת SMS
+                </string>
+                <string name="zxinglegacy_msg_default_type" >סוג
+                </string>
+                <string name="zxinglegacy_msg_default_format" >פורמט
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >לא היתה אפשרות לקודד ברקוד מהנתונים שסופקו.
+                </string>
+                <string name="zxinglegacy_button_cancel" >ביטול
+                </string>
+                <string name="zxinglegacy_menu_help" >עזרה
+                </string>
+                <string name="zxinglegacy_msg_default_status" >הצב ברקוד בתוך המלבן כדי לסרוק אותו.
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >סליחה, כרטיס הזכרון אינו נגיש.
+                </string>
+                <string name="zxinglegacy_button_done" >סיים
+                </string>
+                <string name="zxinglegacy_msg_default_time" >זמן
+                </string>
+                <string name="zxinglegacy_app_name" >סורק ברקודים
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-hi/values.xml"
+                qualifiers="hi" >
+                <string name="zxinglegacy_msg_default_time" >समय
+                </string>
+                <string name="zxinglegacy_msg_default_format" >प्रारूप
+                </string>
+                <string name="zxinglegacy_contents_phone" >फ़ोन नंबर
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >क्षमा करें, Android कैमरा एक समस्या का सामना करना पड़ा. आप डिवाइस को पुनरारंभ करने की आवश्यकता हो सकती है.
+                </string>
+                <string name="zxinglegacy_contents_contact" >संपर्क जानकारी
+                </string>
+                <string name="zxinglegacy_contents_text" >सादा पाठ
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >vCard का प्रयोग करें
+                </string>
+                <string name="zxinglegacy_msg_default_status" >दृश्यदर्शी आयत के अंदर एक बारकोड प्लेस इसे स्कैन.
+                </string>
+                <string name="zxinglegacy_button_done" >ठीक है
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >उपलब्ध कराए गए आंकड़ों से एक बारकोड सांकेतिक शब्दों में बदलना नहीं कर सका.
+                </string>
+                <string name="zxinglegacy_menu_share" >शेयर
+                </string>
+                <string name="zxinglegacy_contents_sms" >एसएमएस पता
+                </string>
+                <string name="zxinglegacy_app_name" >बारकोड स्कैनर
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >MECARD का प्रयोग करें
+                </string>
+                <string name="zxinglegacy_msg_default_type" >टाइप
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >मेटाडाटा
+                </string>
+                <string name="zxinglegacy_button_back" >वापस
+                </string>
+                <string name="zxinglegacy_contents_location" >भौगोलिक निर्देशांक
+                </string>
+                <string name="zxinglegacy_contents_email" >ईमेल पता
+                </string>
+                <string name="zxinglegacy_button_cancel" >रद्द करना
+                </string>
+                <string name="zxinglegacy_button_ok" >ठीक है
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >क्षमा करें, एसडी कार्ड सुलभ नहीं है.
+                </string>
+                <string name="zxinglegacy_menu_help" >मदद
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-hu/values.xml"
+                qualifiers="hu" >
+                <string name="zxinglegacy_msg_unmount_usb" >Az SD kártya nem elérhető.
+                </string>
+                <string name="zxinglegacy_button_back" >Vissza
+                </string>
+                <string name="zxinglegacy_menu_help" >Súgó
+                </string>
+                <string name="zxinglegacy_button_ok" >OK
+                </string>
+                <string name="zxinglegacy_msg_default_type" >Típus
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >Metaadatok
+                </string>
+                <string name="zxinglegacy_contents_sms" >SMS szám
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Idő
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >Használja vCard
+                </string>
+                <string name="zxinglegacy_contents_location" >Földrajzi koordináták
+                </string>
+                <string name="zxinglegacy_button_done" >Kész
+                </string>
+                <string name="zxinglegacy_app_name" >Barcode Scanner
+                </string>
+                <string name="zxinglegacy_contents_phone" >Telefonszám
+                </string>
+                <string name="zxinglegacy_msg_default_status" >Pozícionálja a vonalkódot a kereső téglalapba a szkenneléshez.
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >Android kamera hiba. Lehet, hogy újra kell indítania a készüléket.
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >Nem sikerült létrehozni a vonalkódot a megadott adatokból.
+                </string>
+                <string name="zxinglegacy_button_cancel" >Mégse
+                </string>
+                <string name="zxinglegacy_contents_email" >E-mail cím
+                </string>
+                <string name="zxinglegacy_contents_text" >Egyszerű szöveg
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Formátum
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >Használja MECARD
+                </string>
+                <string name="zxinglegacy_menu_share" >Megosztás
+                </string>
+                <string name="zxinglegacy_contents_contact" >Névjegy információ
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-id/values.xml"
+                qualifiers="id" >
+                <string name="zxinglegacy_contents_email" >Alamat surel
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >Maaf, kamera pada Android mengalami masalah. Anda mungkin perlu me-restart perangkat.
+                </string>
+                <string name="zxinglegacy_button_cancel" >Batal
+                </string>
+                <string name="zxinglegacy_app_name" >Barcode Scanner
+                </string>
+                <string name="zxinglegacy_contents_contact" >Informasi kontak
+                </string>
+                <string name="zxinglegacy_button_done" >Selesai
+                </string>
+                <string name="zxinglegacy_menu_share" >Bagikan
+                </string>
+                <string name="zxinglegacy_contents_text" >Teks biasa
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Bentuk
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >Gunakan vCard
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >Tidak dapat meng-encode barcode dari data yang diberikan.
+                </string>
+                <string name="zxinglegacy_button_back" >Kembali
+                </string>
+                <string name="zxinglegacy_contents_location" >Koordinat geografis
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >Gunakan MECARD
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Waktu
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >Maaf, SD card tidak dapat diakses.
+                </string>
+                <string name="zxinglegacy_button_ok" >OK
+                </string>
+                <string name="zxinglegacy_contents_sms" >Alamat SMS
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >Metadata
+                </string>
+                <string name="zxinglegacy_msg_default_status" >Letakkan barcode di dalam kotak jendela untuk memindai.
+                </string>
+                <string name="zxinglegacy_msg_default_type" >Tipe
+                </string>
+                <string name="zxinglegacy_menu_help" >Bantuan
+                </string>
+                <string name="zxinglegacy_contents_phone" >Nomor telepon
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-it/values.xml"
+                qualifiers="it" >
+                <string name="zxinglegacy_msg_default_meta" >Metadati
+                </string>
+                <string name="zxinglegacy_contents_contact" >Info contatto
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >Spiacenti, la fotocamera Android ha riscontrato un problema. Potrebbe essere necessario riavviare il dispositivo.
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >Spiacenti, la scheda SD non è accessibile.
+                </string>
+                <string name="zxinglegacy_button_ok" >OK
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Tempo
+                </string>
+                <string name="zxinglegacy_msg_default_status" >Posiziona un codice a barre dentro il mirino rettangolare per la scansione.
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Formato
+                </string>
+                <string name="zxinglegacy_button_cancel" >Annulla
+                </string>
+                <string name="zxinglegacy_app_name" >Barcode Scanner
+                </string>
+                <string name="zxinglegacy_menu_share" >Condividi
+                </string>
+                <string name="zxinglegacy_contents_sms" >Numero SMS
+                </string>
+                <string name="zxinglegacy_menu_help" >Aiuto
+                </string>
+                <string name="zxinglegacy_contents_email" >Indirizzo email
+                </string>
+                <string name="zxinglegacy_button_back" >Indietro
+                </string>
+                <string name="zxinglegacy_button_done" >Fatto
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >Impossibile codificare un codice a barre dai dati forniti.
+                </string>
+                <string name="zxinglegacy_contents_phone" >Numero di telefono
+                </string>
+                <string name="zxinglegacy_contents_text" >Testo puro
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >Usa MECARD
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >Usa vCard
+                </string>
+                <string name="zxinglegacy_contents_location" >Coordinate geografiche
+                </string>
+                <string name="zxinglegacy_msg_default_type" >Tipo
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-iw/values.xml"
+                qualifiers="iw" >
+                <string name="zxinglegacy_contents_text" >טקסט רגיל
+                </string>
+                <string name="zxinglegacy_menu_help" >עזרה
+                </string>
+                <string name="zxinglegacy_contents_contact" >פרטי איש קשר
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >לא היתה אפשרות לקודד ברקוד מהנתונים שסופקו.
+                </string>
+                <string name="zxinglegacy_contents_phone" >מספר טלפון
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >סליחה, כרטיס הזכרון אינו נגיש.
+                </string>
+                <string name="zxinglegacy_button_cancel" >ביטול
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >מטה-נתונים
+                </string>
+                <string name="zxinglegacy_msg_default_format" >פורמט
+                </string>
+                <string name="zxinglegacy_contents_email" >כתובת דואר אלקטרוני
+                </string>
+                <string name="zxinglegacy_msg_default_type" >סוג
+                </string>
+                <string name="zxinglegacy_menu_share" >שתף
+                </string>
+                <string name="zxinglegacy_button_ok" >אישור
+                </string>
+                <string name="zxinglegacy_contents_sms" >כתובת SMS
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >סליחה, מצלמת האנדרואיד נתקלה בבעיה. ייתכן שיהיה עליך להפעיל מחדש את המכשיר.
+                </string>
+                <string name="zxinglegacy_button_back" >חזרה
+                </string>
+                <string name="zxinglegacy_contents_location" >קואורדינטות גאוגרפיות
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >השתמש MECARD
+                </string>
+                <string name="zxinglegacy_msg_default_time" >זמן
+                </string>
+                <string name="zxinglegacy_msg_default_status" >הצב ברקוד בתוך המלבן כדי לסרוק אותו.
+                </string>
+                <string name="zxinglegacy_app_name" >סורק ברקודים
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >השתמש vCard
+                </string>
+                <string name="zxinglegacy_button_done" >סיים
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-ja/values.xml"
+                qualifiers="ja" >
+                <string name="zxinglegacy_button_ok" >OK
+                </string>
+                <string name="zxinglegacy_msg_default_type" >タイプ
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >メタデータ
+                </string>
+                <string name="zxinglegacy_msg_default_status" >QRコードを画面の読み取り範囲内に写すとスキャンします。
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >SDカードにアクセスできません
+                </string>
+                <string name="zxinglegacy_contents_contact" >連絡先
+                </string>
+                <string name="zxinglegacy_button_cancel" >キャンセル
+                </string>
+                <string name="zxinglegacy_contents_phone" >電話番号
+                </string>
+                <string name="zxinglegacy_contents_sms" >SMSアドレス
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >Androidのカメラに問題が発生しました。デバイスを再起動する必要があります。
+                </string>
+                <string name="zxinglegacy_contents_location" >位置情報
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >MECARDを使用
+                </string>
+                <string name="zxinglegacy_msg_default_time" >時間
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >このデータからQRコードを作成できませんでした
+                </string>
+                <string name="zxinglegacy_button_done" >完了
+                </string>
+                <string name="zxinglegacy_msg_default_format" >フォーマット
+                </string>
+                <string name="zxinglegacy_button_back" >戻る
+                </string>
+                <string name="zxinglegacy_menu_help" >ヘルプ
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >vCardを使用
+                </string>
+                <string name="zxinglegacy_app_name" >QRコードスキャナー
+                </string>
+                <string name="zxinglegacy_contents_text" >テキストデータ
+                </string>
+                <string name="zxinglegacy_contents_email" >メールアドレス
+                </string>
+                <string name="zxinglegacy_menu_share" >共有
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-ko/values.xml"
+                qualifiers="ko" >
+                <string name="zxinglegacy_msg_default_format" >포맷
+                </string>
+                <string name="zxinglegacy_contents_text" >단문
+                </string>
+                <string name="zxinglegacy_msg_default_time" >시간
+                </string>
+                <string name="zxinglegacy_button_ok" >확인
+                </string>
+                <string name="zxinglegacy_menu_help" >도움말
+                </string>
+                <string name="zxinglegacy_contents_location" >GPS 좌표
+                </string>
+                <string name="zxinglegacy_contents_phone" >전화번호
+                </string>
+                <string name="zxinglegacy_contents_contact" >연락처 정보
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >죄송합니다. SD카드를 사용할 수 없습니다.
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >MECARD를 사용하여
+                </string>
+                <string name="zxinglegacy_contents_email" >이메일 주소
+                </string>
+                <string name="zxinglegacy_msg_default_type" >종류
+                </string>
+                <string name="zxinglegacy_menu_share" >공유
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >vCard를 사용하여
+                </string>
+                <string name="zxinglegacy_button_back" >뒤로
+                </string>
+                <string name="zxinglegacy_button_cancel" >취소
+                </string>
+                <string name="zxinglegacy_button_done" >완료
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >메타데이터
+                </string>
+                <string name="zxinglegacy_msg_default_status" >바코드를 사각형 안에 비춰주세요.
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >죄송합니다. 기기의 카메라에 오류가 생겼습니다. 기기를 재시작 해야될 수도 있습니다.
+                </string>
+                <string name="zxinglegacy_contents_sms" >전화번호
+                </string>
+                <string name="zxinglegacy_app_name" >바코드 스캐너
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >주어진 데이터로 바코드를 만들지 못하였습니다.
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-nl/values.xml"
+                qualifiers="nl" >
+                <string name="zxinglegacy_msg_default_status" >Plaats een barcode binnen de rechthoek om deze te scannen.
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >Sorry, er is een probleem met de Android-camera. Probeer je telefoon opnieuw op te starten.
+                </string>
+                <string name="zxinglegacy_button_back" >Terug
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Tijd
+                </string>
+                <string name="zxinglegacy_menu_share" >Delen
+                </string>
+                <string name="zxinglegacy_contents_email" >E-mailadres
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Formaat
+                </string>
+                <string name="zxinglegacy_button_cancel" >Annuleren
+                </string>
+                <string name="zxinglegacy_contents_text" >Platte tekst
+                </string>
+                <string name="zxinglegacy_button_ok" >OK
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >Kan geen barcode genereren op basis van de opgegeven gegevens.
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >Metadata
+                </string>
+                <string name="zxinglegacy_menu_help" >Help
+                </string>
+                <string name="zxinglegacy_contents_sms" >Sms-adres
+                </string>
+                <string name="zxinglegacy_contents_contact" >Contactpersooninformatie
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >MECARD gebruiken
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >vCard gebruiken
+                </string>
+                <string name="zxinglegacy_msg_default_type" >Type
+                </string>
+                <string name="zxinglegacy_app_name" >Barcode Scanner
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >Sorry, de SD-kaart is niet toegankelijk.
+                </string>
+                <string name="zxinglegacy_button_done" >Gereed
+                </string>
+                <string name="zxinglegacy_contents_phone" >Telefoonnummer
+                </string>
+                <string name="zxinglegacy_contents_location" >Geografische coördinaten
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-pl/values.xml"
+                qualifiers="pl" >
+                <string name="zxinglegacy_msg_default_meta" >Metadanych
+                </string>
+                <string name="zxinglegacy_button_done" >Gotowe
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Format
+                </string>
+                <string name="zxinglegacy_button_ok" >OK
+                </string>
+                <string name="zxinglegacy_contents_sms" >Adres SMS
+                </string>
+                <string name="zxinglegacy_menu_share" >Udostępnij
+                </string>
+                <string name="zxinglegacy_menu_help" >Pomoc
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >Nie można zakodować kodu paskowego z dostarczonych danych.
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >Przepraszamy, aparat Android napotkał problem. Może wystąpić potrzeba ponownego uruchomienia urządzenia.
+                </string>
+                <string name="zxinglegacy_msg_default_status" >Umieść kod paskowy w prostokącie wizjera aby zeskanować.
+                </string>
+                <string name="zxinglegacy_contents_phone" >Numer telefonu
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >Użyj MECARD
+                </string>
+                <string name="zxinglegacy_contents_email" >Adres email
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Czas
+                </string>
+                <string name="zxinglegacy_app_name" >Barcode Scanner
+                </string>
+                <string name="zxinglegacy_button_cancel" >Anuluj
+                </string>
+                <string name="zxinglegacy_button_back" >Wstecz
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >Użyj vCard
+                </string>
+                <string name="zxinglegacy_msg_default_type" >Typ
+                </string>
+                <string name="zxinglegacy_contents_text" >Zwykły tekst
+                </string>
+                <string name="zxinglegacy_contents_location" >Współrzędne geograficzne
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >Niestety, karta SD nie jest dostępna.
+                </string>
+                <string name="zxinglegacy_contents_contact" >Informacje o kontakcie
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-pt/values.xml"
+                qualifiers="pt" >
+                <string name="zxinglegacy_menu_share" >Partilhar
+                </string>
+                <string name="zxinglegacy_button_cancel" >Cancelar
+                </string>
+                <string name="zxinglegacy_contents_contact" >Informação de contacto
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >Usar vCard
+                </string>
+                <string name="zxinglegacy_msg_default_status" >Alinhar código de barras com o exemplo para ser lido.
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >Desculpe, a câmera do Android encontrou um problema. Poderá precisar de reiniciar o dispositivo.
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >Desculpe, o cartão SD não está disponível.
+                </string>
+                <string name="zxinglegacy_contents_sms" >Endereço SMS
+                </string>
+                <string name="zxinglegacy_contents_email" >Endereço de e-mail
+                </string>
+                <string name="zxinglegacy_app_name" >Barcode Scanner
+                </string>
+                <string name="zxinglegacy_button_done" >Feito
+                </string>
+                <string name="zxinglegacy_button_ok" >OK
+                </string>
+                <string name="zxinglegacy_menu_help" >Ajuda
+                </string>
+                <string name="zxinglegacy_contents_text" >Texto simples
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >Usar MECARD
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Formato
+                </string>
+                <string name="zxinglegacy_button_back" >Voltar
+                </string>
+                <string name="zxinglegacy_contents_location" >Coordenadas geográficas
+                </string>
+                <string name="zxinglegacy_contents_phone" >Número de telefone
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >Não foi possível codificar o código de barradas apartir dos dados fornecidos.
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Tempo
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >Metadata
+                </string>
+                <string name="zxinglegacy_msg_default_type" >Tipo
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-ru/values.xml"
+                qualifiers="ru" >
+                <string name="zxinglegacy_button_cancel" >Отмена
+                </string>
+                <string name="zxinglegacy_contents_text" >Текст
+                </string>
+                <string name="zxinglegacy_msg_default_status" >Чтобы сканировать штрих-код, поместите его в прямоугольник видоискателя.
+                </string>
+                <string name="zxinglegacy_contents_location" >Географические координаты
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Время
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >Используйте vCard
+                </string>
+                <string name="zxinglegacy_contents_email" >Адрес эл. почты
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >К сожалению, возникла ошибка камеры. Вам может потребоваться перезагрузка устройства.
+                </string>
+                <string name="zxinglegacy_contents_sms" >Адрес для SMS
+                </string>
+                <string name="zxinglegacy_msg_default_type" >Тип
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >Используйте MECARD
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >Невозможно создать штрих-код из текущих данных.
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >Метаданные
+                </string>
+                <string name="zxinglegacy_button_back" >Назад
+                </string>
+                <string name="zxinglegacy_menu_help" >Помощь
+                </string>
+                <string name="zxinglegacy_app_name" >Сканер штрих-кодов
+                </string>
+                <string name="zxinglegacy_button_done" >Готово
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >К сожалению, SD-карта не доступна.
+                </string>
+                <string name="zxinglegacy_menu_share" >Поделиться
+                </string>
+                <string name="zxinglegacy_contents_contact" >Контактная информация
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Формат
+                </string>
+                <string name="zxinglegacy_button_ok" >OK
+                </string>
+                <string name="zxinglegacy_contents_phone" >Номер телефона
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-sk/values.xml"
+                qualifiers="sk" >
+                <string name="zxinglegacy_contents_text" >Obyčajný text
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >Nie je možné zakódovať čiarový kód z poskytnutých údajov.
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >Použiť vCard
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >Ospravedlňujeme sa, SD karta nie je prístupná.
+                </string>
+                <string name="zxinglegacy_button_done" >Hotovo
+                </string>
+                <string name="zxinglegacy_button_ok" >OK
+                </string>
+                <string name="zxinglegacy_msg_default_type" >Typ
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Formát
+                </string>
+                <string name="zxinglegacy_contents_location" >Geografické súradnice
+                </string>
+                <string name="zxinglegacy_contents_sms" >SMS adresa
+                </string>
+                <string name="zxinglegacy_msg_default_status" >Umiestnite čiarový kód do vnútra obdĺžnika hľadáčiku pre skenovanie.
+                </string>
+                <string name="zxinglegacy_menu_help" >Nápoveda
+                </string>
+                <string name="zxinglegacy_contents_phone" >Telefónne číslo
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >Použiť MECARD
+                </string>
+                <string name="zxinglegacy_button_back" >Späť
+                </string>
+                <string name="zxinglegacy_app_name" >Barcode Scanner
+                </string>
+                <string name="zxinglegacy_contents_contact" >Informácie o kontakte
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >Ospravedlňujeme sa, fotoaparát narazil na problém. Možno bude potrebné reštartovať zariadenie.
+                </string>
+                <string name="zxinglegacy_menu_share" >Zdieľať
+                </string>
+                <string name="zxinglegacy_contents_email" >E-mailová adresa
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Čas
+                </string>
+                <string name="zxinglegacy_button_cancel" >Zrušiť
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >Metadáta
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-sl/values.xml"
+                qualifiers="sl" >
+                <string name="zxinglegacy_msg_default_type" >Tip
+                </string>
+                <string name="zxinglegacy_contents_text" >Tekst
+                </string>
+                <string name="zxinglegacy_button_back" >Nazaj
+                </string>
+                <string name="zxinglegacy_button_ok" >V redu
+                </string>
+                <string name="zxinglegacy_button_cancel" >Prekliči
+                </string>
+                <string name="zxinglegacy_contents_location" >Geografske koordinate
+                </string>
+                <string name="zxinglegacy_contents_phone" >Telefonska številka
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >Oprostite, Android kamera je naletela na težave. Mogoče boste morali ponovno zagnati napravo.
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >Uporaba vCard
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >Metapodatki
+                </string>
+                <string name="zxinglegacy_contents_email" >E-naslov
+                </string>
+                <string name="zxinglegacy_contents_contact" >Informacije o kontaktu
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >Uporaba MECARD
+                </string>
+                <string name="zxinglegacy_menu_help" >Pomoč
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >Ni bilo mogoče narediti črtne kode iz podanih podatkov
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Format
+                </string>
+                <string name="zxinglegacy_msg_default_status" >Za branje postavite črtno kodo znotraj iskala.
+                </string>
+                <string name="zxinglegacy_app_name" >Barcode Scanner
+                </string>
+                <string name="zxinglegacy_contents_sms" >SMS naslov
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >Oprostite, do SD kartice ni možno dostopati
+                </string>
+                <string name="zxinglegacy_button_done" >Končano
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Čas
+                </string>
+                <string name="zxinglegacy_menu_share" >Deli
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-sv/values.xml"
+                qualifiers="sv" >
+                <string name="zxinglegacy_contents_sms" >SMS-adress
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >Det uppstod tyvärr ett fel med Androidkameran.
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >Det gick inte att avkoda en streckkod från den erhållna informationen.
+                </string>
+                <string name="zxinglegacy_contents_phone" >Telefonnummer
+                </string>
+                <string name="zxinglegacy_contents_contact" >Kontaktinfo
+                </string>
+                <string name="zxinglegacy_contents_email" >E-postadress
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >Metadata
+                </string>
+                <string name="zxinglegacy_app_name" >Barcode Scanner
+                </string>
+                <string name="zxinglegacy_menu_help" >Hjälp
+                </string>
+                <string name="zxinglegacy_contents_text" >Vanlig text
+                </string>
+                <string name="zxinglegacy_menu_share" >Dela
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >SD-kortet är tyvärr inte tillgängligt.
+                </string>
+                <string name="zxinglegacy_msg_default_status" >Placera steckkoden inom sökarens rektangel för att läsa den.
+                </string>
+                <string name="zxinglegacy_button_back" >Tillbaka
+                </string>
+                <string name="zxinglegacy_button_ok" >OK
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >Använd MECARD
+                </string>
+                <string name="zxinglegacy_msg_default_type" >Typ
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Format
+                </string>
+                <string name="zxinglegacy_button_cancel" >Avbryt
+                </string>
+                <string name="zxinglegacy_button_done" >Klar
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >Använd vCard
+                </string>
+                <string name="zxinglegacy_contents_location" >Geografiska koordinater
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Tid
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-tr/values.xml"
+                qualifiers="tr" >
+                <string name="zxinglegacy_contents_phone" >Telefon numarası
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >Lütfen USB depolamayı devre dışı bırakın.
+                </string>
+                <string name="zxinglegacy_button_ok" >Tamam
+                </string>
+                <string name="zxinglegacy_contents_text" >Düz metin
+                </string>
+                <string name="zxinglegacy_button_done" >Tamam
+                </string>
+                <string name="zxinglegacy_button_back" >Geri
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >MECARD kullanın
+                </string>
+                <string name="zxinglegacy_msg_default_format" >Biçim
+                </string>
+                <string name="zxinglegacy_menu_share" >Paylaş
+                </string>
+                <string name="zxinglegacy_menu_help" >Yardım
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >Üzgünüz, Android kamera bir sorunla karşılaştı. Cihazı yeniden başlatmanız gerekebilir.
+                </string>
+                <string name="zxinglegacy_app_name" >Barkod Tarayıcısı
+                </string>
+                <string name="zxinglegacy_button_cancel" >İptal
+                </string>
+                <string name="zxinglegacy_contents_email" >Email adresi
+                </string>
+                <string name="zxinglegacy_msg_default_type" >Tür
+                </string>
+                <string name="zxinglegacy_contents_contact" >Kişi bilgisi
+                </string>
+                <string name="zxinglegacy_msg_default_status" >Barkodu taramak için vizördeki dikdörtgenin içerisine yerleştirin.
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >Sağlanan verilerden bir barkod kodlanamadı.
+                </string>
+                <string name="zxinglegacy_contents_sms" >SMS adresi
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >VCard kullanın
+                </string>
+                <string name="zxinglegacy_contents_location" >Coğrafi koordinatlar
+                </string>
+                <string name="zxinglegacy_msg_default_time" >Süre
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >Metadata
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-zh-rCN/values.xml"
+                qualifiers="zh-rCN" >
+                <string name="zxinglegacy_button_back" >返回
+                </string>
+                <string name="zxinglegacy_contents_email" >Email地址
+                </string>
+                <string name="zxinglegacy_msg_default_type" >类型
+                </string>
+                <string name="zxinglegacy_button_done" >完成
+                </string>
+                <string name="zxinglegacy_app_name" >条码扫描器
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >元数据
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >使用vCard
+                </string>
+                <string name="zxinglegacy_msg_default_time" >时间
+                </string>
+                <string name="zxinglegacy_contents_contact" >联系人信息
+                </string>
+                <string name="zxinglegacy_contents_location" >地理坐标
+                </string>
+                <string name="zxinglegacy_msg_default_status" >请将条码置于取景框内扫描。  
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >抱歉，Android相机出现问题。您可能需要重启设备。
+                </string>
+                <string name="zxinglegacy_contents_sms" >短信地址
+                </string>
+                <string name="zxinglegacy_msg_default_format" >格式
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >使用MECARD
+                </string>
+                <string name="zxinglegacy_button_cancel" >取消
+                </string>
+                <string name="zxinglegacy_menu_help" >帮助
+                </string>
+                <string name="zxinglegacy_contents_text" >纯文本
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >抱歉，SD卡不可访问。
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >无法根据已有数据生成条码。   
+                </string>
+                <string name="zxinglegacy_button_ok" >确定
+                </string>
+                <string name="zxinglegacy_contents_phone" >电话号码
+                </string>
+                <string name="zxinglegacy_menu_share" >分享
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-zh-rTW/values.xml"
+                qualifiers="zh-rTW" >
+                <string name="zxinglegacy_msg_default_time" >時間
+                </string>
+                <string name="zxinglegacy_button_done" >完成
+                </string>
+                <string name="zxinglegacy_button_ok" >確定
+                </string>
+                <string name="zxinglegacy_button_cancel" >取消
+                </string>
+                <string name="zxinglegacy_msg_encode_contents_failed" >無法讀取條碼。
+                </string>
+                <string name="zxinglegacy_msg_default_status" >將條碼置於鏡頭範圍內以進行掃描。
+                </string>
+                <string name="zxinglegacy_contents_contact" >聯絡人資訊
+                </string>
+                <string name="zxinglegacy_contents_sms" >簡訊地址
+                </string>
+                <string name="zxinglegacy_contents_phone" >電話號碼
+                </string>
+                <string name="zxinglegacy_msg_default_meta" >後設資料
+                </string>
+                <string name="zxinglegacy_menu_share" >分享
+                </string>
+                <string name="zxinglegacy_msg_default_format" >格式
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >很抱歉，相機出現問題。您可能需要重新啟動設備。
+                </string>
+                <string name="zxinglegacy_menu_encode_vcard" >使用vCard
+                </string>
+                <string name="zxinglegacy_contents_email" >電子郵件地址
+                </string>
+                <string name="zxinglegacy_msg_unmount_usb" >無法讀取 SD 卡。
+                </string>
+                <string name="zxinglegacy_app_name" >條碼掃描器
+                </string>
+                <string name="zxinglegacy_button_back" >返回
+                </string>
+                <string name="zxinglegacy_contents_text" >純文字
+                </string>
+                <string name="zxinglegacy_menu_help" >說明
+                </string>
+                <string name="zxinglegacy_msg_default_type" >類型
+                </string>
+                <string name="zxinglegacy_menu_encode_mecard" >使用MECARD
+                </string>
+                <string name="zxinglegacy_contents_location" >地理座標
+                </string>
+            </file>
+            <file
+                name="zxinglegacy_preferences"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/xml/zxinglegacy_preferences.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+    </dataSet>
+    <dataSet config="2.0.0" >
+        <source path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res" >
+            <file
+                name="zxing_capture"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/layout/zxing_capture.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="zxing_encode"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/layout/zxing_encode.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="zxing_help"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/layout/zxing_help.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="zxing_encode"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/layout-land/zxing_encode.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="zxing_capture"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/layout-ldpi/zxing_capture.xml"
+                qualifiers="ldpi-v4"
+                type="layout" />
+            <file
+                name="zxing_capture"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/menu/zxing_capture.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="zxing_encode"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/menu/zxing_encode.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="zxing_beep"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/raw/zxing_beep.ogg"
+                qualifiers=""
+                type="raw" />
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values/values.xml"
+                qualifiers="" >
+                <string name="zxing_contents_text" >Plain text
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >Could not encode a barcode from the data provided.
+                </string>
+                <string name="zxing_contents_contact" >Contact info
+                </string>
+
+                <item
+                    name="zxing_launch_product_query"
+                    type="id"/>
+
+                <string name="zxing_contents_sms" >SMS address
+                </string>
+
+                <item
+                    name="zxing_back_button"
+                    type="id"/>
+
+                <string name="zxing_contents_email" >Email address
+                </string>
+
+                <color name="zxing_status_text" >#ffffffff
+                </color>
+                <color name="zxing_result_view" >#b0000000
+                </color>
+
+                <string-array
+                    name="zxing_country_codes"
+                    translatable="false" >
+                    <item>
+-
+                    </item>
+                    <item>
+AR
+                    </item>
+                    <item>
+AU
+                    </item>
+                    <item>
+BR
+                    </item>
+                    <item>
+BG
+                    </item>
+                    <item>
+CA
+                    </item>
+                    <item>
+CH
+                    </item>
+                    <item>
+CN
+                    </item>
+                    <item>
+CZ
+                    </item>
+                    <item>
+DE
+                    </item>
+                    <item>
+DK
+                    </item>
+                    <item>
+ES
+                    </item>
+                    <item>
+FI
+                    </item>
+                    <item>
+FR
+                    </item>
+                    <item>
+GB
+                    </item>
+                    <item>
+GR
+                    </item>
+                    <item>
+HU
+                    </item>
+                    <item>
+ID
+                    </item>
+                    <item>
+IT
+                    </item>
+                    <item>
+JP
+                    </item>
+                    <item>
+KR
+                    </item>
+                    <item>
+NL
+                    </item>
+                    <item>
+PL
+                    </item>
+                    <item>
+PT
+                    </item>
+                    <item>
+RO
+                    </item>
+                    <item>
+RU
+                    </item>
+                    <item>
+SE
+                    </item>
+                    <item>
+SK
+                    </item>
+                    <item>
+SI
+                    </item>
+                    <item>
+TR
+                    </item>
+                    <item>
+TW
+                    </item>
+                    <item>
+US
+                    </item>
+                </string-array>
+
+                <item
+                    name="zxing_quit"
+                    type="id"/>
+
+                <color name="zxing_encode_view" >#ffffffff
+                </color>
+
+                <item
+                    name="zxing_decode_succeeded"
+                    type="id"/>
+
+                <color name="zxing_result_points" >#c099cc00
+                </color>
+
+                <string name="zxing_button_cancel" >Cancel
+                </string>
+                <string name="zxing_app_name" >Barcode Scanner
+                </string>
+
+                <item
+                    name="zxing_restart_preview"
+                    type="id"/>
+
+                <color name="zxing_transparent" >#00000000
+                </color>
+
+                <string name="zxing_menu_encode_vcard" >Use vCard
+                </string>
+
+                <item
+                    name="zxing_return_scan_result"
+                    type="id"/>
+
+                <style
+                    name="zxing_CaptureTheme"
+                    parent="android:Theme.Holo.NoActionBar.Fullscreen" />
+
+                <string name="zxing_msg_unmount_usb" >Sorry, the SD card is not accessible.
+                </string>
+
+                <item
+                    name="zxing_decode_failed"
+                    type="id"/>
+
+                <style
+                    name="zxing_ResultButton"
+                    parent="@android:style/Widget.Holo.Button.Borderless.Small" >
+                    <item name="android:layout_width">
+0dip
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:layout_weight">
+1
+                    </item>
+                </style>
+
+                <string name="zxing_msg_camera_framework_bug" >Sorry, the Android camera encountered a problem. You may need to restart the device.
+                </string>
+                <string name="zxing_msg_default_type" >Type
+                </string>
+
+                <color name="zxing_possible_result_points" >#c0ffbd21
+                </color>
+                <color name="zxing_result_minor_text" >#ffc0c0c0
+                </color>
+
+                <string name="zxing_button_ok" >OK
+                </string>
+
+                <color name="zxing_viewfinder_mask" >#60000000
+                </color>
+                <color name="zxing_contents_text" >#ff000000
+                </color>
+
+                <item
+                    name="zxing_decode"
+                    type="id"/>
+
+                <string name="zxing_msg_default_time" >Time
+                </string>
+                <string name="zxing_menu_share" >Share
+                </string>
+                <string name="zxing_contents_phone" >Phone number
+                </string>
+
+                <dimen name="zxing_standard_padding" >8dip
+                </dimen>
+
+                <string name="zxing_msg_default_status" >Place a barcode inside the viewfinder rectangle to scan it.
+                </string>
+                <string name="zxing_msg_default_format" >Format
+                </string>
+
+                <color name="zxing_viewfinder_laser" >#ffcc0000
+                </color>
+
+                <dimen name="zxing_half_padding" >4dip
+                </dimen>
+
+                <style
+                    name="zxing_ShareButton"
+                    parent="@android:style/Widget.Holo.Button.Borderless.Small" >
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                </style>
+
+                <string name="zxing_menu_encode_mecard" >Use MECARD
+                </string>
+
+                <string-array
+                    name="zxing_preferences_front_light_values"
+                    translatable="false" >
+                    <item>
+ON
+                    </item>
+                    <item>
+AUTO
+                    </item>
+                    <item>
+OFF
+                    </item>
+                </string-array>
+
+                <string name="zxing_contents_location" >Geographic coordinates
+                </string>
+
+                <color name="zxing_result_text" >#ffffffff
+                </color>
+
+                <string name="zxing_msg_default_meta" >Metadata
+                </string>
+                <string name="zxing_menu_help" >Help
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-ar/values.xml"
+                qualifiers="ar" >
+                <string name="zxing_button_ok" >موافق
+                </string>
+                <string name="zxing_msg_default_format" >التنسيق
+                </string>
+                <string name="zxing_menu_share" >مشاركة
+                </string>
+                <string name="zxing_msg_default_type" >النوع
+                </string>
+                <string name="zxing_menu_encode_mecard" >استخدام MECARD
+                </string>
+                <string name="zxing_menu_help" >تعليمات
+                </string>
+                <string name="zxing_contents_sms" >عنوان SMS
+                </string>
+                <string name="zxing_contents_text" >نص عادي
+                </string>
+                <string name="zxing_button_cancel" >إلغاء
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >تعذر ترميز رمز شريطي من البيانات المتوفرة.
+                </string>
+                <string name="zxing_msg_default_time" >الوقت
+                </string>
+                <string name="zxing_contents_contact" >معلومات جهة اتصال
+                </string>
+                <string name="zxing_contents_phone" >رقم الهاتف
+                </string>
+                <string name="zxing_contents_email" >عنوان البريد
+                </string>
+                <string name="zxing_contents_location" >إحداثيات جغرافية
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >عفوا، حدثت مشكلة في كاميرا جهاز Android. قد تحتاج إلى إعادة تشغيل الجهاز.
+                </string>
+                <string name="zxing_msg_default_status" >قم بوضع الرمز الشريطي داخل حدود صورة الكاميرا ليتم مسحه.
+                </string>
+                <string name="zxing_menu_encode_vcard" >استخدام vCard
+                </string>
+                <string name="zxing_msg_unmount_usb" >رجاء إيقاف التخزين على USB للمتابعة.
+                </string>
+                <string name="zxing_app_name" >ماسح الرمز الشريطي
+                </string>
+                <string name="zxing_msg_default_meta" >البيانات الوصفية
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-bg/values.xml"
+                qualifiers="bg" >
+                <string name="zxing_contents_location" >Географски координати
+                </string>
+                <string name="zxing_msg_default_status" >Сложете баркода вътре в правоъгълника за да го сканирате.
+                </string>
+                <string name="zxing_contents_contact" >Информация за контакт
+                </string>
+                <string name="zxing_menu_encode_mecard" >Използвай MECARD формат
+                </string>
+                <string name="zxing_msg_default_time" >Време
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >Съжаляваме, срещнахме проблем с камерата. Може да се наложи да рестартирате устройството си.
+                </string>
+                <string name="zxing_button_ok" >ОК
+                </string>
+                <string name="zxing_menu_encode_vcard" >Използвай vCard формат
+                </string>
+                <string name="zxing_button_cancel" >Отказ
+                </string>
+                <string name="zxing_contents_phone" >Телефон
+                </string>
+                <string name="zxing_menu_share" >Сподели
+                </string>
+                <string name="zxing_msg_unmount_usb" >Съжаляваме, но SD картата не е достъпна.
+                </string>
+                <string name="zxing_app_name" >Баркод Скенер
+                </string>
+                <string name="zxing_contents_sms" >SMS адрес
+                </string>
+                <string name="zxing_contents_email" >Електронна поща
+                </string>
+                <string name="zxing_msg_default_type" >Тип
+                </string>
+                <string name="zxing_msg_default_meta" >Допълнение
+                </string>
+                <string name="zxing_msg_default_format" >Формат
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >Неуспешно кодиране на подадените данни.
+                </string>
+                <string name="zxing_contents_text" >Чист текст
+                </string>
+                <string name="zxing_menu_help" >Помощ
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-ca/values.xml"
+                qualifiers="ca" >
+                <string name="zxing_button_cancel" >Cancel·la
+                </string>
+                <string name="zxing_app_name" >Barcode Scanner
+                </string>
+                <string name="zxing_msg_default_type" >Tipus
+                </string>
+                <string name="zxing_contents_email" >Adreça electrònica
+                </string>
+                <string name="zxing_msg_default_format" >Format
+                </string>
+                <string name="zxing_msg_unmount_usb" >La targeta SD no es troba disponible.
+                </string>
+                <string name="zxing_contents_phone" >Número de telèfon
+                </string>
+                <string name="zxing_contents_sms" >Adreça SMS
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >S\'ha produït un problema amb la càmera de l\'Android. Potser haureu de reiniciar el dispositiu.
+                </string>
+                <string name="zxing_menu_share" >Comparteix
+                </string>
+                <string name="zxing_contents_location" >Coordenades geogràfiques
+                </string>
+                <string name="zxing_button_ok" >D\'acord
+                </string>
+                <string name="zxing_menu_encode_vcard" >Utilitza vCard
+                </string>
+                <string name="zxing_menu_help" >Ajuda
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >No es pot codificar un codi de barres amb les dades proporcionades.
+                </string>
+                <string name="zxing_msg_default_time" >Hora
+                </string>
+                <string name="zxing_contents_contact" >Informació de contacte
+                </string>
+                <string name="zxing_contents_text" >Text pla
+                </string>
+                <string name="zxing_menu_encode_mecard" >Utilitza MECARD
+                </string>
+                <string name="zxing_msg_default_status" >Poseu un codi de barres dins el rectable per escanejar-lo.
+                </string>
+                <string name="zxing_msg_default_meta" >Metadadades
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-cs/values.xml"
+                qualifiers="cs" >
+                <string name="zxing_msg_default_format" >Formát
+                </string>
+                <string name="zxing_button_cancel" >Zrušit
+                </string>
+                <string name="zxing_menu_encode_mecard" >Použití MECARD
+                </string>
+                <string name="zxing_contents_contact" >Info kontaktu
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >Nepodařilo se rozkódovat čárový kód z poskytnutých údajů.
+                </string>
+                <string name="zxing_msg_default_meta" >Metadata
+                </string>
+                <string name="zxing_menu_encode_vcard" >Použití vCard
+                </string>
+                <string name="zxing_menu_share" >Sdílet
+                </string>
+                <string name="zxing_contents_phone" >Telefonní číslo
+                </string>
+                <string name="zxing_msg_default_time" >Čas
+                </string>
+                <string name="zxing_msg_unmount_usb" >Omlouváme se, karta SD není přístupná.
+                </string>
+                <string name="zxing_contents_email" >Emailová adresa
+                </string>
+                <string name="zxing_contents_location" >Zeměpisné údaje
+                </string>
+                <string name="zxing_contents_text" >Ostatní
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >Omlouváme se, fotoaparát má problém. Možná bude nutné restartovat zařízení
+                </string>
+                <string name="zxing_contents_sms" >SMS číslo
+                </string>
+                <string name="zxing_msg_default_type" >Typ
+                </string>
+                <string name="zxing_app_name" >Barcode Scanner
+                </string>
+                <string name="zxing_msg_default_status" >Strefte se čtverečkem na čárový kód
+                </string>
+                <string name="zxing_button_ok" >OK
+                </string>
+                <string name="zxing_menu_help" >Pomoc!
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-da/values.xml"
+                qualifiers="da" >
+                <string name="zxing_contents_email" >E-mailadresse
+                </string>
+                <string name="zxing_contents_sms" >SMS-adresse
+                </string>
+                <string name="zxing_contents_contact" >Kontaktinfo
+                </string>
+                <string name="zxing_button_ok" >OK
+                </string>
+                <string name="zxing_msg_default_type" >Type
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >Kunne ikke indkode en stregkode fra oplysningerne givet.
+                </string>
+                <string name="zxing_menu_help" >Hjælp
+                </string>
+                <string name="zxing_msg_default_status" >Placér en stregkode inden i firkanten for at aflæse den.
+                </string>
+                <string name="zxing_msg_unmount_usb" >Beklager, SD-kortet er ikke tilgængelig.
+                </string>
+                <string name="zxing_button_cancel" >Annullér
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >Beklager, Android-kameraet er stødt på et problem. Du skal muligvis genstarte enheden.
+                </string>
+                <string name="zxing_menu_encode_vcard" >Brug vCard
+                </string>
+                <string name="zxing_app_name" >Barcode Scanner
+                </string>
+                <string name="zxing_msg_default_format" >Format
+                </string>
+                <string name="zxing_msg_default_time" >Tid
+                </string>
+                <string name="zxing_msg_default_meta" >Metadata
+                </string>
+                <string name="zxing_menu_share" >Del
+                </string>
+                <string name="zxing_contents_text" >Almindelig tekst
+                </string>
+                <string name="zxing_contents_location" >Geografiske koordinater
+                </string>
+                <string name="zxing_contents_phone" >Telefonnummer
+                </string>
+                <string name="zxing_menu_encode_mecard" >Brug MECARD
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-de/values.xml"
+                qualifiers="de" >
+                <string name="zxing_contents_phone" >Telefonnummer
+                </string>
+                <string name="zxing_button_cancel" >Abbruch
+                </string>
+                <string name="zxing_contents_email" >E-Mail Adresse
+                </string>
+                <string name="zxing_menu_help" >Hilfe
+                </string>
+                <string name="zxing_msg_unmount_usb" >Leider kann nicht auf die SD-Karte zugegriffen werden.
+                </string>
+                <string name="zxing_msg_default_format" >Format
+                </string>
+                <string name="zxing_menu_encode_vcard" >vCard verwenden
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >Aus den Daten kann kein Barcode erzeugt werden.
+                </string>
+                <string name="zxing_contents_contact" >Kontaktinfo
+                </string>
+                <string name="zxing_msg_default_status" >Positionieren Sie den Barcode innerhalb des Rechteckes.
+                </string>
+                <string name="zxing_contents_location" >Koordinaten
+                </string>
+                <string name="zxing_msg_default_type" >Typ
+                </string>
+                <string name="zxing_msg_default_meta" >Metadaten
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >Mit der Android-Kamera ist leider ein Fehler aufgetreten. Es könnte sein, dass Sie das Gerät neu starten müssen.
+                </string>
+                <string name="zxing_menu_share" >Senden
+                </string>
+                <string name="zxing_contents_sms" >SMS Adresse
+                </string>
+                <string name="zxing_menu_encode_mecard" >MECARD verwenden
+                </string>
+                <string name="zxing_msg_default_time" >Zeit
+                </string>
+                <string name="zxing_app_name" >Barcode Scanner
+                </string>
+                <string name="zxing_button_ok" >OK
+                </string>
+                <string name="zxing_contents_text" >Text
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-el/values.xml"
+                qualifiers="el" >
+                <string name="zxing_contents_phone" >Τηλέφωνο
+                </string>
+                <string name="zxing_menu_help" >Βοήθεια
+                </string>
+                <string name="zxing_msg_default_format" >Διαμόρφωση
+                </string>
+                <string name="zxing_button_cancel" >Ακύρωση
+                </string>
+                <string name="zxing_menu_share" >Κοινή χρήση
+                </string>
+                <string name="zxing_msg_unmount_usb" >Συγνώμη, η κάρτα SD δεν είναι προσβάσιμη.
+                </string>
+                <string name="zxing_menu_encode_vcard" >Χρησιμοποιήστε vCard
+                </string>
+                <string name="zxing_msg_default_time" >Ωρα
+                </string>
+                <string name="zxing_msg_default_status" >Τοποθετήστε ένα barcode μέσα στο πλαίσιο για να το σκανάρετε.
+                </string>
+                <string name="zxing_msg_default_type" >Τύπος
+                </string>
+                <string name="zxing_contents_sms" >Διεύθνση SMS
+                </string>
+                <string name="zxing_contents_text" >Απλό κείμενο
+                </string>
+                <string name="zxing_menu_encode_mecard" >Χρησιμοποιήστε MECARD
+                </string>
+                <string name="zxing_contents_contact" >Πληροφορίες επαφής
+                </string>
+                <string name="zxing_contents_email" >Διεύθυνση email
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >Δεν γίνεται να παραχθεί barcode από αυτά τα δεδομένα.
+                </string>
+                <string name="zxing_contents_location" >Γεωγραφικές συντεταγμένες
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >Συγνώμη, προέκυψε ένα πρόβλημα με την κάμερα. Ίσως χρειαστεί να επανεκιννήσετε τη συσκευή.
+                </string>
+                <string name="zxing_button_ok" >OK
+                </string>
+                <string name="zxing_msg_default_meta" >Metadata
+                </string>
+                <string name="zxing_app_name" >Barcode Scanner
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-es/values.xml"
+                qualifiers="es" >
+                <string name="zxing_msg_default_time" >Tiempo
+                </string>
+                <string name="zxing_contents_sms" >Dirección SMS
+                </string>
+                <string name="zxing_menu_help" >Ayuda
+                </string>
+                <string name="zxing_contents_contact" >Información de contacto
+                </string>
+                <string name="zxing_contents_email" >Dirección de correo electrónico
+                </string>
+                <string name="zxing_contents_text" >Texto
+                </string>
+                <string name="zxing_msg_default_status" >Coloque un código de barras en el interior del rectángulo del visor para escanear.
+                </string>
+                <string name="zxing_menu_encode_vcard" >Usar vCard
+                </string>
+                <string name="zxing_msg_default_format" >Formato
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >No se pudo codificar un código de barras a partir de los datos facilitados.
+                </string>
+                <string name="zxing_msg_default_meta" >Metadata
+                </string>
+                <string name="zxing_menu_share" >Compartir
+                </string>
+                <string name="zxing_button_ok" >OK
+                </string>
+                <string name="zxing_msg_default_type" >Tipo
+                </string>
+                <string name="zxing_menu_encode_mecard" >Usar MECARD
+                </string>
+                <string name="zxing_contents_phone" >Número de teléfono
+                </string>
+                <string name="zxing_button_cancel" >Cancelar
+                </string>
+                <string name="zxing_msg_unmount_usb" >Lo sentimos, la tarjeta SD no está accesible.
+                </string>
+                <string name="zxing_contents_location" >Coordenadas geográficas
+                </string>
+                <string name="zxing_app_name" >Barcode Scanner
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >Lo sentimos, la cámara de Android ha encontrado un problema. Es posible que necesite reiniciar el dispositivo.
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-eu/values.xml"
+                qualifiers="eu" >
+                <string name="zxing_msg_default_type" >Mota
+                </string>
+                <string name="zxing_contents_phone" >Telefono zenbakia
+                </string>
+                <string name="zxing_menu_encode_vcard" >Erabili vCard
+                </string>
+                <string name="zxing_msg_default_format" >Formatua
+                </string>
+                <string name="zxing_contents_sms" >SMS helbidea
+                </string>
+                <string name="zxing_menu_share" >Partekatu
+                </string>
+                <string name="zxing_contents_contact" >Kontaktuaren informazioa
+                </string>
+                <string name="zxing_button_cancel" >Utzi
+                </string>
+                <string name="zxing_contents_text" >Testu laua
+                </string>
+                <string name="zxing_msg_default_meta" >Metadatuak
+                </string>
+                <string name="zxing_menu_encode_mecard" >Erabili MECARD
+                </string>
+                <string name="zxing_contents_location" >Koordenatu geografikoak
+                </string>
+                <string name="zxing_msg_default_time" >Denbora
+                </string>
+                <string name="zxing_msg_unmount_usb" >Barkatu, SD txartela ez dago eskuragarri.
+                </string>
+                <string name="zxing_msg_default_status" >Kokatu barra-kode bat laukizuzenaren barruan eskaneatzeko.
+                </string>
+                <string name="zxing_button_ok" >Ados
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >Ezin izan da barra-kode bat kodetu emandako datuetatik.
+                </string>
+                <string name="zxing_contents_email" >E-posta helbidea
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >Barkatu, Android kamerak arazo bat izan du. Behar bada gailua berrabiarazi beharko duzu.
+                </string>
+                <string name="zxing_app_name" >Barra-kode Eskanerra
+                </string>
+                <string name="zxing_menu_help" >Laguntza
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-fi/values.xml"
+                qualifiers="fi" >
+                <string name="zxing_msg_default_status" >Aseta viivakoodi neliön sisälle skannataksesi sen.
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >Valitettavasti Androidin kameran toimiinta häiriintyi. Joudut ehkä käynnistämään laitteen uudelleen.
+                </string>
+                <string name="zxing_menu_encode_mecard" >Käytä MECARD:ia
+                </string>
+                <string name="zxing_msg_default_meta" >Metatiedot
+                </string>
+                <string name="zxing_contents_contact" >Yhteystiedot
+                </string>
+                <string name="zxing_contents_phone" >Puhelinnumero
+                </string>
+                <string name="zxing_msg_default_time" >Aika
+                </string>
+                <string name="zxing_app_name" >Barcode Scanner
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >Viivakoodia ei voitu muodostaa annetusta datasta.
+                </string>
+                <string name="zxing_contents_email" >Sähköpostiosoite
+                </string>
+                <string name="zxing_msg_default_format" >Muoto
+                </string>
+                <string name="zxing_menu_share" >Jaa
+                </string>
+                <string name="zxing_button_ok" >OK
+                </string>
+                <string name="zxing_msg_unmount_usb" >SD-kortti ei ole käytettävissä.
+                </string>
+                <string name="zxing_menu_help" >Ohje
+                </string>
+                <string name="zxing_msg_default_type" >Tyyppi
+                </string>
+                <string name="zxing_contents_sms" >Tekstiviestin osoite
+                </string>
+                <string name="zxing_contents_location" >Karttakoordinaatit
+                </string>
+                <string name="zxing_contents_text" >Teksti
+                </string>
+                <string name="zxing_button_cancel" >Peruuta
+                </string>
+                <string name="zxing_menu_encode_vcard" >Käytä vCard:ia
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-fr/values.xml"
+                qualifiers="fr" >
+                <string name="zxing_msg_default_time" >Temps
+                </string>
+                <string name="zxing_menu_help" >Aide
+                </string>
+                <string name="zxing_contents_contact" >Informations de contact
+                </string>
+                <string name="zxing_menu_share" >Partager
+                </string>
+                <string name="zxing_msg_default_status" >Placer un code-barres à l\'intérieur du rectangle pour le scanner.
+                </string>
+                <string name="zxing_contents_text" >Texte
+                </string>
+                <string name="zxing_menu_encode_vcard" >Format vCard
+                </string>
+                <string name="zxing_button_cancel" >Annuler
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >Désolé, la caméra Android a rencontré un problème. Un redémarrage de l\'appareil est peut-être nécessaire.
+                </string>
+                <string name="zxing_contents_email" >Adresse email
+                </string>
+                <string name="zxing_msg_default_type" >Type
+                </string>
+                <string name="zxing_msg_default_meta" >Métadonnées
+                </string>
+                <string name="zxing_app_name" >Barcode Scanner
+                </string>
+                <string name="zxing_contents_phone" >Numéro de téléphone
+                </string>
+                <string name="zxing_msg_default_format" >Format
+                </string>
+                <string name="zxing_menu_encode_mecard" >Format MECARD
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >Impossible de créer le code-barres à partir des données fournies.
+                </string>
+                <string name="zxing_msg_unmount_usb" >Désolé, la carte SD n\'est pas accessible.
+                </string>
+                <string name="zxing_contents_sms" >Adresse SMS
+                </string>
+                <string name="zxing_button_ok" >OK
+                </string>
+                <string name="zxing_contents_location" >Coordonnées géographiques
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-he/values.xml"
+                qualifiers="he" >
+                <string name="zxing_button_cancel" >ביטול
+                </string>
+                <string name="zxing_contents_location" >קואורדינטות גאוגרפיות
+                </string>
+                <string name="zxing_msg_unmount_usb" >סליחה, כרטיס הזכרון אינו נגיש.
+                </string>
+                <string name="zxing_contents_text" >טקסט רגיל
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >לא היתה אפשרות לקודד ברקוד מהנתונים שסופקו.
+                </string>
+                <string name="zxing_msg_default_type" >סוג
+                </string>
+                <string name="zxing_menu_share" >שתף
+                </string>
+                <string name="zxing_msg_default_status" >הצב ברקוד בתוך המלבן כדי לסרוק אותו.
+                </string>
+                <string name="zxing_msg_default_meta" >מטה-נתונים
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >סליחה, מצלמת האנדרואיד נתקלה בבעיה. ייתכן שיהיה עליך להפעיל מחדש את המכשיר.
+                </string>
+                <string name="zxing_contents_contact" >פרטי איש קשר
+                </string>
+                <string name="zxing_menu_encode_mecard" >השתמש MECARD
+                </string>
+                <string name="zxing_msg_default_format" >פורמט
+                </string>
+                <string name="zxing_msg_default_time" >זמן
+                </string>
+                <string name="zxing_contents_phone" >מספר טלפון
+                </string>
+                <string name="zxing_contents_sms" >כתובת SMS
+                </string>
+                <string name="zxing_app_name" >סורק ברקודים
+                </string>
+                <string name="zxing_contents_email" >כתובת דואר אלקטרוני
+                </string>
+                <string name="zxing_menu_encode_vcard" >השתמש vCard
+                </string>
+                <string name="zxing_button_ok" >אישור
+                </string>
+                <string name="zxing_menu_help" >עזרה
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-hi/values.xml"
+                qualifiers="hi" >
+                <string name="zxing_msg_default_time" >समय
+                </string>
+                <string name="zxing_menu_encode_vcard" >vCard का प्रयोग करें
+                </string>
+                <string name="zxing_menu_share" >शेयर
+                </string>
+                <string name="zxing_menu_encode_mecard" >MECARD का प्रयोग करें
+                </string>
+                <string name="zxing_msg_default_status" >दृश्यदर्शी आयत के अंदर एक बारकोड प्लेस इसे स्कैन.
+                </string>
+                <string name="zxing_app_name" >बारकोड स्कैनर
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >उपलब्ध कराए गए आंकड़ों से एक बारकोड सांकेतिक शब्दों में बदलना नहीं कर सका.
+                </string>
+                <string name="zxing_button_cancel" >रद्द करना
+                </string>
+                <string name="zxing_menu_help" >मदद
+                </string>
+                <string name="zxing_msg_unmount_usb" >क्षमा करें, एसडी कार्ड सुलभ नहीं है.
+                </string>
+                <string name="zxing_button_ok" >ठीक है
+                </string>
+                <string name="zxing_contents_sms" >एसएमएस पता
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >क्षमा करें, Android कैमरा एक समस्या का सामना करना पड़ा. आप डिवाइस को पुनरारंभ करने की आवश्यकता हो सकती है.
+                </string>
+                <string name="zxing_contents_phone" >फ़ोन नंबर
+                </string>
+                <string name="zxing_msg_default_type" >टाइप
+                </string>
+                <string name="zxing_contents_text" >सादा पाठ
+                </string>
+                <string name="zxing_contents_email" >ईमेल पता
+                </string>
+                <string name="zxing_contents_contact" >संपर्क जानकारी
+                </string>
+                <string name="zxing_contents_location" >भौगोलिक निर्देशांक
+                </string>
+                <string name="zxing_msg_default_meta" >मेटाडाटा
+                </string>
+                <string name="zxing_msg_default_format" >प्रारूप
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-hu/values.xml"
+                qualifiers="hu" >
+                <string name="zxing_button_ok" >OK
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >Android kamera hiba. Lehet, hogy újra kell indítania a készüléket.
+                </string>
+                <string name="zxing_menu_share" >Megosztás
+                </string>
+                <string name="zxing_msg_default_format" >Formátum
+                </string>
+                <string name="zxing_menu_help" >Súgó
+                </string>
+                <string name="zxing_button_cancel" >Mégse
+                </string>
+                <string name="zxing_msg_default_type" >Típus
+                </string>
+                <string name="zxing_contents_sms" >SMS szám
+                </string>
+                <string name="zxing_menu_encode_vcard" >Használja vCard
+                </string>
+                <string name="zxing_contents_email" >E-mail cím
+                </string>
+                <string name="zxing_contents_phone" >Telefonszám
+                </string>
+                <string name="zxing_msg_default_status" >Pozícionálja a vonalkódot a kereső téglalapba a szkenneléshez.
+                </string>
+                <string name="zxing_contents_text" >Egyszerű szöveg
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >Nem sikerült létrehozni a vonalkódot a megadott adatokból.
+                </string>
+                <string name="zxing_msg_default_time" >Idő
+                </string>
+                <string name="zxing_msg_default_meta" >Metaadatok
+                </string>
+                <string name="zxing_msg_unmount_usb" >Az SD kártya nem elérhető.
+                </string>
+                <string name="zxing_menu_encode_mecard" >Használja MECARD
+                </string>
+                <string name="zxing_app_name" >Barcode Scanner
+                </string>
+                <string name="zxing_contents_location" >Földrajzi koordináták
+                </string>
+                <string name="zxing_contents_contact" >Névjegy információ
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-id/values.xml"
+                qualifiers="id" >
+                <string name="zxing_msg_encode_contents_failed" >Tidak dapat meng-encode barcode dari data yang diberikan.
+                </string>
+                <string name="zxing_contents_sms" >Alamat SMS
+                </string>
+                <string name="zxing_button_cancel" >Batal
+                </string>
+                <string name="zxing_contents_email" >Alamat surel
+                </string>
+                <string name="zxing_contents_phone" >Nomor telepon
+                </string>
+                <string name="zxing_contents_contact" >Informasi kontak
+                </string>
+                <string name="zxing_msg_unmount_usb" >Maaf, SD card tidak dapat diakses.
+                </string>
+                <string name="zxing_msg_default_type" >Tipe
+                </string>
+                <string name="zxing_msg_default_status" >Letakkan barcode di dalam kotak jendela untuk memindai.
+                </string>
+                <string name="zxing_contents_location" >Koordinat geografis
+                </string>
+                <string name="zxing_menu_share" >Bagikan
+                </string>
+                <string name="zxing_msg_default_format" >Bentuk
+                </string>
+                <string name="zxing_button_ok" >OK
+                </string>
+                <string name="zxing_msg_default_time" >Waktu
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >Maaf, kamera pada Android mengalami masalah. Anda mungkin perlu me-restart perangkat.
+                </string>
+                <string name="zxing_contents_text" >Teks biasa
+                </string>
+                <string name="zxing_menu_encode_vcard" >Gunakan vCard
+                </string>
+                <string name="zxing_menu_encode_mecard" >Gunakan MECARD
+                </string>
+                <string name="zxing_menu_help" >Bantuan
+                </string>
+                <string name="zxing_msg_default_meta" >Metadata
+                </string>
+                <string name="zxing_app_name" >Barcode Scanner
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-it/values.xml"
+                qualifiers="it" >
+                <string name="zxing_msg_default_time" >Tempo
+                </string>
+                <string name="zxing_msg_default_format" >Formato
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >Spiacenti, la fotocamera Android ha riscontrato un problema. Potrebbe essere necessario riavviare il dispositivo.
+                </string>
+                <string name="zxing_contents_text" >Testo puro
+                </string>
+                <string name="zxing_contents_contact" >Info contatto
+                </string>
+                <string name="zxing_menu_help" >Aiuto
+                </string>
+                <string name="zxing_button_cancel" >Annulla
+                </string>
+                <string name="zxing_msg_default_status" >Posiziona un codice a barre dentro il mirino rettangolare per la scansione.
+                </string>
+                <string name="zxing_menu_encode_vcard" >Usa vCard
+                </string>
+                <string name="zxing_msg_unmount_usb" >Spiacenti, la scheda SD non è accessibile.
+                </string>
+                <string name="zxing_button_ok" >OK
+                </string>
+                <string name="zxing_msg_default_type" >Tipo
+                </string>
+                <string name="zxing_contents_sms" >Numero SMS
+                </string>
+                <string name="zxing_contents_phone" >Numero di telefono
+                </string>
+                <string name="zxing_msg_default_meta" >Metadati
+                </string>
+                <string name="zxing_app_name" >Barcode Scanner
+                </string>
+                <string name="zxing_contents_email" >Indirizzo email
+                </string>
+                <string name="zxing_menu_share" >Condividi
+                </string>
+                <string name="zxing_menu_encode_mecard" >Usa MECARD
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >Impossibile codificare un codice a barre dai dati forniti.
+                </string>
+                <string name="zxing_contents_location" >Coordinate geografiche
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-iw/values.xml"
+                qualifiers="iw" >
+                <string name="zxing_menu_encode_mecard" >השתמש MECARD
+                </string>
+                <string name="zxing_contents_sms" >כתובת SMS
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >סליחה, מצלמת האנדרואיד נתקלה בבעיה. ייתכן שיהיה עליך להפעיל מחדש את המכשיר.
+                </string>
+                <string name="zxing_menu_share" >שתף
+                </string>
+                <string name="zxing_contents_text" >טקסט רגיל
+                </string>
+                <string name="zxing_msg_default_type" >סוג
+                </string>
+                <string name="zxing_app_name" >סורק ברקודים
+                </string>
+                <string name="zxing_msg_unmount_usb" >סליחה, כרטיס הזכרון אינו נגיש.
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >לא היתה אפשרות לקודד ברקוד מהנתונים שסופקו.
+                </string>
+                <string name="zxing_msg_default_meta" >מטה-נתונים
+                </string>
+                <string name="zxing_menu_encode_vcard" >השתמש vCard
+                </string>
+                <string name="zxing_msg_default_time" >זמן
+                </string>
+                <string name="zxing_msg_default_status" >הצב ברקוד בתוך המלבן כדי לסרוק אותו.
+                </string>
+                <string name="zxing_contents_email" >כתובת דואר אלקטרוני
+                </string>
+                <string name="zxing_menu_help" >עזרה
+                </string>
+                <string name="zxing_button_cancel" >ביטול
+                </string>
+                <string name="zxing_contents_location" >קואורדינטות גאוגרפיות
+                </string>
+                <string name="zxing_msg_default_format" >פורמט
+                </string>
+                <string name="zxing_contents_contact" >פרטי איש קשר
+                </string>
+                <string name="zxing_contents_phone" >מספר טלפון
+                </string>
+                <string name="zxing_button_ok" >אישור
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-ja/values.xml"
+                qualifiers="ja" >
+                <string name="zxing_menu_encode_vcard" >vCardを使用
+                </string>
+                <string name="zxing_msg_default_format" >フォーマット
+                </string>
+                <string name="zxing_contents_contact" >連絡先
+                </string>
+                <string name="zxing_msg_default_type" >タイプ
+                </string>
+                <string name="zxing_contents_location" >位置情報
+                </string>
+                <string name="zxing_contents_text" >テキストデータ
+                </string>
+                <string name="zxing_button_cancel" >キャンセル
+                </string>
+                <string name="zxing_msg_default_meta" >メタデータ
+                </string>
+                <string name="zxing_button_ok" >OK
+                </string>
+                <string name="zxing_menu_encode_mecard" >MECARDを使用
+                </string>
+                <string name="zxing_msg_default_status" >QRコードを画面の読み取り範囲内に写すとスキャンします。
+                </string>
+                <string name="zxing_menu_help" >ヘルプ
+                </string>
+                <string name="zxing_msg_unmount_usb" >SDカードにアクセスできません
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >このデータからQRコードを作成できませんでした
+                </string>
+                <string name="zxing_contents_phone" >電話番号
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >Androidのカメラに問題が発生しました。デバイスを再起動する必要があります。
+                </string>
+                <string name="zxing_msg_default_time" >時間
+                </string>
+                <string name="zxing_app_name" >QRコードスキャナー
+                </string>
+                <string name="zxing_contents_email" >メールアドレス
+                </string>
+                <string name="zxing_contents_sms" >SMSアドレス
+                </string>
+                <string name="zxing_menu_share" >共有
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-ko/values.xml"
+                qualifiers="ko" >
+                <string name="zxing_menu_encode_mecard" >MECARD를 사용하여
+                </string>
+                <string name="zxing_menu_encode_vcard" >vCard를 사용하여
+                </string>
+                <string name="zxing_msg_default_format" >포맷
+                </string>
+                <string name="zxing_contents_phone" >전화번호
+                </string>
+                <string name="zxing_contents_email" >이메일 주소
+                </string>
+                <string name="zxing_contents_location" >GPS 좌표
+                </string>
+                <string name="zxing_msg_default_time" >시간
+                </string>
+                <string name="zxing_app_name" >바코드 스캐너
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >주어진 데이터로 바코드를 만들지 못하였습니다.
+                </string>
+                <string name="zxing_contents_text" >단문
+                </string>
+                <string name="zxing_msg_default_meta" >메타데이터
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >죄송합니다. 기기의 카메라에 오류가 생겼습니다. 기기를 재시작 해야될 수도 있습니다.
+                </string>
+                <string name="zxing_msg_unmount_usb" >죄송합니다. SD카드를 사용할 수 없습니다.
+                </string>
+                <string name="zxing_button_cancel" >취소
+                </string>
+                <string name="zxing_msg_default_type" >종류
+                </string>
+                <string name="zxing_button_ok" >확인
+                </string>
+                <string name="zxing_contents_contact" >연락처 정보
+                </string>
+                <string name="zxing_menu_share" >공유
+                </string>
+                <string name="zxing_contents_sms" >전화번호
+                </string>
+                <string name="zxing_msg_default_status" >바코드를 사각형 안에 비춰주세요.
+                </string>
+                <string name="zxing_menu_help" >도움말
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-nl/values.xml"
+                qualifiers="nl" >
+                <string name="zxing_msg_unmount_usb" >Sorry, de SD-kaart is niet toegankelijk.
+                </string>
+                <string name="zxing_button_ok" >OK
+                </string>
+                <string name="zxing_menu_help" >Help
+                </string>
+                <string name="zxing_msg_default_status" >Plaats een barcode binnen de rechthoek om deze te scannen.
+                </string>
+                <string name="zxing_msg_default_format" >Formaat
+                </string>
+                <string name="zxing_contents_contact" >Contactpersooninformatie
+                </string>
+                <string name="zxing_contents_phone" >Telefoonnummer
+                </string>
+                <string name="zxing_msg_default_type" >Type
+                </string>
+                <string name="zxing_menu_encode_vcard" >vCard gebruiken
+                </string>
+                <string name="zxing_msg_default_time" >Tijd
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >Sorry, er is een probleem met de Android-camera. Probeer je telefoon opnieuw op te starten.
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >Kan geen barcode genereren op basis van de opgegeven gegevens.
+                </string>
+                <string name="zxing_button_cancel" >Annuleren
+                </string>
+                <string name="zxing_app_name" >Barcode Scanner
+                </string>
+                <string name="zxing_menu_share" >Delen
+                </string>
+                <string name="zxing_menu_encode_mecard" >MECARD gebruiken
+                </string>
+                <string name="zxing_msg_default_meta" >Metadata
+                </string>
+                <string name="zxing_contents_text" >Platte tekst
+                </string>
+                <string name="zxing_contents_sms" >Sms-adres
+                </string>
+                <string name="zxing_contents_email" >E-mailadres
+                </string>
+                <string name="zxing_contents_location" >Geografische coördinaten
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-pl/values.xml"
+                qualifiers="pl" >
+                <string name="zxing_app_name" >Barcode Scanner
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >Przepraszamy, aparat Android napotkał problem. Może wystąpić potrzeba ponownego uruchomienia urządzenia.
+                </string>
+                <string name="zxing_msg_default_format" >Format
+                </string>
+                <string name="zxing_msg_unmount_usb" >Niestety, karta SD nie jest dostępna.
+                </string>
+                <string name="zxing_msg_default_meta" >Metadanych
+                </string>
+                <string name="zxing_contents_text" >Zwykły tekst
+                </string>
+                <string name="zxing_contents_contact" >Informacje o kontakcie
+                </string>
+                <string name="zxing_menu_help" >Pomoc
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >Nie można zakodować kodu paskowego z dostarczonych danych.
+                </string>
+                <string name="zxing_button_cancel" >Anuluj
+                </string>
+                <string name="zxing_contents_email" >Adres email
+                </string>
+                <string name="zxing_msg_default_type" >Typ
+                </string>
+                <string name="zxing_menu_share" >Udostępnij
+                </string>
+                <string name="zxing_menu_encode_vcard" >Użyj vCard
+                </string>
+                <string name="zxing_menu_encode_mecard" >Użyj MECARD
+                </string>
+                <string name="zxing_msg_default_time" >Czas
+                </string>
+                <string name="zxing_msg_default_status" >Umieść kod paskowy w prostokącie wizjera aby zeskanować.
+                </string>
+                <string name="zxing_button_ok" >OK
+                </string>
+                <string name="zxing_contents_phone" >Numer telefonu
+                </string>
+                <string name="zxing_contents_sms" >Adres SMS
+                </string>
+                <string name="zxing_contents_location" >Współrzędne geograficzne
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-pt/values.xml"
+                qualifiers="pt" >
+                <string name="zxing_msg_default_type" >Tipo
+                </string>
+                <string name="zxing_menu_share" >Partilhar
+                </string>
+                <string name="zxing_msg_default_status" >Alinhar código de barras com o exemplo para ser lido.
+                </string>
+                <string name="zxing_contents_phone" >Número de telefone
+                </string>
+                <string name="zxing_menu_help" >Ajuda
+                </string>
+                <string name="zxing_contents_text" >Texto simples
+                </string>
+                <string name="zxing_msg_default_meta" >Metadata
+                </string>
+                <string name="zxing_contents_email" >Endereço de e-mail
+                </string>
+                <string name="zxing_button_cancel" >Cancelar
+                </string>
+                <string name="zxing_menu_encode_vcard" >Usar vCard
+                </string>
+                <string name="zxing_contents_contact" >Informação de contacto
+                </string>
+                <string name="zxing_menu_encode_mecard" >Usar MECARD
+                </string>
+                <string name="zxing_msg_default_time" >Tempo
+                </string>
+                <string name="zxing_app_name" >Barcode Scanner
+                </string>
+                <string name="zxing_msg_default_format" >Formato
+                </string>
+                <string name="zxing_contents_location" >Coordenadas geográficas
+                </string>
+                <string name="zxing_button_ok" >OK
+                </string>
+                <string name="zxing_msg_unmount_usb" >Desculpe, o cartão SD não está disponível.
+                </string>
+                <string name="zxing_contents_sms" >Endereço SMS
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >Não foi possível codificar o código de barradas apartir dos dados fornecidos.
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >Desculpe, a câmera do Android encontrou um problema. Poderá precisar de reiniciar o dispositivo.
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-ro/values.xml"
+                qualifiers="ro" >
+                <string name="zxing_button_cancel" >Renunță
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >Codificare eșuată a codului de bare, din datele furnizate
+                </string>
+                <string name="zxing_contents_location" >Coordonate geografice
+                </string>
+                <string name="zxing_contents_contact" >Informații de contact
+                </string>
+                <string name="zxing_contents_sms" >Număr de SMS
+                </string>
+                <string name="zxing_msg_default_type" >Tip
+                </string>
+                <string name="zxing_msg_default_time" >Ora
+                </string>
+                <string name="zxing_menu_encode_vcard" >Folosește vCard
+                </string>
+                <string name="zxing_menu_help" >Ajutor
+                </string>
+                <string name="zxing_menu_share" >Distribuie
+                </string>
+                <string name="zxing_contents_email" >Adresă de e-mail
+                </string>
+                <string name="zxing_app_name" >Barcode Scanner
+                </string>
+                <string name="zxing_button_ok" >Acceptă
+                </string>
+                <string name="zxing_menu_encode_mecard" >Folosește MECARD
+                </string>
+                <string name="zxing_contents_text" >Text
+                </string>
+                <string name="zxing_msg_default_format" >Format
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >Probleme cu camera foto. Repornește dispozitivul.
+                </string>
+                <string name="zxing_msg_unmount_usb" >Card SD inaccesibil
+                </string>
+                <string name="zxing_contents_phone" >Telefon
+                </string>
+                <string name="zxing_msg_default_status" >Plasează codul de bare în interiorul vizorului pentru a-l scana
+                </string>
+                <string name="zxing_msg_default_meta" >Metadate
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-ru/values.xml"
+                qualifiers="ru" >
+                <string name="zxing_msg_encode_contents_failed" >Невозможно создать штрих-код из текущих данных.
+                </string>
+                <string name="zxing_msg_default_type" >Тип
+                </string>
+                <string name="zxing_msg_default_meta" >Метаданные
+                </string>
+                <string name="zxing_button_ok" >OK
+                </string>
+                <string name="zxing_contents_contact" >Контактная информация
+                </string>
+                <string name="zxing_contents_email" >Адрес эл. почты
+                </string>
+                <string name="zxing_app_name" >Сканер штрих-кодов
+                </string>
+                <string name="zxing_button_cancel" >Отмена
+                </string>
+                <string name="zxing_menu_help" >Помощь
+                </string>
+                <string name="zxing_contents_sms" >Адрес для SMS
+                </string>
+                <string name="zxing_msg_default_format" >Формат
+                </string>
+                <string name="zxing_msg_default_status" >Чтобы сканировать штрих-код, поместите его в прямоугольник видоискателя.
+                </string>
+                <string name="zxing_msg_unmount_usb" >К сожалению, SD-карта не доступна.
+                </string>
+                <string name="zxing_msg_default_time" >Время
+                </string>
+                <string name="zxing_contents_text" >Текст
+                </string>
+                <string name="zxing_contents_location" >Географические координаты
+                </string>
+                <string name="zxing_menu_encode_vcard" >Использовать vCard
+                </string>
+                <string name="zxing_contents_phone" >Номер телефона
+                </string>
+                <string name="zxing_menu_encode_mecard" >Использовать MECARD
+                </string>
+                <string name="zxing_menu_share" >Поделиться
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >К сожалению, возникла ошибка камеры. Может потребоваться перезагрузить устройство.
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-sk/values.xml"
+                qualifiers="sk" >
+                <string name="zxing_msg_default_type" >Typ
+                </string>
+                <string name="zxing_contents_email" >E-mailová adresa
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >Nie je možné zakódovať čiarový kód z poskytnutých údajov.
+                </string>
+                <string name="zxing_contents_contact" >Informácie o kontakte
+                </string>
+                <string name="zxing_msg_default_time" >Čas
+                </string>
+                <string name="zxing_msg_unmount_usb" >Ospravedlňujeme sa, SD karta nie je prístupná.
+                </string>
+                <string name="zxing_button_ok" >OK
+                </string>
+                <string name="zxing_contents_text" >Obyčajný text
+                </string>
+                <string name="zxing_menu_help" >Nápoveda
+                </string>
+                <string name="zxing_msg_default_status" >Umiestnite čiarový kód do vnútra obdĺžnika hľadáčiku pre skenovanie.
+                </string>
+                <string name="zxing_menu_share" >Zdieľať
+                </string>
+                <string name="zxing_msg_default_format" >Formát
+                </string>
+                <string name="zxing_button_cancel" >Zrušiť
+                </string>
+                <string name="zxing_menu_encode_vcard" >Použiť vCard
+                </string>
+                <string name="zxing_contents_location" >Geografické súradnice
+                </string>
+                <string name="zxing_contents_phone" >Telefónne číslo
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >Ospravedlňujeme sa, fotoaparát narazil na problém. Možno bude potrebné reštartovať zariadenie.
+                </string>
+                <string name="zxing_app_name" >Barcode Scanner
+                </string>
+                <string name="zxing_menu_encode_mecard" >Použiť MECARD
+                </string>
+                <string name="zxing_contents_sms" >SMS adresa
+                </string>
+                <string name="zxing_msg_default_meta" >Metadáta
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-sl/values.xml"
+                qualifiers="sl" >
+                <string name="zxing_msg_default_type" >Tip
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >Oprostite, Android kamera je naletela na težave. Mogoče boste morali ponovno zagnati napravo.
+                </string>
+                <string name="zxing_button_cancel" >Prekliči
+                </string>
+                <string name="zxing_contents_location" >Geografske koordinate
+                </string>
+                <string name="zxing_contents_phone" >Telefonska številka
+                </string>
+                <string name="zxing_contents_contact" >Informacije o kontaktu
+                </string>
+                <string name="zxing_menu_encode_mecard" >Uporaba MECARD
+                </string>
+                <string name="zxing_msg_default_meta" >Metapodatki
+                </string>
+                <string name="zxing_menu_share" >Deli
+                </string>
+                <string name="zxing_menu_encode_vcard" >Uporaba vCard
+                </string>
+                <string name="zxing_menu_help" >Pomoč
+                </string>
+                <string name="zxing_msg_default_time" >Čas
+                </string>
+                <string name="zxing_msg_default_format" >Format
+                </string>
+                <string name="zxing_contents_email" >E-naslov
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >Ni bilo mogoče narediti črtne kode iz podanih podatkov
+                </string>
+                <string name="zxing_contents_text" >Tekst
+                </string>
+                <string name="zxing_msg_unmount_usb" >Oprostite, do SD kartice ni možno dostopati
+                </string>
+                <string name="zxing_app_name" >Barcode Scanner
+                </string>
+                <string name="zxing_contents_sms" >SMS naslov
+                </string>
+                <string name="zxing_msg_default_status" >Za branje postavite črtno kodo znotraj iskala.
+                </string>
+                <string name="zxing_button_ok" >V redu
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-sv/values.xml"
+                qualifiers="sv" >
+                <string name="zxing_msg_camera_framework_bug" >Det uppstod tyvärr ett fel med Androidkameran.
+                </string>
+                <string name="zxing_contents_email" >E-postadress
+                </string>
+                <string name="zxing_msg_default_meta" >Metadata
+                </string>
+                <string name="zxing_msg_default_time" >Tid
+                </string>
+                <string name="zxing_app_name" >Barcode Scanner
+                </string>
+                <string name="zxing_menu_share" >Dela
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >Det gick inte att avkoda en streckkod från den erhållna informationen.
+                </string>
+                <string name="zxing_msg_unmount_usb" >SD-kortet är tyvärr inte tillgängligt.
+                </string>
+                <string name="zxing_contents_text" >Vanlig text
+                </string>
+                <string name="zxing_contents_sms" >SMS-adress
+                </string>
+                <string name="zxing_menu_help" >Hjälp
+                </string>
+                <string name="zxing_button_cancel" >Avbryt
+                </string>
+                <string name="zxing_contents_contact" >Kontaktinfo
+                </string>
+                <string name="zxing_contents_phone" >Telefonnummer
+                </string>
+                <string name="zxing_msg_default_type" >Typ
+                </string>
+                <string name="zxing_msg_default_status" >Placera steckkoden inom sökarens rektangel för att läsa den.
+                </string>
+                <string name="zxing_msg_default_format" >Format
+                </string>
+                <string name="zxing_button_ok" >OK
+                </string>
+                <string name="zxing_menu_encode_vcard" >Använd vCard
+                </string>
+                <string name="zxing_menu_encode_mecard" >Använd MECARD
+                </string>
+                <string name="zxing_contents_location" >Geografiska koordinater
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-tr/values.xml"
+                qualifiers="tr" >
+                <string name="zxing_menu_encode_mecard" >MECARD kullanın
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >Sağlanan verilerden bir barkod kodlanamadı.
+                </string>
+                <string name="zxing_msg_default_meta" >Metadata
+                </string>
+                <string name="zxing_contents_contact" >Kişi bilgisi
+                </string>
+                <string name="zxing_app_name" >Barkod Tarayıcısı
+                </string>
+                <string name="zxing_menu_share" >Paylaş
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >Üzgünüz, Android kamera bir sorunla karşılaştı. Cihazı yeniden başlatmanız gerekebilir.
+                </string>
+                <string name="zxing_contents_sms" >SMS adresi
+                </string>
+                <string name="zxing_msg_default_type" >Tür
+                </string>
+                <string name="zxing_msg_unmount_usb" >Lütfen USB depolamayı devre dışı bırakın.
+                </string>
+                <string name="zxing_menu_encode_vcard" >VCard kullanın
+                </string>
+                <string name="zxing_msg_default_format" >Biçim
+                </string>
+                <string name="zxing_contents_location" >Coğrafi koordinatlar
+                </string>
+                <string name="zxing_msg_default_time" >Süre
+                </string>
+                <string name="zxing_contents_email" >Email adresi
+                </string>
+                <string name="zxing_contents_phone" >Telefon numarası
+                </string>
+                <string name="zxing_button_cancel" >İptal
+                </string>
+                <string name="zxing_contents_text" >Düz metin
+                </string>
+                <string name="zxing_msg_default_status" >Barkodu taramak için vizördeki dikdörtgenin içerisine yerleştirin.
+                </string>
+                <string name="zxing_button_ok" >Tamam
+                </string>
+                <string name="zxing_menu_help" >Yardım
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-uk/values.xml"
+                qualifiers="uk" >
+                <string name="zxing_msg_default_meta" >Метадані
+                </string>
+                <string name="zxing_menu_encode_mecard" >Використовуйте MECARD
+                </string>
+                <string name="zxing_contents_sms" >Адреса для SMS
+                </string>
+                <string name="zxing_msg_default_time" >Час
+                </string>
+                <string name="zxing_contents_contact" >Контактна інформація
+                </string>
+                <string name="zxing_contents_location" >Географічні координати
+                </string>
+                <string name="zxing_app_name" >Сканер штрих-кодів
+                </string>
+                <string name="zxing_msg_default_status" >Щоб відсканувати штрих-код, помістіть його в прямокутник видошукача.
+                </string>
+                <string name="zxing_button_cancel" >Відміна
+                </string>
+                <string name="zxing_contents_text" >Текст
+                </string>
+                <string name="zxing_menu_help" >Допомога
+                </string>
+                <string name="zxing_msg_default_type" >Тип
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >Нажаль, виникла помилка камери. Можливо, вам знадобиться перезавантажити пристрій.
+                </string>
+                <string name="zxing_button_ok" >OK
+                </string>
+                <string name="zxing_contents_email" >Адреса e-mail
+                </string>
+                <string name="zxing_msg_unmount_usb" >Нажаль, SD-карта недоступна.
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >Неможливо створити штрих-код з наданих даних.
+                </string>
+                <string name="zxing_menu_share" >Поділитись
+                </string>
+                <string name="zxing_contents_phone" >Номер телефону
+                </string>
+                <string name="zxing_menu_encode_vcard" >Використовуйте vCard
+                </string>
+                <string name="zxing_msg_default_format" >Формат
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-zh-rCN/values.xml"
+                qualifiers="zh-rCN" >
+                <string name="zxing_menu_encode_vcard" >使用vCard
+                </string>
+                <string name="zxing_msg_default_time" >时间
+                </string>
+                <string name="zxing_button_cancel" >取消
+                </string>
+                <string name="zxing_contents_email" >Email地址
+                </string>
+                <string name="zxing_contents_contact" >联系人信息
+                </string>
+                <string name="zxing_msg_default_status" >请将条码置于取景框内扫描。  
+                </string>
+                <string name="zxing_msg_unmount_usb" >抱歉，SD卡不可访问。
+                </string>
+                <string name="zxing_app_name" >条码扫描器
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >无法根据已有数据生成条码。   
+                </string>
+                <string name="zxing_contents_phone" >电话号码
+                </string>
+                <string name="zxing_menu_encode_mecard" >使用MECARD
+                </string>
+                <string name="zxing_contents_text" >纯文本
+                </string>
+                <string name="zxing_msg_default_meta" >元数据
+                </string>
+                <string name="zxing_button_ok" >确定
+                </string>
+                <string name="zxing_menu_help" >帮助
+                </string>
+                <string name="zxing_menu_share" >分享
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >抱歉，Android相机出现问题。您可能需要重启设备。
+                </string>
+                <string name="zxing_contents_sms" >短信地址
+                </string>
+                <string name="zxing_contents_location" >地理坐标
+                </string>
+                <string name="zxing_msg_default_type" >类型
+                </string>
+                <string name="zxing_msg_default_format" >格式
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-zh-rHK/values.xml"
+                qualifiers="zh-rHK" >
+                <string name="zxing_msg_default_meta" >元資料
+                </string>
+                <string name="zxing_contents_location" >地理座標
+                </string>
+                <string name="zxing_msg_default_format" >格式
+                </string>
+                <string name="zxing_menu_share" >分享
+                </string>
+                <string name="zxing_contents_text" >純文字
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >很抱歉，Android 相機出現問題，您可能需要重新啟動您的裝置。
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >無法讀取條碼。
+                </string>
+                <string name="zxing_app_name" >條碼掃描器
+                </string>
+                <string name="zxing_msg_default_status" >將條碼置於鏡頭範圍內以進行掃描。
+                </string>
+                <string name="zxing_contents_phone" >電話號碼
+                </string>
+                <string name="zxing_contents_email" >電子郵件地址
+                </string>
+                <string name="zxing_contents_sms" >簡訊地址
+                </string>
+                <string name="zxing_msg_unmount_usb" >無法讀取 SD 卡。
+                </string>
+                <string name="zxing_menu_help" >說明
+                </string>
+                <string name="zxing_msg_default_type" >類型
+                </string>
+                <string name="zxing_menu_encode_vcard" >使用 vCard
+                </string>
+                <string name="zxing_msg_default_time" >時間
+                </string>
+                <string name="zxing_button_cancel" >取消
+                </string>
+                <string name="zxing_button_ok" >確定
+                </string>
+                <string name="zxing_menu_encode_mecard" >使用 MECARD
+                </string>
+                <string name="zxing_contents_contact" >聯絡人資訊
+                </string>
+            </file>
+            <file
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-zh-rTW/values.xml"
+                qualifiers="zh-rTW" >
+                <string name="zxing_msg_default_status" >將條碼置於鏡頭範圍內以進行掃描。
+                </string>
+                <string name="zxing_button_cancel" >取消
+                </string>
+                <string name="zxing_menu_encode_mecard" >使用 MECARD
+                </string>
+                <string name="zxing_msg_default_type" >類型
+                </string>
+                <string name="zxing_msg_default_meta" >元資料
+                </string>
+                <string name="zxing_msg_default_format" >格式
+                </string>
+                <string name="zxing_contents_location" >地理座標
+                </string>
+                <string name="zxing_contents_sms" >簡訊地址
+                </string>
+                <string name="zxing_msg_camera_framework_bug" >很抱歉，Android 相機出現問題，您可能需要重新啟動您的裝置。
+                </string>
+                <string name="zxing_msg_unmount_usb" >無法讀取 SD 卡。
+                </string>
+                <string name="zxing_msg_default_time" >時間
+                </string>
+                <string name="zxing_app_name" >條碼掃描器
+                </string>
+                <string name="zxing_contents_email" >電子郵件地址
+                </string>
+                <string name="zxing_contents_text" >純文字
+                </string>
+                <string name="zxing_menu_help" >說明
+                </string>
+                <string name="zxing_menu_encode_vcard" >使用 vCard
+                </string>
+                <string name="zxing_msg_encode_contents_failed" >無法讀取條碼。
+                </string>
+                <string name="zxing_contents_phone" >電話號碼
+                </string>
+                <string name="zxing_menu_share" >分享
+                </string>
+                <string name="zxing_contents_contact" >聯絡人資訊
+                </string>
+                <string name="zxing_button_ok" >確定
+                </string>
+            </file>
+            <file
+                name="zxing_preferences"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/xml/zxing_preferences.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+    </dataSet>
     <dataSet config="20.0.0" >
         <source path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/res" />
     </dataSet>

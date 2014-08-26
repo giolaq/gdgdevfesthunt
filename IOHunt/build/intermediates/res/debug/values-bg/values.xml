@@ -45,5 +45,55 @@
     <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Актуализиране на услугите за Google Play"</string>
     <string name="common_signin_button_text" msgid="9071884888741449141">"Вход"</string>
     <string name="common_signin_button_text_long" msgid="2429381841831957106">"Вход с Google"</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-bg/values.xml -->
+    <eat-comment />
+
+    <string name="zxing_app_name">Баркод Скенер</string>
+    <string name="zxing_button_cancel">Отказ</string>
+    <string name="zxing_button_ok">ОК</string>
+    <string name="zxing_contents_contact">Информация за контакт</string>
+    <string name="zxing_contents_email">Електронна поща</string>
+    <string name="zxing_contents_location">Географски координати</string>
+    <string name="zxing_contents_phone">Телефон</string>
+    <string name="zxing_contents_sms">SMS адрес</string>
+    <string name="zxing_contents_text">Чист текст</string>
+    <string name="zxing_menu_encode_mecard">Използвай MECARD формат</string>
+    <string name="zxing_menu_encode_vcard">Използвай vCard формат</string>
+    <string name="zxing_menu_help">Помощ</string>
+    <string name="zxing_menu_share">Сподели</string>
+    <string name="zxing_msg_camera_framework_bug">Съжаляваме, срещнахме проблем с камерата. Може да се наложи да рестартирате устройството си.</string>
+    <string name="zxing_msg_default_format">Формат</string>
+    <string name="zxing_msg_default_meta">Допълнение</string>
+    <string name="zxing_msg_default_status">Сложете баркода вътре в правоъгълника за да го сканирате.</string>
+    <string name="zxing_msg_default_time">Време</string>
+    <string name="zxing_msg_default_type">Тип</string>
+    <string name="zxing_msg_encode_contents_failed">Неуспешно кодиране на подадените данни.</string>
+    <string name="zxing_msg_unmount_usb">Съжаляваме, но SD картата не е достъпна.</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-bg/values.xml -->
+    <eat-comment />
+
+    <string name="zxinglegacy_app_name">Баркод Скенер</string>
+    <string name="zxinglegacy_button_back">Обратно</string>
+    <string name="zxinglegacy_button_cancel">Отказ</string>
+    <string name="zxinglegacy_button_done">Готово</string>
+    <string name="zxinglegacy_button_ok">ОК</string>
+    <string name="zxinglegacy_contents_contact">Информация за контакт</string>
+    <string name="zxinglegacy_contents_email">Електронна поща</string>
+    <string name="zxinglegacy_contents_location">Географски координати</string>
+    <string name="zxinglegacy_contents_phone">Телефон</string>
+    <string name="zxinglegacy_contents_sms">SMS адрес</string>
+    <string name="zxinglegacy_contents_text">Чист текст</string>
+    <string name="zxinglegacy_menu_encode_mecard">Използвай MECARD формат</string>
+    <string name="zxinglegacy_menu_encode_vcard">Използвай vCard формат</string>
+    <string name="zxinglegacy_menu_help">Помощ</string>
+    <string name="zxinglegacy_menu_share">Сподели</string>
+    <string name="zxinglegacy_msg_camera_framework_bug">Съжаляваме, срещнахме проблем с камерата. Може да се наложи да рестартирате устройството си.</string>
+    <string name="zxinglegacy_msg_default_format">Формат</string>
+    <string name="zxinglegacy_msg_default_meta">Допълнение</string>
+    <string name="zxinglegacy_msg_default_status">Сложете баркода вътре в правоъгълника за да го сканирате.</string>
+    <string name="zxinglegacy_msg_default_time">Време</string>
+    <string name="zxinglegacy_msg_default_type">Тип</string>
+    <string name="zxinglegacy_msg_encode_contents_failed">Неуспешно кодиране на подадените данни.</string>
+    <string name="zxinglegacy_msg_unmount_usb">Съжаляваме, но SD картата не е достъпна.</string>
 
 </resources>

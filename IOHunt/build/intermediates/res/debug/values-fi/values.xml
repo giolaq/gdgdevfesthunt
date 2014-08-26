@@ -45,5 +45,55 @@
     <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Päivitä Google Play -palvelut"</string>
     <string name="common_signin_button_text" msgid="9071884888741449141">"Kirjaudu"</string>
     <string name="common_signin_button_text_long" msgid="2429381841831957106">"Kirjaudu Google-tiliin"</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-fi/values.xml -->
+    <eat-comment />
+
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_cancel">Peruuta</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_contents_contact">Yhteystiedot</string>
+    <string name="zxing_contents_email">Sähköpostiosoite</string>
+    <string name="zxing_contents_location">Karttakoordinaatit</string>
+    <string name="zxing_contents_phone">Puhelinnumero</string>
+    <string name="zxing_contents_sms">Tekstiviestin osoite</string>
+    <string name="zxing_contents_text">Teksti</string>
+    <string name="zxing_menu_encode_mecard">Käytä MECARD:ia</string>
+    <string name="zxing_menu_encode_vcard">Käytä vCard:ia</string>
+    <string name="zxing_menu_help">Ohje</string>
+    <string name="zxing_menu_share">Jaa</string>
+    <string name="zxing_msg_camera_framework_bug">Valitettavasti Androidin kameran toimiinta häiriintyi. Joudut ehkä käynnistämään laitteen uudelleen.</string>
+    <string name="zxing_msg_default_format">Muoto</string>
+    <string name="zxing_msg_default_meta">Metatiedot</string>
+    <string name="zxing_msg_default_status">Aseta viivakoodi neliön sisälle skannataksesi sen.</string>
+    <string name="zxing_msg_default_time">Aika</string>
+    <string name="zxing_msg_default_type">Tyyppi</string>
+    <string name="zxing_msg_encode_contents_failed">Viivakoodia ei voitu muodostaa annetusta datasta.</string>
+    <string name="zxing_msg_unmount_usb">SD-kortti ei ole käytettävissä.</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-fi/values.xml -->
+    <eat-comment />
+
+    <string name="zxinglegacy_app_name">Barcode Scanner</string>
+    <string name="zxinglegacy_button_back">Takaisin</string>
+    <string name="zxinglegacy_button_cancel">Peruuta</string>
+    <string name="zxinglegacy_button_done">Valmis</string>
+    <string name="zxinglegacy_button_ok">OK</string>
+    <string name="zxinglegacy_contents_contact">Yhteystiedon tiedot</string>
+    <string name="zxinglegacy_contents_email">Sähköpostiosoite</string>
+    <string name="zxinglegacy_contents_location">Maantieteelliset koordinaatit</string>
+    <string name="zxinglegacy_contents_phone">Puhelinnumero</string>
+    <string name="zxinglegacy_contents_sms">Tekstiviestin osoite</string>
+    <string name="zxinglegacy_contents_text">Teksti</string>
+    <string name="zxinglegacy_menu_encode_mecard">Käytä MECARD:ia</string>
+    <string name="zxinglegacy_menu_encode_vcard">Käytä vCard:ia</string>
+    <string name="zxinglegacy_menu_help">Ohje</string>
+    <string name="zxinglegacy_menu_share">Jaa</string>
+    <string name="zxinglegacy_msg_camera_framework_bug">Formaatti</string>
+    <string name="zxinglegacy_msg_default_format">Muoto</string>
+    <string name="zxinglegacy_msg_default_meta">Metatiedot</string>
+    <string name="zxinglegacy_msg_default_status">Aseta viivakoodi neliön sisälle skannataksesi sen.</string>
+    <string name="zxinglegacy_msg_default_time">Aika</string>
+    <string name="zxinglegacy_msg_default_type">Tyyppi</string>
+    <string name="zxinglegacy_msg_encode_contents_failed">Viivakoodia ei voitu muodostaa annetusta datasta.</string>
+    <string name="zxinglegacy_msg_unmount_usb">SD-kortti ei ole käytettävissä.</string>
 
 </resources>

@@ -45,5 +45,55 @@
     <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Play開発者サービスの更新"</string>
     <string name="common_signin_button_text" msgid="9071884888741449141">"ログイン"</string>
     <string name="common_signin_button_text_long" msgid="2429381841831957106">"Googleでログイン"</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-ja/values.xml -->
+    <eat-comment />
+
+    <string name="zxing_app_name">QRコードスキャナー</string>
+    <string name="zxing_button_cancel">キャンセル</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_contents_contact">連絡先</string>
+    <string name="zxing_contents_email">メールアドレス</string>
+    <string name="zxing_contents_location">位置情報</string>
+    <string name="zxing_contents_phone">電話番号</string>
+    <string name="zxing_contents_sms">SMSアドレス</string>
+    <string name="zxing_contents_text">テキストデータ</string>
+    <string name="zxing_menu_encode_mecard">MECARDを使用</string>
+    <string name="zxing_menu_encode_vcard">vCardを使用</string>
+    <string name="zxing_menu_help">ヘルプ</string>
+    <string name="zxing_menu_share">共有</string>
+    <string name="zxing_msg_camera_framework_bug">Androidのカメラに問題が発生しました。デバイスを再起動する必要があります。</string>
+    <string name="zxing_msg_default_format">フォーマット</string>
+    <string name="zxing_msg_default_meta">メタデータ</string>
+    <string name="zxing_msg_default_status">QRコードを画面の読み取り範囲内に写すとスキャンします。</string>
+    <string name="zxing_msg_default_time">時間</string>
+    <string name="zxing_msg_default_type">タイプ</string>
+    <string name="zxing_msg_encode_contents_failed">このデータからQRコードを作成できませんでした</string>
+    <string name="zxing_msg_unmount_usb">SDカードにアクセスできません</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-ja/values.xml -->
+    <eat-comment />
+
+    <string name="zxinglegacy_app_name">QRコードスキャナー</string>
+    <string name="zxinglegacy_button_back">戻る</string>
+    <string name="zxinglegacy_button_cancel">キャンセル</string>
+    <string name="zxinglegacy_button_done">完了</string>
+    <string name="zxinglegacy_button_ok">OK</string>
+    <string name="zxinglegacy_contents_contact">連絡先</string>
+    <string name="zxinglegacy_contents_email">メールアドレス</string>
+    <string name="zxinglegacy_contents_location">位置情報</string>
+    <string name="zxinglegacy_contents_phone">電話番号</string>
+    <string name="zxinglegacy_contents_sms">SMSアドレス</string>
+    <string name="zxinglegacy_contents_text">テキストデータ</string>
+    <string name="zxinglegacy_menu_encode_mecard">MECARDを使用</string>
+    <string name="zxinglegacy_menu_encode_vcard">vCardを使用</string>
+    <string name="zxinglegacy_menu_help">ヘルプ</string>
+    <string name="zxinglegacy_menu_share">共有</string>
+    <string name="zxinglegacy_msg_camera_framework_bug">Androidのカメラに問題が発生しました。デバイスを再起動する必要があります。</string>
+    <string name="zxinglegacy_msg_default_format">フォーマット</string>
+    <string name="zxinglegacy_msg_default_meta">メタデータ</string>
+    <string name="zxinglegacy_msg_default_status">QRコードを画面の読み取り範囲内に写すとスキャンします。</string>
+    <string name="zxinglegacy_msg_default_time">時間</string>
+    <string name="zxinglegacy_msg_default_type">タイプ</string>
+    <string name="zxinglegacy_msg_encode_contents_failed">このデータからQRコードを作成できませんでした</string>
+    <string name="zxinglegacy_msg_unmount_usb">SDカードにアクセスできません</string>
 
 </resources>

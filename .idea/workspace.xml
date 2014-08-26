@@ -18,28 +18,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9d90fbe-f525-47b4-ae3a-49bab1dc77dc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/core_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/zxing_android_integration_2_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/zxing_android_minimal_2_0_0.xml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_20_0_0.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/libGoogleAnalyticsServices.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_5_2_08.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_20_0_0.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_20_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0-rc1/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0-rc1/classes.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0-rc1/libs/internal_impl-21.0.0-rc1.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/IOHunt.libraries/BaseGameUtils/unspecified/classes.jar" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/IOHunt.libraries/BaseGameUtils/unspecified/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/AboutActivity.java" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/AboutActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/AchievementManager.java" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/AchievementManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_5_0_89.xml" afterPath="$PROJECT_DIR$/.idea/libraries/zxing_android_legacy_2_0_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/iOHunt/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/BaseActivity.java" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/BaseActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/BaseGameUtils/BaseGameUtils.iml" afterPath="$PROJECT_DIR$/libraries/BaseGameUtils/BaseGameUtils.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/ClueActivity.java" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/ClueActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/iOHunt/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/build/generated/source/r/debug/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/iOHunt/build/generated/source/r/debug/com/google/android/gms/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/build/generated/source/r/debug/com/google/example/games/basegameutils/R.java" afterPath="$PROJECT_DIR$/iOHunt/build/generated/source/r/debug/com/google/example/games/basegameutils/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/build/generated/source/r/debug/com/laquysoft/codemotionhunt/R.java" afterPath="$PROJECT_DIR$/iOHunt/build/generated/source/r/debug/com/laquysoft/codemotionhunt/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/IOHunt.libraries/BaseGameUtils/unspecified/R.txt" afterPath="$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/IOHunt.libraries/BaseGameUtils/unspecified/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/VictoryActivity.java" afterPath="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/VictoryActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/build.gradle" afterPath="$PROJECT_DIR$/iOHunt/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/BaseGameUtils/build.gradle" afterPath="$PROJECT_DIR$/libraries/BaseGameUtils/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOHunt/iOHunt.iml" afterPath="$PROJECT_DIR$/iOHunt/iOHunt.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -63,7 +57,46 @@
     <favorites_list name="IOHunt" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="ClueActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/ClueActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.62998104" vertical-offset="5848" max-vertical-offset="8040">
+              <caret line="435" column="0" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3060#3722#0" expanded="true" />
+                <element signature="e#3717#3718#0" expanded="true" />
+                <element signature="e#15761#16148#0" expanded="true" />
+                <element signature="e#16141#16142#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iOHunt/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1528" max-vertical-offset="2070">
+              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+              <folding>
+                <element signature="e#1873#1912#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iOHunt/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="870">
+              <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -811,6 +844,21 @@
                 <option name="name" value="prepareComAndroidSupportSupportV42000Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.embarkmobile:zxing-android-integration:2.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/iOHunt" />
+                <option name="name" value="prepareComEmbarkmobileZxingAndroidIntegration200Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.embarkmobile:zxing-android-legacy:2.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/iOHunt" />
+                <option name="name" value="prepareComEmbarkmobileZxingAndroidLegacy200Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.embarkmobile:zxing-android-minimal:2.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/iOHunt" />
+                <option name="name" value="prepareComEmbarkmobileZxingAndroidMinimal200Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.google.android.gms:play-services:5.0.89" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/iOHunt" />
                 <option name="name" value="prepareComGoogleAndroidGmsPlayServices5089Library" />
@@ -1333,7 +1381,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5636302827000" />
+        <entry key="$PROJECT_DIR$" value="5636306321000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1565,6 +1613,11 @@
                             <option value="$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/20.0.0/support-v4-20.0.0-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/20.0.0/support-v4-20.0.0.aar" />
                             <option value="$APPLICATION_HOME_DIR$/sdk/extras/google/m2repository/com/google/android/gms/play-services/5.0.89/play-services-5.0.89.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.embarkmobile/zxing-android-minimal/2.0.0/c0d3ef52e9c9925e657fed6aff3c9d49ca3f5095/zxing-android-minimal-2.0.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.embarkmobile/zxing-android-legacy/2.0.0/5eddccfb51bcbc74de1ab089984e910bd7d0e3a9/zxing-android-legacy-2.0.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.embarkmobile/zxing-android-integration/2.0.0/ffe3b4cf5289fab34ff246c81f39682ece7d1e0e/zxing-android-integration-2.0.0.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.0.1/cfba32e5d08bcde414d10dd4a7308e48af845b56/core-3.0.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.0.1/9ebf6cd580d67601fbf88fd007aab4703b19e4c2/core-3.0.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar" />
                             <option value="$MODULE_DIR$/libs/libGoogleAnalyticsServices.jar" />
@@ -1834,12 +1887,12 @@
         <option value="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/AchievementManager.java" />
         <option value="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/AboutActivity.java" />
         <option value="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/BaseActivity.java" />
-        <option value="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/ClueActivity.java" />
         <option value="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/VictoryActivity.java" />
-        <option value="$PROJECT_DIR$/iOHunt/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/libraries/BaseGameUtils/src/main/java/com/google/example/games/basegameutils/GameHelper.java" />
-        <option value="$PROJECT_DIR$/iOHunt/build.gradle" />
         <option value="$PROJECT_DIR$/libraries/BaseGameUtils/build.gradle" />
+        <option value="$PROJECT_DIR$/iOHunt/build.gradle" />
+        <option value="$PROJECT_DIR$/iOHunt/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/ClueActivity.java" />
       </list>
     </option>
   </component>
@@ -1888,24 +1941,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BaseGameUtils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2180,7 +2215,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2194,7 +2229,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31076178" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32889965" sideWeight="0.7798611" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32889965" sideWeight="0.7798611" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2327,14 +2362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/ClueActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3321033" vertical-offset="6270" max-vertical-offset="7620">
-          <caret line="470" column="38" selection-start-line="470" selection-start-column="38" selection-end-line="470" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/DecoyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="148" max-vertical-offset="690">
@@ -2439,16 +2466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOHunt/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6027944" vertical-offset="328" max-vertical-offset="2325">
-          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-          <folding>
-            <element signature="e#1611#1650#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542">
@@ -2489,19 +2506,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOHunt/build.gradle">
+    <entry file="file://$PROJECT_DIR$/libraries/BaseGameUtils/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65464896" vertical-offset="0" max-vertical-offset="527">
-          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libraries/BaseGameUtils/build.gradle">
+    <entry file="jar://$PROJECT_DIR$/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/1.2.1/classes.jar!/com/google/zxing/integration/android/IntentIntegrator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54079694" vertical-offset="0" max-vertical-offset="527">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        <state vertical-scroll-proportion="-15.96" vertical-offset="261" max-vertical-offset="750">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOHunt/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1528" max-vertical-offset="2070">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding>
+            <element signature="e#1873#1912#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOHunt/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="870">
+          <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOHunt/src/main/java/com/laquysoft/codemotionhunt/ClueActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62998104" vertical-offset="5848" max-vertical-offset="8040">
+          <caret line="435" column="0" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3060#3722#0" expanded="true" />
+            <element signature="e#3717#3718#0" expanded="true" />
+            <element signature="e#15761#16148#0" expanded="true" />
+            <element signature="e#16141#16142#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

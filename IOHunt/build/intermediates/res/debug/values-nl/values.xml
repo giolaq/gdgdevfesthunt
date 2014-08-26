@@ -45,5 +45,55 @@
     <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Google Play-services bijwerken"</string>
     <string name="common_signin_button_text" msgid="9071884888741449141">"Inloggen"</string>
     <string name="common_signin_button_text_long" msgid="2429381841831957106">"Inloggen met Google"</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-nl/values.xml -->
+    <eat-comment />
+
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_cancel">Annuleren</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_contents_contact">Contactpersooninformatie</string>
+    <string name="zxing_contents_email">E-mailadres</string>
+    <string name="zxing_contents_location">Geografische coördinaten</string>
+    <string name="zxing_contents_phone">Telefoonnummer</string>
+    <string name="zxing_contents_sms">Sms-adres</string>
+    <string name="zxing_contents_text">Platte tekst</string>
+    <string name="zxing_menu_encode_mecard">MECARD gebruiken</string>
+    <string name="zxing_menu_encode_vcard">vCard gebruiken</string>
+    <string name="zxing_menu_help">Help</string>
+    <string name="zxing_menu_share">Delen</string>
+    <string name="zxing_msg_camera_framework_bug">Sorry, er is een probleem met de Android-camera. Probeer je telefoon opnieuw op te starten.</string>
+    <string name="zxing_msg_default_format">Formaat</string>
+    <string name="zxing_msg_default_meta">Metadata</string>
+    <string name="zxing_msg_default_status">Plaats een barcode binnen de rechthoek om deze te scannen.</string>
+    <string name="zxing_msg_default_time">Tijd</string>
+    <string name="zxing_msg_default_type">Type</string>
+    <string name="zxing_msg_encode_contents_failed">Kan geen barcode genereren op basis van de opgegeven gegevens.</string>
+    <string name="zxing_msg_unmount_usb">Sorry, de SD-kaart is niet toegankelijk.</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-nl/values.xml -->
+    <eat-comment />
+
+    <string name="zxinglegacy_app_name">Barcode Scanner</string>
+    <string name="zxinglegacy_button_back">Terug</string>
+    <string name="zxinglegacy_button_cancel">Annuleren</string>
+    <string name="zxinglegacy_button_done">Gereed</string>
+    <string name="zxinglegacy_button_ok">OK</string>
+    <string name="zxinglegacy_contents_contact">Contactpersooninformatie</string>
+    <string name="zxinglegacy_contents_email">E-mailadres</string>
+    <string name="zxinglegacy_contents_location">Geografische coördinaten</string>
+    <string name="zxinglegacy_contents_phone">Telefoonnummer</string>
+    <string name="zxinglegacy_contents_sms">Sms-adres</string>
+    <string name="zxinglegacy_contents_text">Platte tekst</string>
+    <string name="zxinglegacy_menu_encode_mecard">MECARD gebruiken</string>
+    <string name="zxinglegacy_menu_encode_vcard">vCard gebruiken</string>
+    <string name="zxinglegacy_menu_help">Help</string>
+    <string name="zxinglegacy_menu_share">Delen</string>
+    <string name="zxinglegacy_msg_camera_framework_bug">Sorry, er is een probleem met de Android-camera. Probeer je telefoon opnieuw op te starten.</string>
+    <string name="zxinglegacy_msg_default_format">Formaat</string>
+    <string name="zxinglegacy_msg_default_meta">Metadata</string>
+    <string name="zxinglegacy_msg_default_status">Plaats een barcode binnen de rechthoek om deze te scannen.</string>
+    <string name="zxinglegacy_msg_default_time">Tijd</string>
+    <string name="zxinglegacy_msg_default_type">Type</string>
+    <string name="zxinglegacy_msg_encode_contents_failed">Kan geen barcode genereren op basis van de opgegeven gegevens.</string>
+    <string name="zxinglegacy_msg_unmount_usb">Sorry, de SD-kaart is niet toegankelijk.</string>
 
 </resources>

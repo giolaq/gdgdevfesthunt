@@ -45,5 +45,55 @@
     <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Google Play-Dienste aktualisieren"</string>
     <string name="common_signin_button_text" msgid="9071884888741449141">"Anmelden"</string>
     <string name="common_signin_button_text_long" msgid="2429381841831957106">"Über Google anmelden"</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-de/values.xml -->
+    <eat-comment />
+
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_cancel">Abbruch</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_contents_contact">Kontaktinfo</string>
+    <string name="zxing_contents_email">E-Mail Adresse</string>
+    <string name="zxing_contents_location">Koordinaten</string>
+    <string name="zxing_contents_phone">Telefonnummer</string>
+    <string name="zxing_contents_sms">SMS Adresse</string>
+    <string name="zxing_contents_text">Text</string>
+    <string name="zxing_menu_encode_mecard">MECARD verwenden</string>
+    <string name="zxing_menu_encode_vcard">vCard verwenden</string>
+    <string name="zxing_menu_help">Hilfe</string>
+    <string name="zxing_menu_share">Senden</string>
+    <string name="zxing_msg_camera_framework_bug">Mit der Android-Kamera ist leider ein Fehler aufgetreten. Es könnte sein, dass Sie das Gerät neu starten müssen.</string>
+    <string name="zxing_msg_default_format">Format</string>
+    <string name="zxing_msg_default_meta">Metadaten</string>
+    <string name="zxing_msg_default_status">Positionieren Sie den Barcode innerhalb des Rechteckes.</string>
+    <string name="zxing_msg_default_time">Zeit</string>
+    <string name="zxing_msg_default_type">Typ</string>
+    <string name="zxing_msg_encode_contents_failed">Aus den Daten kann kein Barcode erzeugt werden.</string>
+    <string name="zxing_msg_unmount_usb">Leider kann nicht auf die SD-Karte zugegriffen werden.</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-de/values.xml -->
+    <eat-comment />
+
+    <string name="zxinglegacy_app_name">Barcode Scanner</string>
+    <string name="zxinglegacy_button_back">Zurück</string>
+    <string name="zxinglegacy_button_cancel">Abbruch</string>
+    <string name="zxinglegacy_button_done">Fertig</string>
+    <string name="zxinglegacy_button_ok">OK</string>
+    <string name="zxinglegacy_contents_contact">Kontaktinfo</string>
+    <string name="zxinglegacy_contents_email">E-Mail Adresse</string>
+    <string name="zxinglegacy_contents_location">Koordinaten</string>
+    <string name="zxinglegacy_contents_phone">Telefonnummer</string>
+    <string name="zxinglegacy_contents_sms">SMS Adresse</string>
+    <string name="zxinglegacy_contents_text">Text</string>
+    <string name="zxinglegacy_menu_encode_mecard">MECARD verwenden</string>
+    <string name="zxinglegacy_menu_encode_vcard">vCard verwenden</string>
+    <string name="zxinglegacy_menu_help">Hilfe</string>
+    <string name="zxinglegacy_menu_share">Senden</string>
+    <string name="zxinglegacy_msg_camera_framework_bug">Mit der Android-Kamera ist leider ein Fehler aufgetreten. Es könnte sein, dass Sie das Gerät neu starten müssen.</string>
+    <string name="zxinglegacy_msg_default_format">Format</string>
+    <string name="zxinglegacy_msg_default_meta">Metadaten</string>
+    <string name="zxinglegacy_msg_default_status">Positionieren Sie den Barcode innerhalb des Rechteckes.</string>
+    <string name="zxinglegacy_msg_default_time">Zeit</string>
+    <string name="zxinglegacy_msg_default_type">Typ</string>
+    <string name="zxinglegacy_msg_encode_contents_failed">Aus den Daten kann kein Barcode erzeugt werden.</string>
+    <string name="zxinglegacy_msg_unmount_usb">Leider kann nicht auf die SD-Karte zugegriffen werden.</string>
 
 </resources>

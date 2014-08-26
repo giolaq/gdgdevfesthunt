@@ -16,6 +16,8 @@
 
 package com.laquysoft.codemotionhunt;
 
+import com.google.zxing.integration.android.IntentIntegrator;
+import com.google.zxing.integration.android.IntentResult;
 import com.laquysoft.codemotionhunt.R;
 
 import android.app.Activity;
@@ -31,6 +33,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
 
 public class ClueActivity extends BaseActivity {
 
@@ -96,12 +99,14 @@ public class ClueActivity extends BaseActivity {
 
 				try {
 
-					Intent intent = new Intent(
-							"com.google.zxing.client.android.SCAN");
-					intent.putExtra("SCAN_MODE", "QR_CODE_MODE,PRODUCT_MODE");
-					startActivityForResult(intent, 0);
+					//Intent intent = new Intent(
+					//		"com.google.zxing.client.android.SCAN");
+					//intent.putExtra("SCAN_MODE", "QR_CODE_MODE,PRODUCT_MODE");
+					//startActivityForResult(intent, 0);
+                    IntentIntegrator integrator = new IntentIntegrator(ClueActivity.this);
+                    integrator.initiateScan();
 
-				} catch (Exception e) {
+                } catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 					Toast.makeText(getApplicationContext(), "ERROR:" + e, Toast.LENGTH_SHORT).show();
@@ -411,17 +416,20 @@ public class ClueActivity extends BaseActivity {
 
 	//In the same activity you???ll need the following to retrieve the results:
 	public void onActivityResult(int requestCode, int resultCode, Intent intent) {
-		if (requestCode == 0) {
+        IntentResult scanResult = IntentIntegrator.parseActivityResult(requestCode, resultCode, intent);
+        lastClueFound = scanResult.getContents();
 
-			if (resultCode == RESULT_OK) {
-				Log.i(ClueActivity.class.getName(), "SCAN_RESULT_FORMAT "+ intent.getStringExtra("SCAN_RESULT_FORMAT"));
-				Log.i(ClueActivity.class.getName(), "SCAN_RESULT "+ intent.getStringExtra("SCAN_RESULT"));
-				lastClueFound = intent.getStringExtra("SCAN_RESULT");
-			} else if (resultCode == RESULT_CANCELED) {
-				Log.i(ClueActivity.class.getName(),"Press a button to start a scan.");
-				Log.i(ClueActivity.class.getName(),"Scan cancelled.");
-			}
-		}
+//        if (requestCode == 0) {
+//
+//			if (resultCode == RESULT_OK) {
+//				Log.i(ClueActivity.class.getName(), "SCAN_RESULT_FORMAT "+ intent.getStringExtra("SCAN_RESULT_FORMAT"));
+//				Log.i(ClueActivity.class.getName(), "SCAN_RESULT "+ intent.getStringExtra("SCAN_RESULT"));
+//				lastClueFound = scanResult.getContents();
+//			} else if (resultCode == RESULT_CANCELED) {
+//				Log.i(ClueActivity.class.getName(),"Press a button to start a scan.");
+//				Log.i(ClueActivity.class.getName(),"Scan cancelled.");
+//			}
+//		}
 
 
 		setIntent(null);
