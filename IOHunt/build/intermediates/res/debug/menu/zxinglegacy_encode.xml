@@ -23,4 +23,4 @@
         android:title="@string/zxinglegacy_menu_encode_vcard"
         android:icon="@android:drawable/ic_menu_sort_alphabetically"
         android:orderInCategory="2"/>
-</menu><!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/menu/zxinglegacy_encode.xml -->
+</menu><!-- From: file:/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/menu/zxinglegacy_encode.xml -->

@@ -2,123 +2,123 @@
 <merger version="2" >
 
     <dataSet config="2.0.0" >
-        <source path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-integration/2.0.0/assets" />
+        <source path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-integration/2.0.0/assets" />
     </dataSet>
     <dataSet config="2.0.0" >
-        <source path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets" >
+        <source path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets" >
             <file
                 name="zxinglegacy/html-en/about1d.html"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/html-en/about1d.html" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/html-en/about1d.html" />
             <file
                 name="zxinglegacy/html-en/about2d.html"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/html-en/about2d.html" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/html-en/about2d.html" />
             <file
                 name="zxinglegacy/html-en/index.html"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/html-en/index.html" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/html-en/index.html" />
             <file
                 name="zxinglegacy/html-en/scanning.html"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/html-en/scanning.html" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/html-en/scanning.html" />
             <file
                 name="zxinglegacy/html-en/sharing.html"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/html-en/sharing.html" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/html-en/sharing.html" />
             <file
                 name="zxinglegacy/images/big-1d.png"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/images/big-1d.png" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/images/big-1d.png" />
             <file
                 name="zxinglegacy/images/big-datamatrix.png"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/images/big-datamatrix.png" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/images/big-datamatrix.png" />
             <file
                 name="zxinglegacy/images/big-qr.png"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/images/big-qr.png" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/images/big-qr.png" />
             <file
                 name="zxinglegacy/images/contact-results-screen.jpg"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/images/contact-results-screen.jpg" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/images/contact-results-screen.jpg" />
             <file
                 name="zxinglegacy/images/demo-no.png"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/images/demo-no.png" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/images/demo-no.png" />
             <file
                 name="zxinglegacy/images/demo-yes.png"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/images/demo-yes.png" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/images/demo-yes.png" />
             <file
                 name="zxinglegacy/images/scan-example.png"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/images/scan-example.png" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/images/scan-example.png" />
             <file
                 name="zxinglegacy/images/scan-from-phone.png"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/images/scan-from-phone.png" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/images/scan-from-phone.png" />
             <file
                 name="zxinglegacy/images/search-book-contents.jpg"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/images/search-book-contents.jpg" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/images/search-book-contents.jpg" />
             <file
                 name="zxinglegacy/style.css"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/style.css" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/assets/zxinglegacy/style.css" />
         </source>
     </dataSet>
     <dataSet config="2.0.0" >
-        <source path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets" >
+        <source path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets" >
             <file
                 name="zxing/html-en/about1d.html"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/html-en/about1d.html" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/html-en/about1d.html" />
             <file
                 name="zxing/html-en/about2d.html"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/html-en/about2d.html" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/html-en/about2d.html" />
             <file
                 name="zxing/html-en/index.html"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/html-en/index.html" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/html-en/index.html" />
             <file
                 name="zxing/html-en/scanning.html"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/html-en/scanning.html" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/html-en/scanning.html" />
             <file
                 name="zxing/html-en/sharing.html"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/html-en/sharing.html" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/html-en/sharing.html" />
             <file
                 name="zxing/images/big-1d.png"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/images/big-1d.png" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/images/big-1d.png" />
             <file
                 name="zxing/images/big-datamatrix.png"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/images/big-datamatrix.png" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/images/big-datamatrix.png" />
             <file
                 name="zxing/images/big-qr.png"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/images/big-qr.png" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/images/big-qr.png" />
             <file
                 name="zxing/images/contact-results-screen.jpg"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/images/contact-results-screen.jpg" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/images/contact-results-screen.jpg" />
             <file
                 name="zxing/images/demo-no.png"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/images/demo-no.png" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/images/demo-no.png" />
             <file
                 name="zxing/images/demo-yes.png"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/images/demo-yes.png" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/images/demo-yes.png" />
             <file
                 name="zxing/images/scan-example.png"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/images/scan-example.png" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/images/scan-example.png" />
             <file
                 name="zxing/images/scan-from-phone.png"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/images/scan-from-phone.png" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/images/scan-from-phone.png" />
             <file
                 name="zxing/images/search-book-contents.jpg"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/images/search-book-contents.jpg" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/images/search-book-contents.jpg" />
             <file
                 name="zxing/style.css"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/style.css" />
+                path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/style.css" />
         </source>
     </dataSet>
     <dataSet config="20.0.0" >
-        <source path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/assets" />
+        <source path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/assets" />
     </dataSet>
     <dataSet config="5.0.89" >
-        <source path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/assets" />
+        <source path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/assets" />
     </dataSet>
     <dataSet config="20.0.0" >
-        <source path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/assets" />
+        <source path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/assets" />
     </dataSet>
     <dataSet config="unspecified" >
-        <source path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/IOHunt.libraries/BaseGameUtils/unspecified/assets" />
+        <source path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/gdgdevfesthunt.libraries/BaseGameUtils/unspecified/assets" />
     </dataSet>
     <dataSet config="main" >
-        <source path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/assets" />
+        <source path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/src/main/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/debug/assets" />
+        <source path="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/src/debug/assets" />
     </dataSet>
 
 </merger>

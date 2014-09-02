@@ -14,11 +14,29 @@
         revision="20.0.0"
         sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
     <item
+        dex="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/pre-dexed/debug/classes-cb49c6776ccfca4707c8a104c5aeb7f68125b2fd.jar"
+        jar="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+    <item
         dex="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/pre-dexed/debug/core-3.0.1-a3c20180ced0648a49627c641adc91dda0f572dc.jar"
         jar="/Users/joaobiriba/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.0.1/9ebf6cd580d67601fbf88fd007aab4703b19e4c2/core-3.0.1.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="9ebf6cd580d67601fbf88fd007aab4703b19e4c2"/>
+    <item
+        dex="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/pre-dexed/debug/classes-cbed7b447dcdbec79b234f8365b1c2d3e5bf3111.jar"
+        jar="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d71573c9c5ea98a8db47ad6ff993a63d492b3bfa"/>
+    <item
+        dex="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/pre-dexed/debug/classes-3251a88fab87bf0ec9418689bfccc7b83610c8ff.jar"
+        jar="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-integration/2.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="32c0545546faa0e65a67bba8abc072b1aef5b136"/>
     <item
         dex="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/pre-dexed/debug/classes-ace399e3f732d8cee6bbad787b67b73e038ae3f1.jar"
         jar="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/classes.jar"
@@ -32,6 +50,18 @@
         revision="20.0.0"
         sha1="cbbf95b4327a6ea7a1bbb52f334ec0352384b0ac"/>
     <item
+        dex="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/pre-dexed/debug/classes-05a21477ceee604b55392fdb7a94a292a00fb455.jar"
+        jar="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="cb9bbd4a4737c5d1720f03efe7de98df3a924ef1"/>
+    <item
+        dex="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/pre-dexed/debug/libGoogleAnalyticsServices-ec3a9594d566a4704e5c9f7e4994a3edb0aca7c2.jar"
+        jar="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/libs/libGoogleAnalyticsServices.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9f1d8489b6d557be8d7fecf6ae070b5718366677"/>
+    <item
         dex="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/pre-dexed/debug/classes-40f8ef9b425c762edd1bf4a41093d46c06fb6c2f.jar"
         jar="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/classes.jar"
         jumboMode="false"
@@ -43,6 +73,18 @@
         jumboMode="false"
         revision="20.0.0"
         sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/pre-dexed/debug/classes-ea14043588ed3845b571cee5892c0c383acdc094.jar"
+        jar="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef"/>
+    <item
+        dex="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-e3b758240c8de9a1e104fe94fc7aa0ef4e7b8afb.jar"
+        jar="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
     <item
         dex="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/pre-dexed/debug/classes-e34047d6288ddc9922b5b67bb45e7b3dbfe7c0a1.jar"
         jar="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/classes.jar"
@@ -61,6 +103,18 @@
         jumboMode="false"
         revision="20.0.0"
         sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/pre-dexed/debug/classes-c1ff89f3bbd4f6ec268abba445e555cf197d72f6.jar"
+        jar="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/gdgdevfesthunt.libraries/BaseGameUtils/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d864dacaac83f3cf93cbd65faf01650854734e4a"/>
+    <item
+        dex="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/pre-dexed/debug/classes-96e12a6f4d6adef6a0238d649d415cb2331d00b8.jar"
+        jar="/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3935235b42452c8e472b00a13770614bd9d5ea93"/>
     <item
         dex="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/pre-dexed/debug/classes-ed2e736518dbdbde97d1e24145ed986365a3ed6f.jar"
         jar="/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-integration/2.0.0/classes.jar"

@@ -20,4 +20,4 @@
         android:id="@+id/menu_about"
         android:showAsAction="never"
         android:title="@string/about" />
-</menu><!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/menu/limited.xml -->
+</menu><!-- From: file:/Users/joaobiriba/Documents/Projects/prova/gdgdevfesthunt/IOHunt/src/main/res/menu/limited.xml -->
