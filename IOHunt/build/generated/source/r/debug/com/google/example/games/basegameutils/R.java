@@ -168,7 +168,7 @@ public final class R {
 		public static final int abc_split_action_bar_is_narrow = 0x7f080005;
 	}
 	public static final class color {
-		public static final int abc_search_url_text_holo = 0x7f090035;
+		public static final int abc_search_url_text_holo = 0x7f090037;
 		public static final int abc_search_url_text_normal = 0x7f090000;
 		public static final int abc_search_url_text_pressed = 0x7f090001;
 		public static final int abc_search_url_text_selected = 0x7f090002;
@@ -182,23 +182,23 @@ public final class R {
 		public static final int common_signin_btn_light_text_disabled = 0x7f09000c;
 		public static final int common_signin_btn_light_text_focused = 0x7f09000d;
 		public static final int common_signin_btn_light_text_pressed = 0x7f09000e;
-		public static final int common_signin_btn_text_dark = 0x7f090036;
-		public static final int common_signin_btn_text_light = 0x7f090037;
-		public static final int wallet_bright_foreground_disabled_holo_light = 0x7f090012;
-		public static final int wallet_bright_foreground_holo_dark = 0x7f090013;
-		public static final int wallet_bright_foreground_holo_light = 0x7f090014;
-		public static final int wallet_dim_foreground_disabled_holo_dark = 0x7f090015;
-		public static final int wallet_dim_foreground_holo_dark = 0x7f090016;
-		public static final int wallet_dim_foreground_inverse_disabled_holo_dark = 0x7f090017;
-		public static final int wallet_dim_foreground_inverse_holo_dark = 0x7f090018;
-		public static final int wallet_highlighted_text_holo_dark = 0x7f090019;
-		public static final int wallet_highlighted_text_holo_light = 0x7f09001a;
-		public static final int wallet_hint_foreground_holo_dark = 0x7f09001b;
-		public static final int wallet_hint_foreground_holo_light = 0x7f09001c;
-		public static final int wallet_holo_blue_light = 0x7f09001d;
-		public static final int wallet_link_text_light = 0x7f09001e;
-		public static final int wallet_primary_text_holo_light = 0x7f090038;
-		public static final int wallet_secondary_text_holo_dark = 0x7f090039;
+		public static final int common_signin_btn_text_dark = 0x7f090038;
+		public static final int common_signin_btn_text_light = 0x7f090039;
+		public static final int wallet_bright_foreground_disabled_holo_light = 0x7f090014;
+		public static final int wallet_bright_foreground_holo_dark = 0x7f090015;
+		public static final int wallet_bright_foreground_holo_light = 0x7f090016;
+		public static final int wallet_dim_foreground_disabled_holo_dark = 0x7f090017;
+		public static final int wallet_dim_foreground_holo_dark = 0x7f090018;
+		public static final int wallet_dim_foreground_inverse_disabled_holo_dark = 0x7f090019;
+		public static final int wallet_dim_foreground_inverse_holo_dark = 0x7f09001a;
+		public static final int wallet_highlighted_text_holo_dark = 0x7f09001b;
+		public static final int wallet_highlighted_text_holo_light = 0x7f09001c;
+		public static final int wallet_hint_foreground_holo_dark = 0x7f09001d;
+		public static final int wallet_hint_foreground_holo_light = 0x7f09001e;
+		public static final int wallet_holo_blue_light = 0x7f09001f;
+		public static final int wallet_link_text_light = 0x7f090020;
+		public static final int wallet_primary_text_holo_light = 0x7f09003a;
+		public static final int wallet_secondary_text_holo_dark = 0x7f09003b;
 	}
 	public static final class dimen {
 		public static final int abc_action_bar_default_height = 0x7f0b0000;
@@ -737,7 +737,7 @@ public final class R {
 		public static final int MenuItem_android_titleCondensed = 8;
 		public static final int MenuItem_android_visible = 4;
 		public static final int MenuItem_showAsAction = 13;
-		public static final int[] MenuView = { 0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e, 0x0101012f, 0x01010130, 0x01010131, 0x01010435 };
+		public static final int[] MenuView = { 0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e, 0x0101012f, 0x01010130, 0x01010131, 0x010104ac };
 		public static final int MenuView_android_headerBackground = 4;
 		public static final int MenuView_android_horizontalDivider = 2;
 		public static final int MenuView_android_itemBackground = 5;

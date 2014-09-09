@@ -20,5 +20,7 @@
     <color name="caption_text_color">#FF535353</color>
     <color name="highlight_text_color">#fff</color>
     <color name="pressed_color">#66666666</color>
-    <color name="card_background">#FFDCDCDC</color>
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="accent">#D0D9FF</color>
 </resources>

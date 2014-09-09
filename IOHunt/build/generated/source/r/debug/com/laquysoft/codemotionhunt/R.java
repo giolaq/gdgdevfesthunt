@@ -1142,12 +1142,12 @@ containing a value of this type.
         public static final int ga_reportUncaughtExceptions=0x7f080007;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f090035;
+        public static final int abc_search_url_text_holo=0x7f090037;
         public static final int abc_search_url_text_normal=0x7f090000;
         public static final int abc_search_url_text_pressed=0x7f090001;
         public static final int abc_search_url_text_selected=0x7f090002;
-        public static final int caption_text_color=0x7f090003;
-        public static final int card_background=0x7f090004;
+        public static final int accent=0x7f090003;
+        public static final int caption_text_color=0x7f090004;
         public static final int common_action_bar_splitter=0x7f090005;
         public static final int common_signin_btn_dark_text_default=0x7f090006;
         public static final int common_signin_btn_dark_text_disabled=0x7f090007;
@@ -1158,48 +1158,50 @@ containing a value of this type.
         public static final int common_signin_btn_light_text_disabled=0x7f09000c;
         public static final int common_signin_btn_light_text_focused=0x7f09000d;
         public static final int common_signin_btn_light_text_pressed=0x7f09000e;
-        public static final int common_signin_btn_text_dark=0x7f090036;
-        public static final int common_signin_btn_text_light=0x7f090037;
+        public static final int common_signin_btn_text_dark=0x7f090038;
+        public static final int common_signin_btn_text_light=0x7f090039;
         public static final int default_background=0x7f09000f;
         public static final int highlight_text_color=0x7f090010;
         public static final int pressed_color=0x7f090011;
-        public static final int wallet_bright_foreground_disabled_holo_light=0x7f090012;
-        public static final int wallet_bright_foreground_holo_dark=0x7f090013;
-        public static final int wallet_bright_foreground_holo_light=0x7f090014;
-        public static final int wallet_dim_foreground_disabled_holo_dark=0x7f090015;
-        public static final int wallet_dim_foreground_holo_dark=0x7f090016;
-        public static final int wallet_dim_foreground_inverse_disabled_holo_dark=0x7f090017;
-        public static final int wallet_dim_foreground_inverse_holo_dark=0x7f090018;
-        public static final int wallet_highlighted_text_holo_dark=0x7f090019;
-        public static final int wallet_highlighted_text_holo_light=0x7f09001a;
-        public static final int wallet_hint_foreground_holo_dark=0x7f09001b;
-        public static final int wallet_hint_foreground_holo_light=0x7f09001c;
-        public static final int wallet_holo_blue_light=0x7f09001d;
-        public static final int wallet_link_text_light=0x7f09001e;
-        public static final int wallet_primary_text_holo_light=0x7f090038;
-        public static final int wallet_secondary_text_holo_dark=0x7f090039;
-        public static final int zxing_contents_text=0x7f09001f;
-        public static final int zxing_encode_view=0x7f090020;
-        public static final int zxing_possible_result_points=0x7f090021;
-        public static final int zxing_result_minor_text=0x7f090022;
-        public static final int zxing_result_points=0x7f090023;
-        public static final int zxing_result_text=0x7f090024;
-        public static final int zxing_result_view=0x7f090025;
-        public static final int zxing_status_text=0x7f090026;
-        public static final int zxing_transparent=0x7f090027;
-        public static final int zxing_viewfinder_laser=0x7f090028;
-        public static final int zxing_viewfinder_mask=0x7f090029;
-        public static final int zxinglegacy_contents_text=0x7f09002a;
-        public static final int zxinglegacy_encode_view=0x7f09002b;
-        public static final int zxinglegacy_possible_result_points=0x7f09002c;
-        public static final int zxinglegacy_result_minor_text=0x7f09002d;
-        public static final int zxinglegacy_result_points=0x7f09002e;
-        public static final int zxinglegacy_result_text=0x7f09002f;
-        public static final int zxinglegacy_result_view=0x7f090030;
-        public static final int zxinglegacy_status_text=0x7f090031;
-        public static final int zxinglegacy_transparent=0x7f090032;
-        public static final int zxinglegacy_viewfinder_laser=0x7f090033;
-        public static final int zxinglegacy_viewfinder_mask=0x7f090034;
+        public static final int primary=0x7f090012;
+        public static final int primary_dark=0x7f090013;
+        public static final int wallet_bright_foreground_disabled_holo_light=0x7f090014;
+        public static final int wallet_bright_foreground_holo_dark=0x7f090015;
+        public static final int wallet_bright_foreground_holo_light=0x7f090016;
+        public static final int wallet_dim_foreground_disabled_holo_dark=0x7f090017;
+        public static final int wallet_dim_foreground_holo_dark=0x7f090018;
+        public static final int wallet_dim_foreground_inverse_disabled_holo_dark=0x7f090019;
+        public static final int wallet_dim_foreground_inverse_holo_dark=0x7f09001a;
+        public static final int wallet_highlighted_text_holo_dark=0x7f09001b;
+        public static final int wallet_highlighted_text_holo_light=0x7f09001c;
+        public static final int wallet_hint_foreground_holo_dark=0x7f09001d;
+        public static final int wallet_hint_foreground_holo_light=0x7f09001e;
+        public static final int wallet_holo_blue_light=0x7f09001f;
+        public static final int wallet_link_text_light=0x7f090020;
+        public static final int wallet_primary_text_holo_light=0x7f09003a;
+        public static final int wallet_secondary_text_holo_dark=0x7f09003b;
+        public static final int zxing_contents_text=0x7f090021;
+        public static final int zxing_encode_view=0x7f090022;
+        public static final int zxing_possible_result_points=0x7f090023;
+        public static final int zxing_result_minor_text=0x7f090024;
+        public static final int zxing_result_points=0x7f090025;
+        public static final int zxing_result_text=0x7f090026;
+        public static final int zxing_result_view=0x7f090027;
+        public static final int zxing_status_text=0x7f090028;
+        public static final int zxing_transparent=0x7f090029;
+        public static final int zxing_viewfinder_laser=0x7f09002a;
+        public static final int zxing_viewfinder_mask=0x7f09002b;
+        public static final int zxinglegacy_contents_text=0x7f09002c;
+        public static final int zxinglegacy_encode_view=0x7f09002d;
+        public static final int zxinglegacy_possible_result_points=0x7f09002e;
+        public static final int zxinglegacy_result_minor_text=0x7f09002f;
+        public static final int zxinglegacy_result_points=0x7f090030;
+        public static final int zxinglegacy_result_text=0x7f090031;
+        public static final int zxinglegacy_result_view=0x7f090032;
+        public static final int zxinglegacy_status_text=0x7f090033;
+        public static final int zxinglegacy_transparent=0x7f090034;
+        public static final int zxinglegacy_viewfinder_laser=0x7f090035;
+        public static final int zxinglegacy_viewfinder_mask=0x7f090036;
     }
     public static final class dimen {
         public static final int abc_action_bar_default_height=0x7f0b0000;
@@ -1860,6 +1862,7 @@ containing a value of this type.
         public static final int HelpText=0x7f0e0003;
         public static final int HelpText_Caption=0x7f0e0004;
         public static final int HelpText_Heading=0x7f0e0005;
+        public static final int NFCHuntTheme=0x7f0e009d;
         public static final int SubHeading=0x7f0e0006;
         public static final int TagMarker=0x7f0e0007;
         public static final int TextAppearance_AppCompat_Base_CompactMenu_Dialog=0x7f0e0008;
@@ -3537,7 +3540,7 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x01010435
+            0x0101012f, 0x01010130, 0x01010131, 0x010104ac
         };
         /**
           <p>

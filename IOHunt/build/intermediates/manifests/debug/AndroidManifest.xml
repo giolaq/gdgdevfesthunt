@@ -20,8 +20,8 @@
     android:versionName="3.5" >
 
     <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="17" />
+        android:minSdkVersion="L"
+        android:targetSdkVersion="L" />
 
     <uses-permission android:name="android.permission.NFC" />
     <uses-permission android:name="android.permission.INTERNET" />
