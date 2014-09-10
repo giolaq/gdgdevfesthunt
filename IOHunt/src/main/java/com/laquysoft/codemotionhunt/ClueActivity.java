@@ -417,19 +417,23 @@ public class ClueActivity extends BaseActivity {
 	//In the same activity you???ll need the following to retrieve the results:
 	public void onActivityResult(int requestCode, int resultCode, Intent intent) {
         IntentResult scanResult = IntentIntegrator.parseActivityResult(requestCode, resultCode, intent);
-        lastClueFound = scanResult.getContents();
 
-//        if (requestCode == 0) {
-//
-//			if (resultCode == RESULT_OK) {
-//				Log.i(ClueActivity.class.getName(), "SCAN_RESULT_FORMAT "+ intent.getStringExtra("SCAN_RESULT_FORMAT"));
-//				Log.i(ClueActivity.class.getName(), "SCAN_RESULT "+ intent.getStringExtra("SCAN_RESULT"));
-//				lastClueFound = scanResult.getContents();
-//			} else if (resultCode == RESULT_CANCELED) {
-//				Log.i(ClueActivity.class.getName(),"Press a button to start a scan.");
-//				Log.i(ClueActivity.class.getName(),"Scan cancelled.");
-//			}
-//		}
+        if (scanResult != null) {
+            lastClueFound = scanResult.getContents();
+        }
+   
+
+        if (requestCode == 0) {
+
+			if (resultCode == RESULT_OK) {
+				Log.i(ClueActivity.class.getName(), "SCAN_RESULT_FORMAT "+ intent.getStringExtra("SCAN_RESULT_FORMAT"));
+				Log.i(ClueActivity.class.getName(), "SCAN_RESULT "+ intent.getStringExtra("SCAN_RESULT"));
+				lastClueFound = scanResult.getContents();
+			} else if (resultCode == RESULT_CANCELED) {
+				Log.i(ClueActivity.class.getName(),"Press a button to start a scan.");
+				Log.i(ClueActivity.class.getName(),"Scan cancelled.");
+			}
+		}
 
 
 		setIntent(null);
