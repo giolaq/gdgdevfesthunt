@@ -35,4 +35,4 @@
     <item android:state_focused="true" android:state_selected="false" android:state_pressed="true" android:drawable="@drawable/tab_unselected_pressed_hunt" />
     <item android:state_focused="true" android:state_selected="true"  android:state_pressed="true" android:drawable="@drawable/tab_selected_pressed_hunt" />
 </selector>
-<!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/drawable/tab_indicator_ab_hunt.xml -->
+<!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable/tab_indicator_ab_hunt.xml -->

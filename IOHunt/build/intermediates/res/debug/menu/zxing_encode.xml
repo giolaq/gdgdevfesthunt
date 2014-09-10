@@ -26,4 +26,4 @@
         android:orderInCategory="2"
         android:showAsAction="withText|ifRoom"/>
 </menu>
-<!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/menu/zxing_encode.xml -->
+<!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/menu/zxing_encode.xml -->

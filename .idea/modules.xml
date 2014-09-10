@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/libraries/BaseGameUtils/BaseGameUtils.iml" filepath="$PROJECT_DIR$/libraries/BaseGameUtils/BaseGameUtils.iml" />
       <module fileurl="file://$PROJECT_DIR$/IOHunt.iml" filepath="$PROJECT_DIR$/IOHunt.iml" />
-      <module fileurl="file://$PROJECT_DIR$/iOHunt/iOHunt.iml" filepath="$PROJECT_DIR$/iOHunt/iOHunt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOHunt/IOHunt-IOHunt.iml" filepath="$PROJECT_DIR$/IOHunt/IOHunt-IOHunt.iml" />
     </modules>
   </component>
 </project>

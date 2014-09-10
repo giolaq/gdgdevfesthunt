@@ -20,4 +20,4 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
     <solid android:color="@color/pressed_color" />
 </shape>
-<!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/drawable/pressed_background_hunt.xml -->
+<!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable/pressed_background_hunt.xml -->

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-id/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-id/values.xml -->
     <eat-comment />
 
     <string name="zxing_app_name">Barcode Scanner</string>
@@ -25,7 +25,7 @@
     <string name="zxing_msg_default_type">Tipe</string>
     <string name="zxing_msg_encode_contents_failed">Tidak dapat meng-encode barcode dari data yang diberikan.</string>
     <string name="zxing_msg_unmount_usb">Maaf, SD card tidak dapat diakses.</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-id/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-id/values.xml -->
     <eat-comment />
 
     <string name="zxinglegacy_app_name">Barcode Scanner</string>

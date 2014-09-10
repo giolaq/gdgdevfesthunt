@@ -19,4 +19,4 @@
         android:title="@string/zxinglegacy_menu_help"
         android:icon="@android:drawable/ic_menu_help"
         android:orderInCategory="1"/>
-</menu><!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/menu/zxinglegacy_capture.xml -->
+</menu><!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/menu/zxinglegacy_capture.xml -->

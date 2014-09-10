@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values/values.xml -->
     <eat-comment />
 
     <string-array name="zxing_country_codes" translatable="false">
@@ -43,7 +43,7 @@
         <item>AUTO</item>
         <item>OFF</item>
     </string-array>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values/values.xml -->
     <eat-comment />
 
     <string-array name="zxinglegacy_country_codes" translatable="false">
@@ -84,7 +84,7 @@
         <item>AUTO</item>
         <item>OFF</item>
     </string-array>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
     <eat-comment />
 
     <attr name="actionBarDivider" format="reference" />
@@ -157,23 +157,23 @@
     <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
     <bool name="abc_split_action_bar_is_narrow">true</bool>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/analytics.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/analytics.xml -->
     <eat-comment />
 
     <bool name="ga_autoActivityTracking">true</bool>
     <bool name="ga_reportUncaughtExceptions">true</bool>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
     <eat-comment />
 
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/color.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/color.xml -->
     <eat-comment />
 
     <color name="accent">#D0D9FF</color>
     <color name="caption_text_color">#FF535353</color>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/common_colors.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/common_colors.xml -->
     <eat-comment />
 
     <color name="common_action_bar_splitter">#d2d2d2</color>
@@ -186,7 +186,7 @@
     <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
     <color name="common_signin_btn_light_text_focused">#FF737373</color>
     <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/color.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/color.xml -->
     <eat-comment />
 
     <color name="default_background">#4000</color>
@@ -194,7 +194,7 @@
     <color name="pressed_color">#66666666</color>
     <color name="primary">#3F51B5</color>
     <color name="primary_dark">#303F9F</color>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/wallet_colors.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/wallet_colors.xml -->
     <eat-comment />
 
     <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
@@ -210,7 +210,7 @@
     <color name="wallet_hint_foreground_holo_light">#808080</color>
     <color name="wallet_holo_blue_light">#ff33b5e5</color>
     <color name="wallet_link_text_light">#0000ee</color>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values/values.xml -->
     <eat-comment />
 
     <color name="zxing_contents_text">#ff000000</color>
@@ -224,7 +224,7 @@
     <color name="zxing_transparent">#00000000</color>
     <color name="zxing_viewfinder_laser">#ffcc0000</color>
     <color name="zxing_viewfinder_mask">#60000000</color>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values/values.xml -->
     <eat-comment />
 
     <color name="zxinglegacy_contents_text">#ff000000</color>
@@ -238,7 +238,7 @@
     <color name="zxinglegacy_transparent">#00000000</color>
     <color name="zxinglegacy_viewfinder_laser">#ffcc0000</color>
     <color name="zxinglegacy_viewfinder_mask">#60000000</color>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="ActionBar">
@@ -366,7 +366,7 @@
         -->
         <attr name="expandActivityOverflowButtonDrawable" format="reference" />
     </declare-styleable>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/admob_ads_attrs.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/admob_ads_attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="AdsAttrs">
@@ -388,7 +388,7 @@
         <!-- The ad unit ID. -->
         <attr name="adUnitId" format="string" />
     </declare-styleable>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="CompatTextView">
@@ -410,7 +410,7 @@
         <!-- Size of padding on either end of a divider. -->
         <attr name="dividerPadding" format="dimension" />
     </declare-styleable>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/maps_attrs.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/maps_attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="MapAttrs">
@@ -435,7 +435,7 @@
         <attr name="useViewLifecycle" format="boolean" />
         <attr name="zOrderOnTop" format="boolean" />
     </declare-styleable>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="MenuGroup">
@@ -705,7 +705,7 @@
         -->
         <attr name="android:focusable" />
     </declare-styleable>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/wallet_attrs.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/wallet_attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="WalletFragmentOptions">
@@ -779,7 +779,7 @@
             <enum name="monochrome" value="2" />
         </attr>
     </declare-styleable>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
     <eat-comment />
 
     <dimen name="abc_action_bar_default_height">48dip</dimen>
@@ -804,7 +804,7 @@
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
     <item name="dialog_fixed_width_major" type="dimen">320dp</item>
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/dimens.xml -->
     <eat-comment />
 
     <dimen name="font_size_large">32sp</dimen>
@@ -814,17 +814,17 @@
     <dimen name="margin_large">32dp</dimen>
     <dimen name="margin_medium">16dp</dimen>
     <dimen name="margin_small">8dp</dimen>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values/values.xml -->
     <eat-comment />
 
     <dimen name="zxing_half_padding">4dip</dimen>
     <dimen name="zxing_standard_padding">8dip</dimen>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values/values.xml -->
     <eat-comment />
 
     <dimen name="zxinglegacy_half_padding">4dip</dimen>
     <dimen name="zxinglegacy_standard_padding">8dip</dimen>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
     <eat-comment />
 
     <item name="action_bar_activity_content" type="id"/>
@@ -833,7 +833,7 @@
     <item name="home" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values/values.xml -->
     <eat-comment />
 
     <item name="zxing_back_button" type="id"/>
@@ -844,7 +844,7 @@
     <item name="zxing_quit" type="id"/>
     <item name="zxing_restart_preview" type="id"/>
     <item name="zxing_return_scan_result" type="id"/>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values/values.xml -->
     <eat-comment />
 
     <item name="zxinglegacy_back_button" type="id"/>
@@ -855,19 +855,19 @@
     <item name="zxinglegacy_quit" type="id"/>
     <item name="zxinglegacy_restart_preview" type="id"/>
     <item name="zxinglegacy_return_scan_result" type="id"/>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
     <eat-comment />
 
     <integer name="abc_max_action_buttons">2</integer>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/version.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/version.xml -->
     <eat-comment />
 
     <integer name="google_play_services_version">5089000</integer>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/strings_ah.xml -->
     <eat-comment />
 
     <string name="Story">Story</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
     <eat-comment />
 
     <string name="abc_action_bar_home_description">Navigate home</string>
@@ -883,11 +883,11 @@
     <string name="abc_searchview_description_voice">Voice search</string>
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/strings_ah.xml -->
     <eat-comment />
 
     <string name="about">About</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/ids.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/ids.xml -->
     <eat-comment />
 
     <string name="achievement_alexander_the_great">CgkIoe2qy_IfEAIQCg</string>
@@ -898,12 +898,12 @@
     <string name="achievement_speedrun">CgkIoe2qy_IfEAIQBQ</string>
     <string name="achievement_teachers_pet">CgkIoe2qy_IfEAIQBg</string>
     <string name="app_id">1095911519905</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/strings_ah.xml -->
     <eat-comment />
 
     <string name="app_name">Codemotion Hunt</string>
     <string name="back">BACK</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/licenses.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/licenses.xml -->
     <eat-comment />
 
     <string name="basegameutils">Notice for BaseGameActivity.java and GameHelper.java</string>
@@ -920,20 +920,20 @@
  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  See the License for the specific language governing permissions and
  limitations under the License.</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/strings_ah.xml -->
     <eat-comment />
 
     <string name="between_clues_first_time">Between clues, we may ask you a bonus question for EXTRA ACHIEVEMENTS!\n\nThe questions are timed, so answer as fast as you can!\nOf course, it\'s OK to use Google Search to help you!</string>
     <string name="between_clues_next_time">It\'s time for another trivia question!\n\nGood luck!</string>
     <string name="button_send">Send</string>
     <string name="clue_subheading">Clue %1$s of %2$s</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/common_strings.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/common_strings.xml -->
     <eat-comment />
 
     <string name="common_google_play_services_enable_button" msgid="2523291102206661146">Enable Google Play services</string>
     <string name="common_google_play_services_enable_text" msgid="227660514972886228">This app won\'t work unless you enable Google Play services.</string>
     <string name="common_google_play_services_enable_title" msgid="5122002158466380389">Enable Google Play services</string>
-    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by  <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
     <string name="common_google_play_services_install_button" msgid="7153882981874058840">Get Google Play services</string>
     <string name="common_google_play_services_install_text_phone" msgid="2122112764540849864">This app won\'t run without Google Play services, which are missing from your phone.</string>
     <string name="common_google_play_services_install_text_tablet" msgid="7351599665250191022">This app won\'t run without Google Play services, which are missing from your tablet.</string>
@@ -955,7 +955,7 @@
     <string name="common_google_play_services_update_title" msgid="1788179980625863495">Update Google Play services</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/strings_ah.xml -->
     <eat-comment />
 
     <string name="congratulations">Congratulations!</string>
@@ -965,18 +965,18 @@
     <string name="default_button_color">"#80c465"</string>
     <string name="default_text_color">"#00181c"</string>
     <string name="edit_message">type something here</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/analytics.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/analytics.xml -->
     <eat-comment />
 
     <string name="ga_trackingId">UA-44734263-1</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/IOHunt.libraries/BaseGameUtils/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/IOHunt.libraries/BaseGameUtils/unspecified/res/values/values.xml -->
     <eat-comment />
 
     <string name="gamehelper_app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
     <string name="gamehelper_license_failed">License check failed.</string>
     <string name="gamehelper_sign_in_failed">Failed to sign in. Please check your network connection and try again.</string>
     <string name="gamehelper_unknown_error">Unknown error.</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/strings_ah.xml -->
     <eat-comment />
 
     <string name="google_i_o_hunt_nby_the_android_and_social_google_developer_relations_teams">Rome Codemotion 2014 Hunt\nby Giovanni Laquidara and \nthe Google Developer Group Roma Lazio Abruzzo team</string>
@@ -985,22 +985,22 @@
     <string name="instructions">Instructions</string>
     <string name="intruction_text_here">Intruction text here.</string>
     <string name="leaderboard">LeaderBoard</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/ids.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/ids.xml -->
     <eat-comment />
 
     <string name="leaderboard_id">CgkIoe2qy_IfEAIQAg</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/strings_ah.xml -->
     <eat-comment />
 
     <string name="lets_go">Let\'s go!</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/licenses.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/licenses.xml -->
     <eat-comment />
 
     <string name="libanalytics">Notice for libGoogleAnalyticsV2.jar</string>
     <string name="libanalytics_license">Google Analytics Android SDK version 2.0 beta 4\n\n
 
 Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/strings_ah.xml -->
     <eat-comment />
 
     <string name="menu_achievements">Achievements</string>
@@ -1016,7 +1016,7 @@ Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
     <string name="reset_this">Reset this</string>
     <string name="return_to_sandbox">Return to the GDG desk where you started to claim your prize!</string>
     <string name="share_on_google"><u>Share on Google+</u></string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/licenses.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/licenses.xml -->
     <eat-comment />
 
     <string name="sound_attribution">This work uses sounds from Freesound.org:\n\n
@@ -1028,7 +1028,7 @@ Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
         button select.wav, level up.wav, shoot laser.wav\n
           http://www.freesound.org/people/Cabeeno%20Rossley/\n
           by Cabeeno Rossley\n</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/strings_ah.xml -->
     <eat-comment />
 
     <string name="start_">Start!</string>
@@ -1049,17 +1049,17 @@ Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
     <string name="title_activity_clue_message">Codemotion Hunt</string>
     <string name="tracking_id">UA-44734263-1</string>
     <string name="two">2</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/wallet_strings.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/wallet_strings.xml -->
     <eat-comment />
 
     <string name="wallet_buy_button_place_holder" translation_description="Text on a button that allows a user to make a payment with Google Wallet [CHAR LIMIT=30]">Buy with Google</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/strings_ah.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/strings_ah.xml -->
     <eat-comment />
 
     <string name="warned_you">There must be something about this tag that could have warned you...</string>
     <string name="welcome">DroidCon Hunt is a game exclusively for Rome Codemotion 2014 attendees, where you race to explore the ...\n\nOh, and there\'s a prize at the end.\n\nReady to play?</string>
     <string name="youwin">You win!</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values/values.xml -->
     <eat-comment />
 
     <string name="zxing_app_name">Barcode Scanner</string>
@@ -1083,7 +1083,7 @@ Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
     <string name="zxing_msg_default_type">Type</string>
     <string name="zxing_msg_encode_contents_failed">Could not encode a barcode from the data provided.</string>
     <string name="zxing_msg_unmount_usb">Sorry, the SD card is not accessible.</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values/values.xml -->
     <eat-comment />
 
     <string name="zxinglegacy_app_name">Barcode Scanner</string>
@@ -1109,7 +1109,7 @@ Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
     <string name="zxinglegacy_msg_default_type">Type</string>
     <string name="zxinglegacy_msg_encode_contents_failed">Could not encode a barcode from the data provided.</string>
     <string name="zxinglegacy_msg_unmount_usb">Sorry, the SD card is not accessible.</string>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/styles.xml -->
     <eat-comment />
 
     <style name="Button" parent="@android:style/Widget.Button">
@@ -1161,7 +1161,7 @@ Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
         <item name="android:typeface">sans</item>
         <item name="android:textSize">35dp</item>
     </style>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
     <eat-comment />
 
     <style name="TextAppearance.AppCompat.Base.CompactMenu.Dialog" parent="android:TextAppearance.Medium">
@@ -1290,7 +1290,7 @@ Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
     </style>
 
     <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="TextAppearance.Widget.AppCompat.Base.ExpandedMenu.Item" />
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/styles.xml -->
     <eat-comment />
 
     <style name="Theme.App" parent="@android:style/Theme.Holo.Light">
@@ -1300,7 +1300,7 @@ Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
         <item name="android:textAppearanceLarge">@style/Heading</item>
         <item name="android:textAppearanceMedium">@style/SubHeading</item>
     </style>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
     <eat-comment />
 
     <style name="Theme.AppCompat" parent="Theme.Base.AppCompat">
@@ -1595,7 +1595,7 @@ Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
     <style name="Theme.Base.AppCompat.Light.DialogWhenLarge" parent="Theme.Base.AppCompat.Light" />
 
     <style name="Theme.Base.Light" parent="android:Theme.Light" />
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/admob_iap_style.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/admob_iap_style.xml -->
     <eat-comment />
 
     <style name="Theme.IAPTheme" parent="android:Theme">
@@ -1606,7 +1606,7 @@ Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
         <item name="android:windowIsFloating">true</item>
         <item name="android:backgroundDimEnabled">false</item>
     </style>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/wallet_styles.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values/wallet_styles.xml -->
     <eat-comment />
 
     <style name="WalletFragmentDefaultButtonTextAppearance">
@@ -1644,7 +1644,7 @@ Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
         <item name="maskedWalletDetailsLogoTextColor">@color/wallet_bright_foreground_holo_dark</item>
         <item name="maskedWalletDetailsLogoImageType">classic</item>
     </style>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
     <eat-comment />
 
     <style name="Widget.AppCompat.ActionBar" parent="Widget.AppCompat.Base.ActionBar" />
@@ -1938,7 +1938,7 @@ Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
     <style name="Widget.AppCompat.ProgressBar.Horizontal" parent="Widget.AppCompat.Base.ProgressBar.Horizontal" />
 
     <style name="Widget.AppCompat.Spinner.DropDown.ActionBar" parent="Widget.AppCompat.Base.Spinner" />
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/iOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values/values.xml -->
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values/values.xml -->
     <eat-comment />
 
     <style name="zxing_CaptureTheme" parent="android:Theme.Holo.NoActionBar.Fullscreen" />
