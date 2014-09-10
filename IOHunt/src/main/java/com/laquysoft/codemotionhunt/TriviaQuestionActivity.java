@@ -165,6 +165,7 @@ OnTouchListener {
 			hunt.achievementManager.storeIncrement(AchievementManager.ID_5_TRIVIA_CORRECTLY);
 			if (isUnderPar) {
 				hunt.achievementManager.storeIncrement(AchievementManager.ID_TEACHERS_PET);
+                hunt.achievementManager.onQuestionAnswered(getApiClient(), isUnderPar, this);
 			}
 			hunt.save(getResources(), getApplicationContext());
 

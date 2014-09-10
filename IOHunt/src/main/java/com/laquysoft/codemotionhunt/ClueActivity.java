@@ -421,7 +421,7 @@ public class ClueActivity extends BaseActivity {
         if (scanResult != null) {
             lastClueFound = scanResult.getContents();
         }
-   
+
 
         if (requestCode == 0) {
 
