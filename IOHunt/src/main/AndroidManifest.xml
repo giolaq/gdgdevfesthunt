@@ -16,7 +16,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.laquysoft.codemotionhunt"
+    package="com.laquysoft.appydays"
     android:versionCode="8"
     android:versionName="3.5" >
 
@@ -49,7 +49,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name="com.laquysoft.codemotionhunt.ClueActivity"
+            android:name="com.laquysoft.appydays.ClueActivity"
             android:keepScreenOn="true"
             android:label="@string/title_activity_clue_message"
             android:launchMode="singleTask"
@@ -58,7 +58,7 @@
 
         </activity>
         <activity
-            android:name="com.laquysoft.codemotionhunt.NavActivity"
+            android:name="com.laquysoft.appydays.NavActivity"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -67,38 +67,38 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.laquysoft.codemotionhunt.TagsActivity"
+            android:name="com.laquysoft.appydays.TagsActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.codemotionhunt.DecoyActivity"
+            android:name="com.laquysoft.appydays.DecoyActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.codemotionhunt.ScreenSlidePagerActivity"
+            android:name="com.laquysoft.appydays.ScreenSlidePagerActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.codemotionhunt.ReauthActivity"
+            android:name="com.laquysoft.appydays.ReauthActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.codemotionhunt.ZoomActivity"
+            android:name="com.laquysoft.appydays.ZoomActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.codemotionhunt.AboutActivity"
+            android:name="com.laquysoft.appydays.AboutActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.codemotionhunt.VictoryActivity"
+            android:name="com.laquysoft.appydays.VictoryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.codemotionhunt.TriviaExplainerActivity"
+            android:name="com.laquysoft.appydays.TriviaExplainerActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.codemotionhunt.TriviaQuestionActivity"
+            android:name="com.laquysoft.appydays.TriviaQuestionActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.codemotionhunt.NFCShimActivity"
+            android:name="com.laquysoft.appydays.NFCShimActivity"
             android:theme="@android:style/Theme.NoDisplay" >
             <intent-filter>
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
@@ -123,10 +123,10 @@
         </activity>
 
         <service
-            android:name="com.laquysoft.codemotionhunt.ScoreService"
+            android:name="com.laquysoft.appydays.ScoreService"
             android:enabled="true" />
         <service
-            android:name="com.laquysoft.codemotionhunt.AchievementService"
+            android:name="com.laquysoft.appydays.AchievementService"
             android:enabled="true" />
     </application>
 
