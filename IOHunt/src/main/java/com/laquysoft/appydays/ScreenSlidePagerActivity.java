@@ -68,6 +68,9 @@ public class ScreenSlidePagerActivity extends BaseGameActivity {
         android.support.v4.app.FragmentManager fm = getSupportFragmentManager();
         mPagerAdapter = new ScreenSlidePagerAdapter(fm);
         mPager.setAdapter(mPagerAdapter);
+
+        getGameHelper().setMaxAutoSignInAttempts(0);
+
     }
 
     @Override
