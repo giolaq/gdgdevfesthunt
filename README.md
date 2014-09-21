@@ -1,5 +1,5 @@
-gdgdevfesthunt
+appydays gdg hunt
 ==============
 
-GDG Dev Fest Hunt
+AppyDays GDG Hunt
 Refactory of Google IOHunt NFC with QR by GDG-Roma
