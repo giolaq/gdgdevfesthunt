@@ -49,13 +49,13 @@
     <string name="story_8">Press the button below to accept your quest.</string>
     <string name="story_8_reauth">Please Sign In with Google+ to continue.</string>
     <string name="nothing"></string>
-    <string name="story_9">We use Google+ login to record your progress. By signing in, you will be able to get achievements and redeem prizes.\n\nYou may also find your progress displayed on the leaderboard in the...</string>
+    <string name="story_9">We use Google+ login to record your progress. By signing in, you will be able to get achievements and redeem prizes.\n\nYou may also find your progress displayed on the leaderboard.</string>
     <string name="clue_subheading">Clue %1$s of %2$s</string>
-    <string name="welcome">AppyDays Hunt is a game exclusively for Todi AppyDays 2014 attendees, where you race to explore the ...\n\nOh, and there\'s a prize at the end.\n\nReady to play?</string>
+    <string name="welcome">AppyDays Hunt is a game exclusively for Todi AppyDays 2014 attendees...\nOh, and there\'s a prize at the end.\n\nReady to play?</string>
     <string name="instructions">Instructions</string>
     <string name="subheading">Subheading</string>
     <string name="heading">Heading</string>
-    <string name="intruction_text_here">Intruction text here.</string>
+    <string name="instruction_text_here">Instruction text here.</string>
     <string name="between_clues_first_time">Between clues, we may ask you a bonus question for EXTRA ACHIEVEMENTS!\n\nThe questions are timed, so answer as fast as you can!\nOf course, it\'s OK to use Google Search to help you!</string>
     <string name="between_clues_next_time">It\'s time for another trivia question!\n\nGood luck!</string>
     <string name="start_">Start!</string>
