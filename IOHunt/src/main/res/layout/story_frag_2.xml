@@ -47,7 +47,8 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
                 android:contentDescription="@null"
-                android:src="@drawable/cuboappydays200" />
+                android:src="@drawable/cuboappydays200"
+                 />
         </LinearLayout>
 
         <TextView

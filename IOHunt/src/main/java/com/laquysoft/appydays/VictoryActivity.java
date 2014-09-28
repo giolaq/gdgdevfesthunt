@@ -106,13 +106,13 @@ public class VictoryActivity extends BaseActivity implements OnClickListener {
             );
 
             // Set the content url (for desktop use).
-            builder.setContentUrl(Uri.parse("http://rome.codemotionworld.com/2014/"));
+            builder.setContentUrl(Uri.parse("http://www.appydays.com"));
 
             // Set the target deep-link ID (for mobile use).
-            builder.setContentDeepLinkId("/pages/", null, null, null);
+            builder.setContentDeepLinkId("http://www.appydays.com", null, null, null);
 
             // Set the share text.
-            builder.setText("I helped Bugdroid find his lost phone at Rome Codemotion 2014!");
+            builder.setText("I  the AppyDays Treasure Hunt #appydays!");
 //                builder.setContentUrl(uri)
 
             startActivityForResult(builder.getIntent(), 0);

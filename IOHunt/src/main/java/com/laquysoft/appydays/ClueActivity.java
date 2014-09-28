@@ -180,7 +180,7 @@ public class ClueActivity extends BaseActivity {
 		int totalClues = hunt.getTotalClues();
 		String clueTitle = clue.displayName;
 		getActionBar().setTitle(
-				"Android Hunt: Clue #" + clueNumber + " of " + totalClues);
+				"AppyDays Hunt: Clue #" + clueNumber + " of " + totalClues);
 		mHeading.setText(clueTitle);
 
 		// Display the correct number of circles on the clue
