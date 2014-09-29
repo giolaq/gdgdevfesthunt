@@ -9,13 +9,13 @@ repositories {
 }
 
 android {
-    compileSdkVersion 19
+    compileSdkVersion 'android-L'
     buildToolsVersion "20.0.0"
 
     defaultConfig {
         applicationId "com.laquysoft.appydays"
         minSdkVersion 14
-        targetSdkVersion 17
+        targetSdkVersion 'L'
     }
 
     buildTypes {
