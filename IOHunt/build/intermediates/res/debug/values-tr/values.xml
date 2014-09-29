@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values-tr/values.xml -->
+    <eat-comment />
+
+    <string name="abc_action_bar_home_description" msgid="4600421777120114993">"Ana ekrana git"</string>
+    <string name="abc_action_bar_up_description" msgid="1594238315039666878">"Yukarı git"</string>
+    <string name="abc_action_menu_overflow_description" msgid="3588849162933574182">"Diğer seçenekler"</string>
+    <string name="abc_action_mode_done" msgid="4076576682505996667">"Tamamlandı"</string>
+    <string name="abc_activity_chooser_view_see_all" msgid="7468859129482906941">"Tümünü göster"</string>
+    <string name="abc_activitychooserview_choose_application" msgid="2031811694353399454">"Bir uygulama seçin"</string>
+    <string name="abc_searchview_description_clear" msgid="3691816814315814921">"Sorguyu temizle"</string>
+    <string name="abc_searchview_description_query" msgid="2550479030709304392">"Arama sorgusu"</string>
+    <string name="abc_searchview_description_search" msgid="8264924765203268293">"Ara"</string>
+    <string name="abc_searchview_description_submit" msgid="8928215447528550784">"Sorguyu gönder"</string>
+    <string name="abc_searchview_description_voice" msgid="893419373245838918">"Sesli arama"</string>
+    <string name="abc_shareactionprovider_share_with" msgid="3421042268587513524">"Şununla paylaş"</string>
+    <string name="abc_shareactionprovider_share_with_application" msgid="7165123711973476752">"%s ile paylaş"</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-tr/common_strings.xml -->
+    <eat-comment />
+
+    <string name="common_google_play_services_enable_button" msgid="4181637455539816337">"Google Play hizmetlerini etkinleştir"</string>
+    <string name="common_google_play_services_enable_text" msgid="7627896071867667758">"Bu uygulama, Google Play Hizmetleri etkinleştirilmeden çalışmaz"</string>
+    <string name="common_google_play_services_enable_title" msgid="529078775174559253">"Google Play hizmetlerini etkinleştir"</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg" msgid="2443362625939284971">"İstekte bulunan: <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string name="common_google_play_services_install_button" msgid="8515591849428043265">"Google Play hizmetlerini edin"</string>
+    <string name="common_google_play_services_install_text_phone" msgid="8685301130651051380">"Google Play Hizmetleri telefonunuzda yok ve bu uygulama Google Play Hizmetleri olmadan çalışmaz."</string>
+    <string name="common_google_play_services_install_text_tablet" msgid="1589957570365247855">"Google Play Hizmetleri tabletinizde yok ve bu uygulama Google Play Hizmetleri olmadan çalışmaz."</string>
+    <string name="common_google_play_services_install_title" msgid="26645092511305524">"Google Play hizmetlerini edinin"</string>
+    <string name="common_google_play_services_invalid_account_text" msgid="4983316348021735578">"Belirtilen hesap bu cihazda mevcut değil. Lütfen farklı bir hesap seçin."</string>
+    <string name="common_google_play_services_invalid_account_title" msgid="1066672360770936753">"Geçersiz Hesap"</string>
+    <string name="common_google_play_services_needs_enabling_title" msgid="2583358409598976717">"Bir uygulama, Google Play Hizmetleri\'nin etkin olmasını gerektiriyor."</string>
+    <string name="common_google_play_services_network_error_text" msgid="9038847255613537209">"Google Play hizmetlerine bağlanmak için bir veri bağlantısı gerekiyor."</string>
+    <string name="common_google_play_services_network_error_title" msgid="3827284619958211114">"Ağ Hatası"</string>
+    <string name="common_google_play_services_notification_needs_installation_title" msgid="8120534356798772974">"Bir uygulama, Google Play hizmetlerinin yüklenmesini gerektiriyor."</string>
+    <string name="common_google_play_services_notification_needs_update_title" msgid="1388129345631079938">"Bir uygulama, Google Play Hizmetleri için bir güncelleme gerektiriyor."</string>
+    <string name="common_google_play_services_notification_ticker" msgid="1852570676146674985">"Google Play Hizmetleri hatası"</string>
+    <string name="common_google_play_services_unknown_issue" msgid="4762332809710093730">"Google Play hizmetleriyle ilgili bilinmeyen sorun."</string>
+    <string name="common_google_play_services_unsupported_date_text" msgid="4725396522367789365">"Cihazdaki tarih doğru görünmüyor. Lütfen cihazda ayarlı tarihi kontrol edin."</string>
+    <string name="common_google_play_services_unsupported_text" msgid="3542578567569488671">"Cihazınız, uygulamalarınızdan bazıları için gerekli olan Google Play hizmetlerini desteklemiyor. Lütfen yardım için üreticiyle iletişim kurun."</string>
+    <string name="common_google_play_services_unsupported_title" msgid="6334768798839376943">"Google Play hizmetleri"</string>
+    <string name="common_google_play_services_update_button" msgid="8932944190611227642">"Güncelle"</string>
+    <string name="common_google_play_services_update_text" msgid="448354684997260580">"Bu uygulama Google Play Hizmetleri güncellenmeden çalışmaz."</string>
+    <string name="common_google_play_services_update_title" msgid="6006316683626838685">"Google Play hizmetlerini güncelle"</string>
+    <string name="common_signin_button_text" msgid="9071884888741449141">"Oturum aç"</string>
+    <string name="common_signin_button_text_long" msgid="2429381841831957106">"Google\'da oturum aç"</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values-tr/values.xml -->
+    <eat-comment />
+
+    <string name="zxing_app_name">Barkod Tarayıcısı</string>
+    <string name="zxing_button_cancel">İptal</string>
+    <string name="zxing_button_ok">Tamam</string>
+    <string name="zxing_contents_contact">Kişi bilgisi</string>
+    <string name="zxing_contents_email">Email adresi</string>
+    <string name="zxing_contents_location">Coğrafi koordinatlar</string>
+    <string name="zxing_contents_phone">Telefon numarası</string>
+    <string name="zxing_contents_sms">SMS adresi</string>
+    <string name="zxing_contents_text">Düz metin</string>
+    <string name="zxing_menu_encode_mecard">MECARD kullanın</string>
+    <string name="zxing_menu_encode_vcard">VCard kullanın</string>
+    <string name="zxing_menu_help">Yardım</string>
+    <string name="zxing_menu_share">Paylaş</string>
+    <string name="zxing_msg_camera_framework_bug">Üzgünüz, Android kamera bir sorunla karşılaştı. Cihazı yeniden başlatmanız gerekebilir.</string>
+    <string name="zxing_msg_default_format">Biçim</string>
+    <string name="zxing_msg_default_meta">Metadata</string>
+    <string name="zxing_msg_default_status">Barkodu taramak için vizördeki dikdörtgenin içerisine yerleştirin.</string>
+    <string name="zxing_msg_default_time">Süre</string>
+    <string name="zxing_msg_default_type">Tür</string>
+    <string name="zxing_msg_encode_contents_failed">Sağlanan verilerden bir barkod kodlanamadı.</string>
+    <string name="zxing_msg_unmount_usb">Lütfen USB depolamayı devre dışı bırakın.</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/res/values-tr/values.xml -->
+    <eat-comment />
+
+    <string name="zxinglegacy_app_name">Barkod Tarayıcısı</string>
+    <string name="zxinglegacy_button_back">Geri</string>
+    <string name="zxinglegacy_button_cancel">İptal</string>
+    <string name="zxinglegacy_button_done">Tamam</string>
+    <string name="zxinglegacy_button_ok">Tamam</string>
+    <string name="zxinglegacy_contents_contact">Kişi bilgisi</string>
+    <string name="zxinglegacy_contents_email">Email adresi</string>
+    <string name="zxinglegacy_contents_location">Coğrafi koordinatlar</string>
+    <string name="zxinglegacy_contents_phone">Telefon numarası</string>
+    <string name="zxinglegacy_contents_sms">SMS adresi</string>
+    <string name="zxinglegacy_contents_text">Düz metin</string>
+    <string name="zxinglegacy_menu_encode_mecard">MECARD kullanın</string>
+    <string name="zxinglegacy_menu_encode_vcard">VCard kullanın</string>
+    <string name="zxinglegacy_menu_help">Yardım</string>
+    <string name="zxinglegacy_menu_share">Paylaş</string>
+    <string name="zxinglegacy_msg_camera_framework_bug">Üzgünüz, Android kamera bir sorunla karşılaştı. Cihazı yeniden başlatmanız gerekebilir.</string>
+    <string name="zxinglegacy_msg_default_format">Biçim</string>
+    <string name="zxinglegacy_msg_default_meta">Metadata</string>
+    <string name="zxinglegacy_msg_default_status">Barkodu taramak için vizördeki dikdörtgenin içerisine yerleştirin.</string>
+    <string name="zxinglegacy_msg_default_time">Süre</string>
+    <string name="zxinglegacy_msg_default_type">Tür</string>
+    <string name="zxinglegacy_msg_encode_contents_failed">Sağlanan verilerden bir barkod kodlanamadı.</string>
+    <string name="zxinglegacy_msg_unmount_usb">Lütfen USB depolamayı devre dışı bırakın.</string>
+
+</resources>

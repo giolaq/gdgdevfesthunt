@@ -1,0 +1,149 @@
+<!--
+  Copyright 2013 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="10dp"
+    tools:context=".ClueActivity" >
+
+    <FrameLayout
+        android:id="@+id/imageCard"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/btnScan"
+        android:layout_alignLeft="@+id/heading"
+        android:layout_below="@+id/heading"
+        android:background="@drawable/grey_frame_on_white" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp"
+            android:src="@drawable/dog" />
+
+        <ProgressBar
+            android:id="@+id/clue_progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/displayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/clueStatus"
+        android:layout_alignLeft="@+id/clueStatus"
+        android:gravity="center_horizontal"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="@string/instruction_text_here"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:typeface="sans" />
+
+    <LinearLayout
+        android:id="@+id/clueStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp" >
+
+        <LinearLayout
+            android:id="@+id/tag_container_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tag_1_notfound_marker"
+                style="@style/TagMarker"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="@string/one" />
+
+            <ImageView
+                android:id="@+id/tag_1_found_marker"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/red_circle"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tag_container_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tag_2_notfound_marker"
+                style="@style/TagMarker"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="@string/two" />
+
+            <ImageView
+                android:id="@+id/tag_2_found_marker"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/green_circle"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/instructionsHeading"
+        android:layout_alignLeft="@+id/instructionsHeading"
+        android:text="Push to Scan QR"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/instructionsHeading"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/displayText"
+        android:layout_alignLeft="@+id/displayText"
+        android:layout_marginBottom="8dp"
+        android:text="@string/instructions" />
+
+    <TextView
+        android:id="@+id/heading"
+        style="@style/Heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:text="@string/heading" />
+
+</RelativeLayout><!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/layout/activity_clue_two_tag.xml -->
