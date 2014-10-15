@@ -1,1 +1,1 @@
-include  ':libraries:BaseGameUtils', ':IOHunt'
+include  ':libraries:BaseGameUtils', ':IOHunt', ':iohuntwear'

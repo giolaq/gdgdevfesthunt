@@ -16,18 +16,18 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.laquysoft.appydays"
-    android:versionCode="9"
     android:versionName="4" >
 
     <uses-sdk
-        android:minSdkVersion="L"
-        android:targetSdkVersion="L" />
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.NFC" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <uses-feature
         android:name="android.hardware.nfc"
@@ -35,9 +35,7 @@
 
     <meta-data
         android:name="unityplayer.ForwardNativeEventsToDalvik"
-        android:value="true" />
-
-    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+        android:value="true" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
     <uses-feature
         android:name="android.hardware.camera"
         android:required="false" />

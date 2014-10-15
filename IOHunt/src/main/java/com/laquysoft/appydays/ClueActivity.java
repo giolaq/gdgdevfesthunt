@@ -16,14 +16,23 @@
 
 package com.laquysoft.appydays;
 
+import com.google.android.gms.common.api.ResultCallback;
+import com.google.android.gms.wearable.DataApi;
+import com.google.android.gms.wearable.PutDataMapRequest;
+import com.google.android.gms.wearable.PutDataRequest;
+import com.google.android.gms.wearable.Wearable;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -33,9 +42,13 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.Date;
+
 
 public class ClueActivity extends BaseActivity {
 
+
+    private static final String TAG = ClueActivity.class.getName();
 	String lastClueFound;
 	String result;
 
@@ -115,8 +128,44 @@ public class ClueActivity extends BaseActivity {
 			}
 		});
 
-
 	}
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        getApiClient().connect();
+    }
+
+    private void notifyClue(String title, String text) {
+
+        String sessionId = "cluenotification";
+        int FEEDBACK_NOTIFICATION_ID = 222;
+
+        NotificationCompat.Builder notifBuilder = new NotificationCompat.Builder(this)
+                .setContentTitle(title)
+                .setContentText(text)
+                        //.setColor(getResources().getColor(R.color.theme_primary))
+                        // Note: setColor() is available in the support lib v21+.
+                        // We commented it out because we want the source to compile
+                        // against support lib v20. If you are using support lib
+                        // v21 or above on Android L, uncomment this line.
+                .setTicker("Ticker")
+                .setDefaults(Notification.DEFAULT_SOUND | Notification.DEFAULT_VIBRATE)
+             //   .setLights(
+             //           SessionAlarmService.NOTIFICATION_ARGB_COLOR,
+             //           SessionAlarmService.NOTIFICATION_LED_ON_MS,
+             //           SessionAlarmService.NOTIFICATION_LED_OFF_MS)
+               .setSmallIcon(R.drawable.pawprint)
+             //   .setContentIntent(pi)
+                .setPriority(Notification.PRIORITY_MAX)
+                .setLocalOnly(true) // make it local to the phone
+              //  .setDeleteIntent(dismissalPendingIntent)
+                .setAutoCancel(true);
+        NotificationManager nm = (NotificationManager) getSystemService(
+                Context.NOTIFICATION_SERVICE);
+        Log.d(TAG, "Now showing session feedback notification!");
+        nm.notify(sessionId, FEEDBACK_NOTIFICATION_ID, notifBuilder.build());
+    }
 
 	public void onToVictory() {
 		Intent intent = new Intent(this, VictoryActivity.class);
@@ -223,7 +272,10 @@ public class ClueActivity extends BaseActivity {
 	public void onResume() {
 		super.onResume();
 
-		Intent intent = getIntent();
+        notifyClue("notifica clue", "ecco la notifica");
+        setupNotificationOnWear("Wear gdg hunt");
+
+        Intent intent = getIntent();
 
 		if (intent == null) {
 			refresh();
@@ -552,5 +604,35 @@ public class ClueActivity extends BaseActivity {
 			refresh();
 		}
 	}
+
+
+    /**
+     * Builds corresponding notification for the Wear device that is paired to this handset. This
+     * is done by adding a Data Item to teh Data Store; the Wear device will be notified to build a
+     * local notification.
+     */
+    private void setupNotificationOnWear(String sessionName) {
+        if (!getApiClient().isConnected()) {
+            Log.e(TAG, "setupNotificationOnWear(): Failed to send data item since there was no "
+                    + "connectivity to Google API Client");
+            return;
+        }
+        PutDataMapRequest putDataMapRequest = PutDataMapRequest
+                .create("/gdghunt");
+        putDataMapRequest.getDataMap().putString("name", sessionName);
+
+        PutDataRequest request = putDataMapRequest.asPutDataRequest();
+
+        Wearable.DataApi.putDataItem(getApiClient(), request)
+                .setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
+                    @Override
+                    public void onResult(DataApi.DataItemResult dataItemResult) {
+                        Log.d(TAG, "setupNotificationOnWear(): Sending notification result success:"
+                                        + dataItemResult.getStatus().isSuccess()
+                        );
+                    }
+                });
+    }
+
 
 }
