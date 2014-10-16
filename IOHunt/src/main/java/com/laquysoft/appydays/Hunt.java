@@ -16,10 +16,17 @@
 
 package com.laquysoft.appydays;
 
+import android.app.DownloadManager;
+import android.content.BroadcastReceiver;
 import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.content.res.Resources;
+import android.graphics.drawable.Drawable;
+import android.net.Uri;
+import android.os.ParcelFileDescriptor;
 import android.os.SystemClock;
 import android.provider.Settings;
 import android.provider.Settings.Secure;
@@ -30,11 +37,19 @@ import android.widget.ImageView;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.io.BufferedInputStream;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Random;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 
 public class Hunt {
 
@@ -72,6 +87,11 @@ public class Hunt {
     static final String DECOY = "DECOY";
     // The actual text for the DECOY clue.
     static final String DECOY_ID = "decoy";
+
+
+    private DownloadManager downloadManager;
+    private long downloadReference;
+
 
     /** Returns the singleton hunt object, and initializes it if it's not ready. */
     public static Hunt getHunt(Resources res, Context context) {
@@ -193,6 +213,10 @@ public class Hunt {
 
     /** Generates the entire hunt structure from JSON */
     Hunt(String jsonString, Resources res, Context context) {
+
+        //set filter to only when download is complete and register broadcast receiver
+        IntentFilter filter = new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE);
+        context.registerReceiver(downloadReceiver, filter);
 
         soundManager = new SoundManager(context);
         achievementManager = new AchievementManager(res);
@@ -436,5 +460,61 @@ public class Hunt {
         }
 
         return false;
+    }
+
+    public void reload(Context context) {
+        reloadFromRemote(context);
+    }
+
+
+    private BroadcastReceiver downloadReceiver = new BroadcastReceiver() {
+
+        @Override
+        public void onReceive(Context context, Intent intent) {
+
+            //check if the broadcast message is for our Enqueued download
+            long referenceId = intent.getLongExtra(DownloadManager.EXTRA_DOWNLOAD_ID, -1);
+            if (downloadReference == referenceId) {
+
+                ParcelFileDescriptor file;
+                try {
+                    file = downloadManager.openDownloadedFile(downloadReference);
+
+                    hrm = new HuntResourceManager();
+                    hrm.unzipDownloadedFile(file);
+
+                    theHunt = new Hunt(hrm.huntJSON, context.getResources(), context);
+                    String android_id = Secure.getString(context.getContentResolver(),
+                            Secure.ANDROID_ID);
+
+                    if (android_id == null) {
+                        // Fall back on devices where ANDROID_ID is not reliable.
+                        theHunt.shuffle(Integer.parseInt(Settings.Secure.ANDROID_ID, 0));
+                    } else {
+                        BigInteger bi = new BigInteger(android_id, 16);
+                        System.out.println(bi);
+
+                        theHunt.shuffle(bi.shortValue());
+                    }
+
+
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                }
+
+            }
+        }
+    };
+
+
+
+    public void reloadFromRemote(Context context) {
+        downloadManager = (DownloadManager) context.getSystemService(Context.DOWNLOAD_SERVICE);
+        Uri Download_Uri = Uri.parse("http://162.248.167.159:8080/tgz/hunt.zip");
+        DownloadManager.Request request = new DownloadManager.Request(Download_Uri);
+
+        //Enqueue a new download and same the referenceId
+        downloadReference = downloadManager.enqueue(request);
+
     }
 }

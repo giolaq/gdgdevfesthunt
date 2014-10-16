@@ -16,8 +16,17 @@
 
 package com.laquysoft.appydays;
 
+import android.app.DownloadManager;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
+import android.net.Uri;
+import android.os.ParcelFileDescriptor;
+
+import com.google.android.gms.drive.internal.m;
 
 import java.io.*;
 import java.util.HashMap;
@@ -29,16 +38,12 @@ import java.util.zip.ZipInputStream;
  * the images inside the zip.
  *
  * @author wolff
- *
  */
 public class HuntResourceManager {
 
     HashMap<String, Drawable> drawables;
     String huntJSON;
 
-    public HuntResourceManager() {
-
-    }
 
     public Boolean unzipFile(Resources res) {
         try {
@@ -86,5 +91,57 @@ public class HuntResourceManager {
         }
 
         return true;
+    }
+
+
+    public void unzipDownloadedFile(ParcelFileDescriptor file) {
+
+        try {
+            FileInputStream fileInputStream
+                    = new ParcelFileDescriptor.AutoCloseInputStream(file);
+            drawables = new HashMap<String, Drawable>();
+            ZipInputStream zis = new ZipInputStream(new BufferedInputStream(fileInputStream));
+            ZipEntry ze;
+
+            while ((ze = zis.getNextEntry()) != null) {
+                ByteArrayOutputStream baos = new ByteArrayOutputStream();
+                byte[] buffer = new byte[1024];
+                int count;
+
+                String filename = ze.getName();
+                if (filename.endsWith("/")) {
+                    continue;
+                }
+
+                filename = filename.substring(filename.lastIndexOf('/') + 1);
+
+                // reading and writing
+                while ((count = zis.read(buffer)) != -1) {
+                    baos.write(buffer, 0, count);
+                }
+
+                byte[] b = baos.toByteArray();
+
+                if (filename.endsWith(".json")) {
+                    huntJSON = new String(b);
+                } else if (filename.endsWith(".jpg")
+                        || filename.endsWith(".png")) {
+                    ByteArrayInputStream bais = new ByteArrayInputStream(b);
+                    Drawable drw = Drawable.createFromStream(bais, filename);
+
+                    drawables.put(filename, drw);
+                }
+
+                zis.closeEntry();
+            }
+
+            zis.close();
+
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

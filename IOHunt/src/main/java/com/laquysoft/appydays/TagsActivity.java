@@ -88,6 +88,7 @@ public class TagsActivity extends BaseActivity {
     public void onResetClicked(View view) {
         final Hunt hunt = Hunt.getHunt(getResources(), getApplicationContext());
 
+
         DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
@@ -95,6 +96,8 @@ public class TagsActivity extends BaseActivity {
                 case DialogInterface.BUTTON_POSITIVE:
                     // Yes button clicked
                     hunt.reset();
+
+                    hunt.reload(getApplicationContext());
                     signOut();
                     hunt.save(getResources(), getApplicationContext());
                     break;
