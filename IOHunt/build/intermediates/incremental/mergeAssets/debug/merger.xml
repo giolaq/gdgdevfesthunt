@@ -102,8 +102,8 @@
                 path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/assets/zxing/style.css" />
         </source>
     </dataSet>
-    <dataSet config="20.0.0" >
-        <source path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/assets" />
+    <dataSet config="21.0.0" >
+        <source path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/assets" />
     </dataSet>
     <dataSet config="5.0.89" >
         <source path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/assets" />
