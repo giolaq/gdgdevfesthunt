@@ -82,10 +82,14 @@ public class ScreenSlidePagerActivity extends BaseGameActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-        case R.id.menu_about:
-            Intent intent = new Intent(this, AboutActivity.class);
-            startActivity(intent);
-            return true;
+            case R.id.menu_about:
+                Intent intent = new Intent(this, AboutActivity.class);
+                startActivity(intent);
+                return true;
+            case R.id.menu_reload:
+                intent = new Intent(this, TagsActivity.class);
+                startActivity(intent);
+                return true;
         }
         return super.onOptionsItemSelected(item);
     }
@@ -173,18 +177,18 @@ public class ScreenSlidePagerActivity extends BaseGameActivity {
             ScreenSlidePageFragment ssl = new ScreenSlidePageFragment();
 
             switch (position) {
-            case 0:
-                ssl.layoutId = R.layout.story_frag_1;
-                break;
-            case 1:
-                ssl.layoutId = R.layout.story_frag_1a;
-                break;
-            case 2:
-                ssl.layoutId = R.layout.story_frag_2;
-                break;
-            case 3:
-                ssl.layoutId = R.layout.story_frag_3;
-                break;
+                case 0:
+                    ssl.layoutId = R.layout.story_frag_1;
+                    break;
+                case 1:
+                    ssl.layoutId = R.layout.story_frag_1a;
+                    break;
+                case 2:
+                    ssl.layoutId = R.layout.story_frag_2;
+                    break;
+                case 3:
+                    ssl.layoutId = R.layout.story_frag_3;
+                    break;
             }
 
             return ssl;

@@ -30,9 +30,9 @@ public final class R {
 	}
 	public static final class id {
 		public static final int format_text_view = 0x7f0a00a4;
-		public static final int menu_encode = 0x7f0a00b9;
-		public static final int menu_help = 0x7f0a00b7;
-		public static final int menu_share = 0x7f0a00b8;
+		public static final int menu_encode = 0x7f0a00ba;
+		public static final int menu_help = 0x7f0a00b8;
+		public static final int menu_share = 0x7f0a00b9;
 		public static final int meta_text_view_label = 0x7f0a00a7;
 		public static final int zxinglegacy_back_button = 0x7f0a0034;
 		public static final int zxinglegacy_barcode_image_view = 0x7f0a00a3;
@@ -70,29 +70,29 @@ public final class R {
 		public static final int zxinglegacy_beep = 0x7f060007;
 	}
 	public static final class string {
-		public static final int zxinglegacy_app_name = 0x7f0d0087;
-		public static final int zxinglegacy_button_back = 0x7f0d0088;
-		public static final int zxinglegacy_button_cancel = 0x7f0d0089;
-		public static final int zxinglegacy_button_done = 0x7f0d008a;
-		public static final int zxinglegacy_button_ok = 0x7f0d008b;
-		public static final int zxinglegacy_contents_contact = 0x7f0d008c;
-		public static final int zxinglegacy_contents_email = 0x7f0d008d;
-		public static final int zxinglegacy_contents_location = 0x7f0d008e;
-		public static final int zxinglegacy_contents_phone = 0x7f0d008f;
-		public static final int zxinglegacy_contents_sms = 0x7f0d0090;
-		public static final int zxinglegacy_contents_text = 0x7f0d0091;
-		public static final int zxinglegacy_menu_encode_mecard = 0x7f0d0092;
-		public static final int zxinglegacy_menu_encode_vcard = 0x7f0d0093;
-		public static final int zxinglegacy_menu_help = 0x7f0d0094;
-		public static final int zxinglegacy_menu_share = 0x7f0d0095;
-		public static final int zxinglegacy_msg_camera_framework_bug = 0x7f0d0096;
-		public static final int zxinglegacy_msg_default_format = 0x7f0d0097;
-		public static final int zxinglegacy_msg_default_meta = 0x7f0d0098;
-		public static final int zxinglegacy_msg_default_status = 0x7f0d0099;
-		public static final int zxinglegacy_msg_default_time = 0x7f0d009a;
-		public static final int zxinglegacy_msg_default_type = 0x7f0d009b;
-		public static final int zxinglegacy_msg_encode_contents_failed = 0x7f0d009c;
-		public static final int zxinglegacy_msg_unmount_usb = 0x7f0d009d;
+		public static final int zxinglegacy_app_name = 0x7f0d0088;
+		public static final int zxinglegacy_button_back = 0x7f0d0089;
+		public static final int zxinglegacy_button_cancel = 0x7f0d008a;
+		public static final int zxinglegacy_button_done = 0x7f0d008b;
+		public static final int zxinglegacy_button_ok = 0x7f0d008c;
+		public static final int zxinglegacy_contents_contact = 0x7f0d008d;
+		public static final int zxinglegacy_contents_email = 0x7f0d008e;
+		public static final int zxinglegacy_contents_location = 0x7f0d008f;
+		public static final int zxinglegacy_contents_phone = 0x7f0d0090;
+		public static final int zxinglegacy_contents_sms = 0x7f0d0091;
+		public static final int zxinglegacy_contents_text = 0x7f0d0092;
+		public static final int zxinglegacy_menu_encode_mecard = 0x7f0d0093;
+		public static final int zxinglegacy_menu_encode_vcard = 0x7f0d0094;
+		public static final int zxinglegacy_menu_help = 0x7f0d0095;
+		public static final int zxinglegacy_menu_share = 0x7f0d0096;
+		public static final int zxinglegacy_msg_camera_framework_bug = 0x7f0d0097;
+		public static final int zxinglegacy_msg_default_format = 0x7f0d0098;
+		public static final int zxinglegacy_msg_default_meta = 0x7f0d0099;
+		public static final int zxinglegacy_msg_default_status = 0x7f0d009a;
+		public static final int zxinglegacy_msg_default_time = 0x7f0d009b;
+		public static final int zxinglegacy_msg_default_type = 0x7f0d009c;
+		public static final int zxinglegacy_msg_encode_contents_failed = 0x7f0d009d;
+		public static final int zxinglegacy_msg_unmount_usb = 0x7f0d009e;
 	}
 	public static final class xml {
 		public static final int zxinglegacy_preferences = 0x7f050001;

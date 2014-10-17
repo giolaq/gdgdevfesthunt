@@ -26,6 +26,8 @@ import android.content.SharedPreferences.Editor;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
+import android.os.Environment;
+import android.os.FileObserver;
 import android.os.ParcelFileDescriptor;
 import android.os.SystemClock;
 import android.provider.Settings;
@@ -52,6 +54,8 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
 public class Hunt {
+
+    private static final String TAG = "Hunt";
 
     public static final int QUESTION_STATE_NONE = 0;
     public static final int QUESTION_STATE_INTRO = 1;
@@ -217,7 +221,6 @@ public class Hunt {
         //set filter to only when download is complete and register broadcast receiver
         IntentFilter filter = new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE);
         context.registerReceiver(downloadReceiver, filter);
-
         soundManager = new SoundManager(context);
         achievementManager = new AchievementManager(res);
 
@@ -479,7 +482,7 @@ public class Hunt {
                 ParcelFileDescriptor file;
                 try {
                     file = downloadManager.openDownloadedFile(downloadReference);
-
+                    Log.d(TAG,"Downloaded " + downloadManager.getUriForDownloadedFile(downloadReference));
                     hrm = new HuntResourceManager();
                     hrm.unzipDownloadedFile(file);
 
@@ -512,6 +515,12 @@ public class Hunt {
         downloadManager = (DownloadManager) context.getSystemService(Context.DOWNLOAD_SERVICE);
         Uri Download_Uri = Uri.parse("http://162.248.167.159:8080/tgz/hunt.zip");
         DownloadManager.Request request = new DownloadManager.Request(Download_Uri);
+
+        request.setAllowedNetworkTypes(
+                DownloadManager.Request.NETWORK_WIFI
+                        | DownloadManager.Request.NETWORK_MOBILE)
+                .setAllowedOverRoaming(false).setTitle("NFC/IO Hunt")
+                .setDescription("Downloading Hunt data");
 
         //Enqueue a new download and same the referenceId
         downloadReference = downloadManager.enqueue(request);

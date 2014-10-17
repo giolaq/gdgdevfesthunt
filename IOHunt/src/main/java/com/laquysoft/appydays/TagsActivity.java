@@ -21,6 +21,8 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
+import android.os.FileObserver;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -33,6 +35,7 @@ import android.widget.ListView;
  *
  */
 public class TagsActivity extends BaseActivity {
+
 
     public TagsActivity() {
         super(CLIENT_PLUS);
@@ -47,7 +50,10 @@ public class TagsActivity extends BaseActivity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
             getActionBar().setDisplayHomeAsUpEnabled(true);
         }
+
+
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
