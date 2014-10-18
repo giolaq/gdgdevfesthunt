@@ -24,4 +24,6 @@
     <color name="green">#8bc34a</color>
     <color name="darkgreen">#558b2f</color>
     <color name="blue">#5677fc</color>
+    <color name="card_text_background">#808bc34a</color>
+
 </resources>

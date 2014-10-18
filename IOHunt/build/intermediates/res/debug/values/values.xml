@@ -136,6 +136,7 @@
 
     <color name="caption_text_color">#FF535353</color>
     <color name="card_background">#FFDCDCDC</color>
+    <color name="card_text_background">#808bc34a</color>
     <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.0/res/values/values.xml -->
     <eat-comment />
 
@@ -462,6 +463,21 @@
         <!-- The thickness (stroke size) for the bar paint -->
         <attr name="thickness" format="dimension" />
     </declare-styleable>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.0.4/res/values/values.xml -->
+    <eat-comment />
+
+    <declare-styleable name="FloatingActionButton">
+        <attr name="fab_colorPressed" format="color" />
+        <attr name="fab_colorNormal" format="color" />
+        <attr name="fab_shadow" format="boolean" />
+        <attr name="fab_type" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="mini" value="1" />
+        </attr>
+    </declare-styleable>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/values/values.xml -->
+    <eat-comment />
+
     <declare-styleable name="LinearLayoutCompat">
 
         <!--
@@ -1347,6 +1363,14 @@
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
     <item name="disabled_alpha_material_dark" format="float" type="dimen">0.30</item>
     <item name="disabled_alpha_material_light" format="float" type="dimen">0.26</item>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.0.4/res/values/values.xml -->
+    <eat-comment />
+
+    <dimen name="fab_min_significant_scroll">4dp</dimen>
+    <dimen name="fab_mini_shadow_size">6dp</dimen>
+    <dimen name="fab_shadow_size">8dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="fab_size_normal">56dp</dimen>
     <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/dimens.xml -->
     <eat-comment />
 
@@ -1357,6 +1381,7 @@
     <dimen name="margin_large">32dp</dimen>
     <dimen name="margin_medium">16dp</dimen>
     <dimen name="margin_small">8dp</dimen>
+    <dimen name="shape_size">112dp</dimen>
     <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values/values.xml -->
     <eat-comment />
 
@@ -1488,7 +1513,7 @@
     <string name="common_google_play_services_enable_button" msgid="2523291102206661146">Enable Google Play services</string>
     <string name="common_google_play_services_enable_text" msgid="227660514972886228">This app won\'t work unless you enable Google Play services.</string>
     <string name="common_google_play_services_enable_title" msgid="5122002158466380389">Enable Google Play services</string>
-    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by  <ns1:g id="app_name">%1$s</ns1:g></string>
     <string name="common_google_play_services_install_button" msgid="7153882981874058840">Get Google Play services</string>
     <string name="common_google_play_services_install_text_phone" msgid="2122112764540849864">This app won\'t run without Google Play services, which are missing from your phone.</string>
     <string name="common_google_play_services_install_text_tablet" msgid="7351599665250191022">This app won\'t run without Google Play services, which are missing from your tablet.</string>
@@ -1534,6 +1559,13 @@
     <string name="default_background">""</string>
     <string name="default_button_color">"#80c465"</string>
     <string name="default_text_color">"#00181c"</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.0.4/res/values/values.xml -->
+    <eat-comment />
+
+    <string name="define_FloatingActionButton"></string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/strings_ah.xml -->
+    <eat-comment />
+
     <string name="edit_message">type something here</string>
     <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/analytics.xml -->
     <eat-comment />
@@ -1570,6 +1602,18 @@
     <string name="libanalytics_license">Google Analytics Android SDK version 2.0 beta 4\n\n
 
 Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.0.4/res/values/values.xml -->
+    <eat-comment />
+
+    <string name="library_FloatingActionButton_author">Oleksandr Melnykov</string>
+    <string name="library_FloatingActionButton_authorWebsite">https://github.com/makovkastar/FloatingActionButton</string>
+    <string name="library_FloatingActionButton_isOpenSource">true</string>
+    <string name="library_FloatingActionButton_libraryDescription">Android Google+ like floating action button which reacts on the list view scrolling events. Becomes visible when the list view is scrolled up and invisible when scrolled down.</string>
+    <string name="library_FloatingActionButton_libraryName">FloatingActionButton</string>
+    <string name="library_FloatingActionButton_libraryVersion">1.0.0</string>
+    <string name="library_FloatingActionButton_libraryWebsite">https://github.com/makovkastar/FloatingActionButton</string>
+    <string name="library_FloatingActionButton_licenseId">mit</string>
+    <string name="library_FloatingActionButton_repositoryLink">https://github.com/makovkastar/FloatingActionButton</string>
     <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/strings_ah.xml -->
     <eat-comment />
 
@@ -2898,7 +2942,6 @@ m>                <item name="android:textColorLink">@color/link_text_material_d
     <eat-comment />
 
     <style name="Theme.App" parent="@android:style/Theme.Holo.Light">
-        <item name="android:windowBackground">@drawable/grey_background_pattern</item>
         <item name="android:buttonStyle">@style/Button</item>
         <item name="android:textAppearance">@style/DefaultText</item>
         <item name="android:textAppearanceLarge">@style/Heading</item>

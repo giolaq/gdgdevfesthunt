@@ -82,6 +82,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="cardview-v7-21.0.0" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-21.0.0" level="project" />
+    <orderEntry type="library" exported="" name="floatingactionbutton-1.0.4" level="project" />
     <orderEntry type="library" exported="" name="support-v4-21.0.0" level="project" />
     <orderEntry type="library" exported="" name="zxing-android-legacy-2.0.0" level="project" />
     <orderEntry type="library" exported="" name="zxing-android-integration-2.0.0" level="project" />

@@ -6,7 +6,7 @@
         jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/IOHunt.libraries/BaseGameUtils/unspecified/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="5569f9d3cf290138a0e7414ff492840ef2f6c417"/>
+        sha1="24a2a6d70d67f6b54d3f42278af95158c81f1822"/>
     <item
         dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/debug/core-3.0.1-a3c20180ced0648a49627c641adc91dda0f572dc.jar"
         jar="/Users/joaobiriba/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.0.1/9ebf6cd580d67601fbf88fd007aab4703b19e4c2/core-3.0.1.jar"
@@ -67,6 +67,12 @@
         jumboMode="false"
         revision="20.0.0"
         sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+    <item
+        dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/debug/classes-aa90521213fc5521f89bf06a8cd86636d7045b77.jar"
+        jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.0.4/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="4e7cc190c9a6a0bc439ac2f139413e51317ca916"/>
     <item
         dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/debug/classes-d73e275fffc88ee3932b83a53d4141a42824e2fd.jar"
         jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.11/classes.jar"

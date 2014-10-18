@@ -18,6 +18,7 @@ package com.laquysoft.appydays;
 
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
+import com.melnykov.fab.FloatingActionButton;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -54,8 +55,9 @@ public class ClueActivity extends BaseActivity {
 	private Handler mHandler = new Handler();
 
 	private static Boolean DEBUG_QUESTIONS = false;
+    private FloatingActionButton scanBtn;
 
-	public ClueActivity() {
+    public ClueActivity() {
 		super(CLIENT_GAMES);
 	}
 
@@ -88,7 +90,7 @@ public class ClueActivity extends BaseActivity {
 		mImgView.setAdjustViewBounds(true);
 		mImgView.setMaxHeight(250);
 
-		Button scanBtn = (Button) findViewById(R.id.btnScan);
+        scanBtn = (FloatingActionButton) findViewById(R.id.btnScan);
 
 		//in some trigger function e.g. button press within your code you should add:
 		scanBtn.setOnClickListener(new OnClickListener() {
@@ -168,7 +170,10 @@ public class ClueActivity extends BaseActivity {
 
 		// Set visibilities
 		mImgView.setVisibility(View.VISIBLE);
-		View view = findViewById(R.id.clue_progress);
+
+        scanBtn.show();
+
+        View view = findViewById(R.id.clue_progress);
 		view.setVisibility(View.INVISIBLE);
 
 		findViewById(R.id.clue_progress).setVisibility(View.INVISIBLE);

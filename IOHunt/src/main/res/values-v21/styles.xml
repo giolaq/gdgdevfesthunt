@@ -5,10 +5,10 @@
         AppBaseTheme from BOTH res/values/styles.xml and
         res/values-v21/styles.xml on API 21+ devices.
     -->
-    <!--style name="Theme.App" parent="android:Theme.Material.Light.DarkActionBar">
+    <style name="Theme.App" parent="android:Theme.Material.Light.DarkActionBar">
         <item name="android:colorPrimary">@color/green</item>
         <item name="android:colorPrimaryDark">@color/green</item>
 
-    </style-->
+    </style>
 
 </resources>
