@@ -239,8 +239,5 @@ public class ScreenSlidePagerActivity extends BaseGameActivity {
         return;
     }
 
-    @Override
-    protected int getLayoutResource() {
-        return R.layout.activity_screen_slide_pager;
-    }
+
 }

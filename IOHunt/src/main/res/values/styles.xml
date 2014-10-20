@@ -24,10 +24,7 @@
         <item name="colorPrimaryDark">@color/colorPrimary</item>
         <item name="android:windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
-        <item name="android:buttonStyle">@style/Button</item>
-        <item name="android:textAppearance">@style/DefaultText</item>
-        <item name="android:textAppearanceLarge">@style/Heading</item>
-        <item name="android:textAppearanceMedium">@style/SubHeading</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
     </style>
 
 

@@ -17,6 +17,8 @@
 package com.laquysoft.appydays;
 
 import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -38,6 +40,8 @@ public class BaseActivity extends BaseGameActivity {
     public static final int REQUEST_ACHIEVEMENTS = 1001;
 	public static final int REQUEST_LEADERBOARD = 1002;
 
+    protected Toolbar toolbar;
+
     public BaseActivity() {
         super(0);
     }
@@ -45,6 +49,26 @@ public class BaseActivity extends BaseGameActivity {
     public BaseActivity(int client) {
         super(client);
     }
+
+    @Override
+    protected void onCreate(Bundle b) {
+        super.onCreate(b);
+
+        setContentView(getLayoutResource());
+
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+
+        if (toolbar != null) {
+            setSupportActionBar(toolbar);
+            toolbar.setNavigationIcon(R.drawable.abc_ic_ab_back_mtrl_am_alpha);
+        }
+
+    }
+
+
+    protected int getLayoutResource(){
+        return 0;
+    };
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -88,8 +112,8 @@ public class BaseActivity extends BaseGameActivity {
 
     }
 
-    @Override
-    protected int getLayoutResource() {
-        return -1;
+    protected void setActionBarIcon(int iconRes) {
+        toolbar.setNavigationIcon(iconRes);
     }
+
  }

@@ -27,6 +27,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -59,6 +60,7 @@ public class ClueActivity extends BaseActivity {
 	private static Boolean DEBUG_QUESTIONS = false;
     private FloatingActionButton scanBtn;
 
+
     public ClueActivity() {
 		super(CLIENT_GAMES);
 	}
@@ -71,9 +73,12 @@ public class ClueActivity extends BaseActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		setContentView(R.layout.activity_clue_two_tag);
+		//setContentView(R.layout.activity_clue_two_tag);
 
-		mImgView = (ImageView) findViewById(R.id.imageView1);
+
+        setActionBarIcon(R.drawable.ic_launcher);
+
+        mImgView = (ImageView) findViewById(R.id.imageView1);
 		mHeading = (TextView) findViewById(R.id.heading);
 
 		mTagConainer1 = (LinearLayout) findViewById(R.id.tag_container_1);
@@ -118,6 +123,7 @@ public class ClueActivity extends BaseActivity {
 
 			}
 		});
+
 
 
 	}
@@ -186,8 +192,8 @@ public class ClueActivity extends BaseActivity {
 		int clueNumber = hunt.getClueDisplayNumber(clue);
 		int totalClues = hunt.getTotalClues();
 		String clueTitle = clue.displayName;
-		getActionBar().setTitle(
-				"AppyDays Hunt: Clue #" + clueNumber + " of " + totalClues);
+//		toolbar.setTitle(
+//				"AppyDays Hunt: Clue #" + clueNumber + " of " + totalClues);
 		mHeading.setText(clueTitle);
 
 		// Display the correct number of circles on the clue
@@ -560,10 +566,16 @@ public class ClueActivity extends BaseActivity {
 		}
 	}
 
-
     @Override
     protected int getLayoutResource() {
         return R.layout.activity_clue_two_tag;
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
     }
 
 }

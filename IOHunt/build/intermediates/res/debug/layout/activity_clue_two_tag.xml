@@ -19,10 +19,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="10dp"
-    android:paddingLeft="20dp"
-    android:paddingRight="20dp"
-    android:paddingTop="10dp"
+    android:background="@color/white"
     tools:context=".ClueActivity" >
 
     <include
@@ -33,10 +30,10 @@
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:id="@+id/imageCard"
         android:layout_width="match_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
         card_view:cardCornerRadius="4dp"
         android:paddingBottom="60dp"
-
         android:layout_marginBottom="80dp">
 
         <ImageView
@@ -66,8 +63,20 @@
             android:layout_gravity="center" />
 
 
-
     </android.support.v7.widget.CardView>
+
+    <com.melnykov.fab.FloatingActionButton
+        xmlns:fab="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/btnScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_glaquidara"
+        fab:fab_colorNormal="@android:color/holo_green_dark"
+        fab:fab_colorPressed="@android:color/holo_green_light"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <LinearLayout
         android:id="@+id/clueStatus"
@@ -75,8 +84,8 @@
         android:layout_height="wrap_content"
         android:padding="8dp"
         android:layout_alignBottom="@+id/imageCard"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true">
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <LinearLayout
             android:id="@+id/tag_container_1"
@@ -124,16 +133,6 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/instructionsHeading"
-        style="?android:attr/listSeparatorTextViewStyle"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/instructions"
-        android:layout_above="@+id/displayText"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
         android:id="@+id/displayText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -147,17 +146,13 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-
-    <com.melnykov.fab.FloatingActionButton
-        xmlns:fab="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/btnScan"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/instructionsHeading"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:src="@drawable/ic_glaquidara"
-        fab:fab_colorNormal="@android:color/holo_green_dark"
-        fab:fab_colorPressed="@android:color/holo_green_light"
-        android:layout_below="@+id/clueStatus"
-        android:layout_alignRight="@+id/imageCard"
-        android:layout_alignEnd="@+id/imageCard" />
+        android:text="@string/instructions"
+        android:layout_above="@+id/displayText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout><!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/layout/activity_clue_two_tag.xml -->
