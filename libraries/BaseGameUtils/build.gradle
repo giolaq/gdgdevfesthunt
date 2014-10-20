@@ -20,7 +20,7 @@ dependencies {
 }
 
 android {
-    compileSdkVersion 20
-    buildToolsVersion '20'
+    compileSdkVersion 21
+    buildToolsVersion "20.0.0"
 }
 

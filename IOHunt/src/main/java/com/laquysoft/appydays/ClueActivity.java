@@ -25,6 +25,7 @@ import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -40,7 +41,8 @@ public class ClueActivity extends BaseActivity {
 	String lastClueFound;
 	String result;
 
-	private ImageView mImgView;
+
+    private ImageView mImgView;
 	private TextView mHeading;
 	private LinearLayout mTagConainer1;
 	private LinearLayout mTagConainer2;
@@ -557,5 +559,11 @@ public class ClueActivity extends BaseActivity {
 			refresh();
 		}
 	}
+
+
+    @Override
+    protected int getLayoutResource() {
+        return R.layout.activity_clue_two_tag;
+    }
 
 }

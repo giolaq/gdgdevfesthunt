@@ -144,6 +144,10 @@
     <color name="cardview_light_background">#FFFAFAFA</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/color.xml -->
+    <eat-comment />
+
+    <color name="colorPrimary">#8bc34a</color>
     <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.11/res/values/common_colors.xml -->
     <eat-comment />
 
@@ -1513,7 +1517,7 @@
     <string name="common_google_play_services_enable_button" msgid="2523291102206661146">Enable Google Play services</string>
     <string name="common_google_play_services_enable_text" msgid="227660514972886228">This app won\'t work unless you enable Google Play services.</string>
     <string name="common_google_play_services_enable_title" msgid="5122002158466380389">Enable Google Play services</string>
-    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by  <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
     <string name="common_google_play_services_install_button" msgid="7153882981874058840">Get Google Play services</string>
     <string name="common_google_play_services_install_text_phone" msgid="2122112764540849864">This app won\'t run without Google Play services, which are missing from your phone.</string>
     <string name="common_google_play_services_install_text_tablet" msgid="7351599665250191022">This app won\'t run without Google Play services, which are missing from your tablet.</string>
@@ -1732,6 +1736,21 @@ Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
     <string name="zxinglegacy_msg_default_type">Type</string>
     <string name="zxinglegacy_msg_encode_contents_failed">Could not encode a barcode from the data provided.</string>
     <string name="zxinglegacy_msg_unmount_usb">Sorry, the SD card is not accessible.</string>
+    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppTheme" parent="AppTheme.Base" />
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:buttonStyle">@style/Button</item>
+        <item name="android:textAppearance">@style/DefaultText</item>
+        <item name="android:textAppearanceLarge">@style/Heading</item>
+        <item name="android:textAppearanceMedium">@style/SubHeading</item>
+    </style>
     <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/values/values.xml -->
     <eat-comment />
 
@@ -2938,17 +2957,6 @@ m>                <item name="android:textColorLink">@color/link_text_material_d
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle" />
 
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Title" />
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/styles.xml -->
-    <eat-comment />
-
-    <style name="Theme.App" parent="@android:style/Theme.Holo.Light">
-        <item name="android:buttonStyle">@style/Button</item>
-        <item name="android:textAppearance">@style/DefaultText</item>
-        <item name="android:textAppearanceLarge">@style/Heading</item>
-        <item name="android:textAppearanceMedium">@style/SubHeading</item>
-    </style>
-    <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/values/values.xml -->
-    <eat-comment />
 
     <style name="Theme.AppCompat" parent="Base.Theme.AppCompat" />
 

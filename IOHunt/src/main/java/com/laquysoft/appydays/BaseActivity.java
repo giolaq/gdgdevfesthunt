@@ -87,4 +87,9 @@ public class BaseActivity extends BaseGameActivity {
     public void onSignInSucceeded() {
 
     }
+
+    @Override
+    protected int getLayoutResource() {
+        return -1;
+    }
  }

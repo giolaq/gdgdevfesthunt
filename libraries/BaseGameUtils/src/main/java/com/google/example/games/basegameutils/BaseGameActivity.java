@@ -20,6 +20,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -43,6 +44,8 @@ import com.google.android.gms.common.api.GoogleApiClient;
  */
 public abstract class BaseGameActivity extends ActionBarActivity implements
         GameHelper.GameHelperListener {
+
+    private Toolbar toolbar;
 
     // The game helper object. This class is mainly a wrapper around this object.
     protected GameHelper mHelper;
@@ -97,6 +100,8 @@ public abstract class BaseGameActivity extends ActionBarActivity implements
         return mHelper;
     }
 
+    protected abstract int getLayoutResource();
+
     @Override
     protected void onCreate(Bundle b) {
         super.onCreate(b);
@@ -104,6 +109,12 @@ public abstract class BaseGameActivity extends ActionBarActivity implements
             getGameHelper();
         }
         mHelper.setup(this);
+        setContentView(getLayoutResource());
+       // toolbar = (Toolbar) findViewById(R.id.toolbar);
+        if (toolbar != null) {
+            setSupportActionBar(toolbar);
+            toolbar.setNavigationIcon(R.drawable.abc_ic_ab_back_mtrl_am_alpha);
+        }
     }
 
     @Override
