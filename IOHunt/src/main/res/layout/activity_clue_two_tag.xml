@@ -34,7 +34,7 @@
             android:scaleType="fitStart"
             android:background="@drawable/imageback"
             android:src="@drawable/dog"
-            android:layout_below="@+id/toolbar"
+            android:layout_below="@+id/heading"
             android:layout_above="@+id/instructionsHeading" />
 
         <TextView
@@ -44,6 +44,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/heading"
+            android:background="@color/colorPrimary"
             android:layout_below="@+id/toolbar"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />

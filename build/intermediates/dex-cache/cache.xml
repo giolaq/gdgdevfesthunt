@@ -2,12 +2,6 @@
 <pre-dex-items>
 
     <item
-        dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/debug/classes-1a85d7298b71f545ccc55d2b952f28a4abc10ecd.jar"
-        jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/IOHunt.libraries/BaseGameUtils/unspecified/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="1b1c89b3d3477ff8af0755883848d3a1b6088b46"/>
-    <item
         dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/debug/libGoogleAnalyticsServices-fa075935b42c7c7df0e0b12641a4f8443ba09ceb.jar"
         jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/libs/libGoogleAnalyticsServices.jar"
         jumboMode="false"
@@ -19,6 +13,30 @@
         jumboMode="false"
         revision="20.0.0"
         sha1="9ebf6cd580d67601fbf88fd007aab4703b19e4c2"/>
+    <item
+        dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/debug/classes-334925ac8b9ef9082a2ec49232cf0c81c9714312.jar"
+        jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="3935235b42452c8e472b00a13770614bd9d5ea93"/>
+    <item
+        dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/debug/classes-a430486da41599b1040b885ad245a6b0540ce49b.jar"
+        jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="cb9bbd4a4737c5d1720f03efe7de98df3a924ef1"/>
+    <item
+        dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-b7e7128e874d9f131ce8134a08893cbf4999e4e8.jar"
+        jar="/Users/joaobiriba/Documents/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+    <item
+        dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/debug/classes-1a85d7298b71f545ccc55d2b952f28a4abc10ecd.jar"
+        jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/IOHunt.libraries/BaseGameUtils/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1b1c89b3d3477ff8af0755883848d3a1b6088b46"/>
     <item
         dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/debug/classes-3b6c9cbadc5cd5c8fd8ca993a5c88cb8d1dca382.jar"
         jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
@@ -38,12 +56,6 @@
         revision="20.0.0"
         sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
     <item
-        dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/debug/classes-334925ac8b9ef9082a2ec49232cf0c81c9714312.jar"
-        jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="3935235b42452c8e472b00a13770614bd9d5ea93"/>
-    <item
         dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/debug/classes-64c6ee451db54a62fc1edf488c6a3f809b216347.jar"
         jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
         jumboMode="false"
@@ -55,18 +67,6 @@
         jumboMode="false"
         revision="20.0.0"
         sha1="7d2525cba8ed61fff102977caed964fc22061e34"/>
-    <item
-        dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/debug/classes-a430486da41599b1040b885ad245a6b0540ce49b.jar"
-        jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="cb9bbd4a4737c5d1720f03efe7de98df3a924ef1"/>
-    <item
-        dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-b7e7128e874d9f131ce8134a08893cbf4999e4e8.jar"
-        jar="/Users/joaobiriba/Documents/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
     <item
         dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/debug/classes-aa90521213fc5521f89bf06a8cd86636d7045b77.jar"
         jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.0.4/classes.jar"
