@@ -64,8 +64,12 @@
         </activity>
         <activity
             android:name="com.laquysoft.appydays.TagsActivity"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait">
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.laquysoft.appydays.NavActivity"/>
+     </activity>
         <activity
             android:name="com.laquysoft.appydays.DecoyActivity"
             android:screenOrientation="portrait" >

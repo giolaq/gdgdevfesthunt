@@ -20,11 +20,17 @@
     android:layout_height="match_parent"
     tools:context=".TagsActivity" >
 
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
     <Button
         android:id="@+id/reset_this"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="onResetClicked"
+        android:layout_below="@+id/toolbar"
         android:text="@string/reset_this" />
 
     <ListView

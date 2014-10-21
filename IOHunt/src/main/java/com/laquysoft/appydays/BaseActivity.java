@@ -18,7 +18,9 @@ package com.laquysoft.appydays;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.NavUtils;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -29,16 +31,15 @@ import com.google.example.games.basegameutils.BaseGameActivity;
 /**
  * The base inheritor for all activities where you can
  * be signed in.  It manages the menus.
- *
+ * <p/>
  * If you want or need any
  *
  * @author wolff
- *
  */
 public class BaseActivity extends BaseGameActivity {
 
     public static final int REQUEST_ACHIEVEMENTS = 1001;
-	public static final int REQUEST_LEADERBOARD = 1002;
+    public static final int REQUEST_LEADERBOARD = 1002;
 
     protected Toolbar toolbar;
 
@@ -66,9 +67,11 @@ public class BaseActivity extends BaseGameActivity {
     }
 
 
-    protected int getLayoutResource(){
+    protected int getLayoutResource() {
         return 0;
-    };
+    }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -78,26 +81,30 @@ public class BaseActivity extends BaseGameActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        Log.d("BaseActivity", " menu onOptionsItemSelected " + item);
         switch (item.getItemId()) {
-        case R.id.menu_reset:
-            Intent intent = new Intent(this, TagsActivity.class);
-            startActivity(intent);
-            return true;
-        case R.id.menu_achievements:
-            if (isSignedIn()) {
-                startActivityForResult(Games.Achievements.getAchievementsIntent(getApiClient()),
-                        REQUEST_ACHIEVEMENTS);
-            } else {
-                Toast.makeText(this, "Achievements are unavailable at this time.",
-                        Toast.LENGTH_SHORT).show();
-            }
-            return true;
-        case R.id.menu_about:
-            intent = new Intent(this, AboutActivity.class);
-            startActivity(intent);
-            return true;
-        case R.id.menu_leaderboard:
-        	startActivityForResult(Games.Leaderboards.getLeaderboardIntent(getApiClient(), AchievementManager.ID_LEADERBOARD), REQUEST_LEADERBOARD );
+            case android.R.id.home:
+                NavUtils.navigateUpFromSameTask(this);
+                return true;
+            case R.id.menu_reset:
+                Intent intent = new Intent(this, TagsActivity.class);
+                startActivity(intent);
+                return true;
+            case R.id.menu_achievements:
+                if (isSignedIn()) {
+                    startActivityForResult(Games.Achievements.getAchievementsIntent(getApiClient()),
+                            REQUEST_ACHIEVEMENTS);
+                } else {
+                    Toast.makeText(this, "Achievements are unavailable at this time.",
+                            Toast.LENGTH_SHORT).show();
+                }
+                return true;
+            case R.id.menu_about:
+                intent = new Intent(this, AboutActivity.class);
+                startActivity(intent);
+                return true;
+            case R.id.menu_leaderboard:
+                startActivityForResult(Games.Leaderboards.getLeaderboardIntent(getApiClient(), AchievementManager.ID_LEADERBOARD), REQUEST_LEADERBOARD);
 
         }
         return super.onOptionsItemSelected(item);
@@ -116,4 +123,4 @@ public class BaseActivity extends BaseGameActivity {
         toolbar.setNavigationIcon(iconRes);
     }
 
- }
+}
