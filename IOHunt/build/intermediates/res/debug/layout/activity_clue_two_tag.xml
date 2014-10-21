@@ -34,7 +34,7 @@
         android:layout_below="@id/toolbar"
         card_view:cardCornerRadius="4dp"
         android:paddingBottom="60dp"
-        android:layout_marginBottom="80dp">
+        android:layout_above="@+id/instructionsHeading">
 
         <ImageView
             android:id="@+id/imageView1"
@@ -83,7 +83,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:padding="8dp"
-        android:layout_alignBottom="@+id/imageCard"
+        android:layout_above="@+id/btnScan"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
 
@@ -148,7 +148,7 @@
 
     <TextView
         android:id="@+id/instructionsHeading"
-        style="?android:attr/listSeparatorTextViewStyle"
+        android:textSize="23sp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/instructions"
