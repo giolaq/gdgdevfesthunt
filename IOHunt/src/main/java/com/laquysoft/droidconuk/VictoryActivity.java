@@ -39,7 +39,7 @@ public class VictoryActivity extends BaseActivity implements OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_victory);
+      //  setContentView(R.layout.activity_victory);
 
         mShareButton = (TextView) findViewById(R.id.share_button);
         mShareButton.setOnClickListener(this);
@@ -119,4 +119,10 @@ public class VictoryActivity extends BaseActivity implements OnClickListener {
             break;
         }
     }
+
+    @Override
+    protected int getLayoutResource() {
+        return R.layout.activity_victory;
+    }
+
 }
