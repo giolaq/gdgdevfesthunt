@@ -569,11 +569,6 @@ public class ClueActivity extends BaseActivity {
         return R.layout.activity_clue_two_tag;
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
+
 
 }

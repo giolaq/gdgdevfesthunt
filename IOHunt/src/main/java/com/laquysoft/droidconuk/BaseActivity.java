@@ -84,8 +84,11 @@ public class BaseActivity extends BaseGameActivity {
         Log.d("BaseActivity", " menu onOptionsItemSelected " + item);
         switch (item.getItemId()) {
             case android.R.id.home:
-                NavUtils.navigateUpFromSameTask(this);
-                return true;
+                if ( NavUtils.getParentActivityIntent(this) != null ) {
+                    NavUtils.navigateUpFromSameTask(this);
+                    return true;
+                }
+                return false;
             case R.id.menu_reset:
                 Intent intent = new Intent(this, TagsActivity.class);
                 startActivity(intent);
