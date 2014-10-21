@@ -1206,11 +1206,11 @@ OFF
                 </string>
                 <string name="zxinglegacy_contents_email" >כתובת דואר אלקטרוני
                 </string>
+                <string name="zxinglegacy_msg_default_type" >סוג
+                </string>
                 <string name="zxinglegacy_menu_share" >שתף
                 </string>
                 <string name="zxinglegacy_button_ok" >אישור
-                </string>
-                <string name="zxinglegacy_msg_default_type" >סוג
                 </string>
                 <string name="zxinglegacy_contents_sms" >כתובת SMS
                 </string>
@@ -1756,11 +1756,11 @@ OFF
                 </string>
                 <string name="zxinglegacy_contents_location" >地理坐标
                 </string>
+                <string name="zxinglegacy_msg_default_status" >请将条码置于取景框内扫描。  
+                </string>
                 <string name="zxinglegacy_msg_camera_framework_bug" >抱歉，Android相机出现问题。您可能需要重启设备。
                 </string>
                 <string name="zxinglegacy_contents_sms" >短信地址
-                </string>
-                <string name="zxinglegacy_msg_default_status" >请将条码置于取景框内扫描。  
                 </string>
                 <string name="zxinglegacy_msg_default_format" >格式
                 </string>
@@ -2175,11 +2175,11 @@ OFF
                 </string>
                 <string name="zxing_msg_encode_contents_failed" >تعذر ترميز رمز شريطي من البيانات المتوفرة.
                 </string>
+                <string name="zxing_msg_default_time" >الوقت
+                </string>
                 <string name="zxing_contents_contact" >معلومات جهة اتصال
                 </string>
                 <string name="zxing_contents_phone" >رقم الهاتف
-                </string>
-                <string name="zxing_msg_default_time" >الوقت
                 </string>
                 <string name="zxing_contents_email" >عنوان البريد
                 </string>
@@ -4623,27 +4623,27 @@ false
             <file
                 path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.11/res/values/wallet_colors.xml"
                 qualifiers="" >
-                <color name="wallet_hint_foreground_holo_light" >#808080
-                </color>
                 <color name="wallet_dim_foreground_inverse_disabled_holo_dark" >#80323232
                 </color>
                 <color name="wallet_hint_foreground_holo_dark" >#808080
                 </color>
                 <color name="wallet_bright_foreground_disabled_holo_light" >#ffb2b2b2
                 </color>
-                <color name="wallet_bright_foreground_holo_dark" >#fff3f3f3
-                </color>
-                <color name="wallet_bright_foreground_holo_light" >#ff000000
-                </color>
                 <color name="wallet_link_text_light" >#0000ee
                 </color>
                 <color name="wallet_dim_foreground_holo_dark" >#bebebe
                 </color>
-                <color name="wallet_highlighted_text_holo_dark" >#6633b5e5
-                </color>
                 <color name="wallet_dim_foreground_disabled_holo_dark" >#80bebebe
                 </color>
                 <color name="wallet_dim_foreground_inverse_holo_dark" >#323232
+                </color>
+                <color name="wallet_hint_foreground_holo_light" >#808080
+                </color>
+                <color name="wallet_bright_foreground_holo_dark" >#fff3f3f3
+                </color>
+                <color name="wallet_bright_foreground_holo_light" >#ff000000
+                </color>
+                <color name="wallet_highlighted_text_holo_dark" >#6633b5e5
                 </color>
                 <color name="wallet_highlighted_text_holo_light" >#6633b5e5
                 </color>
@@ -5621,16 +5621,16 @@ normal
                     </ns1:g>"
                 </string>
                 <string
+                    name="common_google_play_services_needs_enabling_title"
+                    msgid="2583358409598976717" >"Aplikace vyžaduje aktivaci služeb Google Play."
+                </string>
+                <string
                     name="common_google_play_services_enable_button"
                     msgid="4181637455539816337" >"Aktivovat služby Google Play"
                 </string>
                 <string
                     name="common_google_play_services_unsupported_text"
                     msgid="3542578567569488671" >"Některé vaše aplikace vyžadují služby Google Play, které ve vašem zařízení nejsou podporovány. S žádostí o pomoc se prosím obraťte na výrobce."
-                </string>
-                <string
-                    name="common_google_play_services_needs_enabling_title"
-                    msgid="2583358409598976717" >"Aplikace vyžaduje aktivaci služeb Google Play."
                 </string>
                 <string
                     name="common_google_play_services_invalid_account_text"
@@ -5780,36 +5780,8 @@ normal
                     msgid="8120534356798772974" >"App erfordert die Installation der Google Play-Dienste"
                 </string>
                 <string
-                    name="common_open_on_phone"
-                    msgid="411506735369601515" >"Auf Telefon öffnen"
-                </string>
-                <string
-                    name="common_google_play_services_invalid_account_title"
-                    msgid="1066672360770936753" >"Ungültiges Konto"
-                </string>
-                <string
-                    name="common_android_wear_update_text"
-                    msgid="3046420540094071256" >"Diese App funktioniert erst nach der Aktualisierung der Android Wear App."
-                </string>
-                <string
-                    name="common_google_play_services_enable_title"
-                    msgid="529078775174559253" >"Google Play-Dienste aktivieren"
-                </string>
-                <string
-                    name="common_google_play_services_network_error_title"
-                    msgid="3827284619958211114" >"Netzwerkfehler"
-                </string>
-                <string
                     name="common_google_play_services_install_text_phone"
                     msgid="8685301130651051380" >"Zur Nutzung dieser App sind Google Play-Dienste erforderlich, die auf Ihrem Telefon nicht installiert sind."
-                </string>
-                <string
-                    name="common_signin_button_text"
-                    msgid="9071884888741449141" >"Anmelden"
-                </string>
-                <string
-                    name="common_google_play_services_unsupported_text"
-                    msgid="3542578567569488671" >"Google Play-Dienste, auf denen einige Ihrer Apps basieren, werden von diesem Gerät nicht unterstützt. Wenden Sie sich für weitere Informationen an den Hersteller."
                 </string>
                 <string
                     name="common_google_play_services_update_text"
@@ -5824,39 +5796,16 @@ normal
                     msgid="8932944190611227642" >"Aktualisieren"
                 </string>
                 <string
-                    name="common_google_play_services_error_notification_requested_by_msg"
-                    msgid="2443362625939284971" >"Angefordert von 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="common_google_play_services_enable_text"
-                    msgid="7627896071867667758" >"Diese App funktioniert nur, wenn Sie die Google Play-Dienste aktivieren."
+                    name="common_google_play_services_needs_enabling_title"
+                    msgid="2583358409598976717" >"App erfordert die Aktivierung der Google Play-Dienste"
                 </string>
                 <string
                     name="common_android_wear_notification_needs_update_text"
                     msgid="473679118463211576" >"Für eine App ist die Aktualisierung der Android Wear App erforderlich."
                 </string>
                 <string
-                    name="common_google_play_services_needs_enabling_title"
-                    msgid="2583358409598976717" >"App erfordert die Aktivierung der Google Play-Dienste"
-                </string>
-                <string
-                    name="common_google_play_services_notification_needs_update_title"
-                    msgid="1388129345631079938" >"App erfordert ein Update der Google Play-Dienste"
-                </string>
-                <string
-                    name="common_google_play_services_install_text_tablet"
-                    msgid="1589957570365247855" >"Zur Nutzung dieser App sind Google Play-Dienste erforderlich, die auf Ihrem Tablet nicht installiert sind."
-                </string>
-                <string
                     name="common_google_play_services_unknown_issue"
                     msgid="4762332809710093730" >"Unbekanntes Problem mit Google Play-Diensten"
-                </string>
-                <string
-                    name="common_google_play_services_install_button"
-                    msgid="8515591849428043265" >"Google Play-Dienste installieren"
                 </string>
                 <string
                     name="common_signin_button_text_long"
@@ -5869,6 +5818,57 @@ normal
                 <string
                     name="common_google_play_services_notification_ticker"
                     msgid="1852570676146674985" >"Fehler bei Zugriff auf Google Play-Dienste"
+                </string>
+                <string
+                    name="common_open_on_phone"
+                    msgid="411506735369601515" >"Auf Telefon öffnen"
+                </string>
+                <string
+                    name="common_android_wear_update_text"
+                    msgid="3046420540094071256" >"Diese App funktioniert erst nach der Aktualisierung der Android Wear App."
+                </string>
+                <string
+                    name="common_google_play_services_invalid_account_title"
+                    msgid="1066672360770936753" >"Ungültiges Konto"
+                </string>
+                <string
+                    name="common_google_play_services_enable_title"
+                    msgid="529078775174559253" >"Google Play-Dienste aktivieren"
+                </string>
+                <string
+                    name="common_google_play_services_network_error_title"
+                    msgid="3827284619958211114" >"Netzwerkfehler"
+                </string>
+                <string
+                    name="common_signin_button_text"
+                    msgid="9071884888741449141" >"Anmelden"
+                </string>
+                <string
+                    name="common_google_play_services_unsupported_text"
+                    msgid="3542578567569488671" >"Google Play-Dienste, auf denen einige Ihrer Apps basieren, werden von diesem Gerät nicht unterstützt. Wenden Sie sich für weitere Informationen an den Hersteller."
+                </string>
+                <string
+                    name="common_google_play_services_error_notification_requested_by_msg"
+                    msgid="2443362625939284971" >"Angefordert von 
+<ns1:g id="APP_NAME" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="common_google_play_services_enable_text"
+                    msgid="7627896071867667758" >"Diese App funktioniert nur, wenn Sie die Google Play-Dienste aktivieren."
+                </string>
+                <string
+                    name="common_google_play_services_notification_needs_update_title"
+                    msgid="1388129345631079938" >"App erfordert ein Update der Google Play-Dienste"
+                </string>
+                <string
+                    name="common_google_play_services_install_text_tablet"
+                    msgid="1589957570365247855" >"Zur Nutzung dieser App sind Google Play-Dienste erforderlich, die auf Ihrem Tablet nicht installiert sind."
+                </string>
+                <string
+                    name="common_google_play_services_install_button"
+                    msgid="8515591849428043265" >"Google Play-Dienste installieren"
                 </string>
                 <string
                     name="common_google_play_services_update_title"
@@ -5887,32 +5887,71 @@ normal
                 path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.11/res/values-el/common_strings.xml"
                 qualifiers="el" >
                 <string
+                    name="common_google_play_services_enable_text"
+                    msgid="7627896071867667758" >"Αυτή η εφαρμογή δεν θα λειτουργήσει εάν δεν έχετε ενεργοποιήσει τις υπηρεσίες Google Play."
+                </string>
+                <string
+                    name="common_google_play_services_network_error_title"
+                    msgid="3827284619958211114" >"Σφάλμα δικτύου"
+                </string>
+                <string
                     name="common_android_wear_notification_needs_update_text"
                     msgid="473679118463211576" >"Μια εφαρμογή απαιτεί την ενημέρωση της εφαρμογής Android Wear."
+                </string>
+                <string
+                    name="common_google_play_services_update_button"
+                    msgid="8932944190611227642" >"Ενημέρωση"
                 </string>
                 <string
                     name="common_open_on_phone"
                     msgid="411506735369601515" >"Άνοιγμα στο τηλέφωνο"
                 </string>
                 <string
+                    name="common_google_play_services_notification_ticker"
+                    msgid="1852570676146674985" >"Σφάλμα Υπηρεσιών Google Play"
+                </string>
+                <string
+                    name="common_google_play_services_network_error_text"
+                    msgid="9038847255613537209" >"Απαιτείται σύνδεση δεδομένων για να συνδεθείτε με τις Υπηρεσίες Google Play."
+                </string>
+                <string
                     name="common_google_play_services_update_title"
                     msgid="6006316683626838685" >"Ενημέρωση υπηρεσιών Google Play"
+                </string>
+                <string
+                    name="common_google_play_services_enable_button"
+                    msgid="4181637455539816337" >"Ενεργοπ. υπηρεσιών Google Play"
                 </string>
                 <string
                     name="common_google_play_services_invalid_account_text"
                     msgid="4983316348021735578" >"Ο συγκεκριμένος λογαριασμός δεν υπάρχει σε αυτήν τη συσκευή. Επιλέξτε έναν διαφορετικό λογαριασμό."
                 </string>
                 <string
+                    name="common_google_play_services_error_notification_requested_by_msg"
+                    msgid="2443362625939284971" >"Υποβλήθηκε αίτημα από την εφαρμογή 
+<ns1:g id="APP_NAME" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
                     name="common_google_play_services_install_title"
                     msgid="26645092511305524" >"Λήψη υπηρεσιών Google Play"
+                </string>
+                <string
+                    name="common_google_play_services_unsupported_text"
+                    msgid="3542578567569488671" >"Οι υπηρεσίες Google Play, στις οποίες βασίζονται ορισμένες από τις εφαρμογές σας, δεν υποστηρίζονται στη συσκευή σας. Επικοινωνήστε με τον κατασκευαστή για υποστήριξη."
+                </string>
+                <string
+                    name="common_google_play_services_notification_needs_update_title"
+                    msgid="1388129345631079938" >"Μια εφαρμογή απαιτεί την ενημέρωση των Υπηρεσιών Google Play."
                 </string>
                 <string
                     name="common_google_play_services_install_button"
                     msgid="8515591849428043265" >"Λήψη υπηρεσιών Google Play"
                 </string>
                 <string
-                    name="common_google_play_services_unsupported_text"
-                    msgid="3542578567569488671" >"Οι υπηρεσίες Google Play, στις οποίες βασίζονται ορισμένες από τις εφαρμογές σας, δεν υποστηρίζονται στη συσκευή σας. Επικοινωνήστε με τον κατασκευαστή για υποστήριξη."
+                    name="common_google_play_services_unsupported_title"
+                    msgid="6334768798839376943" >"Υπηρεσίες Google Play"
                 </string>
                 <string
                     name="common_google_play_services_update_text"
@@ -5921,6 +5960,10 @@ normal
                 <string
                     name="common_signin_button_text_long"
                     msgid="2429381841831957106" >"Συνδεθείτε στο Google"
+                </string>
+                <string
+                    name="common_signin_button_text"
+                    msgid="9071884888741449141" >"Σύνδεση"
                 </string>
                 <string
                     name="common_google_play_services_install_text_tablet"
@@ -5939,12 +5982,12 @@ normal
                     msgid="8685301130651051380" >"Αυτή η εφαρμογή δεν θα εκτελεστεί χωρίς τις υπηρεσίες Google Play, οι οποίες λείπουν από το τηλέφωνό σας."
                 </string>
                 <string
-                    name="common_android_wear_update_title"
-                    msgid="1366439133145190222" >"Ενημέρωση Android Wear"
-                </string>
-                <string
                     name="common_google_play_services_invalid_account_title"
                     msgid="1066672360770936753" >"Μη έγκυρος λογαριασμός"
+                </string>
+                <string
+                    name="common_android_wear_update_title"
+                    msgid="1366439133145190222" >"Ενημέρωση Android Wear"
                 </string>
                 <string
                     name="common_google_play_services_needs_enabling_title"
@@ -5953,49 +5996,6 @@ normal
                 <string
                     name="common_google_play_services_unknown_issue"
                     msgid="4762332809710093730" >"Άγνωστο πρόβλημα με τις υπηρεσίες Google Play."
-                </string>
-                <string
-                    name="common_google_play_services_enable_text"
-                    msgid="7627896071867667758" >"Αυτή η εφαρμογή δεν θα λειτουργήσει εάν δεν έχετε ενεργοποιήσει τις υπηρεσίες Google Play."
-                </string>
-                <string
-                    name="common_google_play_services_network_error_title"
-                    msgid="3827284619958211114" >"Σφάλμα δικτύου"
-                </string>
-                <string
-                    name="common_google_play_services_update_button"
-                    msgid="8932944190611227642" >"Ενημέρωση"
-                </string>
-                <string
-                    name="common_google_play_services_notification_ticker"
-                    msgid="1852570676146674985" >"Σφάλμα Υπηρεσιών Google Play"
-                </string>
-                <string
-                    name="common_google_play_services_enable_button"
-                    msgid="4181637455539816337" >"Ενεργοπ. υπηρεσιών Google Play"
-                </string>
-                <string
-                    name="common_google_play_services_network_error_text"
-                    msgid="9038847255613537209" >"Απαιτείται σύνδεση δεδομένων για να συνδεθείτε με τις Υπηρεσίες Google Play."
-                </string>
-                <string
-                    name="common_google_play_services_error_notification_requested_by_msg"
-                    msgid="2443362625939284971" >"Υποβλήθηκε αίτημα από την εφαρμογή 
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g>"
-                </string>
-                <string
-                    name="common_google_play_services_notification_needs_update_title"
-                    msgid="1388129345631079938" >"Μια εφαρμογή απαιτεί την ενημέρωση των Υπηρεσιών Google Play."
-                </string>
-                <string
-                    name="common_google_play_services_unsupported_title"
-                    msgid="6334768798839376943" >"Υπηρεσίες Google Play"
-                </string>
-                <string
-                    name="common_signin_button_text"
-                    msgid="9071884888741449141" >"Σύνδεση"
                 </string>
                 <string
                     name="common_google_play_services_enable_title"
@@ -6335,16 +6335,16 @@ normal
                     msgid="4181637455539816337" >"Habilitar servicios de Google Play"
                 </string>
                 <string
+                    name="common_google_play_services_network_error_title"
+                    msgid="3827284619958211114" >"Error de red"
+                </string>
+                <string
                     name="common_google_play_services_invalid_account_text"
                     msgid="4983316348021735578" >"La cuenta especificada no existe en este dispositivo. Selecciona otra cuenta."
                 </string>
                 <string
                     name="common_google_play_services_unsupported_title"
                     msgid="6334768798839376943" >"Servicios de Google Play"
-                </string>
-                <string
-                    name="common_google_play_services_network_error_title"
-                    msgid="3827284619958211114" >"Error de red"
                 </string>
                 <string
                     name="common_open_on_phone"
@@ -6730,10 +6730,6 @@ normal
                     msgid="1066672360770936753" >"حساب نامعتبر"
                 </string>
                 <string
-                    name="common_google_play_services_install_text_phone"
-                    msgid="8685301130651051380" >"‏این برنامه بدون خدمات Google Play اجرا نمی‌شود، این خدمات در تلفن شما وجود ندارد."
-                </string>
-                <string
                     name="common_google_play_services_update_title"
                     msgid="6006316683626838685" >"‏به‌روزرسانی خدمات Google Play"
                 </string>
@@ -6746,28 +6742,12 @@ normal
                     msgid="4762332809710093730" >"‏مشکل نامشخص در خدمات Google Play."
                 </string>
                 <string
-                    name="common_signin_button_text_long"
-                    msgid="2429381841831957106" >"‏ورود به سیستم با Google‎"
-                </string>
-                <string
                     name="common_android_wear_notification_needs_update_text"
                     msgid="473679118463211576" >"‏برنامه باید به برنامه Android Wear به‌روزرسانی شود."
                 </string>
                 <string
-                    name="common_google_play_services_enable_button"
-                    msgid="4181637455539816337" >"‏فعال کردن خدمات Google Play"
-                </string>
-                <string
-                    name="common_signin_button_text"
-                    msgid="9071884888741449141" >"ورود به سیستم"
-                </string>
-                <string
                     name="common_google_play_services_invalid_account_text"
                     msgid="4983316348021735578" >"حسابی که تعیین کردید در این دستگاه وجود ندارد. لطفاً حساب دیگری را انتخاب کنید."
-                </string>
-                <string
-                    name="common_google_play_services_install_title"
-                    msgid="26645092511305524" >"‏دریافت خدمات Google Play"
                 </string>
                 <string
                     name="common_google_play_services_enable_title"
@@ -6776,6 +6756,42 @@ normal
                 <string
                     name="common_android_wear_update_title"
                     msgid="1366439133145190222" >"‏به‌روزرسانی Android Wear"
+                </string>
+                <string
+                    name="common_open_on_phone"
+                    msgid="411506735369601515" >"باز کردن در تلفن"
+                </string>
+                <string
+                    name="common_google_play_services_network_error_text"
+                    msgid="9038847255613537209" >"‏برای اتصال به خدمات Google Play اتصال داده لازم است."
+                </string>
+                <string
+                    name="common_google_play_services_unsupported_text"
+                    msgid="3542578567569488671" >"‏خدمات Google Play، که برخی از برنامه‌های شما به آن وابسته است، توسط دستگاه شما پشتیبانی نمی‌شود. لطفاً برای دریافت کمک با سازنده تماس بگیرید."
+                </string>
+                <string
+                    name="common_google_play_services_notification_needs_installation_title"
+                    msgid="8120534356798772974" >"‏برنامه‌ای نیاز به نصب خدمات Google Play دارد."
+                </string>
+                <string
+                    name="common_google_play_services_install_text_phone"
+                    msgid="8685301130651051380" >"‏این برنامه بدون خدمات Google Play اجرا نمی‌شود، این خدمات در تلفن شما وجود ندارد."
+                </string>
+                <string
+                    name="common_signin_button_text_long"
+                    msgid="2429381841831957106" >"‏ورود به سیستم با Google‎"
+                </string>
+                <string
+                    name="common_signin_button_text"
+                    msgid="9071884888741449141" >"ورود به سیستم"
+                </string>
+                <string
+                    name="common_google_play_services_enable_button"
+                    msgid="4181637455539816337" >"‏فعال کردن خدمات Google Play"
+                </string>
+                <string
+                    name="common_google_play_services_install_title"
+                    msgid="26645092511305524" >"‏دریافت خدمات Google Play"
                 </string>
                 <string
                     name="common_google_play_services_update_button"
@@ -6787,22 +6803,6 @@ normal
 <ns1:g id="APP_NAME" >
 %1$s
                     </ns1:g>"
-                </string>
-                <string
-                    name="common_open_on_phone"
-                    msgid="411506735369601515" >"باز کردن در تلفن"
-                </string>
-                <string
-                    name="common_google_play_services_unsupported_text"
-                    msgid="3542578567569488671" >"‏خدمات Google Play، که برخی از برنامه‌های شما به آن وابسته است، توسط دستگاه شما پشتیبانی نمی‌شود. لطفاً برای دریافت کمک با سازنده تماس بگیرید."
-                </string>
-                <string
-                    name="common_google_play_services_network_error_text"
-                    msgid="9038847255613537209" >"‏برای اتصال به خدمات Google Play اتصال داده لازم است."
-                </string>
-                <string
-                    name="common_google_play_services_notification_needs_installation_title"
-                    msgid="8120534356798772974" >"‏برنامه‌ای نیاز به نصب خدمات Google Play دارد."
                 </string>
                 <string
                     name="common_google_play_services_install_button"
@@ -10352,6 +10352,10 @@ normal
                     msgid="1366439133145190222" >"Android उपयोग अद्यावधिक गर्नुहोस्"
                 </string>
                 <string
+                    name="common_open_on_phone"
+                    msgid="411506735369601515" >"फोनमा खोल्नुहोस्"
+                </string>
+                <string
                     name="common_google_play_services_error_notification_requested_by_msg"
                     msgid="2443362625939284971" >"
 <ns1:g id="APP_NAME" >
@@ -10361,10 +10365,6 @@ normal
                 <string
                     name="common_google_play_services_network_error_title"
                     msgid="3827284619958211114" >"नेटवर्क त्रुटि"
-                </string>
-                <string
-                    name="common_open_on_phone"
-                    msgid="411506735369601515" >"फोनमा खोल्नुहोस्"
                 </string>
                 <string
                     name="common_google_play_services_install_title"
@@ -10784,20 +10784,8 @@ normal
                     msgid="4181637455539816337" >"Ativar o Google Play Services"
                 </string>
                 <string
-                    name="common_google_play_services_unsupported_title"
-                    msgid="6334768798839376943" >"Play Services"
-                </string>
-                <string
                     name="common_google_play_services_network_error_text"
                     msgid="9038847255613537209" >"É necessária uma conexão de dados para conectar ao Google Play Services."
-                </string>
-                <string
-                    name="common_google_play_services_invalid_account_text"
-                    msgid="4983316348021735578" >"A conta especificada não existe no dispositivo. Escolha outra conta."
-                </string>
-                <string
-                    name="common_google_play_services_update_title"
-                    msgid="6006316683626838685" >"Atualize o Google Play Services"
                 </string>
                 <string
                     name="common_signin_button_text_long"
@@ -10812,8 +10800,12 @@ normal
                     msgid="1589957570365247855" >"Este aplicativo não funciona sem o Google Play Services, que não está instalado em seu tablet."
                 </string>
                 <string
-                    name="common_signin_button_text"
-                    msgid="9071884888741449141" >"Login"
+                    name="common_google_play_services_enable_title"
+                    msgid="529078775174559253" >"Ative o Google Play Services"
+                </string>
+                <string
+                    name="common_google_play_services_install_text_phone"
+                    msgid="8685301130651051380" >"Este aplicativo não funciona sem o Google Play Services, que não está instalado em seu telefone."
                 </string>
                 <string
                     name="common_google_play_services_error_notification_requested_by_msg"
@@ -10823,28 +10815,16 @@ normal
                     </ns1:g>"
                 </string>
                 <string
-                    name="common_google_play_services_install_text_phone"
-                    msgid="8685301130651051380" >"Este aplicativo não funciona sem o Google Play Services, que não está instalado em seu telefone."
-                </string>
-                <string
-                    name="common_google_play_services_enable_title"
-                    msgid="529078775174559253" >"Ative o Google Play Services"
+                    name="common_google_play_services_notification_needs_installation_title"
+                    msgid="8120534356798772974" >"Um aplicativo requer a instalação do Google Play Services."
                 </string>
                 <string
                     name="common_android_wear_update_title"
                     msgid="1366439133145190222" >"Atualizar o Android Wear"
                 </string>
                 <string
-                    name="common_google_play_services_notification_needs_installation_title"
-                    msgid="8120534356798772974" >"Um aplicativo requer a instalação do Google Play Services."
-                </string>
-                <string
                     name="common_google_play_services_unsupported_text"
                     msgid="3542578567569488671" >"O Google Play Services, necessário para alguns dos aplicativos, não é compatível com seu dispositivo. Entre em contato com o fabricante para obter assistência."
-                </string>
-                <string
-                    name="common_android_wear_update_text"
-                    msgid="3046420540094071256" >"Este app só funciona com uma versão atualizada do app Android Wear."
                 </string>
                 <string
                     name="common_android_wear_notification_needs_update_text"
@@ -10855,24 +10835,8 @@ normal
                     msgid="3827284619958211114" >"Erro na rede"
                 </string>
                 <string
-                    name="common_google_play_services_update_button"
-                    msgid="8932944190611227642" >"Atualizar"
-                </string>
-                <string
                     name="common_google_play_services_update_text"
                     msgid="448354684997260580" >"Este aplicativo só funciona com uma versão atualizada do Google Play Services."
-                </string>
-                <string
-                    name="common_open_on_phone"
-                    msgid="411506735369601515" >"Abrir no smartphone"
-                </string>
-                <string
-                    name="common_google_play_services_invalid_account_title"
-                    msgid="1066672360770936753" >"Conta inválida"
-                </string>
-                <string
-                    name="common_google_play_services_install_title"
-                    msgid="26645092511305524" >"Instale o Google Play Services"
                 </string>
                 <string
                     name="common_google_play_services_notification_needs_update_title"
@@ -10885,6 +10849,42 @@ normal
                 <string
                     name="common_google_play_services_notification_ticker"
                     msgid="1852570676146674985" >"Erro do Google Play Services"
+                </string>
+                <string
+                    name="common_google_play_services_unsupported_title"
+                    msgid="6334768798839376943" >"Play Services"
+                </string>
+                <string
+                    name="common_google_play_services_update_title"
+                    msgid="6006316683626838685" >"Atualize o Google Play Services"
+                </string>
+                <string
+                    name="common_google_play_services_invalid_account_text"
+                    msgid="4983316348021735578" >"A conta especificada não existe no dispositivo. Escolha outra conta."
+                </string>
+                <string
+                    name="common_signin_button_text"
+                    msgid="9071884888741449141" >"Login"
+                </string>
+                <string
+                    name="common_android_wear_update_text"
+                    msgid="3046420540094071256" >"Este app só funciona com uma versão atualizada do app Android Wear."
+                </string>
+                <string
+                    name="common_google_play_services_update_button"
+                    msgid="8932944190611227642" >"Atualizar"
+                </string>
+                <string
+                    name="common_open_on_phone"
+                    msgid="411506735369601515" >"Abrir no smartphone"
+                </string>
+                <string
+                    name="common_google_play_services_invalid_account_title"
+                    msgid="1066672360770936753" >"Conta inválida"
+                </string>
+                <string
+                    name="common_google_play_services_install_title"
+                    msgid="26645092511305524" >"Instale o Google Play Services"
                 </string>
             </file>
             <file
@@ -11486,20 +11486,48 @@ normal
                 path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.11/res/values-sl/common_strings.xml"
                 qualifiers="sl" >
                 <string
-                    name="common_android_wear_update_text"
-                    msgid="3046420540094071256" >"Ta aplikacije ne deluje, če ne posodobite aplikacije Android Wear."
-                </string>
-                <string
                     name="common_google_play_services_enable_button"
                     msgid="4181637455539816337" >"Omogočite storitve Google Play"
                 </string>
                 <string
-                    name="common_google_play_services_unknown_issue"
-                    msgid="4762332809710093730" >"Neznana težava s storitvami Google Play."
-                </string>
-                <string
                     name="common_google_play_services_update_title"
                     msgid="6006316683626838685" >"Posodobite storitve Google Play"
+                </string>
+                <string
+                    name="common_google_play_services_notification_ticker"
+                    msgid="1852570676146674985" >"Napaka storitev Google Play"
+                </string>
+                <string
+                    name="common_google_play_services_update_button"
+                    msgid="8932944190611227642" >"Posodobi"
+                </string>
+                <string
+                    name="common_google_play_services_enable_text"
+                    msgid="7627896071867667758" >"Aplikacija ne bo delovala, če ne omogočite storitev Google Play."
+                </string>
+                <string
+                    name="common_google_play_services_unsupported_title"
+                    msgid="6334768798839376943" >"Storitve Google Play"
+                </string>
+                <string
+                    name="common_google_play_services_notification_needs_update_title"
+                    msgid="1388129345631079938" >"Za delovanje aplikacije morate posodobiti storitve Google Play."
+                </string>
+                <string
+                    name="common_google_play_services_unsupported_text"
+                    msgid="3542578567569488671" >"Vaša naprava na podpira storitev Google Play, ki jih potrebujejo nekatere od vaših aplikacij. Za pomoč se obrnite na izdelovalca."
+                </string>
+                <string
+                    name="common_google_play_services_needs_enabling_title"
+                    msgid="2583358409598976717" >"Za delovanje aplikacije morate omogočiti storitve Google Play."
+                </string>
+                <string
+                    name="common_android_wear_update_text"
+                    msgid="3046420540094071256" >"Ta aplikacije ne deluje, če ne posodobite aplikacije Android Wear."
+                </string>
+                <string
+                    name="common_google_play_services_unknown_issue"
+                    msgid="4762332809710093730" >"Neznana težava s storitvami Google Play."
                 </string>
                 <string
                     name="common_android_wear_notification_needs_update_text"
@@ -11508,10 +11536,6 @@ normal
                 <string
                     name="common_google_play_services_install_button"
                     msgid="8515591849428043265" >"Namestite storitve Google Play"
-                </string>
-                <string
-                    name="common_google_play_services_notification_ticker"
-                    msgid="1852570676146674985" >"Napaka storitev Google Play"
                 </string>
                 <string
                     name="common_google_play_services_network_error_text"
@@ -11529,16 +11553,8 @@ normal
                     </ns1:g>"
                 </string>
                 <string
-                    name="common_google_play_services_enable_text"
-                    msgid="7627896071867667758" >"Aplikacija ne bo delovala, če ne omogočite storitev Google Play."
-                </string>
-                <string
                     name="common_google_play_services_update_text"
                     msgid="448354684997260580" >"Ta aplikacija ne deluje, če ne posodobite storitev Google Play."
-                </string>
-                <string
-                    name="common_google_play_services_update_button"
-                    msgid="8932944190611227642" >"Posodobi"
                 </string>
                 <string
                     name="common_google_play_services_install_text_phone"
@@ -11551,10 +11567,6 @@ normal
                 <string
                     name="common_google_play_services_invalid_account_text"
                     msgid="4983316348021735578" >"V tej napravi ne obstaja navedeni račun. Izberite drugega."
-                </string>
-                <string
-                    name="common_google_play_services_unsupported_title"
-                    msgid="6334768798839376943" >"Storitve Google Play"
                 </string>
                 <string
                     name="common_google_play_services_invalid_account_title"
@@ -11575,18 +11587,6 @@ normal
                 <string
                     name="common_google_play_services_enable_title"
                     msgid="529078775174559253" >"Omogočite storitve Google Play"
-                </string>
-                <string
-                    name="common_google_play_services_unsupported_text"
-                    msgid="3542578567569488671" >"Vaša naprava na podpira storitev Google Play, ki jih potrebujejo nekatere od vaših aplikacij. Za pomoč se obrnite na izdelovalca."
-                </string>
-                <string
-                    name="common_google_play_services_notification_needs_update_title"
-                    msgid="1388129345631079938" >"Za delovanje aplikacije morate posodobiti storitve Google Play."
-                </string>
-                <string
-                    name="common_google_play_services_needs_enabling_title"
-                    msgid="2583358409598976717" >"Za delovanje aplikacije morate omogočiti storitve Google Play."
                 </string>
                 <string
                     name="common_google_play_services_install_title"
@@ -19394,24 +19394,12 @@ true
                     msgid="3691816814315814921" >"Vee navraag uit"
                 </string>
                 <string
-                    name="abc_shareactionprovider_share_with"
-                    msgid="3421042268587513524" >"Deel met"
-                </string>
-                <string
-                    name="abc_activitychooserview_choose_application"
-                    msgid="2031811694353399454" >"Kies \'n program"
-                </string>
-                <string
-                    name="abc_action_bar_up_description"
-                    msgid="1594238315039666878" >"Navigeer op"
-                </string>
-                <string
-                    name="abc_action_bar_home_description_format"
-                    msgid="1397052879051804371" >"%1$s, %2$s"
-                </string>
-                <string
                     name="abc_action_bar_home_description"
                     msgid="4600421777120114993" >"Navigeer tuis"
+                </string>
+                <string
+                    name="abc_shareactionprovider_share_with"
+                    msgid="3421042268587513524" >"Deel met"
                 </string>
                 <string
                     name="abc_searchview_description_query"
@@ -19442,8 +19430,20 @@ true
                     msgid="8928215447528550784" >"Dien navraag in"
                 </string>
                 <string
+                    name="abc_activitychooserview_choose_application"
+                    msgid="2031811694353399454" >"Kies \'n program"
+                </string>
+                <string
                     name="abc_action_menu_overflow_description"
                     msgid="3588849162933574182" >"Nog opsies"
+                </string>
+                <string
+                    name="abc_action_bar_up_description"
+                    msgid="1594238315039666878" >"Navigeer op"
+                </string>
+                <string
+                    name="abc_action_bar_home_description_format"
+                    msgid="1397052879051804371" >"%1$s, %2$s"
                 </string>
             </file>
             <file
@@ -20486,28 +20486,32 @@ true
                     msgid="2550479030709304392" >"Hakulauseke"
                 </string>
                 <string
-                    name="abc_activity_chooser_view_see_all"
-                    msgid="7468859129482906941" >"Näytä kaikki"
-                </string>
-                <string
                     name="abc_shareactionprovider_share_with_application"
                     msgid="7165123711973476752" >"Jakaminen: %s"
-                </string>
-                <string
-                    name="abc_action_bar_up_description"
-                    msgid="1594238315039666878" >"Siirry ylös"
                 </string>
                 <string
                     name="abc_shareactionprovider_share_with"
                     msgid="3421042268587513524" >"Jakaminen:"
                 </string>
                 <string
-                    name="abc_searchview_description_voice"
-                    msgid="893419373245838918" >"Puhehaku"
-                </string>
-                <string
                     name="abc_searchview_description_search"
                     msgid="8264924765203268293" >"Haku"
+                </string>
+                <string
+                    name="abc_activitychooserview_choose_application"
+                    msgid="2031811694353399454" >"Valitse sovellus"
+                </string>
+                <string
+                    name="abc_activity_chooser_view_see_all"
+                    msgid="7468859129482906941" >"Näytä kaikki"
+                </string>
+                <string
+                    name="abc_action_bar_up_description"
+                    msgid="1594238315039666878" >"Siirry ylös"
+                </string>
+                <string
+                    name="abc_searchview_description_voice"
+                    msgid="893419373245838918" >"Puhehaku"
                 </string>
                 <string
                     name="abc_action_bar_home_description"
@@ -20528,10 +20532,6 @@ true
                 <string
                     name="abc_searchview_description_clear"
                     msgid="3691816814315814921" >"Tyhjennä kysely"
-                </string>
-                <string
-                    name="abc_activitychooserview_choose_application"
-                    msgid="2031811694353399454" >"Valitse sovellus"
                 </string>
             </file>
             <file
@@ -21322,18 +21322,6 @@ true
                     msgid="2550479030709304392" >"ძიების მოთხოვნა"
                 </string>
                 <string
-                    name="abc_action_bar_up_description"
-                    msgid="1594238315039666878" >"ზემოთ ნავიგაცია"
-                </string>
-                <string
-                    name="abc_activitychooserview_choose_application"
-                    msgid="2031811694353399454" >"აპის არჩევა"
-                </string>
-                <string
-                    name="abc_activity_chooser_view_see_all"
-                    msgid="7468859129482906941" >"ყველას ნახვა"
-                </string>
-                <string
                     name="abc_shareactionprovider_share_with"
                     msgid="3421042268587513524" >"გაზიარება:"
                 </string>
@@ -21352,6 +21340,18 @@ true
                 <string
                     name="abc_searchview_description_search"
                     msgid="8264924765203268293" >"ძიება"
+                </string>
+                <string
+                    name="abc_action_bar_up_description"
+                    msgid="1594238315039666878" >"ზემოთ ნავიგაცია"
+                </string>
+                <string
+                    name="abc_activitychooserview_choose_application"
+                    msgid="2031811694353399454" >"აპის არჩევა"
+                </string>
+                <string
+                    name="abc_activity_chooser_view_see_all"
+                    msgid="7468859129482906941" >"ყველას ნახვა"
                 </string>
                 <string
                     name="abc_searchview_description_submit"
@@ -21768,24 +21768,12 @@ true
                     msgid="4600421777120114993" >"ກັບໄປໜ້າຫຼັກ"
                 </string>
                 <string
-                    name="abc_action_bar_home_subtitle_description_format"
-                    msgid="6623331958280229229" >"%1$s, %2$s, %3$s"
-                </string>
-                <string
                     name="abc_searchview_description_voice"
                     msgid="893419373245838918" >"ຊອກຫາດ້ວຍສຽງ"
                 </string>
                 <string
                     name="abc_searchview_description_search"
                     msgid="8264924765203268293" >"ຊອກຫາ"
-                </string>
-                <string
-                    name="abc_shareactionprovider_share_with"
-                    msgid="3421042268587513524" >"ແບ່ງປັນກັບ"
-                </string>
-                <string
-                    name="abc_searchview_description_clear"
-                    msgid="3691816814315814921" >"ລຶບຂໍ້ຄວາມຊອກຫາ"
                 </string>
                 <string
                     name="abc_searchview_description_query"
@@ -21798,6 +21786,22 @@ true
                 <string
                     name="abc_action_mode_done"
                     msgid="4076576682505996667" >"ແລ້ວໆ"
+                </string>
+                <string
+                    name="abc_action_menu_overflow_description"
+                    msgid="3588849162933574182" >"ໂຕເລືອກອື່ນ"
+                </string>
+                <string
+                    name="abc_action_bar_home_subtitle_description_format"
+                    msgid="6623331958280229229" >"%1$s, %2$s, %3$s"
+                </string>
+                <string
+                    name="abc_shareactionprovider_share_with"
+                    msgid="3421042268587513524" >"ແບ່ງປັນກັບ"
+                </string>
+                <string
+                    name="abc_searchview_description_clear"
+                    msgid="3691816814315814921" >"ລຶບຂໍ້ຄວາມຊອກຫາ"
                 </string>
                 <string
                     name="abc_activity_chooser_view_see_all"
@@ -21814,10 +21818,6 @@ true
                 <string
                     name="abc_action_bar_up_description"
                     msgid="1594238315039666878" >"ຂຶ້ນເທິງ"
-                </string>
-                <string
-                    name="abc_action_menu_overflow_description"
-                    msgid="3588849162933574182" >"ໂຕເລືອກອື່ນ"
                 </string>
                 <string
                     name="abc_action_bar_home_description_format"
@@ -21896,32 +21896,12 @@ true
                     msgid="3588849162933574182" >"Vairāk opciju"
                 </string>
                 <string
-                    name="abc_activity_chooser_view_see_all"
-                    msgid="7468859129482906941" >"Skatīt visu"
-                </string>
-                <string
-                    name="abc_activitychooserview_choose_application"
-                    msgid="2031811694353399454" >"Izvēlieties lietotni"
-                </string>
-                <string
                     name="abc_shareactionprovider_share_with_application"
                     msgid="7165123711973476752" >"Kopīgot ar %s"
                 </string>
                 <string
-                    name="abc_searchview_description_voice"
-                    msgid="893419373245838918" >"Meklēšana ar balsi"
-                </string>
-                <string
                     name="abc_action_bar_home_subtitle_description_format"
                     msgid="6623331958280229229" >"%1$s, %2$s: %3$s"
-                </string>
-                <string
-                    name="abc_shareactionprovider_share_with"
-                    msgid="3421042268587513524" >"Kopīgot ar:"
-                </string>
-                <string
-                    name="abc_searchview_description_submit"
-                    msgid="8928215447528550784" >"Iesniegt vaicājumu"
                 </string>
                 <string
                     name="abc_action_bar_home_description_format"
@@ -21930,6 +21910,26 @@ true
                 <string
                     name="abc_action_mode_done"
                     msgid="4076576682505996667" >"Gatavs"
+                </string>
+                <string
+                    name="abc_activity_chooser_view_see_all"
+                    msgid="7468859129482906941" >"Skatīt visu"
+                </string>
+                <string
+                    name="abc_activitychooserview_choose_application"
+                    msgid="2031811694353399454" >"Izvēlieties lietotni"
+                </string>
+                <string
+                    name="abc_searchview_description_voice"
+                    msgid="893419373245838918" >"Meklēšana ar balsi"
+                </string>
+                <string
+                    name="abc_shareactionprovider_share_with"
+                    msgid="3421042268587513524" >"Kopīgot ar:"
+                </string>
+                <string
+                    name="abc_searchview_description_submit"
+                    msgid="8928215447528550784" >"Iesniegt vaicājumu"
                 </string>
                 <string
                     name="abc_action_bar_home_description"
@@ -22116,16 +22116,16 @@ true
                     msgid="7165123711973476752" >"%s-тай хуваалцах"
                 </string>
                 <string
+                    name="abc_action_bar_home_description"
+                    msgid="4600421777120114993" >"Нүүр хуудас руу шилжих"
+                </string>
+                <string
                     name="abc_action_bar_home_description_format"
                     msgid="1397052879051804371" >"%1$s, %2$s"
                 </string>
                 <string
                     name="abc_activity_chooser_view_see_all"
                     msgid="7468859129482906941" >"Бүгдийг харах"
-                </string>
-                <string
-                    name="abc_action_bar_home_description"
-                    msgid="4600421777120114993" >"Нүүр хуудас руу шилжих"
                 </string>
                 <string
                     name="abc_searchview_description_submit"
@@ -22607,6 +22607,14 @@ false
                     msgid="3588849162933574182" >"Mais opções"
                 </string>
                 <string
+                    name="abc_action_bar_home_subtitle_description_format"
+                    msgid="6623331958280229229" >"%1$s, %2$s, %3$s"
+                </string>
+                <string
+                    name="abc_searchview_description_search"
+                    msgid="8264924765203268293" >"Pesquisar"
+                </string>
+                <string
                     name="abc_searchview_description_voice"
                     msgid="893419373245838918" >"Pesquisa por voz"
                 </string>
@@ -22621,10 +22629,6 @@ false
                 <string
                     name="abc_searchview_description_submit"
                     msgid="8928215447528550784" >"Enviar consulta"
-                </string>
-                <string
-                    name="abc_action_bar_home_subtitle_description_format"
-                    msgid="6623331958280229229" >"%1$s, %2$s, %3$s"
                 </string>
                 <string
                     name="abc_searchview_description_query"
@@ -22645,10 +22649,6 @@ false
                 <string
                     name="abc_action_bar_up_description"
                     msgid="1594238315039666878" >"Navegar para cima"
-                </string>
-                <string
-                    name="abc_searchview_description_search"
-                    msgid="8264924765203268293" >"Pesquisar"
                 </string>
                 <string
                     name="abc_action_mode_done"
@@ -23550,16 +23550,16 @@ false
                     msgid="4076576682505996667" >"Tamamlandı"
                 </string>
                 <string
+                    name="abc_action_bar_up_description"
+                    msgid="1594238315039666878" >"Yukarı git"
+                </string>
+                <string
                     name="abc_searchview_description_clear"
                     msgid="3691816814315814921" >"Sorguyu temizle"
                 </string>
                 <string
                     name="abc_searchview_description_search"
                     msgid="8264924765203268293" >"Ara"
-                </string>
-                <string
-                    name="abc_action_bar_up_description"
-                    msgid="1594238315039666878" >"Yukarı git"
                 </string>
                 <string
                     name="abc_searchview_description_voice"
@@ -26533,11 +26533,6 @@ false
                 name="ic_launcher"
                 path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-xxhdpi/ic_launcher.png"
                 qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_launcher"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-xxxhdpi/ic_launcher.png"
-                qualifiers="xxxhdpi-v4"
                 type="drawable" />
             <file
                 name="activity_about"
