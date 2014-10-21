@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.laquysoft.appydays;
+package com.laquysoft.droidconuk;
 
 import android.app.DownloadManager;
 import android.content.BroadcastReceiver;
@@ -24,10 +24,7 @@ import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.content.res.Resources;
-import android.graphics.drawable.Drawable;
 import android.net.Uri;
-import android.os.Environment;
-import android.os.FileObserver;
 import android.os.ParcelFileDescriptor;
 import android.os.SystemClock;
 import android.provider.Settings;
@@ -39,19 +36,12 @@ import android.widget.ImageView;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import java.io.BufferedInputStream;
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Random;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipInputStream;
 
 public class Hunt {
 

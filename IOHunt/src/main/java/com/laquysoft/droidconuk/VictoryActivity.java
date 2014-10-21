@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.laquysoft.appydays;
+package com.laquysoft.droidconuk;
 
 import com.google.android.gms.games.Games;
 import com.google.android.gms.plus.PlusShare;
@@ -95,7 +95,7 @@ public class VictoryActivity extends BaseActivity implements OnClickListener {
 
             // Set call-to-action metadata.
             builder.addCallToAction("FIND", /** call-to-action button label */
-            Uri.parse("http://rome.codemotionworld.com/2014/"), /**
+            Uri.parse("http://uk.droidcon.com/2014/"), /**
              * call-to-action url
              * (for desktop use)
              */
@@ -106,13 +106,13 @@ public class VictoryActivity extends BaseActivity implements OnClickListener {
             );
 
             // Set the content url (for desktop use).
-            builder.setContentUrl(Uri.parse("http://www.appydays.com"));
+            builder.setContentUrl(Uri.parse("http://uk.droidcon.com/2014/"));
 
             // Set the target deep-link ID (for mobile use).
-            builder.setContentDeepLinkId("http://www.appydays.com", null, null, null);
+            builder.setContentDeepLinkId("http://uk.droidcon.com/2014/", null, null, null);
 
             // Set the share text.
-            builder.setText("I  the AppyDays Treasure Hunt #appydays!");
+            builder.setText("I win the Droicon UK Treasure Hunt #droidconuk!");
 //                builder.setContentUrl(uri)
 
             startActivityForResult(builder.getIntent(), 0);

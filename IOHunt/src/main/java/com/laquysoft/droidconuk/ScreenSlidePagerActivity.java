@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.laquysoft.appydays;
+package com.laquysoft.droidconuk;
 
 import android.app.Activity;
 import android.content.Intent;

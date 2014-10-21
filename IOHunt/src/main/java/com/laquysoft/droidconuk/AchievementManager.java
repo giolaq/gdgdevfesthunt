@@ -1,4 +1,4 @@
-package com.laquysoft.appydays;
+package com.laquysoft.droidconuk;
 
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.games.Games;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.laquysoft.appydays;
+package com.laquysoft.droidconuk;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

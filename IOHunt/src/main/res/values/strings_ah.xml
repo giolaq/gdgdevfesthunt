@@ -20,14 +20,14 @@
     <string name="one">1</string>
     <string name="two">2</string>
     <string name="three">3</string>
-    <string name="app_name">AppyDays Hunt</string>
+    <string name="app_name">Droidcon Hunt</string>
     <string name="edit_message">type something here</string>
     <string name="button_send">Send</string>
     <string name="default_background">""</string>
     <string name="default_button_color">"#80c465"</string>
     <string name="default_text_color">"#00181c"</string>
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_clue_message">AppyDays Hunt</string>
+    <string name="title_activity_clue_message">Droidcon Hunt</string>
     <string name="preference_file_key">com.google.wolff.PREFERENCE_FILE_KEY</string>
     <string name="continue1">Continue</string>
     <string name="debug">Debug</string>
@@ -39,8 +39,8 @@
     <string name="next">NEXT</string>
     <string name="menu_settings"></string>
     <string name="menu_achievements">Achievements</string>
-    <string name="story_0">Welcome to\nAppyDays Hunt, the NFC/QR game at\nTodi AppyDays 2014!</string>
-    <string name="story_1"><b>Bugdroid</b> goes to AppyDays, using his G-Map Nav!</string>
+    <string name="story_0">Welcome to\nDroidcon Hunt, the NFC/QR game at\nDroidcon UK 2014!</string>
+    <string name="story_1"><b>Bugdroid</b> goes to Droidcon, using his G-Map Nav!</string>
     <string name="story_2"><i><b>But he lost is phone and can\'t find it anymore</b></i> he needs your help to find it!</string>
     <string name="story_4">Follow the clues by scanning special NFC/QR tags, like this one!  You will find them all around the building.</string>
     <string name="story_5">There will be multiple tags at each location, so keep your eyes open!</string>
@@ -51,7 +51,7 @@
     <string name="nothing"></string>
     <string name="story_9">We use Google+ login to record your progress. By signing in, you will be able to get achievements and redeem prizes.\n\nYou may also find your progress displayed on the leaderboard.</string>
     <string name="clue_subheading">Clue %1$s of %2$s</string>
-    <string name="welcome">AppyDays Hunt is a game exclusively for Todi AppyDays 2014 attendees...\nOh, and there\'s a prize at the end.\n\nReady to play?</string>
+    <string name="welcome">Droidcon Hunt is a game exclusively for Droidcon UK 2014 attendees...\nOh, and there\'s a prize at the end.\n\nReady to play?</string>
     <string name="instructions">Instructions</string>
     <string name="subheading">Subheading</string>
     <string name="heading">Heading</string>
@@ -71,7 +71,7 @@
     <string name="about">About</string>
     <string name="reload">Reload</string>
     <string name="share_on_google"><u>Share on Google+</u></string>
-    <string name="google_i_o_hunt_nby_the_android_and_social_google_developer_relations_teams">Todi AppyDays 2014 Hunt\nby Giovanni Laquidara and \nthe Google Developer Group Roma Lazio Abruzzo team</string>
+    <string name="google_i_o_hunt_nby_the_android_and_social_google_developer_relations_teams">Droidcon UK 2014 Hunt\nby Giovanni Laquidara and \nthe Google Developer Group Roma Lazio Abruzzo team</string>
     <string name="warned_you">There must be something about this tag that could have warned you...</string>
     <string name="oh_no_it_s_a_decoy">OH NO! IT\'S A DECOY!</string>
 

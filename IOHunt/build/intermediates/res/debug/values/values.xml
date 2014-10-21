@@ -1487,7 +1487,7 @@
     <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/strings_ah.xml -->
     <eat-comment />
 
-    <string name="app_name">AppyDays Hunt</string>
+    <string name="app_name">Droidcon Hunt</string>
     <string name="back">BACK</string>
     <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/licenses.xml -->
     <eat-comment />
@@ -1590,7 +1590,7 @@
     <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/strings_ah.xml -->
     <eat-comment />
 
-    <string name="google_i_o_hunt_nby_the_android_and_social_google_developer_relations_teams">Todi AppyDays 2014 Hunt\nby Giovanni Laquidara and \nthe Google Developer Group Roma Lazio Abruzzo team</string>
+    <string name="google_i_o_hunt_nby_the_android_and_social_google_developer_relations_teams">Droidcon UK 2014 Hunt\nby Giovanni Laquidara and \nthe Google Developer Group Roma Lazio Abruzzo team</string>
     <string name="heading">Heading</string>
     <string name="hello_world">Hello world!</string>
     <string name="instruction_text_here">Instruction text here.</string>
@@ -1664,8 +1664,8 @@ Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
     <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/values/strings_ah.xml -->
     <eat-comment />
 
-    <string name="story_0">Welcome to\nAppyDays Hunt, the NFC/QR game at\nTodi AppyDays 2014!</string>
-    <string name="story_1"><b>Bugdroid</b> goes to AppyDays, using his G-Map Nav!</string>
+    <string name="story_0">Welcome to\nDroidcon Hunt, the NFC/QR game at\nDroidcon UK 2014!</string>
+    <string name="story_1"><b>Bugdroid</b> goes to Droidcon, using his G-Map Nav!</string>
     <string name="story_2"><i><b>But he lost is phone and can\'t find it anymore</b></i> he needs your help to find it!</string>
     <string name="story_4">Follow the clues by scanning special NFC/QR tags, like this one!  You will find them all around the building.</string>
     <string name="story_5">There will be multiple tags at each location, so keep your eyes open!</string>
@@ -1678,7 +1678,7 @@ Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
     <string name="terms_of_service">Terms of Service</string>
     <string name="three">3</string>
     <string name="time_left">Time left</string>
-    <string name="title_activity_clue_message">AppyDays Hunt</string>
+    <string name="title_activity_clue_message">Droidcon Hunt</string>
     <string name="tracking_id">UA-44734263-1</string>
     <string name="two">2</string>
     <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.11/res/values/wallet_strings.xml -->
@@ -1689,7 +1689,7 @@ Copyright 2009 - 2013 Google, Inc. All rights reserved.</string>
     <eat-comment />
 
     <string name="warned_you">There must be something about this tag that could have warned you...</string>
-    <string name="welcome">AppyDays Hunt is a game exclusively for Todi AppyDays 2014 attendees...\nOh, and there\'s a prize at the end.\n\nReady to play?</string>
+    <string name="welcome">Droidcon Hunt is a game exclusively for Droidcon UK 2014 attendees...\nOh, and there\'s a prize at the end.\n\nReady to play?</string>
     <string name="youwin">You win!</string>
     <!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/2.0.0/res/values/values.xml -->
     <eat-comment />

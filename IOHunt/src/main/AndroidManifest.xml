@@ -16,7 +16,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.laquysoft.appydays"
+    package="com.laquysoft.droidconuk"
     android:versionCode="9"
     android:versionName="4" >
 
@@ -45,7 +45,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name="com.laquysoft.appydays.ClueActivity"
+            android:name="com.laquysoft.droidconuk.ClueActivity"
             android:keepScreenOn="true"
             android:label="@string/title_activity_clue_message"
             android:launchMode="singleTask"
@@ -54,7 +54,7 @@
 
         </activity>
         <activity
-            android:name="com.laquysoft.appydays.NavActivity"
+            android:name="com.laquysoft.droidconuk.NavActivity"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -63,42 +63,42 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.laquysoft.appydays.TagsActivity"
+            android:name="com.laquysoft.droidconuk.TagsActivity"
             android:screenOrientation="portrait">
 
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value="com.laquysoft.appydays.NavActivity"/>
+            android:value="com.laquysoft.droidconuk.NavActivity"/>
      </activity>
         <activity
-            android:name="com.laquysoft.appydays.DecoyActivity"
+            android:name="com.laquysoft.droidconuk.DecoyActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.appydays.ScreenSlidePagerActivity"
+            android:name="com.laquysoft.droidconuk.ScreenSlidePagerActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.appydays.ReauthActivity"
+            android:name="com.laquysoft.droidconuk.ReauthActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.appydays.ZoomActivity"
+            android:name="com.laquysoft.droidconuk.ZoomActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.appydays.AboutActivity"
+            android:name="com.laquysoft.droidconuk.AboutActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.appydays.VictoryActivity"
+            android:name="com.laquysoft.droidconuk.VictoryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.appydays.TriviaExplainerActivity"
+            android:name="com.laquysoft.droidconuk.TriviaExplainerActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.appydays.TriviaQuestionActivity"
+            android:name="com.laquysoft.droidconuk.TriviaQuestionActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.appydays.NFCShimActivity"
+            android:name="com.laquysoft.droidconuk.NFCShimActivity"
             android:theme="@android:style/Theme.NoDisplay" >
             <intent-filter>
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
@@ -123,10 +123,10 @@
         </activity>
 
         <service
-            android:name="com.laquysoft.appydays.ScoreService"
+            android:name="com.laquysoft.droidconuk.ScoreService"
             android:enabled="true" />
         <service
-            android:name="com.laquysoft.appydays.AchievementService"
+            android:name="com.laquysoft.droidconuk.AchievementService"
             android:enabled="true" />
     </application>
 

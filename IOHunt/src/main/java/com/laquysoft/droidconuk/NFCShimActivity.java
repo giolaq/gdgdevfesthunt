@@ -1,4 +1,4 @@
-package com.laquysoft.appydays;
+package com.laquysoft.droidconuk;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
