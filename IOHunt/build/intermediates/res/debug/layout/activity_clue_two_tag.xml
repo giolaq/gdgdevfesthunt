@@ -33,6 +33,9 @@
         android:layout_height="match_parent"
         android:layout_below="@id/toolbar"
         card_view:cardCornerRadius="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
         android:paddingBottom="60dp"
         android:layout_above="@+id/instructionsHeading">
 
@@ -76,13 +79,15 @@
         fab:fab_colorPressed="@android:color/holo_green_light"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"/>
 
     <LinearLayout
         android:id="@+id/clueStatus"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:padding="8dp"
+        android:padding="16dp"
         android:layout_above="@+id/btnScan"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
@@ -137,8 +142,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:paddingLeft="8dp"
-        android:paddingRight="8dp"
+        android:paddingLeft="16dp"
         android:text="@string/instruction_text_here"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:typeface="sans"
@@ -153,6 +157,7 @@
         android:layout_height="wrap_content"
         android:text="@string/instructions"
         android:layout_above="@+id/displayText"
+        android:layout_marginLeft="16dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 </RelativeLayout><!-- From: file:/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/layout/activity_clue_two_tag.xml -->
