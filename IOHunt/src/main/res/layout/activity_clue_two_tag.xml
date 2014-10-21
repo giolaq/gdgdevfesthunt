@@ -26,47 +26,120 @@
         android:id="@+id/toolbar"
         layout="@layout/toolbar"/>
 
-    <android.support.v7.widget.CardView
-        xmlns:card_view="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/imageCard"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/toolbar"
-        card_view:cardCornerRadius="4dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-
-        android:paddingBottom="60dp"
-        android:layout_above="@+id/instructionsHeading">
 
         <ImageView
             android:id="@+id/imageView1"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:scaleType="centerInside"
-            android:src="@drawable/dog" />
+            android:scaleType="fitStart"
+            android:background="@drawable/imageback"
+            android:src="@drawable/dog"
+            android:layout_below="@+id/toolbar"
+            android:layout_above="@+id/instructionsHeading" />
 
         <TextView
             android:id="@+id/heading"
             style="@style/Heading"
-            android:background="@color/card_text_background"
             android:textColor="@color/highlight_text_color"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:text="@string/heading"
+            android:layout_below="@+id/toolbar"
             android:layout_alignParentLeft="true"
-            android:layout_marginBottom="5dp"
-            android:text="@string/heading" />
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/instructionsHeading"
+            android:textSize="23sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions"
+            android:layout_marginLeft="16dp"
+            android:layout_above="@+id/displayText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
 
         <ProgressBar
             android:id="@+id/clue_progress"
             style="?android:attr/progressBarStyleLarge"
             android:layout_width="match_parent"
             android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
             android:layout_alignParentLeft="true"
-            android:layout_gravity="center" />
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/displayText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/instruction_text_here"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:typeface="sans"
+            android:layout_above="@+id/clueStatus"
+            android:layout_marginLeft="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            android:id="@+id/clueStatus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:id="@+id/tag_container_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/tag_1_notfound_marker"
+                    style="@style/TagMarker"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:text="@string/one" />
+
+                <ImageView
+                    android:id="@+id/tag_1_found_marker"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/red_circle"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tag_container_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/tag_2_notfound_marker"
+                    style="@style/TagMarker"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:text="@string/two" />
+
+                <ImageView
+                    android:id="@+id/tag_2_found_marker"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/green_circle"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
 
 
-    </android.support.v7.widget.CardView>
+
 
     <com.melnykov.fab.FloatingActionButton
         xmlns:fab="http://schemas.android.com/apk/res-auto"
@@ -75,89 +148,16 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:src="@drawable/ic_glaquidara"
-        fab:fab_colorNormal="@android:color/holo_green_dark"
-        fab:fab_colorPressed="@android:color/holo_green_light"
-        android:layout_alignParentBottom="true"
+        fab:fab_colorNormal="@android:color/holo_red_dark"
+        fab:fab_colorPressed="@android:color/holo_red_light"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="-34dp"
+        android:layout_alignBottom="@+id/imageView1"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="16dp"
-        android:layout_marginRight="16dp"/>
+        android:layout_alignParentEnd="true" />
 
-    <LinearLayout
-        android:id="@+id/clueStatus"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:layout_above="@+id/btnScan"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
 
-        <LinearLayout
-            android:id="@+id/tag_container_1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center" >
 
-            <TextView
-                android:id="@+id/tag_1_notfound_marker"
-                style="@style/TagMarker"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:text="@string/one" />
 
-            <ImageView
-                android:id="@+id/tag_1_found_marker"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:src="@drawable/red_circle"
-                android:visibility="gone" />
-        </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/tag_container_2"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center" >
-
-            <TextView
-                android:id="@+id/tag_2_notfound_marker"
-                style="@style/TagMarker"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:text="@string/two" />
-
-            <ImageView
-                android:id="@+id/tag_2_found_marker"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:src="@drawable/green_circle"
-                android:visibility="gone" />
-        </LinearLayout>
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/displayText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:paddingLeft="16dp"
-        android:text="@string/instruction_text_here"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:typeface="sans"
-        android:layout_above="@+id/clueStatus"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:id="@+id/instructionsHeading"
-        android:textSize="23sp"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/instructions"
-        android:layout_above="@+id/displayText"
-        android:layout_marginLeft="16dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
 </RelativeLayout>
