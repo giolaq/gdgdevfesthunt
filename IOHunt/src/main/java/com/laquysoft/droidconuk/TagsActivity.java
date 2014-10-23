@@ -16,13 +16,15 @@
 
 package com.laquysoft.droidconuk;
 
-import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
 
 /**
  * This shows the debugging information.
@@ -32,11 +34,14 @@ import android.widget.ListView;
 public class TagsActivity extends BaseActivity {
 
 
+    private RecyclerView mRecyclerView;
+    private RecyclerView.Adapter mAdapter;
+    private RecyclerView.LayoutManager mLayoutManager;
+
     public TagsActivity() {
         super(CLIENT_PLUS);
     }
 
-    @SuppressLint("NewApi")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,6 +50,13 @@ public class TagsActivity extends BaseActivity {
         // if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
         //    getActionBar().setDisplayHomeAsUpEnabled(true);
         // }
+        mRecyclerView = (RecyclerView) findViewById(R.id.tagsList);
+        mRecyclerView.setHasFixedSize(true);
+
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+       // mAdapter = new TagsAdapter();
+       // recyclerView.setAdapter(mAdapter);
 
 
     }
@@ -55,11 +67,14 @@ public class TagsActivity extends BaseActivity {
         super.onResume();
         Hunt hunt = Hunt.getHunt(getResources(), getApplicationContext());
 
-        ListView lv = (ListView) findViewById(R.id.tagsList);
-        ArrayAdapter<AHTag> adapter = new TagListAdapter(
-                getApplicationContext(), hunt);
+       // ListView lv = (ListView) findViewById(R.id.tagsList);
+       // ArrayAdapter<AHTag> adapter = new TagListAdapter(
+       //         getApplicationContext(), hunt);
 
-        lv.setAdapter(adapter);
+       // lv.setAdapter(adapter);
+
+        mAdapter = new TagsAdapter(this,hunt);
+        mRecyclerView.setAdapter(mAdapter);
     }
 
 

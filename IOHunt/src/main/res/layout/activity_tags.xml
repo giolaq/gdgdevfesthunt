@@ -20,23 +20,33 @@
     android:layout_height="match_parent"
     tools:context=".TagsActivity" >
 
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/tagsList"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+         />
+
+
+    <com.melnykov.fab.FloatingActionButton
+        xmlns:fab="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/reset_this"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tagsList"
+        android:layout_alignRight="@id/tagsList"
+        android:src="@drawable/ic_delete_white_48dp"
+        fab:fab_colorNormal="@android:color/holo_red_dark"
+        fab:fab_colorPressed="@android:color/holo_red_light"
+        android:layout_margin="16dp"
+        android:onClick="onResetClicked"        />
+
     <include
         android:id="@+id/toolbar"
         layout="@layout/toolbar"
         />
 
-    <Button
-        android:id="@+id/reset_this"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="onResetClicked"
-        android:layout_below="@+id/toolbar"
-        android:text="@string/reset_this" />
-
-    <ListView
-        android:id="@+id/tagsList"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/reset_this" />
 
 </RelativeLayout>
