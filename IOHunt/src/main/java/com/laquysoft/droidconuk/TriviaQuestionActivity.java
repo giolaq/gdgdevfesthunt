@@ -23,6 +23,7 @@ import android.content.DialogInterface;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.ContextThemeWrapper;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
@@ -52,7 +53,7 @@ OnTouchListener {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		setContentView(R.layout.activity_trivia_question);
+		//setContentView(R.layout.activity_trivia_question);
 		Hunt hunt = Hunt.getHunt(getResources(), getApplicationContext());
 
 		ID_LEADERBOARD = getResources().getString(R.string.leaderboard_id);
@@ -147,7 +148,9 @@ OnTouchListener {
 			}
 		};
 
-		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        ContextThemeWrapper ctw = new ContextThemeWrapper( this, R.style.AppTheme );
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
 		boolean isUnderPar = hunt.getSecondsLeft() > 0;
 
@@ -220,5 +223,12 @@ OnTouchListener {
 			h.postDelayed(ticker, 200);
 		}
 	}
+
+    @Override
+    protected int getLayoutResource() {
+       return R.layout.activity_trivia_question;
+    }
+
+
 
 }

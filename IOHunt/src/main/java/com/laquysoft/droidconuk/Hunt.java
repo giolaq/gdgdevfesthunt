@@ -503,7 +503,7 @@ public class Hunt {
 
     public void reloadFromRemote(Context context) {
         downloadManager = (DownloadManager) context.getSystemService(Context.DOWNLOAD_SERVICE);
-        Uri Download_Uri = Uri.parse("http://162.248.167.159:8080/tgz/hunt.zip");
+        Uri Download_Uri = Uri.parse("http://162.248.167.159:8080/zip/hunt.zip");
         DownloadManager.Request request = new DownloadManager.Request(Download_Uri);
 
         request.setAllowedNetworkTypes(
