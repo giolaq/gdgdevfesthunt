@@ -26,7 +26,6 @@
             <solid android:color="@color/colorPrimary" />
         </shape>
     </item>
-    <item android:drawable="@drawable/ic_glaquidara"/>
     <item android:drawable="@drawable/ic_glaquidara"
           android:top="16dp"
           android:bottom="16dp"

@@ -1204,11 +1204,11 @@ OFF
                 </string>
                 <string name="zxinglegacy_contents_email" >כתובת דואר אלקטרוני
                 </string>
+                <string name="zxinglegacy_button_ok" >אישור
+                </string>
                 <string name="zxinglegacy_msg_default_type" >סוג
                 </string>
                 <string name="zxinglegacy_menu_share" >שתף
-                </string>
-                <string name="zxinglegacy_button_ok" >אישור
                 </string>
                 <string name="zxinglegacy_contents_sms" >כתובת SMS
                 </string>
@@ -1754,11 +1754,11 @@ OFF
                 </string>
                 <string name="zxinglegacy_contents_location" >地理坐标
                 </string>
+                <string name="zxinglegacy_contents_sms" >短信地址
+                </string>
                 <string name="zxinglegacy_msg_default_status" >请将条码置于取景框内扫描。  
                 </string>
                 <string name="zxinglegacy_msg_camera_framework_bug" >抱歉，Android相机出现问题。您可能需要重启设备。
-                </string>
-                <string name="zxinglegacy_contents_sms" >短信地址
                 </string>
                 <string name="zxinglegacy_menu_encode_mecard" >使用MECARD
                 </string>
@@ -2174,11 +2174,11 @@ OFF
                 </string>
                 <string name="zxing_msg_encode_contents_failed" >تعذر ترميز رمز شريطي من البيانات المتوفرة.
                 </string>
+                <string name="zxing_contents_phone" >رقم الهاتف
+                </string>
                 <string name="zxing_msg_default_time" >الوقت
                 </string>
                 <string name="zxing_contents_contact" >معلومات جهة اتصال
-                </string>
-                <string name="zxing_contents_phone" >رقم الهاتف
                 </string>
                 <string name="zxing_contents_location" >إحداثيات جغرافية
                 </string>
@@ -5620,16 +5620,16 @@ normal
                     </ns1:g>"
                 </string>
                 <string
+                    name="common_google_play_services_unsupported_text"
+                    msgid="3542578567569488671" >"Některé vaše aplikace vyžadují služby Google Play, které ve vašem zařízení nejsou podporovány. S žádostí o pomoc se prosím obraťte na výrobce."
+                </string>
+                <string
                     name="common_google_play_services_needs_enabling_title"
                     msgid="2583358409598976717" >"Aplikace vyžaduje aktivaci služeb Google Play."
                 </string>
                 <string
                     name="common_google_play_services_enable_button"
                     msgid="4181637455539816337" >"Aktivovat služby Google Play"
-                </string>
-                <string
-                    name="common_google_play_services_unsupported_text"
-                    msgid="3542578567569488671" >"Některé vaše aplikace vyžadují služby Google Play, které ve vašem zařízení nejsou podporovány. S žádostí o pomoc se prosím obraťte na výrobce."
                 </string>
                 <string
                     name="common_google_play_services_invalid_account_text"
@@ -6334,16 +6334,16 @@ normal
                     msgid="4181637455539816337" >"Habilitar servicios de Google Play"
                 </string>
                 <string
+                    name="common_google_play_services_unsupported_title"
+                    msgid="6334768798839376943" >"Servicios de Google Play"
+                </string>
+                <string
                     name="common_google_play_services_network_error_title"
                     msgid="3827284619958211114" >"Error de red"
                 </string>
                 <string
                     name="common_google_play_services_invalid_account_text"
                     msgid="4983316348021735578" >"La cuenta especificada no existe en este dispositivo. Selecciona otra cuenta."
-                </string>
-                <string
-                    name="common_google_play_services_unsupported_title"
-                    msgid="6334768798839376943" >"Servicios de Google Play"
                 </string>
                 <string
                     name="common_open_on_phone"
@@ -10335,10 +10335,6 @@ normal
                     msgid="4181637455539816337" >"गुगल बजाउने सेवाहरू सक्षम पार्नुहोस्"
                 </string>
                 <string
-                    name="common_open_on_phone"
-                    msgid="411506735369601515" >"फोनमा खोल्नुहोस्"
-                </string>
-                <string
                     name="common_google_play_services_network_error_title"
                     msgid="3827284619958211114" >"नेटवर्क त्रुटि"
                 </string>
@@ -10348,6 +10344,10 @@ normal
 <ns1:g id="APP_NAME" >
 %1$s
                     </ns1:g> द्वारा अनुरोध गरियो"
+                </string>
+                <string
+                    name="common_open_on_phone"
+                    msgid="411506735369601515" >"फोनमा खोल्नुहोस्"
                 </string>
                 <string
                     name="common_google_play_services_install_title"
@@ -11528,16 +11528,16 @@ normal
                     </ns1:g>"
                 </string>
                 <string
+                    name="common_google_play_services_update_text"
+                    msgid="448354684997260580" >"Ta aplikacija ne deluje, če ne posodobite storitev Google Play."
+                </string>
+                <string
                     name="common_google_play_services_update_button"
                     msgid="8932944190611227642" >"Posodobi"
                 </string>
                 <string
                     name="common_google_play_services_enable_text"
                     msgid="7627896071867667758" >"Aplikacija ne bo delovala, če ne omogočite storitev Google Play."
-                </string>
-                <string
-                    name="common_google_play_services_update_text"
-                    msgid="448354684997260580" >"Ta aplikacija ne deluje, če ne posodobite storitev Google Play."
                 </string>
                 <string
                     name="common_google_play_services_install_text_phone"
@@ -22120,16 +22120,16 @@ true
                     msgid="7165123711973476752" >"%s-тай хуваалцах"
                 </string>
                 <string
+                    name="abc_activity_chooser_view_see_all"
+                    msgid="7468859129482906941" >"Бүгдийг харах"
+                </string>
+                <string
                     name="abc_action_bar_home_description"
                     msgid="4600421777120114993" >"Нүүр хуудас руу шилжих"
                 </string>
                 <string
                     name="abc_action_bar_home_description_format"
                     msgid="1397052879051804371" >"%1$s, %2$s"
-                </string>
-                <string
-                    name="abc_activity_chooser_view_see_all"
-                    msgid="7468859129482906941" >"Бүгдийг харах"
                 </string>
                 <string
                     name="abc_searchview_description_submit"
@@ -23554,16 +23554,16 @@ false
                     msgid="4076576682505996667" >"Tamamlandı"
                 </string>
                 <string
+                    name="abc_searchview_description_search"
+                    msgid="8264924765203268293" >"Ara"
+                </string>
+                <string
                     name="abc_action_bar_up_description"
                     msgid="1594238315039666878" >"Yukarı git"
                 </string>
                 <string
                     name="abc_searchview_description_clear"
                     msgid="3691816814315814921" >"Sorguyu temizle"
-                </string>
-                <string
-                    name="abc_searchview_description_search"
-                    msgid="8264924765203268293" >"Ara"
                 </string>
                 <string
                     name="abc_searchview_description_voice"
@@ -26174,6 +26174,11 @@ false
                 qualifiers=""
                 type="drawable" />
             <file
+                name="minidroid"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable/minidroid.png"
+                qualifiers=""
+                type="drawable" />
+            <file
                 name="nonono0"
                 path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable/nonono0.png"
                 qualifiers=""
@@ -26214,6 +26219,11 @@ false
                 qualifiers=""
                 type="drawable" />
             <file
+                name="qr_circle"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable/qr_circle.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
                 name="red_circle"
                 path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable/red_circle.xml"
                 qualifiers=""
@@ -26237,6 +26247,21 @@ false
                 name="tab_indicator_ab_hunt"
                 path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable/tab_indicator_ab_hunt.xml"
                 qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_check_black_18dp"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-hdpi/ic_check_black_18dp.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_close_black_18dp"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-hdpi/ic_close_black_18dp.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_delete_white_48dp"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-hdpi/ic_delete_white_48dp.png"
+                qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_glaquidara"
@@ -26301,6 +26326,21 @@ false
             <file
                 name="grey_background_pattern_tile"
                 path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-mdpi/grey_background_pattern_tile.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_check_black_18dp"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-mdpi/ic_check_black_18dp.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_close_black_18dp"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-mdpi/ic_close_black_18dp.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_delete_white_48dp"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-mdpi/ic_delete_white_48dp.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
@@ -26434,6 +26474,21 @@ false
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
+                name="ic_check_black_18dp"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-xhdpi/ic_check_black_18dp.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_close_black_18dp"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-xhdpi/ic_close_black_18dp.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_delete_white_48dp"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-xhdpi/ic_delete_white_48dp.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
                 name="ic_glaquidara"
                 path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-xhdpi/ic_glaquidara.png"
                 qualifiers="xhdpi-v4"
@@ -26527,6 +26582,21 @@ false
                 name="tag_sample"
                 path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-xhdpi/tag_sample.png"
                 qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_check_black_18dp"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-xxhdpi/ic_check_black_18dp.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_close_black_18dp"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-xxhdpi/ic_close_black_18dp.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_delete_white_48dp"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-xxhdpi/ic_delete_white_48dp.png"
+                qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_glaquidara"
@@ -26636,6 +26706,11 @@ false
             <file
                 name="story_frag_3"
                 path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/layout/story_frag_3.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="tag_item"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/layout/tag_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
@@ -27098,73 +27173,13 @@ true
                 </style>
             </file>
             <file
-                name="tag_item"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/layout/tag_item.xml"
+                name="gopher"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable/gopher.png"
                 qualifiers=""
-                type="layout" />
-            <file
-                name="ic_delete_white_48dp"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-mdpi/ic_delete_white_48dp.png"
-                qualifiers="mdpi-v4"
                 type="drawable" />
             <file
-                name="ic_delete_white_48dp"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-xhdpi/ic_delete_white_48dp.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_delete_white_48dp"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-xxhdpi/ic_delete_white_48dp.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_delete_white_48dp"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-hdpi/ic_delete_white_48dp.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_check_black_18dp"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-xxhdpi/ic_check_black_18dp.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_check_black_18dp"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-hdpi/ic_check_black_18dp.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_close_black_18dp"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-xhdpi/ic_close_black_18dp.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_close_black_18dp"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-xxhdpi/ic_close_black_18dp.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_check_black_18dp"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-xhdpi/ic_check_black_18dp.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_close_black_18dp"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-hdpi/ic_close_black_18dp.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_close_black_18dp"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-mdpi/ic_close_black_18dp.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_check_black_18dp"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable-mdpi/ic_check_black_18dp.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="qr_circle"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable/qr_circle.xml"
+                name="qrcode"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable/qrcode.png"
                 qualifiers=""
                 type="drawable" />
         </source>

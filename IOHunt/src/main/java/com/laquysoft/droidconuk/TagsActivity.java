@@ -21,6 +21,7 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.Menu;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -77,9 +78,18 @@ public class TagsActivity extends BaseActivity {
         mRecyclerView.setAdapter(mAdapter);
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        boolean okmenu = super.onCreateOptionsMenu(menu);
+        menu.findItem(R.id.menu_reset).setVisible(false);
+        menu.findItem(R.id.menu_achievements).setVisible(false);
+        menu.findItem(R.id.menu_leaderboard).setVisible(false);
+        return okmenu;
+
+    }
 
 
-    // Buttons
+// Buttons
 
     public void onResetClicked(View view) {
         final Hunt hunt = Hunt.getHunt(getResources(), getApplicationContext());
