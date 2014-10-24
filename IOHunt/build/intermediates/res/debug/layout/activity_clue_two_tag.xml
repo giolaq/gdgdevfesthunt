@@ -116,7 +116,7 @@
                     android:id="@+id/tag_1_found_marker"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/white_circle"
+                    android:src="@drawable/red_circle"
                     android:visibility="gone" />
             </LinearLayout>
 
@@ -139,7 +139,7 @@
                     android:id="@+id/tag_2_found_marker"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/white_circle"
+                    android:src="@drawable/red_circle"
                     android:visibility="gone" />
             </LinearLayout>
         </LinearLayout>

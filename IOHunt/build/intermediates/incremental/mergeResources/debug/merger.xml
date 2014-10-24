@@ -1239,11 +1239,11 @@ OFF
                 </string>
                 <string name="zxinglegacy_contents_email" >כתובת דואר אלקטרוני
                 </string>
-                <string name="zxinglegacy_menu_share" >שתף
-                </string>
                 <string name="zxinglegacy_button_ok" >אישור
                 </string>
                 <string name="zxinglegacy_msg_default_type" >סוג
+                </string>
+                <string name="zxinglegacy_menu_share" >שתף
                 </string>
                 <string name="zxinglegacy_contents_sms" >כתובת SMS
                 </string>
@@ -1789,11 +1789,11 @@ OFF
                 </string>
                 <string name="zxinglegacy_contents_location" >地理坐标
                 </string>
-                <string name="zxinglegacy_msg_camera_framework_bug" >抱歉，Android相机出现问题。您可能需要重启设备。
-                </string>
                 <string name="zxinglegacy_contents_sms" >短信地址
                 </string>
                 <string name="zxinglegacy_msg_default_status" >请将条码置于取景框内扫描。  
+                </string>
+                <string name="zxinglegacy_msg_camera_framework_bug" >抱歉，Android相机出现问题。您可能需要重启设备。
                 </string>
                 <string name="zxinglegacy_menu_encode_mecard" >使用MECARD
                 </string>
@@ -2209,11 +2209,11 @@ OFF
                 </string>
                 <string name="zxing_msg_encode_contents_failed" >تعذر ترميز رمز شريطي من البيانات المتوفرة.
                 </string>
-                <string name="zxing_contents_contact" >معلومات جهة اتصال
-                </string>
                 <string name="zxing_contents_phone" >رقم الهاتف
                 </string>
                 <string name="zxing_msg_default_time" >الوقت
+                </string>
+                <string name="zxing_contents_contact" >معلومات جهة اتصال
                 </string>
                 <string name="zxing_contents_location" >إحداثيات جغرافية
                 </string>
@@ -5143,12 +5143,12 @@ normal
                 path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.11/res/values-be/common_strings.xml"
                 qualifiers="be" >
                 <string
-                    name="common_google_play_services_unsupported_text"
-                    msgid="3542578567569488671" >"Службы Google Play, да якiх прывязаны некаторыя прыкладаннi, не падтрымлiваюцца на вашай прыладзе. Па дапамогу звярнiцеся да вытворцы."
-                </string>
-                <string
                     name="common_google_play_services_unknown_issue"
                     msgid="4762332809710093730" >"Невядомая праблема са службамі Google Play."
+                </string>
+                <string
+                    name="common_google_play_services_unsupported_text"
+                    msgid="3542578567569488671" >"Службы Google Play, да якiх прывязаны некаторыя прыкладаннi, не падтрымлiваюцца на вашай прыладзе. Па дапамогу звярнiцеся да вытворцы."
                 </string>
                 <string
                     name="common_google_play_services_update_title"
@@ -5655,16 +5655,16 @@ normal
                     </ns1:g>"
                 </string>
                 <string
-                    name="common_google_play_services_enable_button"
-                    msgid="4181637455539816337" >"Aktivovat služby Google Play"
-                </string>
-                <string
                     name="common_google_play_services_unsupported_text"
                     msgid="3542578567569488671" >"Některé vaše aplikace vyžadují služby Google Play, které ve vašem zařízení nejsou podporovány. S žádostí o pomoc se prosím obraťte na výrobce."
                 </string>
                 <string
                     name="common_google_play_services_needs_enabling_title"
                     msgid="2583358409598976717" >"Aplikace vyžaduje aktivaci služeb Google Play."
+                </string>
+                <string
+                    name="common_google_play_services_enable_button"
+                    msgid="4181637455539816337" >"Aktivovat služby Google Play"
                 </string>
                 <string
                     name="common_google_play_services_invalid_account_text"
@@ -6369,16 +6369,16 @@ normal
                     msgid="4181637455539816337" >"Habilitar servicios de Google Play"
                 </string>
                 <string
-                    name="common_google_play_services_invalid_account_text"
-                    msgid="4983316348021735578" >"La cuenta especificada no existe en este dispositivo. Selecciona otra cuenta."
-                </string>
-                <string
                     name="common_google_play_services_unsupported_title"
                     msgid="6334768798839376943" >"Servicios de Google Play"
                 </string>
                 <string
                     name="common_google_play_services_network_error_title"
                     msgid="3827284619958211114" >"Error de red"
+                </string>
+                <string
+                    name="common_google_play_services_invalid_account_text"
+                    msgid="4983316348021735578" >"La cuenta especificada no existe en este dispositivo. Selecciona otra cuenta."
                 </string>
                 <string
                     name="common_open_on_phone"
@@ -6526,12 +6526,12 @@ normal
                     msgid="1066672360770936753" >"Vale konto"
                 </string>
                 <string
-                    name="common_android_wear_notification_needs_update_text"
-                    msgid="473679118463211576" >"Rakendus nõuab rakenduse Android Wear värskendamist."
-                </string>
-                <string
                     name="common_google_play_services_unsupported_text"
                     msgid="3542578567569488671" >"Teie seade ei toeta Google Play teenuseid, millele mõni teie rakendustest toetub. Abi saamiseks võtke ühendust tootjaga."
+                </string>
+                <string
+                    name="common_android_wear_notification_needs_update_text"
+                    msgid="473679118463211576" >"Rakendus nõuab rakenduse Android Wear värskendamist."
                 </string>
                 <string
                     name="common_google_play_services_network_error_text"
@@ -6542,12 +6542,12 @@ normal
                     msgid="6006316683626838685" >"Värskendage Google Play teenuseid"
                 </string>
                 <string
-                    name="common_google_play_services_install_text_phone"
-                    msgid="8685301130651051380" >"Selle rakenduse käitamiseks on vaja Google Play teenuseid, mida teie telefonis pole."
-                </string>
-                <string
                     name="common_google_play_services_enable_button"
                     msgid="4181637455539816337" >"Lubage Google Play teenused"
+                </string>
+                <string
+                    name="common_google_play_services_install_text_phone"
+                    msgid="8685301130651051380" >"Selle rakenduse käitamiseks on vaja Google Play teenuseid, mida teie telefonis pole."
                 </string>
                 <string
                     name="common_android_wear_update_text"
@@ -6621,12 +6621,12 @@ normal
                     </ns1:g>"
                 </string>
                 <string
-                    name="common_google_play_services_needs_enabling_title"
-                    msgid="2583358409598976717" >"Rakenduse kasutamiseks peavad olema lubatud Google Play teenused."
-                </string>
-                <string
                     name="common_android_wear_update_title"
                     msgid="1366439133145190222" >"Rakenduse Android Wear värskendamine"
+                </string>
+                <string
+                    name="common_google_play_services_needs_enabling_title"
+                    msgid="2583358409598976717" >"Rakenduse kasutamiseks peavad olema lubatud Google Play teenused."
                 </string>
                 <string
                     name="common_google_play_services_install_text_tablet"
@@ -9072,16 +9072,16 @@ normal
                     msgid="4762332809710093730" >"Google Play кызматтарында келип чыккан белгисиз көйгөй."
                 </string>
                 <string
-                    name="common_android_wear_update_text"
-                    msgid="3046420540094071256" >"Android Тагынма колдонмосу жаңыртылмайынча бул колдонмо иштебейт."
+                    name="common_open_on_phone"
+                    msgid="411506735369601515" >"Телефондо ачык"
                 </string>
                 <string
                     name="common_google_play_services_install_text_tablet"
                     msgid="1589957570365247855" >"Бул колдонмо Google Play кызматтарысыз иштебейт, алар сиздин планшетиңизде жок."
                 </string>
                 <string
-                    name="common_open_on_phone"
-                    msgid="411506735369601515" >"Телефондо ачык"
+                    name="common_android_wear_update_text"
+                    msgid="3046420540094071256" >"Android Тагынма колдонмосу жаңыртылмайынча бул колдонмо иштебейт."
                 </string>
                 <string
                     name="common_google_play_services_enable_text"
@@ -9092,12 +9092,12 @@ normal
                     msgid="2583358409598976717" >"Колдонмону иштетүү үчүн, Google Play Кызматтарын иштетүү керек."
                 </string>
                 <string
-                    name="common_google_play_services_notification_needs_installation_title"
-                    msgid="8120534356798772974" >"Колдонмону иштетүү үчүн, Google Play кызматтарын орнотуу керек."
-                </string>
-                <string
                     name="common_signin_button_text_long"
                     msgid="2429381841831957106" >"Google менен кирүү"
+                </string>
+                <string
+                    name="common_google_play_services_notification_needs_installation_title"
+                    msgid="8120534356798772974" >"Колдонмону иштетүү үчүн, Google Play кызматтарын орнотуу керек."
                 </string>
                 <string
                     name="common_google_play_services_update_title"
@@ -9116,12 +9116,12 @@ normal
                     msgid="9038847255613537209" >"Google Play Кызматтарына туташуу үчүн, дайындарды өткөрүүчү туташуу талап кылынат."
                 </string>
                 <string
-                    name="common_signin_button_text"
-                    msgid="9071884888741449141" >"Кирүү"
-                </string>
-                <string
                     name="common_google_play_services_notification_needs_update_title"
                     msgid="1388129345631079938" >"Колдонмону иштетүү үчүн, Google Play Кызматтарын жаңыртуу керек."
+                </string>
+                <string
+                    name="common_signin_button_text"
+                    msgid="9071884888741449141" >"Кирүү"
                 </string>
                 <string
                     name="common_google_play_services_enable_button"
@@ -10358,16 +10358,20 @@ normal
                     msgid="1366439133145190222" >"Android उपयोग अद्यावधिक गर्नुहोस्"
                 </string>
                 <string
-                    name="common_signin_button_text"
-                    msgid="9071884888741449141" >"साइन इन गर्नुहोस्"
-                </string>
-                <string
                     name="common_google_play_services_install_text_phone"
                     msgid="8685301130651051380" >"यो अनुप्रयोग गुगल बजाउने सेवाहरू बिना चल्दैन जुन तपाईँको फोनमा छैन।"
                 </string>
                 <string
+                    name="common_signin_button_text"
+                    msgid="9071884888741449141" >"साइन इन गर्नुहोस्"
+                </string>
+                <string
                     name="common_google_play_services_enable_button"
                     msgid="4181637455539816337" >"गुगल बजाउने सेवाहरू सक्षम पार्नुहोस्"
+                </string>
+                <string
+                    name="common_google_play_services_network_error_title"
+                    msgid="3827284619958211114" >"नेटवर्क त्रुटि"
                 </string>
                 <string
                     name="common_google_play_services_error_notification_requested_by_msg"
@@ -10379,10 +10383,6 @@ normal
                 <string
                     name="common_open_on_phone"
                     msgid="411506735369601515" >"फोनमा खोल्नुहोस्"
-                </string>
-                <string
-                    name="common_google_play_services_network_error_title"
-                    msgid="3827284619958211114" >"नेटवर्क त्रुटि"
                 </string>
                 <string
                     name="common_google_play_services_install_title"
@@ -10397,16 +10397,16 @@ normal
                     msgid="3046420540094071256" >"Android उपयोग अनुप्रयोग अद्यावधिक नगरेसम्म यो अनुप्रयोगले कार्य गर्ने छैन।"
                 </string>
                 <string
-                    name="common_google_play_services_notification_needs_installation_title"
-                    msgid="8120534356798772974" >"Google Play सेवाहरू स्थापना गर्न अनुप्रयोग आवश्यक हुन्छ।"
+                    name="common_google_play_services_enable_text"
+                    msgid="7627896071867667758" >"तपाईँले गुगल बजाउने सेवाहरूलाई सक्षम नपारेसम्म यस अनुप्रयोगले काम गर्दैन।"
                 </string>
                 <string
                     name="common_google_play_services_install_text_tablet"
                     msgid="1589957570365247855" >"यो अनुप्रयोग गुगल बजाउने सेवाहरू बिना चल्दैन जुन तपाईँको ट्याब्लेटमा छैन।"
                 </string>
                 <string
-                    name="common_google_play_services_enable_text"
-                    msgid="7627896071867667758" >"तपाईँले गुगल बजाउने सेवाहरूलाई सक्षम नपारेसम्म यस अनुप्रयोगले काम गर्दैन।"
+                    name="common_google_play_services_notification_needs_installation_title"
+                    msgid="8120534356798772974" >"Google Play सेवाहरू स्थापना गर्न अनुप्रयोग आवश्यक हुन्छ।"
                 </string>
                 <string
                     name="common_google_play_services_notification_needs_update_title"
@@ -10437,12 +10437,12 @@ normal
                     msgid="2583358409598976717" >"Google Play का सेवाहरू सक्षम गर्न अनुप्रयोग आवश्यक हुन्छ।"
                 </string>
                 <string
-                    name="common_google_play_services_network_error_text"
-                    msgid="9038847255613537209" >"एउटा डेटा जडान Google प्ले सेवाहरूसँग जडित गर्न आवश्यकता छ।"
-                </string>
-                <string
                     name="common_google_play_services_unsupported_title"
                     msgid="6334768798839376943" >"गुगल बजाउने सेवाहरू"
+                </string>
+                <string
+                    name="common_google_play_services_network_error_text"
+                    msgid="9038847255613537209" >"एउटा डेटा जडान Google प्ले सेवाहरूसँग जडित गर्न आवश्यकता छ।"
                 </string>
             </file>
             <file
@@ -11563,16 +11563,16 @@ normal
                     </ns1:g>"
                 </string>
                 <string
-                    name="common_google_play_services_enable_text"
-                    msgid="7627896071867667758" >"Aplikacija ne bo delovala, če ne omogočite storitev Google Play."
-                </string>
-                <string
                     name="common_google_play_services_update_text"
                     msgid="448354684997260580" >"Ta aplikacija ne deluje, če ne posodobite storitev Google Play."
                 </string>
                 <string
                     name="common_google_play_services_update_button"
                     msgid="8932944190611227642" >"Posodobi"
+                </string>
+                <string
+                    name="common_google_play_services_enable_text"
+                    msgid="7627896071867667758" >"Aplikacija ne bo delovala, če ne omogočite storitev Google Play."
                 </string>
                 <string
                     name="common_google_play_services_install_text_phone"
@@ -11888,16 +11888,16 @@ normal
                     msgid="8515591849428043265" >"Pata huduma za Google Play"
                 </string>
                 <string
-                    name="common_google_play_services_install_title"
-                    msgid="26645092511305524" >"Pata huduma za Google Play"
+                    name="common_google_play_services_unsupported_text"
+                    msgid="3542578567569488671" >"Huduma za Google Play, ambazo baadhi ya programu zako zinategemea, si linganifu na kifaa chako. Tafadhali wasiliana na mtengenezaji kwa usaidizi."
                 </string>
                 <string
                     name="common_google_play_services_update_title"
                     msgid="6006316683626838685" >"Sasisha huduma za Google Play"
                 </string>
                 <string
-                    name="common_google_play_services_unsupported_text"
-                    msgid="3542578567569488671" >"Huduma za Google Play, ambazo baadhi ya programu zako zinategemea, si linganifu na kifaa chako. Tafadhali wasiliana na mtengenezaji kwa usaidizi."
+                    name="common_google_play_services_install_title"
+                    msgid="26645092511305524" >"Pata huduma za Google Play"
                 </string>
                 <string
                     name="common_google_play_services_update_text"
@@ -11928,12 +11928,12 @@ normal
                     msgid="9038847255613537209" >"Muunganisho wa data unahitajika ili kuunganisha kwenye huduma za Google Play."
                 </string>
                 <string
-                    name="common_google_play_services_notification_needs_installation_title"
-                    msgid="8120534356798772974" >"Programu inahitaji usakinishaji wa huduma za Google Play."
-                </string>
-                <string
                     name="common_open_on_phone"
                     msgid="411506735369601515" >"Fungua kwenye simu"
+                </string>
+                <string
+                    name="common_google_play_services_notification_needs_installation_title"
+                    msgid="8120534356798772974" >"Programu inahitaji usakinishaji wa huduma za Google Play."
                 </string>
                 <string
                     name="common_google_play_services_unsupported_title"
@@ -12841,12 +12841,12 @@ normal
                     msgid="8932944190611227642" >"Yangilash"
                 </string>
                 <string
-                    name="common_google_play_services_enable_text"
-                    msgid="7627896071867667758" >"Ushbu ilova Google Play xizmatlari yoqilmaguncha ishlamaydi."
-                </string>
-                <string
                     name="common_android_wear_notification_needs_update_text"
                     msgid="473679118463211576" >"Ilovadan foydalanish uchun Android Wear ilovasini yangilash lozim."
+                </string>
+                <string
+                    name="common_google_play_services_enable_text"
+                    msgid="7627896071867667758" >"Ushbu ilova Google Play xizmatlari yoqilmaguncha ishlamaydi."
                 </string>
                 <string
                     name="common_android_wear_update_text"
@@ -12932,12 +12932,12 @@ normal
                     msgid="1066672360770936753" >"Hisob haqiqiy emas"
                 </string>
                 <string
-                    name="common_signin_button_text_long"
-                    msgid="2429381841831957106" >"Google orqali kirish"
-                </string>
-                <string
                     name="common_google_play_services_update_text"
                     msgid="448354684997260580" >"Ushbu ilova Google Play xizmatlari yangilanmaguncha ishlamaydi."
+                </string>
+                <string
+                    name="common_signin_button_text_long"
+                    msgid="2429381841831957106" >"Google orqali kirish"
                 </string>
                 <string
                     name="common_android_wear_update_title"
@@ -20985,12 +20985,12 @@ true
                     msgid="2550479030709304392" >"Որոնման հարցում"
                 </string>
                 <string
-                    name="abc_action_bar_home_description_format"
-                    msgid="1397052879051804371" >"%1$s, %2$s"
-                </string>
-                <string
                     name="abc_shareactionprovider_share_with"
                     msgid="3421042268587513524" >"Տարածել"
+                </string>
+                <string
+                    name="abc_action_bar_home_description_format"
+                    msgid="1397052879051804371" >"%1$s, %2$s"
                 </string>
                 <string
                     name="abc_searchview_description_clear"
@@ -22155,16 +22155,16 @@ true
                     msgid="7165123711973476752" >"%s-тай хуваалцах"
                 </string>
                 <string
-                    name="abc_action_bar_home_description_format"
-                    msgid="1397052879051804371" >"%1$s, %2$s"
-                </string>
-                <string
                     name="abc_activity_chooser_view_see_all"
                     msgid="7468859129482906941" >"Бүгдийг харах"
                 </string>
                 <string
                     name="abc_action_bar_home_description"
                     msgid="4600421777120114993" >"Нүүр хуудас руу шилжих"
+                </string>
+                <string
+                    name="abc_action_bar_home_description_format"
+                    msgid="1397052879051804371" >"%1$s, %2$s"
                 </string>
                 <string
                     name="abc_searchview_description_submit"
@@ -22459,20 +22459,20 @@ true
                     msgid="7468859129482906941" >"सबै हेर्नुहोस्"
                 </string>
                 <string
-                    name="abc_action_bar_home_description"
-                    msgid="4600421777120114993" >"गृह खोज्नुहोस्"
-                </string>
-                <string
                     name="abc_shareactionprovider_share_with_application"
                     msgid="7165123711973476752" >"%s सँग साझेदारी गर्नुहोस्"
                 </string>
                 <string
-                    name="abc_searchview_description_clear"
-                    msgid="3691816814315814921" >"प्रश्‍न हटाउनुहोस्"
+                    name="abc_action_bar_home_description"
+                    msgid="4600421777120114993" >"गृह खोज्नुहोस्"
                 </string>
                 <string
                     name="abc_searchview_description_voice"
                     msgid="893419373245838918" >"भ्वाइस खोजी"
+                </string>
+                <string
+                    name="abc_searchview_description_clear"
+                    msgid="3691816814315814921" >"प्रश्‍न हटाउनुहोस्"
                 </string>
                 <string
                     name="abc_searchview_description_query"
@@ -22563,24 +22563,24 @@ true
                 path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/values-pl/values.xml"
                 qualifiers="pl" >
                 <string
-                    name="abc_activity_chooser_view_see_all"
-                    msgid="7468859129482906941" >"Zobacz wszystkie"
-                </string>
-                <string
                     name="abc_action_menu_overflow_description"
                     msgid="3588849162933574182" >"Więcej opcji"
+                </string>
+                <string
+                    name="abc_activity_chooser_view_see_all"
+                    msgid="7468859129482906941" >"Zobacz wszystkie"
                 </string>
                 <string
                     name="abc_action_bar_home_description_format"
                     msgid="1397052879051804371" >"%1$s, %2$s"
                 </string>
                 <string
-                    name="abc_searchview_description_query"
-                    msgid="2550479030709304392" >"Wyszukiwane hasło"
-                </string>
-                <string
                     name="abc_action_bar_up_description"
                     msgid="1594238315039666878" >"Przejdź wyżej"
+                </string>
+                <string
+                    name="abc_searchview_description_query"
+                    msgid="2550479030709304392" >"Wyszukiwane hasło"
                 </string>
                 <string
                     name="abc_activitychooserview_choose_application"
@@ -22603,12 +22603,12 @@ true
                     msgid="8928215447528550784" >"Wyślij zapytanie"
                 </string>
                 <string
-                    name="abc_searchview_description_clear"
-                    msgid="3691816814315814921" >"Wyczyść zapytanie"
-                </string>
-                <string
                     name="abc_action_bar_home_subtitle_description_format"
                     msgid="6623331958280229229" >"%1$s, %2$s, %3$s"
+                </string>
+                <string
+                    name="abc_searchview_description_clear"
+                    msgid="3691816814315814921" >"Wyczyść zapytanie"
                 </string>
                 <string
                     name="abc_shareactionprovider_share_with"
@@ -23589,16 +23589,16 @@ false
                     msgid="4076576682505996667" >"Tamamlandı"
                 </string>
                 <string
-                    name="abc_searchview_description_clear"
-                    msgid="3691816814315814921" >"Sorguyu temizle"
-                </string>
-                <string
                     name="abc_searchview_description_search"
                     msgid="8264924765203268293" >"Ara"
                 </string>
                 <string
                     name="abc_action_bar_up_description"
                     msgid="1594238315039666878" >"Yukarı git"
+                </string>
+                <string
+                    name="abc_searchview_description_clear"
+                    msgid="3691816814315814921" >"Sorguyu temizle"
                 </string>
                 <string
                     name="abc_searchview_description_voice"

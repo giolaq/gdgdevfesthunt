@@ -472,7 +472,7 @@ public class Hunt {
                 ParcelFileDescriptor file;
                 try {
                     file = downloadManager.openDownloadedFile(downloadReference);
-                    Log.d(TAG,"Downloaded " + downloadManager.getUriForDownloadedFile(downloadReference));
+                    //Log.d(TAG,"Downloaded " + downloadManager.getUriForDownloadedFile(downloadReference));
                     hrm = new HuntResourceManager();
                     hrm.unzipDownloadedFile(file);
 
