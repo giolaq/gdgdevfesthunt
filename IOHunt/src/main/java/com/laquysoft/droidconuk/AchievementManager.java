@@ -68,7 +68,7 @@ public class AchievementManager {
         if (underPar) {
             incrementAchievement(ID_TEACHERS_PET, ga);
             points += 20;
-            Games.Leaderboards.submitScore(ga, ID_LEADERBOARD, points);
+           // Games.Leaderboards.submitScore(ga, ID_LEADERBOARD, points);
 
         }
 
@@ -117,6 +117,7 @@ public class AchievementManager {
         for (String id : storedIncrements) {
             Games.Achievements.increment(ga, id, 1);
         }
+        Games.Leaderboards.submitScore(ga, ID_LEADERBOARD, points);
         storedIncrements.clear();
     }
 
@@ -143,6 +144,6 @@ public class AchievementManager {
                         GoogleApiClient gamesClient) {
 		  
         points -= 10;
-        Games.Leaderboards.submitScore(gamesClient, ID_LEADERBOARD, points);
+       // Games.Leaderboards.submitScore(gamesClient, ID_LEADERBOARD, points);
 	}
 }

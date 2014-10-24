@@ -23,15 +23,19 @@ import android.view.MenuItem;
 
 public class DecoyActivity extends BaseActivity {
 
+    public DecoyActivity() {
+        super(CLIENT_GAMES);
+    }
+
     @SuppressLint("NewApi")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_decoy);
+      //  setContentView(R.layout.activity_decoy);
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
-            getActionBar().setDisplayHomeAsUpEnabled(true);
-        }
+       // if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+       //     getActionBar().setDisplayHomeAsUpEnabled(true);
+       // }
 
         Hunt hunt = Hunt.getHunt(getResources(), this);
 
@@ -54,4 +58,13 @@ public class DecoyActivity extends BaseActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+
+    @Override
+    protected int getLayoutResource() {
+        return R.layout.activity_decoy;
+    }
+
+
 }
+

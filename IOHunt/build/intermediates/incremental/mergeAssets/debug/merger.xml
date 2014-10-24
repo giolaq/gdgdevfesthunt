@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merger version="2" >
 
-    <dataSet config="1.0.4" >
-        <source path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.0.4/assets" />
+    <dataSet config="0.0.5" >
+        <source path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.shamanland/fab/0.0.5/assets" />
     </dataSet>
     <dataSet config="2.0.0" >
         <source path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-integration/2.0.0/assets" />
