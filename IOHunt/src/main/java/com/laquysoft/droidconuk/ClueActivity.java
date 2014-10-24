@@ -18,7 +18,7 @@ package com.laquysoft.droidconuk;
 
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
-import com.melnykov.fab.FloatingActionButton;
+import com.shamanland.fab.FloatingActionButton;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -177,7 +177,6 @@ public class ClueActivity extends BaseActivity {
 		// Set visibilities
 		mImgView.setVisibility(View.VISIBLE);
 
-        scanBtn.show();
 
         View view = findViewById(R.id.clue_progress);
 		view.setVisibility(View.INVISIBLE);

@@ -3,92 +3,127 @@
     version="2"
     xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" >
 
-    <dataSet config="1.0.4" >
-        <source path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.0.4/res" >
+    <dataSet config="0.0.5" >
+        <source path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.shamanland/fab/0.0.5/res" >
             <file
-                name="shadow"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.0.4/res/drawable-hdpi-v4/shadow.png"
-                qualifiers="hdpi-v4"
+                name="floating_action_button_hide"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.shamanland/fab/0.0.5/res/anim/floating_action_button_hide.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="floating_action_button_show"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.shamanland/fab/0.0.5/res/anim/floating_action_button_show.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="com_shamanland_fab_circle_mini"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.shamanland/fab/0.0.5/res/drawable/com_shamanland_fab_circle_mini.xml"
+                qualifiers=""
                 type="drawable" />
             <file
-                name="shadow"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.0.4/res/drawable-mdpi-v4/shadow.png"
-                qualifiers="mdpi-v4"
+                name="com_shamanland_fab_circle_normal"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.shamanland/fab/0.0.5/res/drawable/com_shamanland_fab_circle_normal.xml"
+                qualifiers=""
                 type="drawable" />
             <file
-                name="shadow"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.0.4/res/drawable-xhdpi-v4/shadow.png"
-                qualifiers="xhdpi-v4"
+                name="com_shamanland_fab_shadow"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.shamanland/fab/0.0.5/res/drawable/com_shamanland_fab_shadow.xml"
+                qualifiers=""
                 type="drawable" />
             <file
-                name="shadow"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.0.4/res/drawable-xxhdpi-v4/shadow.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.0.4/res/values/values.xml"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.shamanland/fab/0.0.5/res/values/values.xml"
                 qualifiers="" >
-                <string name="library_FloatingActionButton_licenseId" >mit
-                </string>
-                <string name="library_FloatingActionButton_libraryVersion" >1.0.0
-                </string>
 
-                <dimen name="fab_shadow_size" >8dp
+                <style
+                    name="FloatingActionButton.Light"
+                    parent="FloatingActionButton" >
+                    <item name="floatingActionButtonColor">
+@android:color/primary_text_dark
+                    </item>
+                </style>
+
+                <style
+                    name="FloatingActionButton.Dark"
+                    parent="FloatingActionButton" >
+                    <item name="floatingActionButtonColor">
+@android:color/tab_indicator_text
+                    </item>
+                </style>
+
+                <dimen name="floating_action_button_margin_mini_minus" >-26dp
                 </dimen>
 
-                <string name="library_FloatingActionButton_libraryName" >FloatingActionButton
-                </string>
-                <string name="library_FloatingActionButton_libraryDescription" >Android Google+ like floating action button which reacts on the list view scrolling events. Becomes visible when the list view is scrolled up and invisible when scrolled down.
-                </string>
+                <style
+                    name="FloatingActionButton.Mini"
+                    parent="FloatingActionButton" >
+                    <item name="floatingActionButtonSize">
+mini
+                    </item>
+                </style>
 
-                <dimen name="fab_min_significant_scroll" >4dp
+                <style
+                    name="FloatingActionButton.Light.Mini"
+                    parent="FloatingActionButton.Mini" >
+                    <item name="floatingActionButtonColor">
+@android:color/primary_text_dark
+                    </item>
+                </style>
+
+                <attr
+                    name="floatingActionButtonStyle"
+                    format="reference" />
+
+                <dimen name="floating_action_button_shadow_radius" >6dp
+                </dimen>
+                <dimen name="floating_action_button_margin_mini" >26dp
                 </dimen>
 
-                <string name="library_FloatingActionButton_author" >Oleksandr Melnykov
-                </string>
-
-                <dimen name="fab_mini_shadow_size" >6dp
-                </dimen>
-
-                <string name="library_FloatingActionButton_repositoryLink" >https://github.com/makovkastar/FloatingActionButton
-                </string>
-                <string name="library_FloatingActionButton_isOpenSource" >true
-                </string>
-                <string name="define_FloatingActionButton" ></string>
-                <string name="app_name" >FloatingActionButton
-                </string>
-                <string name="library_FloatingActionButton_libraryWebsite" >https://github.com/makovkastar/FloatingActionButton
-                </string>
-
-                <dimen name="fab_size_normal" >56dp
-                </dimen>
+                <style
+                    name="FloatingActionButton.Dark.Mini"
+                    parent="FloatingActionButton.Mini" >
+                    <item name="floatingActionButtonColor">
+@android:color/tab_indicator_text
+                    </item>
+                </style>
 
                 <declare-styleable name="FloatingActionButton" >
+
+                    <!-- Background color -->
                     <attr
-                        name="fab_colorPressed"
-                        format="color" />
+                        name="floatingActionButtonColor"
+                        format="color|reference" />
+                    <!-- Size of action button -->
                     <attr
-                        name="fab_colorNormal"
-                        format="color" />
-                    <attr
-                        name="fab_shadow"
-                        format="boolean" />
-                    <attr
-                        name="fab_type"
+                        name="floatingActionButtonSize"
                         format="enum" >
+
+                        <!-- 56dp -->
                         <enum
                             name="normal"
                             value="0" />
+                        <!-- 40dp -->
                         <enum
                             name="mini"
                             value="1" />
                     </attr>
                 </declare-styleable>
 
-                <string name="library_FloatingActionButton_authorWebsite" >https://github.com/makovkastar/FloatingActionButton
-                </string>
+                <dimen name="floating_action_button_margin_normal_minus" >-34dp
+                </dimen>
 
-                <dimen name="fab_size_mini" >40dp
+                <style
+                    name="FloatingActionButton"
+                    parent="android:Widget.ImageButton" >
+                    <item name="floatingActionButtonSize">
+normal
+                    </item>
+                </style>
+
+                <dimen name="floating_action_button_size_normal" >56dp
+                </dimen>
+                <dimen name="floating_action_button_size_mini" >40dp
+                </dimen>
+                <dimen name="floating_action_button_margin_normal" >34dp
                 </dimen>
             </file>
         </source>
@@ -1204,11 +1239,11 @@ OFF
                 </string>
                 <string name="zxinglegacy_contents_email" >כתובת דואר אלקטרוני
                 </string>
-                <string name="zxinglegacy_msg_default_type" >סוג
-                </string>
                 <string name="zxinglegacy_menu_share" >שתף
                 </string>
                 <string name="zxinglegacy_button_ok" >אישור
+                </string>
+                <string name="zxinglegacy_msg_default_type" >סוג
                 </string>
                 <string name="zxinglegacy_contents_sms" >כתובת SMS
                 </string>
@@ -1754,11 +1789,11 @@ OFF
                 </string>
                 <string name="zxinglegacy_contents_location" >地理坐标
                 </string>
-                <string name="zxinglegacy_msg_default_status" >请将条码置于取景框内扫描。  
-                </string>
                 <string name="zxinglegacy_msg_camera_framework_bug" >抱歉，Android相机出现问题。您可能需要重启设备。
                 </string>
                 <string name="zxinglegacy_contents_sms" >短信地址
+                </string>
+                <string name="zxinglegacy_msg_default_status" >请将条码置于取景框内扫描。  
                 </string>
                 <string name="zxinglegacy_menu_encode_mecard" >使用MECARD
                 </string>
@@ -2174,11 +2209,11 @@ OFF
                 </string>
                 <string name="zxing_msg_encode_contents_failed" >تعذر ترميز رمز شريطي من البيانات المتوفرة.
                 </string>
-                <string name="zxing_msg_default_time" >الوقت
-                </string>
                 <string name="zxing_contents_contact" >معلومات جهة اتصال
                 </string>
                 <string name="zxing_contents_phone" >رقم الهاتف
+                </string>
+                <string name="zxing_msg_default_time" >الوقت
                 </string>
                 <string name="zxing_contents_location" >إحداثيات جغرافية
                 </string>
@@ -5620,16 +5655,16 @@ normal
                     </ns1:g>"
                 </string>
                 <string
-                    name="common_google_play_services_needs_enabling_title"
-                    msgid="2583358409598976717" >"Aplikace vyžaduje aktivaci služeb Google Play."
-                </string>
-                <string
                     name="common_google_play_services_enable_button"
                     msgid="4181637455539816337" >"Aktivovat služby Google Play"
                 </string>
                 <string
                     name="common_google_play_services_unsupported_text"
                     msgid="3542578567569488671" >"Některé vaše aplikace vyžadují služby Google Play, které ve vašem zařízení nejsou podporovány. S žádostí o pomoc se prosím obraťte na výrobce."
+                </string>
+                <string
+                    name="common_google_play_services_needs_enabling_title"
+                    msgid="2583358409598976717" >"Aplikace vyžaduje aktivaci služeb Google Play."
                 </string>
                 <string
                     name="common_google_play_services_invalid_account_text"
@@ -6334,16 +6369,16 @@ normal
                     msgid="4181637455539816337" >"Habilitar servicios de Google Play"
                 </string>
                 <string
-                    name="common_google_play_services_network_error_title"
-                    msgid="3827284619958211114" >"Error de red"
-                </string>
-                <string
                     name="common_google_play_services_invalid_account_text"
                     msgid="4983316348021735578" >"La cuenta especificada no existe en este dispositivo. Selecciona otra cuenta."
                 </string>
                 <string
                     name="common_google_play_services_unsupported_title"
                     msgid="6334768798839376943" >"Servicios de Google Play"
+                </string>
+                <string
+                    name="common_google_play_services_network_error_title"
+                    msgid="3827284619958211114" >"Error de red"
                 </string>
                 <string
                     name="common_open_on_phone"
@@ -10335,19 +10370,19 @@ normal
                     msgid="4181637455539816337" >"गुगल बजाउने सेवाहरू सक्षम पार्नुहोस्"
                 </string>
                 <string
+                    name="common_google_play_services_error_notification_requested_by_msg"
+                    msgid="2443362625939284971" >"
+<ns1:g id="APP_NAME" >
+%1$s
+                    </ns1:g> द्वारा अनुरोध गरियो"
+                </string>
+                <string
                     name="common_open_on_phone"
                     msgid="411506735369601515" >"फोनमा खोल्नुहोस्"
                 </string>
                 <string
                     name="common_google_play_services_network_error_title"
                     msgid="3827284619958211114" >"नेटवर्क त्रुटि"
-                </string>
-                <string
-                    name="common_google_play_services_error_notification_requested_by_msg"
-                    msgid="2443362625939284971" >"
-<ns1:g id="APP_NAME" >
-%1$s
-                    </ns1:g> द्वारा अनुरोध गरियो"
                 </string>
                 <string
                     name="common_google_play_services_install_title"
@@ -11528,16 +11563,16 @@ normal
                     </ns1:g>"
                 </string>
                 <string
-                    name="common_google_play_services_update_button"
-                    msgid="8932944190611227642" >"Posodobi"
-                </string>
-                <string
                     name="common_google_play_services_enable_text"
                     msgid="7627896071867667758" >"Aplikacija ne bo delovala, če ne omogočite storitev Google Play."
                 </string>
                 <string
                     name="common_google_play_services_update_text"
                     msgid="448354684997260580" >"Ta aplikacija ne deluje, če ne posodobite storitev Google Play."
+                </string>
+                <string
+                    name="common_google_play_services_update_button"
+                    msgid="8932944190611227642" >"Posodobi"
                 </string>
                 <string
                     name="common_google_play_services_install_text_phone"
@@ -22120,16 +22155,16 @@ true
                     msgid="7165123711973476752" >"%s-тай хуваалцах"
                 </string>
                 <string
-                    name="abc_action_bar_home_description"
-                    msgid="4600421777120114993" >"Нүүр хуудас руу шилжих"
-                </string>
-                <string
                     name="abc_action_bar_home_description_format"
                     msgid="1397052879051804371" >"%1$s, %2$s"
                 </string>
                 <string
                     name="abc_activity_chooser_view_see_all"
                     msgid="7468859129482906941" >"Бүгдийг харах"
+                </string>
+                <string
+                    name="abc_action_bar_home_description"
+                    msgid="4600421777120114993" >"Нүүр хуудас руу шилжих"
                 </string>
                 <string
                     name="abc_searchview_description_submit"
@@ -23554,16 +23589,16 @@ false
                     msgid="4076576682505996667" >"Tamamlandı"
                 </string>
                 <string
-                    name="abc_action_bar_up_description"
-                    msgid="1594238315039666878" >"Yukarı git"
-                </string>
-                <string
                     name="abc_searchview_description_clear"
                     msgid="3691816814315814921" >"Sorguyu temizle"
                 </string>
                 <string
                     name="abc_searchview_description_search"
                     msgid="8264924765203268293" >"Ara"
+                </string>
+                <string
+                    name="abc_action_bar_up_description"
+                    msgid="1594238315039666878" >"Yukarı git"
                 </string>
                 <string
                     name="abc_searchview_description_voice"
@@ -26149,6 +26184,11 @@ false
                 qualifiers=""
                 type="drawable" />
             <file
+                name="gopher"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable/gopher.png"
+                qualifiers=""
+                type="drawable" />
+            <file
                 name="grey_background_pattern"
                 path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable/grey_background_pattern.xml"
                 qualifiers=""
@@ -26219,6 +26259,11 @@ false
                 qualifiers=""
                 type="drawable" />
             <file
+                name="qrcode"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable/qrcode.png"
+                qualifiers=""
+                type="drawable" />
+            <file
                 name="red_circle"
                 path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable/red_circle.xml"
                 qualifiers=""
@@ -26241,6 +26286,11 @@ false
             <file
                 name="tab_indicator_ab_hunt"
                 path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable/tab_indicator_ab_hunt.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="white_circle"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable/white_circle.xml"
                 qualifiers=""
                 type="drawable" />
             <file
@@ -26783,9 +26833,21 @@ true
                 </color>
                 <color name="blue" >#5677fc
                 </color>
-                <color name="white" >#ffffff
-                </color>
                 <color name="default_background" >#4000
+                </color>
+                <color name="light_red" >#e84e40
+                </color>
+                <color name="red" >#e51c23
+                </color>
+                <color name="colorPrimaryDark" >#558b2f
+                </color>
+                <color name="card_text_background" >#808bc34a
+                </color>
+                <color name="card_background" >#FFDCDCDC
+                </color>
+                <color name="darkgreen" >#558b2f
+                </color>
+                <color name="white" >#ffffff
                 </color>
                 <color name="caption_text_color" >#FF535353
                 </color>
@@ -26793,15 +26855,7 @@ true
                 </color>
                 <color name="colorPrimary" >#8bc34a
                 </color>
-                <color name="colorPrimaryDark" >#558b2f
-                </color>
-                <color name="card_text_background" >#808bc34a
-                </color>
                 <color name="highlight_text_color" >#fff
-                </color>
-                <color name="card_background" >#FFDCDCDC
-                </color>
-                <color name="darkgreen" >#558b2f
                 </color>
             </file>
             <file
@@ -27168,18 +27222,8 @@ true
                 </style>
             </file>
             <file
-                name="gopher"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable/gopher.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="qrcode"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable/qrcode.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="white_circle"
-                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable/white_circle.xml"
+                name="fab_colors_selector"
+                path="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/src/main/res/drawable/fab_colors_selector.xml"
                 qualifiers=""
                 type="drawable" />
         </source>

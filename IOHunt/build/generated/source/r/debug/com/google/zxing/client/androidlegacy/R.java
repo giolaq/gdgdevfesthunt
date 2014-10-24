@@ -12,21 +12,21 @@ public final class R {
 		public static final int zxinglegacy_preferences_front_light_values = 0x7f070003;
 	}
 	public static final class color {
-		public static final int zxinglegacy_contents_text = 0x7f090063;
-		public static final int zxinglegacy_encode_view = 0x7f090064;
-		public static final int zxinglegacy_possible_result_points = 0x7f090065;
-		public static final int zxinglegacy_result_minor_text = 0x7f090066;
-		public static final int zxinglegacy_result_points = 0x7f090067;
-		public static final int zxinglegacy_result_text = 0x7f090068;
-		public static final int zxinglegacy_result_view = 0x7f090069;
-		public static final int zxinglegacy_status_text = 0x7f09006a;
-		public static final int zxinglegacy_transparent = 0x7f09006b;
-		public static final int zxinglegacy_viewfinder_laser = 0x7f09006c;
-		public static final int zxinglegacy_viewfinder_mask = 0x7f09006d;
+		public static final int zxinglegacy_contents_text = 0x7f090065;
+		public static final int zxinglegacy_encode_view = 0x7f090066;
+		public static final int zxinglegacy_possible_result_points = 0x7f090067;
+		public static final int zxinglegacy_result_minor_text = 0x7f090068;
+		public static final int zxinglegacy_result_points = 0x7f090069;
+		public static final int zxinglegacy_result_text = 0x7f09006a;
+		public static final int zxinglegacy_result_view = 0x7f09006b;
+		public static final int zxinglegacy_status_text = 0x7f09006c;
+		public static final int zxinglegacy_transparent = 0x7f09006d;
+		public static final int zxinglegacy_viewfinder_laser = 0x7f09006e;
+		public static final int zxinglegacy_viewfinder_mask = 0x7f09006f;
 	}
 	public static final class dimen {
-		public static final int zxinglegacy_half_padding = 0x7f0b003d;
-		public static final int zxinglegacy_standard_padding = 0x7f0b003e;
+		public static final int zxinglegacy_half_padding = 0x7f0b003f;
+		public static final int zxinglegacy_standard_padding = 0x7f0b0040;
 	}
 	public static final class id {
 		public static final int format_text_view = 0x7f0a00ad;
@@ -70,29 +70,29 @@ public final class R {
 		public static final int zxinglegacy_beep = 0x7f060007;
 	}
 	public static final class string {
-		public static final int zxinglegacy_app_name = 0x7f0d009d;
-		public static final int zxinglegacy_button_back = 0x7f0d009e;
-		public static final int zxinglegacy_button_cancel = 0x7f0d009f;
-		public static final int zxinglegacy_button_done = 0x7f0d00a0;
-		public static final int zxinglegacy_button_ok = 0x7f0d00a1;
-		public static final int zxinglegacy_contents_contact = 0x7f0d00a2;
-		public static final int zxinglegacy_contents_email = 0x7f0d00a3;
-		public static final int zxinglegacy_contents_location = 0x7f0d00a4;
-		public static final int zxinglegacy_contents_phone = 0x7f0d00a5;
-		public static final int zxinglegacy_contents_sms = 0x7f0d00a6;
-		public static final int zxinglegacy_contents_text = 0x7f0d00a7;
-		public static final int zxinglegacy_menu_encode_mecard = 0x7f0d00a8;
-		public static final int zxinglegacy_menu_encode_vcard = 0x7f0d00a9;
-		public static final int zxinglegacy_menu_help = 0x7f0d00aa;
-		public static final int zxinglegacy_menu_share = 0x7f0d00ab;
-		public static final int zxinglegacy_msg_camera_framework_bug = 0x7f0d00ac;
-		public static final int zxinglegacy_msg_default_format = 0x7f0d00ad;
-		public static final int zxinglegacy_msg_default_meta = 0x7f0d00ae;
-		public static final int zxinglegacy_msg_default_status = 0x7f0d00af;
-		public static final int zxinglegacy_msg_default_time = 0x7f0d00b0;
-		public static final int zxinglegacy_msg_default_type = 0x7f0d00b1;
-		public static final int zxinglegacy_msg_encode_contents_failed = 0x7f0d00b2;
-		public static final int zxinglegacy_msg_unmount_usb = 0x7f0d00b3;
+		public static final int zxinglegacy_app_name = 0x7f0d0093;
+		public static final int zxinglegacy_button_back = 0x7f0d0094;
+		public static final int zxinglegacy_button_cancel = 0x7f0d0095;
+		public static final int zxinglegacy_button_done = 0x7f0d0096;
+		public static final int zxinglegacy_button_ok = 0x7f0d0097;
+		public static final int zxinglegacy_contents_contact = 0x7f0d0098;
+		public static final int zxinglegacy_contents_email = 0x7f0d0099;
+		public static final int zxinglegacy_contents_location = 0x7f0d009a;
+		public static final int zxinglegacy_contents_phone = 0x7f0d009b;
+		public static final int zxinglegacy_contents_sms = 0x7f0d009c;
+		public static final int zxinglegacy_contents_text = 0x7f0d009d;
+		public static final int zxinglegacy_menu_encode_mecard = 0x7f0d009e;
+		public static final int zxinglegacy_menu_encode_vcard = 0x7f0d009f;
+		public static final int zxinglegacy_menu_help = 0x7f0d00a0;
+		public static final int zxinglegacy_menu_share = 0x7f0d00a1;
+		public static final int zxinglegacy_msg_camera_framework_bug = 0x7f0d00a2;
+		public static final int zxinglegacy_msg_default_format = 0x7f0d00a3;
+		public static final int zxinglegacy_msg_default_meta = 0x7f0d00a4;
+		public static final int zxinglegacy_msg_default_status = 0x7f0d00a5;
+		public static final int zxinglegacy_msg_default_time = 0x7f0d00a6;
+		public static final int zxinglegacy_msg_default_type = 0x7f0d00a7;
+		public static final int zxinglegacy_msg_encode_contents_failed = 0x7f0d00a8;
+		public static final int zxinglegacy_msg_unmount_usb = 0x7f0d00a9;
 	}
 	public static final class xml {
 		public static final int zxinglegacy_preferences = 0x7f050001;
