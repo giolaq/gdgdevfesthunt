@@ -1,0 +1,155 @@
+{
+	"id": "1",
+	"type": "hunt",
+	"displayName": "Droidcon UK Treasure Hunt",
+	"clues": [
+		{
+			"id": "droidconuk1",
+			"type": "clue",
+			"shufflegroup": 0,
+			"displayName": "Let's Play!",
+			"displayText": "Scan the two tags you find next to it.",
+			"displayImage": "app0.jpg",
+			"tags": [
+				{
+					"id": "uk0"
+				},
+				{
+					"id": "uk1"
+				}
+			],
+			"question": {
+				"question": "What's the Class in Android SDK managing Audio/Video files and their encoding?",
+				"answers": [
+					"MediaRecorder",
+					"MediaFile",
+					"EncodeMedia"
+				],
+				"correctAnswer": 0,
+				"wrongMessage": "No, it's MediaRecorder!\n",
+				"rightMessage": "That's right!"
+			}
+		},
+		{
+			"id": "droidconuk2",
+			"type": "clue",
+			"shufflegroup": 1,
+			"displayName": "Halloween",
+			"displayText": "Find this Bugdroid, and then scan the two tags you find next to it.",
+			"displayImage": "app1.jpg",
+			"tags": [
+				{
+					"id": "uk2"
+				},
+				{
+					"id": "uk3"
+				}
+			],
+			"question": {
+				"question": "Can the XML layout file be associated to more activites?",
+				"answers": [
+					"No",
+					"Yes",
+					"Maybe"
+				],
+				"correctAnswer": 1,
+				"wrongMessage": "No! It's YESSSSS!\n",
+				"rightMessage": "That's right!"
+			}
+		},
+		{
+			"id": "droidconuk3",
+			"type": "clue",
+			"shufflegroup": 1,
+			"displayName": "Where is it?",
+			"displayText": "Reach this objects, and then scan the two tags you find next to it.",
+			"displayImage": "app2.jpg",
+			"tags": [
+				{
+					"id": "uk4"
+				},
+				{
+					"id": "uk5"
+				}
+			],
+			"question": {
+				"question": "Does the R class include the asset resources",
+				"answers": [
+					"Yes",
+					"No",
+					"Only after midnight"
+				],
+				"correctAnswer": 1,
+				"wrongMessage": "No! It's NOOOO!\n",
+				"rightMessage": "That's right!"
+			}
+		},
+		{
+			"id": "droidconuk4",
+			"type": "clue",
+			"shufflegroup": 1,
+			"displayName": "A beautiful bag",
+			"displayText": "Look for this and then scan the two tags you find next to it.",
+			"displayImage": "app3.jpg",
+			"tags": [
+				{
+					"id": "uk6"
+				},
+				{
+					"id": "uk7"
+				}
+			],
+			"question": {
+				"question": "Does SensorManager class handle GPS Coordinates?",
+				"answers": [
+					"Booooh!",
+					"Yes",
+					"No"
+				],
+				"correctAnswer": 2,
+				"wrongMessage": "No no no\n",
+				"rightMessage": "That's right!"
+			}
+		},
+		{
+			"id": "appyday5",
+			"type": "clue",
+			"shufflegroup": 1,
+			"displayName": "Don't miss the Party",
+			"displayText": "Reach this, and then scan the two tags you find next to it.",
+			"displayImage": "app4.jpg",
+			"tags": [
+				{
+					"id": "uk8"
+				},
+				{
+					"id": "uk9"
+				}
+			],
+			"question": {
+				"question": "What's ART, a substitute or an helper of DALVIK?",
+				"answers": [
+					"Substitute",
+					"Helper",
+					"I have IOS"
+				],
+				"correctAnswer": 0,
+				"wrongMessage": "Buy a Lumia!\n",
+				"rightMessage": "That's right!"
+			}
+		},
+		{
+			"id": "droidconuk6",
+			"type": "clue",
+			"shufflegroup": 3,
+			"displayName": "Time to come back",
+			"displayText": "Come back and scan the final tag!",
+			"displayImage": "app5.jpg",
+			"tags": [
+				{
+					"id": "uk10"
+				}
+			]
+		}
+	]
+}
