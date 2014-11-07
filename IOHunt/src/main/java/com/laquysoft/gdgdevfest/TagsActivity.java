@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.laquysoft.droidconuk;
+package com.laquysoft.gdgdevfest;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -23,8 +23,6 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 
 
 /**

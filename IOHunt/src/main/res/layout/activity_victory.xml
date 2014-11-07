@@ -64,6 +64,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/nameView"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/minidroid" />
+        android:src="@drawable/alex_flat" />
 
 </RelativeLayout>

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.laquysoft.droidconuk;
+package com.laquysoft.gdgdevfest;
 
 import android.util.Log;
 import org.json.JSONArray;

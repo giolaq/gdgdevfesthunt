@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.laquysoft.droidconuk;
+package com.laquysoft.gdgdevfest;
 
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
@@ -26,7 +26,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
-import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;

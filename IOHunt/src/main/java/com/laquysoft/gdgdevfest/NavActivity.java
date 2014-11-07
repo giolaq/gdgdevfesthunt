@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.laquysoft.droidconuk;
+package com.laquysoft.gdgdevfest;
 
 /**
  * This is a shim launcher activity that redirects incoming

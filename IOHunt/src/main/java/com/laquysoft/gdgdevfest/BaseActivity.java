@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.laquysoft.droidconuk;
+package com.laquysoft.gdgdevfest;
 
 import android.content.Intent;
 import android.os.Bundle;

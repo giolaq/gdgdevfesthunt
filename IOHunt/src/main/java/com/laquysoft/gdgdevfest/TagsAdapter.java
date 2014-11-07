@@ -1,6 +1,5 @@
-package com.laquysoft.droidconuk;
+package com.laquysoft.gdgdevfest;
 
-import android.app.Application;
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;

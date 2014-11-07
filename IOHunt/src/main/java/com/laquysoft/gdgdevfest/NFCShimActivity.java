@@ -1,4 +1,4 @@
-package com.laquysoft.droidconuk;
+package com.laquysoft.gdgdevfest;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;

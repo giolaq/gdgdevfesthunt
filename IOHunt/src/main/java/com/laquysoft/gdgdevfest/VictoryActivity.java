@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.laquysoft.droidconuk;
+package com.laquysoft.gdgdevfest;
 
 import com.google.android.gms.games.Games;
 import com.google.android.gms.plus.PlusShare;
@@ -95,7 +95,7 @@ public class VictoryActivity extends BaseActivity implements OnClickListener {
 
             // Set call-to-action metadata.
             builder.addCallToAction("FIND", /** call-to-action button label */
-            Uri.parse("http://uk.droidcon.com/2014/"), /**
+            Uri.parse("http://roma.gdg.io"), /**
              * call-to-action url
              * (for desktop use)
              */
@@ -106,13 +106,13 @@ public class VictoryActivity extends BaseActivity implements OnClickListener {
             );
 
             // Set the content url (for desktop use).
-            builder.setContentUrl(Uri.parse("http://uk.droidcon.com/2014/"));
+            builder.setContentUrl(Uri.parse("http://roma.gdg.io"));
 
             // Set the target deep-link ID (for mobile use).
-            builder.setContentDeepLinkId("http://uk.droidcon.com/2014/", null, null, null);
+            builder.setContentDeepLinkId("http://roma.gdg.io", null, null, null);
 
             // Set the share text.
-            builder.setText("I win the Droicon UK Treasure Hunt #droidconuk!");
+            builder.setText("I win the GDG DevFest Rome Treasure Hunt #gdgdevfest!");
 //                builder.setContentUrl(uri)
 
             startActivityForResult(builder.getIntent(), 0);

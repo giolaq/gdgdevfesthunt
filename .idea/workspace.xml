@@ -10,6 +10,10 @@
         <option name="name" value="app: com.laquysoft.droidconuk" />
         <option name="packageNamePattern" value="com.laquysoft.droidconuk" />
       </filter>
+      <filter>
+        <option name="name" value="app: com.laquysoft.gdgdevfest" />
+        <option name="packageNamePattern" value="com.laquysoft.gdgdevfest" />
+      </filter>
     </filters>
   </component>
   <component name="AndroidLayoutPreviewToolWindow">
@@ -50,21 +54,45 @@
     </layouts>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.laquysoft.droidconuk" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.laquysoft.gdgdevfest" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61c11b4e-a715-4c12-a0ef-dfdc27952ab5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/build/generated/source/r/debug/com/google/android/gms/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/build/generated/source/r/debug/com/google/example/games/basegameutils/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/build/generated/source/r/debug/com/google/zxing/client/android/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/build/generated/source/r/debug/com/google/zxing/client/androidlegacy/R.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOHunt/src/main/res/raw/hunt.zip" afterPath="$PROJECT_DIR$/IOHunt/src/main/res/raw/hunt.zip" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/IOHunt/src/main/res/drawable/minidroid.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/AHTag.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/AHTag.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/AboutActivity.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/AboutActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/AchievementManager.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/AchievementManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/AnswerTextView.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/AnswerTextView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/BaseActivity.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/BaseActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/Clue.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/Clue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/ClueActivity.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/ClueActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/DecoyActivity.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/DecoyActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/Hunt.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/Hunt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/HuntResourceManager.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/HuntResourceManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/NFCShimActivity.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/NFCShimActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/NavActivity.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/NavActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/ReauthActivity.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/ReauthActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/ScreenSlidePageFragment.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/ScreenSlidePageFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/ScreenSlidePagerActivity.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/ScreenSlidePagerActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/SoundManager.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/SoundManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/TagsActivity.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/TagsActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/TagsAdapter.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/TagsAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/TriviaExplainerActivity.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/TriviaExplainerActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/TriviaQuestion.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/TriviaQuestion.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/TriviaQuestionActivity.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/TriviaQuestionActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/VictoryActivity.java" afterPath="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/VictoryActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOHunt/src/main/res/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/IOHunt/src/main/res/drawable-hdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOHunt/src/main/res/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/IOHunt/src/main/res/drawable-mdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOHunt/src/main/res/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/IOHunt/src/main/res/drawable-xhdpi/ic_launcher.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOHunt/src/main/res/drawable-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/IOHunt/src/main/res/drawable-xxhdpi/ic_launcher.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOHunt/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/IOHunt/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/BaseGameUtils/BaseGameUtils.iml" afterPath="$PROJECT_DIR$/libraries/BaseGameUtils/BaseGameUtils.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOHunt/IOHunt-IOHunt.iml" afterPath="$PROJECT_DIR$/IOHunt/IOHunt-IOHunt.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_clue_two_tag.xml" afterPath="$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_clue_two_tag.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_victory.xml" afterPath="$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_victory.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOHunt/src/main/res/layout/answer_frag.xml" afterPath="$PROJECT_DIR$/IOHunt/src/main/res/layout/answer_frag.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOHunt/build.gradle" afterPath="$PROJECT_DIR$/IOHunt/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag_1.xml" afterPath="$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag_1a.xml" afterPath="$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag_1a.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOHunt/src/main/res/values/strings_ah.xml" afterPath="$PROJECT_DIR$/IOHunt/src/main/res/values/strings_ah.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IOHunt.iws" />
@@ -88,64 +116,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libraries/BaseGameUtils/build.gradle">
+      <file leaf-file-name="alex_flat.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/drawable/alex_flat.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="story_frag.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="525">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libraries/BaseGameUtils/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="555">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IOHunt/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1271" max-vertical-offset="2070">
-              <caret line="126" column="7" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScreenSlidePagerActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/ScreenSlidePagerActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1290" max-vertical-offset="3120">
-              <caret line="135" column="68" selection-start-line="135" selection-start-column="68" selection-end-line="135" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_screen_slide_pager.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_screen_slide_pager.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2683897" vertical-offset="247" max-vertical-offset="1005">
-              <caret line="59" column="19" selection-start-line="28" selection-start-column="3" selection-end-line="59" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScreenSlidePageFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/ScreenSlidePageFragment.java">
+      <file leaf-file-name="strings_ah.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/values/strings_ah.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.37717602" vertical-offset="615" max-vertical-offset="1245">
+              <caret line="54" column="47" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -153,50 +148,92 @@
       </file>
       <file leaf-file-name="story_frag_1.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag_1.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.407408" vertical-offset="352" max-vertical-offset="1005">
-              <caret line="53" column="51" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="1005">
+              <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
               <folding />
             </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="story_frag_1a.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag_1a.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1155">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.185185" vertical-offset="622" max-vertical-offset="1155">
               <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="story_frag.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="525">
+        </entry>
+      </file>
+      <file leaf-file-name="story_frag_2.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag_2.xml">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1155">
+              <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="story_frag_3.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag_3.xml">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1095">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hunt.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/Hunt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5310" max-vertical-offset="7875">
-              <caret line="354" column="30" selection-start-line="354" selection-start-column="30" selection-end-line="354" selection-end-column="30" />
+      <file leaf-file-name="tag_item.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/tag_item.xml">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_victory.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_victory.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.11111" vertical-offset="555" max-vertical-offset="1110">
+              <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_about.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_about.xml">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -1619,7 +1656,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5651785822000" />
+        <entry key="$PROJECT_DIR$" value="5653008078000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2068,7 +2105,6 @@
         <option value="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/appydays/ClueActivity.java" />
         <option value="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/appydays/BaseActivity.java" />
         <option value="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/appydays/TagsActivity.java" />
-        <option value="$PROJECT_DIR$/IOHunt/src/main/res/values/strings_ah.xml" />
         <option value="$PROJECT_DIR$/IOHunt/src/main/res/values/ids.xml" />
         <option value="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/VictoryActivity.java" />
         <option value="$PROJECT_DIR$/IOHunt/src/main/res/layout/toolbar.xml" />
@@ -2076,8 +2112,6 @@
         <option value="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/TagsAdapter.java" />
         <option value="$PROJECT_DIR$/IOHunt/src/main/res/layout/tag_item.xml" />
         <option value="$PROJECT_DIR$/IOHunt/src/main/res/drawable/qr_circle.xml" />
-        <option value="$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_victory.xml" />
-        <option value="$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag_1a.xml" />
         <option value="$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag_2.xml" />
         <option value="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/TagsActivity.java" />
         <option value="$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_trivia_question.xml" />
@@ -2091,13 +2125,17 @@
         <option value="$PROJECT_DIR$/IOHunt/src/main/res/drawable/fab_colors_selector.xml" />
         <option value="$PROJECT_DIR$/IOHunt/src/main/res/values/color.xml" />
         <option value="$PROJECT_DIR$/IOHunt/build.gradle" />
-        <option value="$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag_1.xml" />
         <option value="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/Hunt.java" />
         <option value="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/AchievementManager.java" />
         <option value="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/DecoyActivity.java" />
         <option value="$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_decoy.xml" />
         <option value="$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_clue_two_tag.xml" />
         <option value="$PROJECT_DIR$/IOHunt/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/VictoryActivity.java" />
+        <option value="$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag_1.xml" />
+        <option value="$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag_1a.xml" />
+        <option value="$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_victory.xml" />
+        <option value="$PROJECT_DIR$/IOHunt/src/main/res/values/strings_ah.xml" />
       </list>
     </option>
   </component>
@@ -2131,9 +2169,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2165,104 +2203,6 @@
               <option name="myItemId" value="libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BaseGameUtils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BaseGameUtils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BaseGameUtils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BaseGameUtils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basegameutils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2323,66 +2263,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values-v21" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values-v11" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2413,130 +2293,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="huntdata" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IOHunt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-hdpi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2595,10 +2351,6 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="droidconuk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -2615,7 +2367,7 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="true" />
     <property name="LayoutCode.rearrangeEntriesXML" value="true" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="069bf8980ac9be9a" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="T076000S99" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="2.3" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="OverrideImplement.combined" value="true" />
@@ -2639,11 +2391,11 @@
       <recent name="$PROJECT_DIR$/IOHunt/src/main/res/drawable-hdpi" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/IOHunt/src/main/res/drawable-xxxhdpi" />
       <recent name="$PROJECT_DIR$/IOHunt/src/main/res/drawable-xxhdpi" />
       <recent name="$PROJECT_DIR$/IOHunt/src/main/res/drawable-xhdpi" />
       <recent name="$PROJECT_DIR$/IOHunt/src/main/res/drawable-mdpi" />
       <recent name="$PROJECT_DIR$/IOHunt/src/main/res/drawable-hdpi" />
+      <recent name="$PROJECT_DIR$/IOHunt/src/main/res/drawable-xxxhdpi" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.IOHunt-IOHunt">
@@ -2837,8 +2589,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2851,23 +2603,23 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32754344" sideWeight="0.17525035" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.27240142" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30769232" sideWeight="0.72031474" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.27419356" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32754344" sideWeight="0.82474965" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30769232" sideWeight="0.72031474" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287841" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.72759855" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.72401434" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32754344" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32754344" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32754344" sideWeight="0.82474965" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32734275" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2893,91 +2645,14 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../android-sdk-macosx/platforms/android-21/android.jar!/android/content/res/Resources.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1598" max-vertical-offset="2115">
-          <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libraries/BaseGameUtils/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar!/android/support/v7/app/ActionBarActivityDelegateBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.88" vertical-offset="2993" max-vertical-offset="3510">
-          <caret line="227" column="0" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libraries/BaseGameUtils/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar!/android/support/v7/widget/Toolbar.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="4515">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_clue.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="11.111111" vertical-offset="300" max-vertical-offset="2505">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/TriviaExplainerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/TriviaQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/VictoryActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
-          <caret line="124" column="40" selection-start-line="124" selection-start-column="40" selection-end-line="124" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libraries/BaseGameUtils/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar!/android/support/v7/app/ActionBarActivity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.88" vertical-offset="1328" max-vertical-offset="1860">
-          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/toolbar.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6666666" vertical-offset="0" max-vertical-offset="225">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/values-v21/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/wronganswer.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="345">
           <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/values-v11/styles.xml">
@@ -2988,13 +2663,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_trivia_question.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="840">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/values/styles.xml">
@@ -3027,13 +2702,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_tags.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.444445" vertical-offset="318" max-vertical-offset="840">
           <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/values/color.xml">
@@ -3044,13 +2719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/drawable/fab_colors_selector.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="530">
@@ -3058,28 +2726,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="514">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2264151" vertical-offset="0" max-vertical-offset="975">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/TagsActivity.java">
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/TagsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1090" max-vertical-offset="1620">
           <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/TriviaQuestionActivity.java">
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/TriviaQuestionActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.769231" vertical-offset="1860" max-vertical-offset="3015">
           <caret line="166" column="33" selection-start-line="166" selection-start-column="33" selection-end-line="166" selection-end-column="33" />
@@ -3107,42 +2761,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/AchievementManager.java">
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/AchievementManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.5769231" vertical-offset="1665" max-vertical-offset="2220">
           <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/BaseActivity.java">
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/BaseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="233" max-vertical-offset="1545">
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/ReauthActivity.java">
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/ReauthActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
           <caret line="33" column="16" selection-start-line="33" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/DecoyActivity.java">
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/DecoyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
           <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/TagsAdapter.java">
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/TagsAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="565" max-vertical-offset="1095">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/ClueActivity.java">
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/ClueActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="249.23077" vertical-offset="6585" max-vertical-offset="7980">
           <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
@@ -3171,40 +2825,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_decoy.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="472" max-vertical-offset="975">
           <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag_2.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65805167" vertical-offset="404" max-vertical-offset="1155">
-          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_clue_two_tag.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_clue_two_tag.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="337" max-vertical-offset="2640">
           <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libraries/BaseGameUtils/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="514">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3223,64 +2866,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/Hunt.java">
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/Hunt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4560" max-vertical-offset="6990">
           <caret line="354" column="30" selection-start-line="354" selection-start-column="30" selection-end-line="354" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1271" max-vertical-offset="2070">
-          <caret line="126" column="7" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag_1.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.407408" vertical-offset="352" max-vertical-offset="1005">
-          <caret line="53" column="51" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag_1a.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1155">
-          <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/ScreenSlidePageFragment.java">
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/ScreenSlidePageFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
           <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/droidconuk/ScreenSlidePagerActivity.java">
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_screen_slide_pager.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3809524" vertical-offset="247" max-vertical-offset="1005">
+          <caret line="59" column="19" selection-start-line="28" selection-start-column="3" selection-end-line="59" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/ScreenSlidePagerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1290" max-vertical-offset="3120">
           <caret line="135" column="68" selection-start-line="135" selection-start-column="68" selection-end-line="135" selection-end-column="68" />
@@ -3288,13 +2899,176 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_screen_slide_pager.xml">
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_trivia_explainer.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/line_frag.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/question_frag.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/drawable/fab_colors_selector.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06048387" vertical-offset="0" max-vertical-offset="496">
+          <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="2070">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IOHunt/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/java/com/laquysoft/gdgdevfest/VictoryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="1575">
+          <caret line="117" column="55" selection-start-line="117" selection-start-column="55" selection-end-line="117" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/drawable/alex_flat.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag_1a.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2683897" vertical-offset="247" max-vertical-offset="1005">
-          <caret line="59" column="19" selection-start-line="28" selection-start-column="3" selection-end-line="59" selection-end-column="19" />
+        <state vertical-scroll-proportion="-4.185185" vertical-offset="622" max-vertical-offset="1155">
+          <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag_2.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1155">
+          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag_3.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1095">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/tag_item.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_victory.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.11111" vertical-offset="555" max-vertical-offset="1110">
+          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/activity_about.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/layout/story_frag_1.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="1005">
+          <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IOHunt/src/main/res/values/strings_ah.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37717602" vertical-offset="615" max-vertical-offset="1245">
+          <caret line="54" column="47" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
           <folding />
         </state>
       </provider>

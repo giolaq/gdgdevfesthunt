@@ -47,7 +47,7 @@
                 android:layout_width="150dp"
                 android:layout_height="169dp"
                 android:contentDescription="@null"
-                android:src="@drawable/minidroid" />
+                android:src="@drawable/alex_flat" />
         </LinearLayout>
 
         <!-- suppress AndroidLintUseCompoundDrawables -->
