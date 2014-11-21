@@ -14,6 +14,12 @@
         revision="20.0.0"
         sha1="9ebf6cd580d67601fbf88fd007aab4703b19e4c2"/>
     <item
+        dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/debug/classes-4e4cfcbd97e06e6722d3392279d0db362a5a5af7.jar"
+        jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54"/>
+    <item
         dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/release/classes-334925ac8b9ef9082a2ec49232cf0c81c9714312.jar"
         jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-legacy/2.0.0/classes.jar"
         jumboMode="false"
@@ -25,12 +31,6 @@
         jumboMode="false"
         revision="20.0.0"
         sha1="cb9bbd4a4737c5d1720f03efe7de98df3a924ef1"/>
-    <item
-        dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/release/support-annotations-21.0.0-b7e7128e874d9f131ce8134a08893cbf4999e4e8.jar"
-        jar="/Users/joaobiriba/Documents/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
     <item
         dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/release/classes-8b035d228aaad20e1a1d860339b58b0230091e93.jar"
         jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.shamanland/fab/0.0.5/classes.jar"
@@ -44,11 +44,23 @@
         revision="20.0.0"
         sha1="055f28993ea6e057c5573cf18ffc1bf9359cd1c3"/>
     <item
-        dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/release/classes-3b6c9cbadc5cd5c8fd8ca993a5c88cb8d1dca382.jar"
-        jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
+        dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-0c76bbf63f13e96f7ae58ece6ead2e94a6ef5ba7.jar"
+        jar="/Users/joaobiriba/Documents/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="95fd37732ec852e99f07eeb516a3650172f1d136"/>
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6"/>
+    <item
+        dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/debug/classes-8c0b9c614e549a2df19b94072a14ed08915293f5.jar"
+        jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="4796f18d3750bf2bfa078407a94a7f9db35b440d"/>
+    <item
+        dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/debug/classes-902bf8a166126dad8fc7bcbb936de96eeb133f28.jar"
+        jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3"/>
     <item
         dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/release/classes-0123f4efc2b3dd716b52bec86dd1bfa18b5f7ecc.jar"
         jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-integration/2.0.0/classes.jar"
@@ -56,29 +68,17 @@
         revision="20.0.0"
         sha1="32c0545546faa0e65a67bba8abc072b1aef5b136"/>
     <item
-        dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/release/internal_impl-21.0.0-c36dc3f6044e3780965cb4758e45cfe15310fd08.jar"
-        jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/debug/classes-839069b7e1b2a8f597e58b6df99ef403afadc2cf.jar"
+        jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.2/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c"/>
     <item
-        dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/release/classes-2fa903d6f43a78b641906c99203ed357dd9f9c1d.jar"
-        jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.0/classes.jar"
+        dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-24d7c30f48585800ef1b56a4e38d8417a5c4fb7c.jar"
+        jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/libs/internal_impl-21.0.2.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2"/>
-    <item
-        dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/release/classes-64c6ee451db54a62fc1edf488c6a3f809b216347.jar"
-        jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
-    <item
-        dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/release/classes-4070f3963e464a896c7bc210e1a0e390a6f3a95a.jar"
-        jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.0/classes.jar"
-        jumboMode="false"
-        revision="20.0.0"
-        sha1="7d2525cba8ed61fff102977caed964fc22061e34"/>
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f"/>
     <item
         dex="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/pre-dexed/release/classes-d73e275fffc88ee3932b83a53d4141a42824e2fd.jar"
         jar="/Users/joaobiriba/Documents/Projects/IOHunt/IOHunt/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.11/classes.jar"

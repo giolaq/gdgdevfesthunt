@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.laquysoft.gdgdevfest;
+package com.laquysoft.droidconnl;
 
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;

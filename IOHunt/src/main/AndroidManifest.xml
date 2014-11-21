@@ -16,7 +16,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.laquysoft.gdgdevfest"
+    package="com.laquysoft.droidconnl"
     android:versionCode="12"
     android:versionName="6" >
 
@@ -45,7 +45,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name="com.laquysoft.gdgdevfest.ClueActivity"
+            android:name="com.laquysoft.droidconnl.ClueActivity"
             android:keepScreenOn="true"
             android:label="@string/title_activity_clue_message"
             android:launchMode="singleTask"
@@ -54,7 +54,7 @@
 
         </activity>
         <activity
-            android:name="com.laquysoft.gdgdevfest.NavActivity"
+            android:name="com.laquysoft.droidconnl.NavActivity"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -63,42 +63,42 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.laquysoft.gdgdevfest.TagsActivity"
+            android:name="com.laquysoft.droidconnl.TagsActivity"
             android:screenOrientation="portrait">
 
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value="com.laquysoft.gdgdevfest.NavActivity"/>
+            android:value="com.laquysoft.droidconnl.NavActivity"/>
      </activity>
         <activity
-            android:name="com.laquysoft.gdgdevfest.DecoyActivity"
+            android:name="com.laquysoft.droidconnl.DecoyActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.gdgdevfest.ScreenSlidePagerActivity"
+            android:name="com.laquysoft.droidconnl.ScreenSlidePagerActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.gdgdevfest.ReauthActivity"
+            android:name="com.laquysoft.droidconnl.ReauthActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.laquysoft.gdgdevfest.ZoomActivity"
+            android:name="com.laquysoft.droidconnl.ZoomActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.gdgdevfest.AboutActivity"
+            android:name="com.laquysoft.droidconnl.AboutActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.gdgdevfest.VictoryActivity"
+            android:name="com.laquysoft.droidconnl.VictoryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.gdgdevfest.TriviaExplainerActivity"
+            android:name="com.laquysoft.droidconnl.TriviaExplainerActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.gdgdevfest.TriviaQuestionActivity"
+            android:name="com.laquysoft.droidconnl.TriviaQuestionActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.laquysoft.gdgdevfest.NFCShimActivity"
+            android:name="com.laquysoft.droidconnl.NFCShimActivity"
             android:theme="@android:style/Theme.NoDisplay" >
             <intent-filter>
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
@@ -123,10 +123,10 @@
         </activity>
 
         <service
-            android:name="com.laquysoft.gdgdevfest.ScoreService"
+            android:name="com.laquysoft.droidconnl.ScoreService"
             android:enabled="true" />
         <service
-            android:name="com.laquysoft.gdgdevfest.AchievementService"
+            android:name="com.laquysoft.droidconnl.AchievementService"
             android:enabled="true" />
     </application>
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.laquysoft.gdgdevfest;
+package com.laquysoft.droidconnl;
 
 /**
  * This is the abstract representation of a single tag.

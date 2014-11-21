@@ -1,4 +1,4 @@
-package com.laquysoft.gdgdevfest;
+package com.laquysoft.droidconnl;
 
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.games.Games;
