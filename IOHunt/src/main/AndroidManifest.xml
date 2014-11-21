@@ -17,8 +17,8 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.laquysoft.gdgdevfest"
-    android:versionCode="11"
-    android:versionName="5" >
+    android:versionCode="12"
+    android:versionName="6" >
 
     <uses-permission android:name="android.permission.NFC" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -68,7 +68,7 @@
 
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value="com.laquysoft.droidconuk.NavActivity"/>
+            android:value="com.laquysoft.gdgdevfest.NavActivity"/>
      </activity>
         <activity
             android:name="com.laquysoft.gdgdevfest.DecoyActivity"
