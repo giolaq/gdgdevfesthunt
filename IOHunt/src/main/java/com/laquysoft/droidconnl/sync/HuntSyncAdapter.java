@@ -24,6 +24,10 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.laquysoft.droidconnl.R;
+import com.laquysoft.droidconnl.rest.RestClient;
+import com.laquysoft.droidconnl.rest.model.Hunt;
+
+import java.util.List;
 
 
 public class HuntSyncAdapter extends AbstractThreadedSyncAdapter {
@@ -43,6 +47,11 @@ public class HuntSyncAdapter extends AbstractThreadedSyncAdapter {
     public void onPerformSync(Account account, Bundle extras, String authority, ContentProviderClient provider, SyncResult syncResult) {
         Log.d(LOG_TAG, "Starting sync");
 
+        RestClient restClient = new RestClient();
+        List<Hunt> hunts = restClient.getApiService().getHunts();
+        for ( Hunt h : hunts ) {
+            Log.d(LOG_TAG, "hunt " + h.getDisplayName() );
+        }
 
         // This will only happen if there was an error getting or parsing the forecast.
         return;
