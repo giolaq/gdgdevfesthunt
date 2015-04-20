@@ -75,4 +75,10 @@
     <string name="warned_you">There must be something about this tag that could have warned you...</string>
     <string name="oh_no_it_s_a_decoy">OH NO! IT\'S A DECOY!</string>
 
+    <!-- SyncAdapter related -->
+    <string name="sync_account_type">nfchunt.laquysoft.com</string>
+    <string name="content_authority">com.laquysoft.nfchunt</string>
+
+
+
 </resources>
