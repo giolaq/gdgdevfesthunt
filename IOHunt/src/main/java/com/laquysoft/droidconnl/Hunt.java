@@ -54,7 +54,7 @@ public class Hunt {
     public static final String FINISH_TIME_KEY = "FINISH_TIME_KEY";
 
     static Hunt theHunt;
-    static HuntResourceManager hrm;
+    static HuntResourcesManager hrm;
 
     public Boolean isShuffled = false;
     public int questionState = 0;
@@ -92,7 +92,7 @@ public class Hunt {
 
         if (theHunt == null) {
 
-            hrm = new HuntResourceManager();
+            hrm = new HuntResourcesManager();
             hrm.unzipFile(res);
 
             theHunt = new Hunt(hrm.huntJSON, res, context);
@@ -473,7 +473,7 @@ public class Hunt {
                 try {
                     file = downloadManager.openDownloadedFile(downloadReference);
                     //Log.d(TAG,"Downloaded " + downloadManager.getUriForDownloadedFile(downloadReference));
-                    hrm = new HuntResourceManager();
+                    hrm = new HuntResourcesManager();
                     hrm.unzipDownloadedFile(file);
 
                     theHunt = new Hunt(hrm.huntJSON, context.getResources(), context);

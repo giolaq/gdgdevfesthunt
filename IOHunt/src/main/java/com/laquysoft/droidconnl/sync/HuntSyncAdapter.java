@@ -4,20 +4,12 @@ package com.laquysoft.droidconnl.sync;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
-import android.app.NotificationManager;
-import android.app.PendingIntent;
 import android.content.AbstractThreadedSyncAdapter;
 import android.content.ContentProviderClient;
 import android.content.ContentResolver;
-import android.content.ContentUris;
-import android.content.ContentValues;
 import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
 import android.content.SyncRequest;
 import android.content.SyncResult;
-import android.database.Cursor;
-import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 
@@ -25,7 +17,7 @@ import android.util.Log;
 
 import com.laquysoft.droidconnl.R;
 import com.laquysoft.droidconnl.rest.RestClient;
-import com.laquysoft.droidconnl.rest.model.Hunt;
+import com.laquysoft.droidconnl.rest.model.HuntModel;
 
 import java.util.List;
 
@@ -48,8 +40,8 @@ public class HuntSyncAdapter extends AbstractThreadedSyncAdapter {
         Log.d(LOG_TAG, "Starting sync");
 
         RestClient restClient = new RestClient();
-        List<Hunt> hunts = restClient.getApiService().getHunts();
-        for ( Hunt h : hunts ) {
+        List<HuntModel> huntModels = restClient.getApiService().getHunts();
+        for ( HuntModel h : huntModels) {
             Log.d(LOG_TAG, "hunt " + h.getDisplayName() );
         }
 

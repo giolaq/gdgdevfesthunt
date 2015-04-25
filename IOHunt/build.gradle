@@ -16,6 +16,8 @@ android {
         applicationId "com.laquysoft.droidconnl"
         minSdkVersion 10
         targetSdkVersion 22
+        multiDexEnabled true
+
     }
 
     buildTypes {

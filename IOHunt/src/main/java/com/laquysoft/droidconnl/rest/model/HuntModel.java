@@ -8,7 +8,7 @@ import org.parceler.Parcel;
  * Created by joaobiriba on 21/04/15.
  */
 @Parcel
-public class Hunt {
+public class HuntModel {
 
     @SerializedName("id")
     private Integer id;

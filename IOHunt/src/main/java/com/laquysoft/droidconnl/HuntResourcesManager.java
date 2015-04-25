@@ -31,7 +31,7 @@ import java.util.zip.ZipInputStream;
  *
  * @author wolff
  */
-public class HuntResourceManager {
+public class HuntResourcesManager {
 
     HashMap<String, Drawable> drawables;
     String huntJSON;

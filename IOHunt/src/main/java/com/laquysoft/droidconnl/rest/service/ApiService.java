@@ -1,6 +1,6 @@
 package com.laquysoft.droidconnl.rest.service;
 
-import com.laquysoft.droidconnl.rest.model.Hunt;
+import com.laquysoft.droidconnl.rest.model.HuntModel;
 
 import java.util.List;
 
@@ -12,6 +12,6 @@ import retrofit.http.GET;
 public interface ApiService {
 
     @GET("/api/hunt")
-    public List<Hunt> getHunts();
+    public List<HuntModel> getHunts();
 
 }
