@@ -4,28 +4,22 @@ import com.google.gson.annotations.SerializedName;
 
 import org.parceler.Parcel;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 /**
  * Created by joaobiriba on 21/04/15.
  */
 @Parcel
 public class HuntModel {
 
-    @SerializedName("id")
-    private Integer id;
+    @SerializedName("Items")
+    private final ArrayList<Hunt> hunts = new ArrayList<>();
 
-    @SerializedName("type")
-    private String type;
-
-    @SerializedName("displayName")
-    private String displayName;
-
-    @SerializedName("imgUrl")
-    private String imgUrl;
-
-
-    public String getDisplayName() {
-        return displayName;
+    public ArrayList<Hunt> getHunts() {
+        return hunts;
     }
+
 
 
 }

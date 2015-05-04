@@ -11,7 +11,7 @@ import retrofit.http.GET;
  */
 public interface ApiService {
 
-    @GET("/api/hunt")
-    public List<HuntModel> getHunts();
+    @GET("/hunt")
+    public HuntModel getHunts();
 
 }

@@ -12,7 +12,7 @@ import retrofit.converter.GsonConverter;
  */
 public class RestClient
 {
-    private static final String BASE_URL = "http://192.168.1.100:8080/";
+    private static final String BASE_URL = "http://162.248.167.159:8080/";
     private ApiService apiService;
 
     public RestClient()
