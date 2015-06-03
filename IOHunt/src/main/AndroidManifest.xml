@@ -16,7 +16,7 @@
 -->
 
 <manifest
-    package="com.laquysoft.droidconnl"
+    package="com.laquysoft.gdghunt"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:versionCode="13"
     android:versionName="7">
@@ -50,7 +50,7 @@
             android:value="@string/app_id"/>
 
         <activity
-            android:name="com.laquysoft.droidconnl.ClueActivity"
+            android:name="com.laquysoft.gdghunt.ClueActivity"
             android:keepScreenOn="true"
             android:label="@string/title_activity_clue_message"
             android:launchMode="singleTask"
@@ -59,7 +59,7 @@
         </activity>
 
         <activity
-            android:name="com.laquysoft.droidconnl.NavActivity"
+            android:name="com.laquysoft.gdghunt.NavActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -68,50 +68,50 @@
         </activity>
 
         <activity
-            android:name="com.laquysoft.droidconnl.TagsActivity"
+            android:name="com.laquysoft.gdghunt.TagsActivity"
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.laquysoft.droidconnl.NavActivity"/>
+                android:value="com.laquysoft.gdghunt.NavActivity"/>
         </activity>
 
         <activity
-            android:name="com.laquysoft.droidconnl.DecoyActivity"
+            android:name="com.laquysoft.gdghunt.DecoyActivity"
             android:screenOrientation="portrait">
         </activity>
 
         <activity
-            android:name="com.laquysoft.droidconnl.ScreenSlidePagerActivity"
+            android:name="com.laquysoft.gdghunt.ScreenSlidePagerActivity"
             android:screenOrientation="portrait">
         </activity>
 
         <activity
-            android:name="com.laquysoft.droidconnl.ReauthActivity"
+            android:name="com.laquysoft.gdghunt.ReauthActivity"
             android:screenOrientation="portrait">
         </activity>
 
         <activity
-            android:name="com.laquysoft.droidconnl.VictoryActivity"
+            android:name="com.laquysoft.gdghunt.VictoryActivity"
             android:screenOrientation="portrait">
         </activity>
 
         <activity
-            android:name="com.laquysoft.droidconnl.TriviaExplainerActivity"
+            android:name="com.laquysoft.gdghunt.TriviaExplainerActivity"
             android:screenOrientation="portrait">
         </activity>
 
         <activity
-            android:name="com.laquysoft.droidconnl.TriviaQuestionActivity"
+            android:name="com.laquysoft.gdghunt.TriviaQuestionActivity"
             android:screenOrientation="portrait">
         </activity>
 
         <activity
-            android:name="com.laquysoft.droidconnl.nichel.HuntListActivity"
+            android:name="com.laquysoft.gdghunt.nichel.HuntListActivity"
             android:screenOrientation="portrait">
         </activity>
 
         <activity
-            android:name="com.laquysoft.droidconnl.NFCShimActivity"
+            android:name="com.laquysoft.gdghunt.NFCShimActivity"
             android:theme="@android:style/Theme.NoDisplay">
             <intent-filter>
                 <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
@@ -136,7 +136,7 @@
         </activity>
 
         <service
-            android:name="com.laquysoft.droidconnl.sync.HuntStoreService"
+            android:name="com.laquysoft.gdghunt.sync.HuntStoreService"
             android:enabled="true"/>
 
     </application>
