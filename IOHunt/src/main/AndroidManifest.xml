@@ -18,7 +18,7 @@
 <manifest
     package="com.laquysoft.gdghunt"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:versionCode="13"
+    android:versionCode="14"
     android:versionName="7">
 
     <uses-permission android:name="android.permission.NFC"/>
