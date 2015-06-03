@@ -20,6 +20,9 @@ import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.os.ParcelFileDescriptor;
 
+import com.google.gson.Gson;
+import com.laquysoft.droidconnl.rest.model.HuntModel;
+
 import java.io.*;
 import java.util.HashMap;
 import java.util.zip.ZipEntry;
@@ -32,14 +35,14 @@ import java.util.zip.ZipInputStream;
  * @author wolff
  */
 public class HuntResourcesManager {
-
-    HashMap<String, Drawable> drawables;
+    HashMap<String, String> drawables;
     String huntJSON;
-
+    public HuntModel model;
 
     public Boolean unzipFile(Resources res) {
         try {
-            drawables = new HashMap<String, Drawable>();
+            drawables = new HashMap<String, String>();
+
             InputStream is = res.openRawResource(R.raw.hunt);
             ZipInputStream zis = new ZipInputStream(new BufferedInputStream(is));
             ZipEntry ze;
@@ -65,12 +68,8 @@ public class HuntResourcesManager {
 
                 if (filename.endsWith(".json")) {
                     huntJSON = new String(b);
-                } else if (filename.endsWith(".jpg")
-                        || filename.endsWith(".png")) {
-                    ByteArrayInputStream bais = new ByteArrayInputStream(b);
-                    Drawable drw = Drawable.createFromStream(bais, filename);
 
-                    drawables.put(filename, drw);
+                    model = new Gson().fromJson(huntJSON, HuntModel.class);
                 }
 
                 zis.closeEntry();
@@ -89,9 +88,9 @@ public class HuntResourcesManager {
     public void unzipDownloadedFile(ParcelFileDescriptor file) {
 
         try {
-            FileInputStream fileInputStream
-                    = new ParcelFileDescriptor.AutoCloseInputStream(file);
-            drawables = new HashMap<String, Drawable>();
+            FileInputStream fileInputStream = new ParcelFileDescriptor.AutoCloseInputStream(file);
+            drawables = new HashMap<String, String>();
+
             ZipInputStream zis = new ZipInputStream(new BufferedInputStream(fileInputStream));
             ZipEntry ze;
 
@@ -116,12 +115,9 @@ public class HuntResourcesManager {
 
                 if (filename.endsWith(".json")) {
                     huntJSON = new String(b);
-                } else if (filename.endsWith(".jpg")
-                        || filename.endsWith(".png")) {
-                    ByteArrayInputStream bais = new ByteArrayInputStream(b);
-                    Drawable drw = Drawable.createFromStream(bais, filename);
 
-                    drawables.put(filename, drw);
+                    model = new Gson().fromJson(huntJSON, HuntModel.class);
+
                 }
 
                 zis.closeEntry();

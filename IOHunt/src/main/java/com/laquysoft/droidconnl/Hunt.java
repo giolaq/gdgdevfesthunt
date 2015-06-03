@@ -33,6 +33,8 @@ import android.text.format.Time;
 import android.util.Log;
 import android.widget.ImageView;
 
+import com.squareup.picasso.Picasso;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -86,12 +88,12 @@ public class Hunt {
     private DownloadManager downloadManager;
     private long downloadReference;
 
+    private Context context;
 
     /** Returns the singleton hunt object, and initializes it if it's not ready. */
     public static Hunt getHunt(Resources res, Context context) {
 
         if (theHunt == null) {
-
             hrm = new HuntResourcesManager();
             hrm.unzipFile(res);
 
@@ -207,6 +209,7 @@ public class Hunt {
 
     /** Generates the entire hunt structure from JSON */
     Hunt(String jsonString, Resources res, Context context) {
+        this.context = context;
 
         //set filter to only when download is complete and register broadcast receiver
         IntentFilter filter = new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE);
@@ -401,11 +404,17 @@ public class Hunt {
     public void setClueImage(Resources res, ImageView imgView) {
         final Clue clue = getCurrentClue();
 
-        if (hrm.drawables.get(clue.displayImage) == null) {
-            imgView.setImageDrawable(res.getDrawable(R.drawable.ab_icon));
-        } else {
-            imgView.setImageDrawable(hrm.drawables.get(clue.displayImage));
-        }
+        final String image_url = clue.displayImage;
+
+        Picasso.with(context).load(image_url).into(imgView);
+
+
+
+        //if (hrm.drawables.get(clue.displayImage) == null) {
+        //    imgView.setImageDrawable(res.getDrawable(R.drawable.ab_icon));
+        //} else {
+        //    imgView.setImageDrawable(hrm.drawables.get(clue.displayImage));
+        //}
     }
 
     public boolean hasSeenIntro() {

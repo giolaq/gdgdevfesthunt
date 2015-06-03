@@ -78,7 +78,7 @@
     <!-- SyncAdapter related -->
     <string name="sync_account_type">nfchunt.laquysoft.com</string>
     <string name="content_authority">com.laquysoft.nfchunt</string>
-
+    <string name="areuready">Are you ready to play?</string>
 
 
 </resources>

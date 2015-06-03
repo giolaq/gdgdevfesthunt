@@ -25,53 +25,22 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.laquysoft.droidconnl.nichel.HuntListActivity;
 import com.laquysoft.droidconnl.sync.HuntStoreService;
 
 public class NavActivity extends Activity {
-
-    public final static String LOG_TAG = NavActivity.class.getSimpleName();
-
+    public final static String LOG = NavActivity.class.getSimpleName();
     public final static String EXTRA_MESSAGE = "com.google.wolff.androidhunt.MESSAGE";
-    public final static String STORY_NEXT = "com.google.wolff.androidhunt.STORY_NEXT";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Log.w(LOG_TAG, "Nav: OnCreate");
+        Log.w(LOG, "onCreate");
         super.onCreate(savedInstanceState);
-
-
-        Intent intent;
-        Hunt hunt = Hunt.getHunt(getResources(), getApplicationContext());
 
         Intent sendIntent = new Intent(getApplicationContext(), HuntStoreService.class);
         getApplicationContext().startService(sendIntent);
-        if (hunt.hasSeenIntro()) {
-            intent = new Intent(this, ClueActivity.class);
-        } else {
-            intent = new Intent(this, ScreenSlidePagerActivity.class);
-        }
 
-        startActivity(intent);
+        startActivity(new Intent(this, HuntListActivity.class));
         finish();
-    }
-
-    public String lastClue = null;
-
-    @Override
-    public void onStart() {
-        super.onStart();
-        Log.w("AndroidHunt", "Nav: OnStart");
-
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-    }
-
-    @Override
-    public void onNewIntent(Intent intent) {
-        Log.w("AndroidHunt", "New intent");
-        Log.w("AndroidHunt", "Nav: Intent gotten: " + intent.getAction());
     }
 }

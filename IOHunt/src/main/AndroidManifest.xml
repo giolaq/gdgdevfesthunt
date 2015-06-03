@@ -15,129 +15,129 @@
   limitations under the License.
 -->
 
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest
     package="com.laquysoft.droidconnl"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:versionCode="13"
-    android:versionName="7" >
+    android:versionName="7">
 
-    <uses-permission android:name="android.permission.NFC" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.FLASHLIGHT" />
-    <uses-permission
-        android:name="android.permission.READ_SYNC_SETTINGS"/>
-    <uses-permission
-        android:name="android.permission.WRITE_SYNC_SETTINGS"/>
-    <uses-permission
-        android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
-    <uses-permission
-        android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
 
     <uses-feature
         android:name="android.hardware.nfc"
-        android:required="false" />
+        android:required="false"/>
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
+
         <meta-data
             android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
+            android:value="@integer/google_play_services_version"/>
+
         <meta-data
             android:name="com.google.android.gms.games.APP_ID"
-            android:value="@string/app_id" />
+            android:value="@string/app_id"/>
+
         <activity
             android:name="com.laquysoft.droidconnl.ClueActivity"
             android:keepScreenOn="true"
             android:label="@string/title_activity_clue_message"
             android:launchMode="singleTask"
-            android:screenOrientation="portrait" >
-            <category android:name="android.intent.category.DEFAULT" />
-
+            android:screenOrientation="portrait">
+            <category android:name="android.intent.category.DEFAULT"/>
         </activity>
+
         <activity
             android:name="com.laquysoft.droidconnl.NavActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
         <activity
             android:name="com.laquysoft.droidconnl.TagsActivity"
             android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.laquysoft.droidconnl.NavActivity"/>
+        </activity>
 
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value="com.laquysoft.droidconnl.NavActivity"/>
-     </activity>
         <activity
             android:name="com.laquysoft.droidconnl.DecoyActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
         </activity>
+
         <activity
             android:name="com.laquysoft.droidconnl.ScreenSlidePagerActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
         </activity>
+
         <activity
             android:name="com.laquysoft.droidconnl.ReauthActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
         </activity>
-        <activity
-            android:name="com.laquysoft.droidconnl.ZoomActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.laquysoft.droidconnl.AboutActivity"
-            android:screenOrientation="portrait" />
+
         <activity
             android:name="com.laquysoft.droidconnl.VictoryActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.laquysoft.droidconnl.TriviaExplainerActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.laquysoft.droidconnl.TriviaQuestionActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.laquysoft.droidconnl.NFCShimActivity"
-            android:theme="@android:style/Theme.NoDisplay" >
-            <intent-filter>
-                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-
-                <data
-                    android:host="nfchunt.appspot.com"
-                    android:pathPrefix="/f"
-                    android:scheme="https" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-
-                <data
-                    android:host="nfchunt.appspot.com"
-                    android:pathPrefix="/f"
-                    android:scheme="http" />
-            </intent-filter>
+            android:screenOrientation="portrait">
         </activity>
 
-        <service
-            android:name="com.laquysoft.droidconnl.ScoreService"
-            android:enabled="true" />
-        <service
-            android:name="com.laquysoft.droidconnl.AchievementService"
-            android:enabled="true" />
+        <activity
+            android:name="com.laquysoft.droidconnl.TriviaExplainerActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="com.laquysoft.droidconnl.TriviaQuestionActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="com.laquysoft.droidconnl.nichel.HuntListActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="com.laquysoft.droidconnl.NFCShimActivity"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <data
+                    android:host="nfchunt.appspot.com"
+                    android:pathPrefix="/f"
+                    android:scheme="https"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <data
+                    android:host="nfchunt.appspot.com"
+                    android:pathPrefix="/f"
+                    android:scheme="http"/>
+            </intent-filter>
+        </activity>
 
         <service
             android:name="com.laquysoft.droidconnl.sync.HuntStoreService"
-            android:enabled="true" />
+            android:enabled="true"/>
 
     </application>
-
 </manifest>
