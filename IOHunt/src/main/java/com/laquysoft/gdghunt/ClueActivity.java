@@ -73,7 +73,7 @@ public class ClueActivity extends BaseActivity {
 		//setContentView(R.layout.activity_clue_two_tag);
 
 
-        setActionBarIcon(R.drawable.ic_launcher);
+        setActionBarIcon(R.mipmap.ic_launcher);
 
         mImgView = (ImageView) findViewById(R.id.imageView1);
 		mHeading = (TextView) findViewById(R.id.heading);

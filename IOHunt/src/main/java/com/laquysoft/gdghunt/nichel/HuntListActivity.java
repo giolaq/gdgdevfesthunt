@@ -43,7 +43,7 @@ public class HuntListActivity extends BaseActivity implements ErrorHandler, Hunt
 
         super.onCreate(savedInstanceState);
 
-        setActionBarIcon(R.drawable.ic_launcher);
+        setActionBarIcon(R.mipmap.ic_launcher);
 
         adapter = new HuntAdapter(this, this);
 
