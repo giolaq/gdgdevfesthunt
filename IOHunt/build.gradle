@@ -30,13 +30,13 @@ android {
 
 dependencies {
     compile project(':libraries:BaseGameUtils')
-    compile 'com.android.support:appcompat-v7:22.0.0'
+    compile 'com.android.support:appcompat-v7:22.2.0'
     compile 'com.android.support:cardview-v7:+'
-    compile 'com.android.support:recyclerview-v7:21.+'
+    compile 'com.android.support:recyclerview-v7:22.+'
     compile 'com.android.support:design:22.2.0'
 
     compile 'com.google.android.gms:play-services:7.5.0'
-    compile files('libs/libGoogleAnalyticsServices.jar')
+
     // Supports Android 4.0.3 and later (API level 15)
     compile 'com.embarkmobile:zxing-android-minimal:2.0.0@aar'
 

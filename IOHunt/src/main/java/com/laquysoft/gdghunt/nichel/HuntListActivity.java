@@ -89,18 +89,17 @@ public class HuntListActivity extends BaseActivity implements ErrorHandler, Hunt
     }
 
     @Override
-    public void downloadHunt(int position) {
+    public void downloadHunt(String huntid) {
         Log.d(TAG, "downloadHunt");
-        Log.i(TAG, "DOWNLOAD hunt POS: " + position);
+        Log.i(TAG, "DOWNLOAD hunt POS: " + huntid);
 
         final Hunt hunt = Hunt.getHunt(getResources(), getApplicationContext());
         hunt.reset();
-        hunt.reload(getApplicationContext(),this,position);
-
+        hunt.reload(getApplicationContext(),this,huntid);
     }
 
     @Override
-    public void startHunt(String huntid) {
+    public void onSuccessDownloadListener(String huntid) {
         Log.d(TAG, "startNewHunt");
         Log.i(TAG, "PLAY hunt ID: " + huntid);
 
@@ -116,12 +115,6 @@ public class HuntListActivity extends BaseActivity implements ErrorHandler, Hunt
             startActivity(new Intent(this, ScreenSlidePagerActivity.class));
             finish();
         }
-    }
-
-    @Override
-    public void onSuccessDownloadListener(int position) {
-        huntlist.get(position).setDownloaded(true);
-        adapter.notifyItemChanged(position);
     }
 
     class GetHuntsTask extends AsyncTask<Void, Void, ArrayList<HuntModel>> {

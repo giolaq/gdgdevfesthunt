@@ -15,7 +15,7 @@
 -->
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -150,21 +150,18 @@
 
 
 
-    <com.shamanland.fab.FloatingActionButton
-        xmlns:fab="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/btnScan"
-        android:layout_width="wrap_content"
+
+
+    <android.support.design.widget.FloatingActionButton
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
+        android:layout_width="wrap_content"
+        android:id="@+id/btnScan"
+        app:layout_anchorGravity="bottom|right|end"
         android:src="@drawable/ic_glaquidara"
-        fab:floatingActionButtonColor="@drawable/fab_colors_selector"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="-34dp"
-        android:layout_alignBottom="@+id/imageView1"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-
+        android:clickable="true"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_above="@+id/displayText"
+        android:layout_alignParentRight="true" />
 
 
 

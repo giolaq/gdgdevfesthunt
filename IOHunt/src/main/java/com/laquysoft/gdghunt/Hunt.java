@@ -92,7 +92,7 @@ public class Hunt {
     private Context context;
 
     private OnSuccessDownloadListener onSuccessDownloadListener;
-    private int mPosition;
+    private String mHuntID;
 
     /** Returns the singleton hunt object, and initializes it if it's not ready. */
     public static Hunt getHunt(Resources res, Context context) {
@@ -468,8 +468,8 @@ public class Hunt {
         return false;
     }
 
-    public void reload(Context context, OnSuccessDownloadListener listener, int position) {
-        mPosition = position;
+    public void reload(Context context, OnSuccessDownloadListener listener, String huntid) {
+        mHuntID = huntid;
         reloadFromRemote(context);
         onSuccessDownloadListener = listener;
     }
@@ -507,7 +507,7 @@ public class Hunt {
                     }
 
                     if ( theHunt.onSuccessDownloadListener !=  null) {
-                        theHunt.onSuccessDownloadListener.onSuccessDownloadListener(mPosition);
+                        theHunt.onSuccessDownloadListener.onSuccessDownloadListener(mHuntID);
                     }
 
                 } catch (FileNotFoundException e) {
@@ -537,6 +537,6 @@ public class Hunt {
     }
 
     public interface OnSuccessDownloadListener {
-        void onSuccessDownloadListener(int position);
+        void onSuccessDownloadListener(String huntid);
     }
 }

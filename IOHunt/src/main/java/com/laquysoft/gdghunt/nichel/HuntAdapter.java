@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -29,17 +30,18 @@ public class HuntAdapter extends RecyclerView.Adapter<HuntAdapter.ViewHolder> {
     public static class ViewHolder extends RecyclerView.ViewHolder {
         public final TextView tvName;
         public final ImageView ivImage;
-        public final ImageButton btnDown;
-        public final ImageButton btnPlay;
+        //public final ImageButton btnDown;
+        public final Button btnPlay;
 
         public ViewHolder(View view) {
             super(view);
 
             tvName = (TextView) view.findViewById(R.id.tvName);
             ivImage = (ImageView) view.findViewById(R.id.ivImage);
-            btnDown = (ImageButton) view.findViewById(R.id.btnDownload);
-            btnPlay = (ImageButton) view.findViewById(R.id.btnPlay);
+            //btnDown = (ImageButton) view.findViewById(R.id.btnDownload);
+            btnPlay = (Button) view.findViewById(R.id.btnPlay);
         }
+
     }
 
     public HuntAdapter(Context context, OnNewHuntListener listener) {
@@ -59,7 +61,6 @@ public class HuntAdapter extends RecyclerView.Adapter<HuntAdapter.ViewHolder> {
     public void onBindViewHolder(ViewHolder holder, int position) {
         final int index = position;
         final boolean available = (model.get(index).getId().equals("13")); //FIXME - nichel - abilito solo l'hunt di berlino, id = 13
-        final boolean downloaded = model.get(index).isDownloaded();
         final String huntid = model.get(index).getId();
         final String name = model.get(index).getDisplayName();
         final String image_url = model.get(index).getImageUrl();
@@ -70,18 +71,19 @@ public class HuntAdapter extends RecyclerView.Adapter<HuntAdapter.ViewHolder> {
             Picasso.with(context).load(image_url).into(holder.ivImage);
         }
 
-        holder.btnDown.setVisibility((available) ? View.VISIBLE : View.INVISIBLE);
-        holder.btnDown.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.i(TAG, "DOWNLOAD Hunt POS: " + index);
+        //holder.btnDown.setVisibility((available) ? View.VISIBLE : View.INVISIBLE);
+        //holder.btnDown.setOnClickListener(new View.OnClickListener() {
+        //    @Override
+        //    public void onClick(View v) {
+        //        Log.i(TAG, "DOWNLOAD Hunt POS: " + index);
+        //
+        //        listener.downloadHunt(index);
+        //    }
+        //});
 
-                listener.downloadHunt(index);
-            }
-        });
 
         holder.btnPlay.setVisibility((available) ? View.VISIBLE : View.INVISIBLE);
-        holder.btnPlay.setEnabled(available && downloaded);
+        holder.btnPlay.setEnabled(available);
         holder.btnPlay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -92,7 +94,8 @@ public class HuntAdapter extends RecyclerView.Adapter<HuntAdapter.ViewHolder> {
 
                 builder.setPositiveButton(context.getString(android.R.string.ok), new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        listener.startHunt(huntid);
+                        listener.downloadHunt(huntid);
+                        //listener.startHunt(huntid);
                         dialog.dismiss();
                     }
                 });
@@ -122,7 +125,6 @@ public class HuntAdapter extends RecyclerView.Adapter<HuntAdapter.ViewHolder> {
     }
 
     public interface OnNewHuntListener {
-        void downloadHunt(int position);
-        void startHunt(String huntid);
+        void downloadHunt(String huntid);
     }
 }

@@ -32,27 +32,20 @@
                 android:gravity="top"
                 android:padding="8dp"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:layout_toLeftOf="@+id/btnDownload"
-                android:layout_toStartOf="@+id/btnDownload"
+                android:layout_toLeftOf="@+id/btnPlay"
+                android:layout_toStartOf="@+id/btnPlay"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentTop="true"/>
 
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:id="@+id/btnDownload"
-                android:src="@android:drawable/ic_menu_add"
-                android:layout_alignParentTop="true"
-                android:layout_toLeftOf="@+id/btnPlay"
-                android:layout_alignParentBottom="true"/>
 
-            <ImageButton
+            <Button
+
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:id="@+id/btnPlay"
-                android:src="@android:drawable/ic_media_play"
+                android:text="play"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"

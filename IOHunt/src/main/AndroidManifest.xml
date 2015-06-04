@@ -79,7 +79,10 @@
             android:name="com.laquysoft.gdghunt.DecoyActivity"
             android:screenOrientation="portrait">
         </activity>
-
+        <activity
+            android:name="com.laquysoft.gdghunt.AboutActivity"
+            android:screenOrientation="portrait">
+        </activity>
         <activity
             android:name="com.laquysoft.gdghunt.ScreenSlidePagerActivity"
             android:screenOrientation="portrait">
