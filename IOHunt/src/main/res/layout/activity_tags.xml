@@ -30,18 +30,6 @@
          />
 
 
-    <com.shamanland.fab.FloatingActionButton
-        xmlns:fab="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/reset_this"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/tagsList"
-        android:layout_alignRight="@id/tagsList"
-        android:src="@drawable/ic_delete_white_48dp"
-        fab:floatingActionButtonColor="@drawable/fab_colors_selector"
-        android:layout_margin="16dp"
-        android:onClick="onResetClicked"        />
-
     <include
         android:id="@+id/toolbar"
         layout="@layout/toolbar"

@@ -12,6 +12,8 @@
         <item name="android:windowSharedElementEnterTransition">@android:transition/explode</item>
         <item name="android:windowSharedElementExitTransition">@android:transition/explode</item>
         <item name="android:colorButtonNormal">#2196f3</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
     </style>
 
 

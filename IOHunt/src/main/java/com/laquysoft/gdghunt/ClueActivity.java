@@ -22,14 +22,18 @@ import com.google.zxing.integration.android.IntentResult;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.ViewTreeObserver;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -56,9 +60,10 @@ public class ClueActivity extends BaseActivity {
 
 	private static Boolean DEBUG_QUESTIONS = false;
     private FloatingActionButton scanBtn;
+	private boolean mMeasured = false;
 
 
-    public ClueActivity() {
+	public ClueActivity() {
 		super(CLIENT_GAMES);
 	}
 
@@ -121,7 +126,24 @@ public class ClueActivity extends BaseActivity {
 			}
 		});
 
+		scanBtn.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
+			@Override
+			public void onGlobalLayout() {
+				if (!mMeasured) {
+					// Here your view is already layed out and measured for the first time
+					mMeasured = true; // Some optional flag to mark, that we already got the sizes
+					if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+						RelativeLayout.LayoutParams p = (RelativeLayout.LayoutParams) scanBtn.getLayoutParams();
+						DisplayMetrics displayMetrics = getResources().getDisplayMetrics();
+						int dipMarginBottom =  (int) ((scanBtn.getHeight()/displayMetrics.density)+0.5);
+						p.setMargins(0, 0, 0, -dipMarginBottom); // get rid of margins
+						scanBtn.setLayoutParams(p);
 
+					}
+
+				}
+			}
+		});
 
 	}
 
@@ -231,7 +253,6 @@ public class ClueActivity extends BaseActivity {
 	@Override
 	public void onResume() {
 		super.onResume();
-
 		Intent intent = getIntent();
 
 		if (intent == null) {
