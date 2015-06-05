@@ -16,17 +16,19 @@ import com.laquysoft.gdghunt.R;
 import com.laquysoft.gdghunt.ReauthActivity;
 import com.laquysoft.gdghunt.ScreenSlidePagerActivity;
 import com.laquysoft.gdghunt.rest.RestClient;
+import com.laquysoft.gdghunt.rest.model.HuntListModel;
 import com.laquysoft.gdghunt.rest.model.HuntModel;
 
 import java.util.ArrayList;
 
+import retrofit.Callback;
 import retrofit.ErrorHandler;
 import retrofit.RetrofitError;
+import retrofit.client.Response;
 
-public class HuntListActivity extends BaseActivity implements ErrorHandler, HuntAdapter.OnNewHuntListener, Hunt.OnSuccessDownloadListener {
+public class HuntListActivity extends BaseActivity implements HuntAdapter.OnNewHuntListener, Hunt.OnSuccessDownloadListener {
     private final String TAG = HuntListActivity.class.getCanonicalName();
     private HuntAdapter adapter;
-    private ArrayList<HuntModel> huntlist = new ArrayList<>();
 
     public HuntListActivity() {
         super(CLIENT_GAMES);
@@ -54,7 +56,22 @@ public class HuntListActivity extends BaseActivity implements ErrorHandler, Hunt
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(layoutManager);
 
-        new GetHuntsTask(this).execute();
+        new RestClient().get().getHunts(new Callback<HuntListModel>() {
+            @Override
+            public void success(HuntListModel huntListModel, Response response) {
+                adapter.clear();
+                adapter.setModel(huntListModel.getHunts());
+                adapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void failure(RetrofitError retrofitError) {
+                showToast();
+
+                adapter.clear();
+                adapter.notifyDataSetChanged();
+            }
+        });
     }
 
     @Override
@@ -81,11 +98,8 @@ public class HuntListActivity extends BaseActivity implements ErrorHandler, Hunt
         //hunt.achievementManager.processBacklog(getApiClient());
     }
 
-    @Override
-    public Throwable handleError(RetrofitError cause) {
-        Toast.makeText(this, "Network Error!!!", Toast.LENGTH_LONG).show();
-
-        return null;
+    public void showToast() {
+        Toast.makeText(this, "Check your network!!!", Toast.LENGTH_LONG).show();
     }
 
     @Override
@@ -114,38 +128,6 @@ public class HuntListActivity extends BaseActivity implements ErrorHandler, Hunt
         } else {
             startActivity(new Intent(this, ScreenSlidePagerActivity.class));
             finish();
-        }
-    }
-
-    class GetHuntsTask extends AsyncTask<Void, Void, ArrayList<HuntModel>> {
-        private final String TAG = GetHuntsTask.class.getCanonicalName();
-
-        private ErrorHandler errorHandler = null;
-
-        public GetHuntsTask(ErrorHandler errorHandler) {
-            super();
-
-            this.errorHandler = errorHandler;
-        }
-
-        @Override
-        protected ArrayList<HuntModel> doInBackground(Void... params) {
-            Log.d(TAG, "doInBackground");
-
-            huntlist = new RestClient(errorHandler).getHunts().getHunts();
-
-            return huntlist;
-        }
-
-        @Override
-        protected void onPostExecute(ArrayList<HuntModel> huntlist) {
-            Log.d(TAG, "onPostExecute");
-
-            adapter.clear();
-            adapter.setModel(huntlist);
-            adapter.notifyDataSetChanged();
-
-            super.onPostExecute(huntlist);
         }
     }
 }
