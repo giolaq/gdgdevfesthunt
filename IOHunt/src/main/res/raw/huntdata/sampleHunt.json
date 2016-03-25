@@ -1,21 +1,22 @@
 {
-	"id": "1",
+	"id": "2",
 	"type": "hunt",
-	"displayName": "Droidcon UK Treasure Hunt",
+	"displayName": "DevFest 2014 Roma - Treasure Hunt",
 	"clues": [
 		{
-			"id": "droidconuk1",
+			"id": "devfestrm1",
 			"type": "clue",
 			"shufflegroup": 0,
 			"displayName": "Let's Play!",
 			"displayText": "Scan the two tags you find next to it.",
 			"displayImage": "app0.jpg",
+			"nearableID" : "d8f669a56e9a1f3b",
 			"tags": [
 				{
-					"id": "uk0"
+					"id": "gdg0"
 				},
 				{
-					"id": "uk1"
+					"id": "gdg1"
 				}
 			],
 			"question": {
@@ -31,18 +32,19 @@
 			}
 		},
 		{
-			"id": "droidconuk2",
+			"id": "devfestrm2",
 			"type": "clue",
 			"shufflegroup": 1,
-			"displayName": "Halloween",
-			"displayText": "Find this Bugdroid, and then scan the two tags you find next to it.",
+			"displayName": "Where is this room?",
+			"displayText": "Find this room, and then scan the two tags you find next to it.",
 			"displayImage": "app1.jpg",
+			"nearableID" : "b9f69505fb5d2c5a",
 			"tags": [
 				{
-					"id": "uk2"
+					"id": "gdg2"
 				},
 				{
-					"id": "uk3"
+					"id": "gdg3"
 				}
 			],
 			"question": {
@@ -58,7 +60,7 @@
 			}
 		},
 		{
-			"id": "droidconuk3",
+			"id": "devfestrm3",
 			"type": "clue",
 			"shufflegroup": 1,
 			"displayName": "Where is it?",
@@ -66,10 +68,10 @@
 			"displayImage": "app2.jpg",
 			"tags": [
 				{
-					"id": "uk4"
+					"id": "gdg4"
 				},
 				{
-					"id": "uk5"
+					"id": "gdg5"
 				}
 			],
 			"question": {
@@ -85,18 +87,18 @@
 			}
 		},
 		{
-			"id": "droidconuk4",
+			"id": "devfestrm4",
 			"type": "clue",
 			"shufflegroup": 1,
-			"displayName": "A beautiful bag",
+			"displayName": "Do you need a pen?",
 			"displayText": "Look for this and then scan the two tags you find next to it.",
 			"displayImage": "app3.jpg",
 			"tags": [
 				{
-					"id": "uk6"
+					"id": "gdg6"
 				},
 				{
-					"id": "uk7"
+					"id": "gdg7"
 				}
 			],
 			"question": {
@@ -112,18 +114,18 @@
 			}
 		},
 		{
-			"id": "appyday5",
+			"id": "devfestrm5",
 			"type": "clue",
 			"shufflegroup": 1,
-			"displayName": "Don't miss the Party",
+			"displayName": "For your security!!!",
 			"displayText": "Reach this, and then scan the two tags you find next to it.",
 			"displayImage": "app4.jpg",
 			"tags": [
 				{
-					"id": "uk8"
+					"id": "gdg8"
 				},
 				{
-					"id": "uk9"
+					"id": "gdg9"
 				}
 			],
 			"question": {
@@ -139,7 +141,7 @@
 			}
 		},
 		{
-			"id": "droidconuk6",
+			"id": "devfestrm5",
 			"type": "clue",
 			"shufflegroup": 3,
 			"displayName": "Time to come back",
@@ -147,7 +149,7 @@
 			"displayImage": "app5.jpg",
 			"tags": [
 				{
-					"id": "uk10"
+					"id": "gdg10"
 				}
 			]
 		}

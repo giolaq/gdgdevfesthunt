@@ -26,14 +26,17 @@ public class Clue {
     public String displayText;
     public String displayImage;
     public int shufflegroup;
+    private String nearableID;
+
     TriviaQuestion question;
 
     Clue(String id, String displayName, String displayText,
-            String displayImage) {
+            String displayImage, String nearableID) {
         this.id = id;
         this.displayName = displayName;
         this.displayText = displayText;
         this.displayImage = displayImage;
+        this.nearableID = nearableID;
 
         tags = new ArrayList<AHTag>();
     }
@@ -55,5 +58,13 @@ public class Clue {
 
     void addTag(AHTag tag) {
         tags.add(tag);
+    }
+
+    public String getNearableID() {
+        return nearableID;
+    }
+
+    public void setNearableID(String nearableID) {
+        this.nearableID = nearableID;
     }
 }

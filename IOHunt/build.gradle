@@ -54,6 +54,10 @@ dependencies {
 
     compile 'com.shamanland:fab:0.0.5'
 
+
+    compile 'com.estimote:sdk:0.10.1@aar'
+
+
 }
 
 

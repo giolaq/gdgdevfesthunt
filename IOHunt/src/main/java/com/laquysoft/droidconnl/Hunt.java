@@ -230,7 +230,8 @@ public class Hunt {
                 Clue clue = new Clue(clueObj.getString("id"),
                         clueObj.getString("displayName"),
                         clueObj.getString("displayText"),
-                        clueObj.getString("displayImage"));
+                        clueObj.getString("displayImage"),
+                        clueObj.getString("nearableID"));
 
                 clue.shufflegroup = clueObj.getInt("shufflegroup");
 
